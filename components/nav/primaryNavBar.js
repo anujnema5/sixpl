@@ -62,7 +62,7 @@ const PrimaryNavBar = () => {
 
             </nav>
             <div className={`${isOpen ? '': 'hidden'} `}>
-                <div className="absolute w-full grid">
+                <div className="absolute z-50 w-full grid">
                     <div className="border border-t-2 border-t-teal-600 bg-gray-100 w-6/12 justify-self-center font-serif text-lg text-slate-700">
                         <ul>
                             {primaryNavItems.map(navItem => {

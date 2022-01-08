@@ -1,22 +1,99 @@
 import Head from 'next/head'
 import Layout from '../components/nav/layout'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const Home = () => {
   return (
     <Layout>
       <Head>
-        <title>SixPL - IT Services | Crypto | Digital Marketing | Content</title>
+        <title>SixPL - IT Services | Blockchain | Digital Marketing | Content</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className="text-2xl bg-amber-400 h-96 font-bold text-center pt-10 border-2">Section 1 - Portfolio</h1>
-        <h1 className="text-2xl bg-amber-400 h-96 font-bold text-center pt-10 border-2"> Section 2 - Services</h1>
-        <h1 className="text-2xl bg-amber-400 h-96 font-bold text-center pt-10 border-2"> Section 3 - Pricing</h1>
-        <h1 className="text-2xl bg-amber-400 h-96 font-bold text-center pt-10 border-2"> Section 4 - About Us</h1>
-        <h1 className="text-2xl bg-amber-400 h-96 font-bold text-center pt-10 border-2"> Section 5 - Latest Blog</h1>
-        <h1 className="text-2xl bg-amber-400 h-96 font-bold text-center pt-10 border-2"> Section 6 - Contact Us</h1>
-        <h1 className="text-2xl bg-amber-400 h-96 font-bold text-center pt-10 border-2"> Section 7 - FAQ</h1>
-        
+        <div>
+          <div className="flex flex-col bg-gray-100 items-center justify-center text-center flex-1 font-serif text-gray-700">
+            <div className="flex flex-col flex-wrap items-center justify-center">
+              <div className="text-3xl p-4">Results Speak Louder than Promises</div>
+              <div className="p-2"><p className="text-xl p-2">Check Our Latest Results</p></div>
+            </div>            
+            <div className="lg:flex w-full justify-around items-center">
+              <div className="flex flex-col p-4">
+                <div><Image src="/images/portfolio/coding-icon-3.svg" width={60} height={60} /></div>
+                <div><h2 className="py-2 px-4 text-lg">An EdTech startup built a complex yet fast application using ReactJS, NextJS, Tailwind CSS, PostgreSQL in 21 Days</h2></div>
+                <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-emerald-600 text-white">Find Out How</a></Link></div>
+              </div>
+              <div className="flex flex-col p-4">
+                <div><Image className="p-2" priority src="/images/portfolio/blockchain-icon.svg" height={60} width={60} /></div>
+                <div><h2 className="py-2 px-4 text-lg">A DEX created a technical white paper & launching successful IDO through community based marketing efforts</h2></div>
+                <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-emerald-600 text-white">Find Out How</a></Link></div>
+              </div>
+            </div>
+            <div className="lg:flex w-full justify-around items-center">
+              <div>
+                <div className="flex flex-col p-4">
+                  <div><Image priority src="/images/portfolio/digital-marketing-icon.svg" height={60} width={60} /></div>
+                  <div><h2 className="py-2 px-4 text-lg">A small real estate dealer got 20 site visits and 5 bookings in a month through FB/Insta lead generation campaign</h2></div>
+                  <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-emerald-600 text-white">Find Out How</a></Link></div>
+                </div>
+              </div>
+              <div className="flex flex-col p-4">
+                <div><Image priority src="/images/portfolio/content-icon-2.svg" height={60} width={60} /></div>
+                <div><h2 className="py-2 px-4 text-lg">A resume builder platform grabbed top ranking on Google through 325 comprehensive blogs in just 2 months</h2></div>
+                <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-emerald-600 text-white">Find Out How</a></Link></div>
+              </div>
+            </div>
+            <div className="flex flex-wrap items-center justify-center p-4">
+              <div><Link href="/contact-us"><a className="px-6 py-2 lg:text-2xl rounded-md bg-green-600 text-white hover:bg-gray-700">Start Getting Results Now</a></Link></div>
+            </div>
+          </div>
+        </div>
+        <div className="bg-slate-700">
+          <div className="flex flex-col text-center flex-1 font-serif w-full">
+            <div className="flex flex-col bg-slate-700 text-white font-serif w-full p-4">
+              <div className="text-4xl">Our Services</div>
+              <div className="text-xl p-4">Designed for Modern Web</div>
+            </div>
+            <div className="flex flex-col w-full lg:px-16 font-serif">
+              <div className="lg:flex">
+                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center bg-slate-700 text-white">
+                  <div className="text-2xl">IT Services</div>
+                  <div className="text-lg px-8 py-4">Build Powerful, Fast Applications and Websites using React, NextJS, Tailwind CSS, Express, NodeJS, & PSQL/NoSQL tech stack.</div>
+                  <div className="flex justify-center">
+                    <div className="p-1"><Link href="/services/it"><a className="bg-emerald-600 text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Pricing</a></Link></div>
+                  </div>
+                </div>
+                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center bg-slate-700 text-white">
+                  <div className="text-2xl">Blockchain</div>
+                  <div className="text-lg px-8 py-4">Start your next web3 project from scratch or get technical/marketing whitepaper, community management or marketing advisory services.</div>
+                  <div className="flex justify-center">
+                    <div className="p-1"><Link href="/services/crypto"><a className="bg-emerald-600 text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Pricing</a></Link></div>
+                  </div>
+                </div>
+              </div>
+              <div className="lg:flex">
+                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center bg-slate-700 text-white">
+                  <div className="text-2xl">Digital Marketing</div>
+                  <div className="text-lg px-8 py-4">Be visible to people who are looking to buy your offerings and generate more leads at a lower cost within a set timeframe</div>
+                  <div className="flex justify-center">
+                    <div className="p-1"><Link href="/services/digital-marketing"><a className="bg-emerald-600 text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Pricing</a></Link></div>
+                  </div>
+                </div>
+                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center bg-slate-700 text-white">
+                  <div className="text-2xl">Content</div>
+                  <div className="text-lg px-8 py-4">Tell your unique story in a compelling way! Connect with your audience at different stages of the buying journey and boost your marketing ROI.</div>
+                  <div className="flex justify-center">
+                    <div className="p-1"><Link href="/services/content"><a className="bg-emerald-600 text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Pricing</a></Link></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </main>
     </Layout>
     
