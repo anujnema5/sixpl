@@ -25,7 +25,7 @@ const Home = () => {
               </div>
               <div className="flex flex-col p-4">
                 <div><Image className="p-2" priority src="/images/portfolio/blockchain-icon.svg" height={60} width={60} /></div>
-                <div><h2 className="py-2 px-4 text-lg">A DEX created a technical white paper & launching successful IDO through community based marketing efforts</h2></div>
+                <div><h2 className="py-2 px-4 text-lg">A DEX created a technical white paper & launched successful IDO through community based marketing efforts</h2></div>
                 <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-emerald-600 text-white">Find Out How</a></Link></div>
               </div>
             </div>
@@ -43,7 +43,7 @@ const Home = () => {
                 <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-emerald-600 text-white">Find Out How</a></Link></div>
               </div>
             </div>
-            <div className="flex flex-wrap items-center justify-center p-4">
+            <div className="flex flex-wrap items-center justify-center px-4 py-10">
               <div><Link href="/contact-us"><a className="px-6 py-2 lg:text-2xl rounded-md bg-green-600 text-white hover:bg-gray-700">Start Getting Results Now</a></Link></div>
             </div>
           </div>
@@ -51,7 +51,7 @@ const Home = () => {
         <div className="bg-slate-700">
           <div className="flex flex-col text-center flex-1 font-serif w-full">
             <div className="flex flex-col bg-slate-700 text-white font-serif w-full p-4">
-              <div className="text-4xl">Our Services</div>
+              <div className="text-4xl pt-4">Our Services</div>
               <div className="text-xl p-4">Designed for Modern Web</div>
             </div>
             <div className="flex flex-col w-full lg:px-16 font-serif">
@@ -91,6 +91,33 @@ const Home = () => {
                   </div>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+        <div className="py-8 font-serif bg-sky-100">
+          <div className="p-4 flex flex-col justify-center text-center">
+            <div className="p-2 text-2xl text-gray-700">Quick Facts About SixPL</div>
+            <div className="py-4 px-2 lg:flex lg:justify-around">
+              <div className="p-2 flex flex-col justify-center">
+                <div className="px-4 py-2 text-6xl text-emerald-700">9</div>
+                <div className="px-4 py-2 text-xl text-zinc-700">Years</div>
+              </div>
+              <div className="p-2 flex flex-col justify-center">
+                <div className="px-4 py-2 text-6xl text-emerald-700">25</div>
+                <div className="px-4 py-2 text-xl text-zinc-700">Countries</div>
+              </div>
+              <div className="p-2 flex flex-col justify-center">
+                <div className="px-4 py-2 text-6xl text-emerald-700">1423</div>
+                <div className="px-4 py-2 text-xl text-zinc-700">Clients</div>
+              </div>
+              <div className="p-2 flex flex-col justify-center">
+                <div className="px-4 py-2 text-6xl text-emerald-700">1500</div>
+                <div className="px-4 py-2 text-xl text-zinc-700">Projects</div>
+              </div>
+            </div>
+            <div className="py-4 md:flex justify-center">
+              <div className="py-2"><Link href="/contact-us"><a className="px-4 py-2 underline underline-offset-4 text-lg hover:text-xl">Contact Us</a></Link></div>
+              <div className="py-2"><Link href="/about-us"><a className="px-4 py-2 text-lg bg-emerald-600 text-white hover:bg-teal-600 hover:text-xl rounded-md">Check Our Story</a></Link></div>
             </div>
           </div>
         </div>
