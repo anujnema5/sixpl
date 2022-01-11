@@ -14,10 +14,10 @@ const ServiceIndexPage = () => {
                                     return(
                                         <div key={serviceCategoryItem.serviceCategory}>
                                             <div className="px-5 py-2 font-bold text-2xl text-teal-700">{serviceCategoryItem.serviceCategory}</div>
-                                            <ul className="px-5 py-2">
+                                            <ul className="px-5 py-4">
                                                 {serviceCategoryItem.services.map(serviceItem => {
                                                     return (
-                                                        <li key={serviceItem.serviceName} className="py-2"><Link href={serviceItem.servicePermalink}><a className="text-lg px-1 py-1 text-cyan-700 hover:bg-cyan-600 hover:text-white hover:px-1">{serviceItem.serviceName}</a></Link></li>
+                                                        <li key={serviceItem.serviceName} className="py-2"><Link href={serviceItem.servicePermalink}><a className="text-lg py-1 text-cyan-700 hover:bg-cyan-600 hover:text-white hover:px-1">{serviceItem.serviceName}</a></Link></li>
                                                     )
                                                 })}
                                             </ul>
