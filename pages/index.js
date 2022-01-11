@@ -111,13 +111,13 @@ const Home = () => {
                 <div className="px-4 py-2 text-xl text-zinc-700">Clients</div>
               </div>
               <div className="p-2 flex flex-col justify-center">
-                <div className="px-4 py-2 text-6xl text-emerald-700">1500</div>
+                <div className="px-4 py-2 text-6xl text-emerald-700">2189</div>
                 <div className="px-4 py-2 text-xl text-zinc-700">Projects</div>
               </div>
             </div>
             <div className="py-4 md:flex justify-center">
               <div className="py-2"><Link href="/contact-us"><a className="px-4 py-2 underline underline-offset-4 text-lg hover:text-xl">Contact Us</a></Link></div>
-              <div className="py-2"><Link href="/about-us"><a className="px-4 py-2 text-lg bg-emerald-600 text-white hover:bg-teal-600 hover:text-xl rounded-md">Check Our Story</a></Link></div>
+              <div className="py-2"><Link href="/about-us"><a className="px-4 py-2 text-lg bg-emerald-600 text-white hover:bg-teal-600 hover:text-xl rounded-md">Read Our Story</a></Link></div>
             </div>
           </div>
         </div>
