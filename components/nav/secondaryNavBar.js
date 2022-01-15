@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 const SecondaryNavBar = () => {
     return (
         <header>
@@ -37,6 +39,7 @@ const SecondaryNavBar = () => {
                             </div>
                             <div className="px-1">
                                 <a className="inline-flex" href="skype:sixpl.com?chat">
+                                    {/* <Image priority className="m-1" height={16} width={16} src="/skype-icon.svg" /> */}
                                     <img className="h-4 w-4 m-1" src="./skype-icon.svg" /> 
                                     sixpl.com
                                 </a>  

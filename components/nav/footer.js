@@ -20,12 +20,12 @@ const Footer = () => {
                             <div className="lg:flex">
                                 {serviceList.map(serviceCategoryItem => {
                                     return(
-                                        <div key={serviceCategoryItem.serviceCategory}>
-                                            <div className="px-4 py-2 font-bold text-lg">{serviceCategoryItem.serviceCategory}</div>
+                                        <div key={serviceCategoryItem.serviceCategoryName}>
+                                            <div className="px-4 py-2 font-bold text-lg">{serviceCategoryItem.serviceCategoryName}</div>
                                             <ul className="px-4 py-2">
                                                 {serviceCategoryItem.services.map(serviceItem => {
                                                     return (
-                                                        <li key={serviceItem.serviceName} className="py-2">{serviceItem.serviceName}</li>
+                                                        <li key={serviceItem.serviceName} className="py-2"><Link href={`/services/${serviceCategoryItem.serviceCategoryPermalink}/${serviceItem.servicePermalink}`}><a>{serviceItem.serviceName}</a></Link></li>
                                                     )
                                                 })}
                                             </ul>
