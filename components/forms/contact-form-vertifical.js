@@ -2,8 +2,6 @@
 
 const ContactFormVertical = () => {
 
-    const [value, setValue] = useState()
-
     return (
         <div>
             <div>
