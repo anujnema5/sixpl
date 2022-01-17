@@ -107,9 +107,21 @@ const DigitalMarketingIndexPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-slate-200">
-                            <div>Section 3</div>
-
+                        <div>
+                            <div className="flex flex-col font-serif">
+                                <div className="flex flex-col px-4 py-8 bg-orange-400 items-center text-center">
+                                    <div className="text-3xl py-4 text-white">Some of Our Clients</div>
+                                    <div className="text-2xl py-2">From Solopreneurs to Industry Leaders & Governments - SixPL has partnered with Businesses of all Sizes</div>
+                                </div>
+                                <div>
+                                    <div className="flex flex-col py-4 lg:flex-row items-center justify-center">
+                                        <div><Image priority src="/images/clients-logos/ministry-of-ayush-logo-400-200.svg" width={300} height={150} /></div>
+                                        <div><Image priority src="/images/clients-logos/tech-mahindra-logo-400-200.svg" width={300} height={150} /></div>
+                                        <div><Image priority src="/images/clients-logos/oyo-logo-400-200.svg" width={300} height={150} /></div>
+                                        <div><Image priority src="/images/clients-logos/exide-life-insurance-logo-400-200.svg" width={300} height={150} /></div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="bg-slate-300">
                             <div>Section 4</div>
