@@ -17,7 +17,7 @@ const ServiceIndexPage = () => {
                                 {serviceList.map(serviceCategoryItem => {
                                     return(
                                         <div key={serviceCategoryItem.serviceCategoryName}>
-                                            <div className="px-5 py-2 font-bold text-2xl text-teal-700">{serviceCategoryItem.serviceCategoryName}</div>
+                                            <div className="px-5 py-2 font-bold text-2xl text-teal-700"><Link href={`/services/${serviceCategoryItem.serviceCategoryPermalink}`}><a>{serviceCategoryItem.serviceCategoryName}</a></Link></div>
                                             <ul className="px-5 py-4">
                                                 {serviceCategoryItem.services.map(serviceItem => {
                                                     return (

@@ -8,7 +8,9 @@ const PhoneNumberInput = () => {
     const [value, setValue] = useState()
 
     return(
-        <PhoneInput placeholder="Enter Phone Number" value={value} onChange={setValue} />
+        <label>
+            <PhoneInput className="p-2" placeholder="Phone" value={value} defaultCountry="US" onChange={setValue} required />
+        </label>
     )
 }
 
