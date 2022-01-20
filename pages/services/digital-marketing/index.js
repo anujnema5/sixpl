@@ -124,7 +124,7 @@ const DigitalMarketingIndexPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className='bg-slate-100'>
+                        <div>
                             <div className="flex flex-col font-serif">
                                 <div>
                                     <div className="flex flex-col px-4 py-8 bg-orange-400 items-center text-center">
@@ -133,7 +133,7 @@ const DigitalMarketingIndexPage = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="flex flex-col">
+                                    <div className="flex flex-col bg-cyan-50 md:px-40">
                                         <div className="flex flex-col items-center lg:flex-row justify-center">
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52">
                                                 <div className="flex flex-col items-center text-center p-2">
@@ -149,7 +149,7 @@ const DigitalMarketingIndexPage = () => {
                                                     <div className="py-2 text-2xl text-gray-700">Search Engine Optimization</div>
                                                 </div>
                                             </div>
-                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52">
+                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -163,7 +163,7 @@ const DigitalMarketingIndexPage = () => {
                                                     <div className="py-2 text-2xl text-gray-700">Social Media Optimization</div>
                                                 </div>
                                             </div>
-                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52">
+                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -179,7 +179,7 @@ const DigitalMarketingIndexPage = () => {
                                             </div>
                                         </div>
                                         <div className="flex flex-col items-center lg:flex-row justify-center">
-                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52">
+                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -204,7 +204,7 @@ const DigitalMarketingIndexPage = () => {
                                                     <div className="py-2 text-2xl text-gray-700">Email Marketing</div>
                                                 </div>
                                             </div>
-                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52">
+                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -217,7 +217,7 @@ const DigitalMarketingIndexPage = () => {
                                             </div>
                                         </div>
                                         <div className="flex flex-col items-center lg:flex-row justify-center">
-                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52">
+                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -230,7 +230,7 @@ const DigitalMarketingIndexPage = () => {
                                                     <div className="py-2 text-2xl text-gray-700">Instagram Marketing</div>
                                                 </div>
                                             </div>
-                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52">
+                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -243,7 +243,7 @@ const DigitalMarketingIndexPage = () => {
                                                     <div className="py-2 text-2xl text-gray-700">Content Marketing</div>
                                                 </div>
                                             </div>
-                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52">
+                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -260,7 +260,7 @@ const DigitalMarketingIndexPage = () => {
                                             </div>
                                         </div>
                                         <div className="flex flex-col items-center lg:flex-row justify-center">
-                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52">
+                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -271,7 +271,7 @@ const DigitalMarketingIndexPage = () => {
                                                     <div className="py-2 text-2xl text-gray-700">Twitter Marketing</div>
                                                 </div>
                                             </div>
-                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52">
+                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -287,7 +287,7 @@ const DigitalMarketingIndexPage = () => {
                                                     <div className="py-2 text-2xl text-gray-700">Affiliate Marketing</div>
                                                 </div>
                                             </div>
-                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52">
+                                            <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -309,8 +309,237 @@ const DigitalMarketingIndexPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-slate-400">
-                            <div>Section 5</div>
+                        <div className="bg-zinc-200">
+                            <div className='flex flex-col font-serif'>
+                                <div>
+                                    <div className="flex flex-col px-4 py-8 bg-orange-400 items-center text-center">
+                                        <h2 className="text-3xl py-4 text-white">Predictable & Transparent Pricing Structure</h2>
+                                        <p className="text-2xl py-2">Flexible pricing plans for all businesses</p>
+                                        <p className="text-2xl py-2">Do you have specific requirements? Talk to us to get customized plan for your business.</p>
+                                        <p className="text-2xl py-2 font-semibold">*GST(18%) will be applicable on all plans.</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className='flex flex-col items-center lg:flex-row justify-center text-center py-14 px-24'>
+                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 border-2 hover:border-4 hover:border-sky-600 hover:rounded-xl'>
+                                            <div className='flex flex-col items-center text-white'>
+                                                <div className='p-2 bg-emerald-600 text-xl w-full rounded-t-lg'>Starter</div>
+                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
+                                                    <div>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
+                                                            <line x1="7" y1="9" x2="18" y2="9" />
+                                                        </svg>
+                                                    </div>
+                                                    <div className='text-4xl font-sans'>35,000</div>
+                                                </div>
+                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
+                                            </div>
+                                            <div className='w-full'>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>8 Facebook Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>8 Instagram Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>8 LinkedIn Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>8 Twitter Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>YouTube Posts</div>
+                                                </div>
+                                                <div className='bg-slate-100 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>5 Keywords</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
+                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>5 Citations</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>40 Backlinks</div>
+                                                </div>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>2 SEO Optimized Blogs</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 6 Sites</div>
+                                                    
+                                                </div>
+                                                <div className='bg-slate-100 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>500 Subscribers/Contacts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>1 Email Campaign</div>
+                                                </div>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Google Ads Campaign</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>1 Facebook/Instagram Paid Ad Campaign</div>
+                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>LinkedIn Paid Campaign</div>
+                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Twitter Paid Campaign</div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full bg-sky-600 text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                        </div>
+                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 border-2 hover:border-4 hover:border-sky-600 hover:rounded-xl'>
+                                            <div className='flex flex-col items-center text-white'>
+                                                <div className='p-2 bg-emerald-600 text-xl w-full rounded-t-lg'>Standard</div>
+                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
+                                                    <div>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
+                                                            <line x1="7" y1="9" x2="18" y2="9" />
+                                                        </svg>
+                                                    </div>
+                                                    <div className='text-4xl font-sans'>65,000</div>
+                                                </div>
+                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
+                                            </div>
+                                            <div className='w-full'>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>20 Facebook Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>20 Instagram Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>20 LinkedIn Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>20 Twitter Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>1 YouTube Post</div>
+                                                </div>
+                                                <div className='bg-slate-100 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>10 Keywords</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
+                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>15 Citations</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>100 Backlinks</div>
+                                                </div>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>4 SEO Optimized Blogs</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 12 Sites</div>
+                                                    
+                                                </div>
+                                                <div className='bg-slate-100 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>2000 Subscribers/Contacts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>2 Email Campaigns</div>
+                                                </div>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>1 Google Ads Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>2 Facebook/Instagram Paid Ad Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>2 LinkedIn Paid Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>2 Twitter Paid Campaigns</div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full bg-sky-600 text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                        </div>
+                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 border-2 hover:border-4 hover:border-sky-600 hover:rounded-xl'>
+                                            <div className='flex flex-col items-center text-white'>
+                                                <div className='p-2 bg-emerald-600 text-xl w-full rounded-t-lg'>Plus</div>
+                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
+                                                    <div>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
+                                                            <line x1="7" y1="9" x2="18" y2="9" />
+                                                        </svg>
+                                                    </div>
+                                                    <div className='text-4xl font-sans'>85,000</div>
+                                                </div>
+                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
+                                            </div>
+                                            <div className='w-full'>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>30 Facebook Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>30 Instagram Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>30 LinkedIn Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>30 Twitter Posts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>4 YouTube Post</div>
+                                                </div>
+                                                <div className='bg-slate-100 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>25 Keywords</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
+                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>25 Citations</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>250 Backlinks</div>
+                                                </div>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>8 SEO Optimized Blogs</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 32 Sites</div>
+                                                    
+                                                </div>
+                                                <div className='bg-slate-100 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>5000 Subscribers/Contacts</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>4 Email Campaigns</div>
+                                                </div>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>5 Google Ads Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>5 Facebook/Instagram Paid Ad Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>5 LinkedIn Paid Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>5 Twitter Paid Campaigns</div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full bg-sky-600 text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                        </div>
+                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 border-2 hover:border-4 hover:border-sky-600 hover:rounded-xl'>
+                                            <div className='flex flex-col items-center text-white'>
+                                                <div className='p-2 bg-emerald-600 text-xl w-full rounded-t-lg'>Customized</div>
+                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
+                                                    <div>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
+                                                            <line x1="7" y1="9" x2="18" y2="9" />
+                                                        </svg>
+                                                    </div>
+                                                    <div className='text-4xl font-sans'>Custom</div>
+                                                </div>
+                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
+                                            </div>
+                                            <div className='w-full'>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                </div>
+                                                <div className='bg-slate-100 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized On-Page Features</div>
+                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                </div>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                    
+                                                </div>
+                                                <div className='bg-slate-100 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                                </div>
+                                                <div className='bg-slate-200 p-2'>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Google Ads Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Facebook/Instagram Paid Ad Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Custom LinkedIn Paid Campaigns</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Twitter Paid Campaigns</div>
+                                                </div>
+                                            </div>
+                                            <div className='w-full bg-sky-600 text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="bg-slate-500">
                             <div>Section 6</div>
