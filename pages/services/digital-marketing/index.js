@@ -320,7 +320,7 @@ const DigitalMarketingIndexPage = () => {
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='flex flex-col items-center lg:flex-row justify-center text-center py-14 px-24'>
+                                    <div className='flex flex-col items-center lg:flex-row justify-center text-center py-14 lg:px-24'>
                                         <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 border-2 hover:border-4 hover:border-sky-600 hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
                                                 <div className='p-2 bg-emerald-600 text-xl w-full rounded-t-lg'>Starter</div>
