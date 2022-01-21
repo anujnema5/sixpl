@@ -541,8 +541,37 @@ const DigitalMarketingIndexPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-slate-500">
-                            <div>Section 6</div>
+                        <div>
+                            <div>
+                                <div className="py-10 font-serif bg-slate-900">
+                                    <div className="p-4 flex flex-col justify-center text-center">
+                                        <div className="px-2 py-10 text-3xl text-white">Delivering Superior Performance Since 2012</div>
+                                        <div className="py-4 px-2 lg:flex lg:justify-around">
+                                            <div className="px-2 py-8 flex flex-col justify-center">
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-mono">12k</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Keywords</div>
+                                            </div>
+                                            <div className="px-2 py-8 flex flex-col justify-center">
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">$4m</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Ad Spend</div>
+                                            </div>
+                                            <div className="px-2 py-8 flex flex-col justify-center">
+                                                <div className="px-8 py-2 text-6xl text-sky-300 font-sans">$60m</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Sales</div>
+                                            </div>
+                                            <div className="px-2 py-8 flex flex-col justify-center">
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">120m</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Community Members</div>
+                                            </div>
+                                            <div className="px-2 py-8 flex flex-col justify-center">
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">500m</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Emails</div>
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                         <div className="bg-slate-600">
                             <div>Section 7</div>
