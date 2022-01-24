@@ -643,21 +643,95 @@ const DigitalMarketingIndexPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-slate-600">
-                            <div>Section 7</div>
+                        <div className="bg-slate-200">
+                            <div>
+                                <div className="flex flex-col px-4 py-8 bg-orange-400 items-center text-center">
+                                    <div className="text-3xl py-4 text-white">Frequently Asked Questions</div>
+                                    <div className="text-2xl py-2">Read some common questions related to our services and their answers</div>
+                                </div>   
+                            </div>
+                            <div>
+                                <div className='lg:px-40 py-10 font-serif bg-slate-700'>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>I have a specific requirements which is not covered in any of the packages mentioned above? Can you help me with it?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>Yes. Please talk to us and we will prepare a custom digital marketing plan for you.</div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>How do you support global clients?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>We use the latest technology to streamline communication between our experts and the partners. Our team works 24 by 7 so that we can cover clients from all regions. </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you have experience in our industry?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            We have been offering result-oriented digital marketing services to our clients since 2012. We have served more than 1200 clients from almost all industries.
+                                            Please tell us your area of business so that we can share a relevant industry-specific portfolio with you.
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>What do you need from our side to get started?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            Depending on the nature of services, we share a questionnaire. We also prefer to have a quick meeting after the client fills up the questionnaire. 
+                                            We understand that our clients are super busy in growing their business. Therefore, we utilize our domain expertise to recommend suitable solutions to our clients. However, we do need business-specific information (that we collect through questionnaire) to start the project.
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>How much time will you take to get the work started?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            We start the work as soon as clients fill up the questionnaire and send us the business-specific information. In some cases, where technical expertise (such as creating landing pages, etc.) is needed, we may take around 5-7 working days to start the campaign.
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you have an in-house team?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            Yes. We have a dedicated an in-house team of digital marketing, copywriting and technical experts who will handle your campaign on a day-to-day basis. However, in some cases we do hire domain experts to offer niche requirements from a highly specialized work area.
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>When do you share digital marketing campaign performance reports?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            The frequency of campaign performance reports depends on the individual project. We inform the client in advance about the same. However, in most of the cases, we make a comprehensive monthly report and a weekly progress report to seek client’s feedback.
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Can you show a sample report?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            Please contact us so that we can share a sample work report that we have done for a client in your industry.
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>How much return can I expect from our marketing investment?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            The return on marketing investment depends on the products/services we advertise. Some of our clients have reported even 500% return on their ad spend. Tell us more about your offerings so that we can estimate the return on your ad spend.
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Will you write content or we have to provide it?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            We have a team of experienced copywriters who will write the ad copy. They will also proofread the web content or rewrite it from scratch if required. The cost of content developed needed to run a campaign is covered in the packages mentioned above.
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Who will design creatives?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            Our in-house creative designing team will  handle all designing tasks.
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>What are your payment terms?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            For retainership based projects, 50% of the campaign management fee is to be paid in advance while remaining at the end of the month. For a milestone-based payment system, the advance payment to be made for every milestone.
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>What is your refund policy?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            We spend countless hours to ensure the best outcome from our digital marketing campaigns. Also, we maintain full transparency with our clients in everything we do. Therefore, once the project is initiated, refunds can’t be made. However, any advance made towards unavailed services can be utilized in future projects. There is no expiry date for availing the services against advance payments made.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
-                        <div className="bg-slate-700">
-                            <div>Section 8</div>
-                        </div>
-                        <div className="bg-gray-200">
-                            <div>Section 9</div>
-                        </div>
-                        <div className="bg-gray-300">
-                            <div>Section 10</div>
-                        </div>
-                        <div className="bg-gray-400">
-                            <div>Section 11</div>
-                        </div>
+                        
                     </div>
                 </div>
             </main>
