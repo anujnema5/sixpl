@@ -15,13 +15,12 @@ const SecondaryNavBar = () => {
                             </div> 
 
                             <div>
-                                <Link href="tel:+91 93184 84366">
-                                    
-                                    <a className='px-1 text-sm'>IN: +91-9318484366</a>
-                                </Link>
+                                <a className='px-1 text-sm' href="tel:+91 93184 84366">  
+                                    IN: +91-9318484366
+                                </a>
                             </div>
                             <div>
-                                <a className="pl-1 text-sm" href="tel:+91 93184 84366">
+                                <a className="pl-2 text-sm" href="tel:+91 93184 84366">
                                     
                                     US: +1-9318484366
                                 </a>
@@ -35,7 +34,7 @@ const SecondaryNavBar = () => {
                                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                                     </svg>
-                                    sales@sixpl.com
+                                    <a>sales@sixpl.com</a>
                                 </a>  
                             </div>
                             <div className="px-1">
