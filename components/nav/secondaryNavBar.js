@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 
 const SecondaryNavBar = () => {
     return (
@@ -14,10 +15,10 @@ const SecondaryNavBar = () => {
                             </div> 
 
                             <div>
-                                <a className="px-1 text-sm" href="tel:+91 93184 84366">
+                                <Link href="tel:+91 93184 84366">
                                     
-                                    IN: +91-9318484366
-                                </a>
+                                    <a className='px-1 text-sm'>IN: +91-9318484366</a>
+                                </Link>
                             </div>
                             <div>
                                 <a className="pl-1 text-sm" href="tel:+91 93184 84366">
@@ -39,14 +40,15 @@ const SecondaryNavBar = () => {
                             </div>
                             <div className="px-1">
                                 <a className="inline-flex" href="skype:sixpl.com?chat">
-                                    {/* <Image priority className="m-1" height={16} width={16} src="/skype-icon.svg" /> */}
-                                    <img className="h-4 w-4 m-1" src="./skype-icon.svg" /> 
+                                    <div className='h-4 w-4 m-1'><Image priority height={16} width={16} src="/skype-icon.svg" /></div>
+        
                                     sixpl.com
                                 </a>  
                             </div>
                             <div className="px-1">
                                 <a className="flex" href="https://wa.me/919318463840">
-                                    <img className="h-4 w-4 m-1" src="./whatsapp-icon.svg" />
+                                    <div className='h-4 w-4 m-1'><Image priority height={16} width={16} src="/whatsapp-icon.svg" /></div>
+                                    
                                 </a>  
                             </div>
                         </div>
