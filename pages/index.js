@@ -12,7 +12,7 @@ const Home = () => {
       </Head>
       <main>
         <div>
-          <div className="flex flex-col bg-gray-100 items-center justify-center text-center flex-1 font-serif text-gray-700">
+          <div className="flex flex-col items-center justify-center text-center flex-1 font-serif text-gray-700">
             <div className="flex flex-col flex-wrap items-center justify-center">
               <div className="text-3xl p-4">Results Speak Louder than Promises</div>
               <div className="p-2"><p className="text-xl p-2">Check Our Latest Results</p></div>
@@ -21,12 +21,12 @@ const Home = () => {
               <div className="flex flex-col p-4">
                 <div><Image priority src="/images/portfolio/coding-icon-3.svg" width={60} height={60} /></div>
                 <div><h2 className="py-2 px-4 text-lg">An EdTech startup built a complex yet fast application using ReactJS, NextJS, Tailwind CSS, PostgreSQL in 21 Days</h2></div>
-                <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-emerald-600 text-white">Find Out How</a></Link></div>
+                <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-sptheme-lightgreen text-white">Find Out How</a></Link></div>
               </div>
               <div className="flex flex-col p-4">
                 <div><Image className="p-2" priority src="/images/portfolio/blockchain-icon.svg" height={60} width={60} /></div>
                 <div><h2 className="py-2 px-4 text-lg">A DEX created a technical white paper & launched successful IDO through community based marketing efforts</h2></div>
-                <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-emerald-600 text-white">Find Out How</a></Link></div>
+                <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-sptheme-lightgreen text-white">Find Out How</a></Link></div>
               </div>
             </div>
             <div className="lg:flex w-full justify-around items-center">
@@ -34,23 +34,23 @@ const Home = () => {
                 <div className="flex flex-col p-4">
                   <div><Image priority src="/images/portfolio/digital-marketing-icon.svg" height={60} width={60} /></div>
                   <div><h2 className="py-2 px-4 text-lg">A small real estate dealer got 20 site visits and 5 bookings in a month through FB/Insta lead generation campaign</h2></div>
-                  <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-emerald-600 text-white">Find Out How</a></Link></div>
+                  <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-sptheme-lightgreen text-white">Find Out How</a></Link></div>
                 </div>
               </div>
               <div className="flex flex-col p-4">
                 <div><Image priority src="/images/portfolio/content-icon-2.svg" height={60} width={60} /></div>
                 <div><h2 className="py-2 px-4 text-lg">A resume builder platform grabbed top ranking on Google through 325 comprehensive blogs in just 2 months</h2></div>
-                <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-emerald-600 text-white">Find Out How</a></Link></div>
+                <div className="py-4"><Link href="/portfolio"><a className="py-1 px-4 text-xl border rounded-md bg-sptheme-lightgreen text-white">Find Out How</a></Link></div>
               </div>
             </div>
             <div className="flex flex-wrap items-center justify-center px-4 py-10">
-              <div><Link href="/contact-us"><a className="px-6 py-2 lg:text-2xl rounded-md bg-green-600 text-white hover:bg-gray-700">Start Getting Results Now</a></Link></div>
+              <div><Link href="/contact-us"><a className="px-6 py-2 lg:text-2xl rounded-md bg-sptheme-lightgreen text-white hover:bg-gray-700">Start Getting Results Now</a></Link></div>
             </div>
           </div>
         </div>
-        <div className="bg-slate-700">
+        <div className="bg-sptheme-lightgreen pb-8">
           <div className="flex flex-col text-center flex-1 font-serif w-full">
-            <div className="flex flex-col bg-slate-700 text-white font-serif w-full p-4">
+            <div className="flex flex-col bg-sptheme-lightgreen text-white font-serif w-full p-4">
               <div className="text-4xl pt-4">Our Services</div>
               <div className="text-xl p-4">Designed for Modern Web</div>
             </div>
