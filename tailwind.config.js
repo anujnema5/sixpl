@@ -8,7 +8,14 @@ module.exports = {
       backgroundImage: {
         'hero-pattern-hexagons': "url('/images/hexagons.svg')"
       },
+      colors: {
+        sptheme: {
+          lightgreen: "#018082",
+          darkgreen: "#035159"
+        }
+      }
     },
+
   },
   plugins: [],
 }

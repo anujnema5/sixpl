@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 
-import { serviceList } from '../../lib/data'
+import { serviceList } from '../../lib/data/service-list'
 
 const Footer = () => {
     return(

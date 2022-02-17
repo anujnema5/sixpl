@@ -4,7 +4,7 @@ import Link from 'next/link'
 const SecondaryNavBar = () => {
     return (
         <header>
-            <nav className="bg-emerald-600 text-white text-sm"> 
+            <nav className=" text-white text-sm bg-sptheme-lightgreen"> 
                 <div>
                     <div className="text-sm py-1 px-1 md:flex md:text-base">
                         <div className="px-1 flex justify-center md:mr-auto">

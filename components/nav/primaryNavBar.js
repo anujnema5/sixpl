@@ -3,7 +3,7 @@ import { useRouter } from 'next/router'
 import Image from 'next/image'
 import { useState } from 'react'
 
-import { primaryNavItems } from '../../lib/data'
+import { primaryNavItems } from '../../lib/data/primary-nav'
 
 
 const PrimaryNavBar = () => {
