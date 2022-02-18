@@ -11,7 +11,7 @@ module.exports = {
       colors: {
         sptheme: {
           lightgreen: "#018082",
-          darkgreen: "#035159"
+          darkgreen: "#035159",
         }
       }
     },

@@ -44,49 +44,49 @@ const Home = () => {
               </div>
             </div>
             <div className="flex flex-wrap items-center justify-center px-4 py-10">
-              <div><Link href="/contact-us"><a className="px-6 py-2 lg:text-2xl rounded-md bg-sptheme-lightgreen text-white hover:bg-gray-700">Start Getting Results Now</a></Link></div>
+              <div><Link href="/contact-us"><a className="px-6 py-2 lg:text-2xl rounded-2xl bg-gradient-to-r from-green-500 via-blue-500 to-purple-600 text-white hover:from-pink-500 hover:to-yellow-500 ring-offset-4">Start Getting Results Now</a></Link></div>
             </div>
           </div>
         </div>
-        <div className="bg-sptheme-lightgreen pb-8">
-          <div className="flex flex-col text-center flex-1 font-serif w-full">
-            <div className="flex flex-col bg-sptheme-lightgreen text-white font-serif w-full p-4">
-              <div className="text-4xl pt-4">Our Services</div>
+        <div>
+          <div className="flex flex-col text-center font-serif bg-slate-700 text-white ">
+            <div className="flex flex-col text-white font-serif p-4 rounded-lg">
+              <div className="text-4xl pt-4 ">Our Services</div>
               <div className="text-xl p-4">Designed for Modern Web</div>
             </div>
-            <div className="flex flex-col w-full lg:px-16 font-serif">
+            <div className="flex flex-col w-full lg:px-16 py-8 font-serif">
               <div className="lg:flex">
-                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center bg-slate-700 text-white">
+                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center ">
                   <div className="text-2xl">IT Services</div>
                   <div className="text-lg px-8 py-4">Build Powerful, Fast Applications and Websites using React, NextJS, Tailwind CSS, Express, NodeJS, & PSQL/NoSQL tech stack.</div>
                   <div className="flex justify-center">
-                    <div className="p-1"><Link href="/services/it"><a className="bg-emerald-600 text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/services/it"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
                     <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Pricing</a></Link></div>
                   </div>
                 </div>
-                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center bg-slate-700 text-white">
+                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center ">
                   <div className="text-2xl">Blockchain</div>
                   <div className="text-lg px-8 py-4">Start your next web3 project from scratch or get technical/marketing whitepaper, community management or marketing advisory services.</div>
                   <div className="flex justify-center">
-                    <div className="p-1"><Link href="/services/crypto"><a className="bg-emerald-600 text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/services/crypto"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
                     <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Pricing</a></Link></div>
                   </div>
                 </div>
               </div>
               <div className="lg:flex">
-                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center bg-slate-700 text-white">
+                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center ">
                   <div className="text-2xl">Digital Marketing</div>
                   <div className="text-lg px-8 py-4">Be visible to people who are looking to buy your offerings and generate more leads at a lower cost within a set timeframe</div>
                   <div className="flex justify-center">
-                    <div className="p-1"><Link href="/services/digital-marketing"><a className="bg-emerald-600 text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/services/digital-marketing"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
                     <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Pricing</a></Link></div>
                   </div>
                 </div>
-                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center bg-slate-700 text-white">
+                <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center">
                   <div className="text-2xl">Content</div>
                   <div className="text-lg px-8 py-4">Tell your unique story in a compelling way! Connect with your audience at different stages of the buying journey and boost your marketing ROI.</div>
                   <div className="flex justify-center">
-                    <div className="p-1"><Link href="/services/content"><a className="bg-emerald-600 text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/services/content"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
                     <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Pricing</a></Link></div>
                   </div>
                 </div>
