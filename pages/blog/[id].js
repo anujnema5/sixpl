@@ -38,7 +38,7 @@ const BlogPostPage = ({ postData }) => {
                 <div className='py-2'>
                     <small><Date dateString={postData.date} /></small>
                 </div>
-                <div className=' text-xl text-gray-700 py-6'>
+                <div className=' text-xl text-gray-700 py-6 list-disc'>
                     <div dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
                 </div>
             </div>
