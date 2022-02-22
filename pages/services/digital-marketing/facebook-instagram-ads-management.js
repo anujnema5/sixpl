@@ -4,14 +4,14 @@ import Image from 'next/image'
 
 import Layout from '../../../components/nav/layout'
 
-const PPCAdvertisingPage = () => {
+const FBInstaPage = () => {
     return (
         <Layout>
             <Head>
-                <title>PPC Advertising Page</title>
+                <title>Facebook Instagram Ads Managerment</title>
             </Head>
-            <div>PPC Advertising Page</div>
+            <div>Facebook Instagram Ads Managerment</div>
         </Layout>
     )
 }
-export default PPCAdvertisingPage
+export default FBInstaPage

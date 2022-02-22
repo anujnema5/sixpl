@@ -8,9 +8,9 @@ const EmailMarketingPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Email Marketing Page</title>
+                <title>Lead Generation Services Page</title>
             </Head>
-            <div>Email Marketing Page</div>
+            <div>Lead Generation Services Page</div>
         </Layout>
     )
 }
