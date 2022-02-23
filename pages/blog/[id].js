@@ -31,7 +31,7 @@ const BlogPostPage = ({ postData }) => {
             <Head>
                 <title>{postData.title}</title>
             </Head>
-            <div className='flex flex-col items-center font-serif py-10 max-w-2xl m-auto'>
+            <div className='flex flex-col items-center font-serif py-10 px-6 max-w-2xl m-auto prose-li:list-disc prose-li:list-inside'>
                 <div>
                     <h1 className=' text-3xl text-gray-700'>{postData.title}</h1>
                 </div>
