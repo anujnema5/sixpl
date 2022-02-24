@@ -14,7 +14,7 @@ const FullServiceDigitalMarketingPage = () => {
             <main>
                 <div>
                     <div className="flex flex-col font-serif">
-                        <div className=' flex flex-col bg-cover bg-top-header-background text-white'>
+                        <div className=' flex flex-col bg-cover bg-[url(/images/dm-icons/dm-full-service-header-background.svg)] text-white'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
                                     <h1 className="text-4xl py-4">Generate More Leads at Lower Costs</h1>
@@ -124,7 +124,7 @@ const FullServiceDigitalMarketingPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
+                        <div className=' lg:mx-24 bg-slate-100 rounded-xl'>
                             <div className="flex flex-col font-serif">
                                 <div>
                                     <div className="flex flex-col px-4 py-8 items-center text-center">
@@ -138,7 +138,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24"  viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className="w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24"  viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <circle cx="10" cy="10" r="7" />
                                                             <line x1="7" y1="10" x2="13" y2="10" />
@@ -152,7 +152,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <circle cx="7" cy="5" r="2" />
                                                             <path d="M5 22v-5l-1 -1v-4a1 1 0 0 1 1 -1h4a1 1 0 0 1 1 1v4l-1 1v5" />
@@ -166,7 +166,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <circle cx="10" cy="10" r="7" />
                                                             <path d="M21 21l-6 -6" />
@@ -182,7 +182,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <rect x="3" y="5" width="18" height="14" rx="4" />
                                                             <path d="M10 9l5 3l-5 3z" />
@@ -194,7 +194,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <line x1="10" y1="14" x2="21" y2="3" />
                                                             <path d="M21 3l-6.5 18a0.55 .55 0 0 1 -1 0l-3.5 -7l-7 -3.5a0.55 .55 0 0 1 0 -1l18 -6.5" />
@@ -207,7 +207,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
                                                         </svg>
@@ -220,7 +220,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <rect x="4" y="4" width="16" height="16" rx="4" />
                                                             <circle cx="12" cy="12" r="3" />
@@ -233,7 +233,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <path d="M3 19c3.333 -2 5 -4 5 -6c0 -3 -1 -3 -2 -3s-2.032 1.085 -2 3c.034 2.048 1.658 2.877 2.5 4c1.5 2 2.5 2.5 3.5 1c.667 -1 1.167 -1.833 1.5 -2.5c1 2.333 2.333 3.5 4 3.5h2.5" />
                                                             <path d="M20 17v-12c0 -1.121 -.879 -2 -2 -2s-2 .879 -2 2v12l2 2l2 -2z" />
@@ -246,7 +246,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <rect x="4" y="4" width="16" height="16" rx="2" />
                                                             <line x1="8" y1="11" x2="8" y2="16" />
@@ -263,7 +263,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
                                                         </svg>
@@ -274,7 +274,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <path d="M5.931 6.936l1.275 4.249m5.607 5.609l4.251 1.275" />
                                                             <path d="M11.683 12.317l5.759 -5.759" />
@@ -290,7 +290,7 @@ const FullServiceDigitalMarketingPage = () => {
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
                                                 <div className="flex flex-col items-center text-center p-2">
                                                     <div className="py-2">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-600 stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1 hover:stroke-slate-600 hover:w-24 hover:h-24' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                             <path d="M6 6h8a3 3 0 0 1 0 6a3 3 0 0 1 0 6h-8" />
                                                             <line x1="8" y1="6" x2="8" y2="18" />
