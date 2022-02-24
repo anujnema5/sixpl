@@ -14,7 +14,7 @@ const FullServiceDigitalMarketingPage = () => {
             <main>
                 <div>
                     <div className="flex flex-col font-serif">
-                        <div className=' flex flex-col bg-top-header-background text-white'>
+                        <div className=' flex flex-col bg-contain bg-top-header-background text-white'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
                                     <h1 className="text-4xl py-4">Generate More Leads at Lower Costs</h1>
@@ -110,8 +110,8 @@ const FullServiceDigitalMarketingPage = () => {
                         </div>
                         <div>
                             <div className="flex flex-col font-serif">
-                                <div className="flex flex-col px-4 py-8 bg-orange-400 items-center text-center">
-                                    <div className="text-3xl py-4 text-white">Some of Our Clients</div>
+                                <div className="flex flex-col px-4 py-8 items-center text-center">
+                                    <div className="text-3xl py-4 text-sptheme-darkgreen">Some of Our Clients</div>
                                     <div className="text-2xl py-2">From Solopreneurs to Industry Leaders & Governments - SixPL has partnered with Businesses of all Sizes</div>
                                 </div>
                                 <div>
@@ -127,13 +127,13 @@ const FullServiceDigitalMarketingPage = () => {
                         <div>
                             <div className="flex flex-col font-serif">
                                 <div>
-                                    <div className="flex flex-col px-4 py-8 bg-orange-400 items-center text-center">
-                                        <h2 className="text-3xl py-4 text-white">Promote Your Brand where Customers Are</h2>
+                                    <div className="flex flex-col px-4 py-8 items-center text-center">
+                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Promote Your Brand where Customers Are</h2>
                                         <p className="text-2xl py-2">Let our Experts Maximize Responses from Every Marketing Channel</p>
                                     </div>
                                 </div>
                                 <div>
-                                    <div className="flex flex-col bg-cyan-50 md:px-40">
+                                    <div className="flex flex-col md:px-40">
                                         <div className="flex flex-col items-center lg:flex-row justify-center">
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52">
                                                 <div className="flex flex-col items-center text-center p-2">
