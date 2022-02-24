@@ -2,7 +2,7 @@ const ContactFormVertical = () => {
 
     return (
         <div>
-            <div className="flex bg-slate-800 font-serif">
+            <div className="flex bg-slate-800 font-serif rounded-lg">
                 <form className="flex flex-col p-2 items-center w-full">
                     <div className="flex flex-col items-center w-full md:px-8">
                         <div>

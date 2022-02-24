@@ -12,7 +12,7 @@ const FounderPage = () => {
                         <Link href='/about-us/saket-kumar-singh'><a className='p-2 text-lg underline underline-offset-4 hover:text-sky-700'>The Founder</a></Link>
 
                     </div>
-                    <div className='bg-gray-300 px-4'>I am Saket</div>
+                    <div className='bg-gray-300 px-4'>This is Founder's profile.</div>
                 </div>
             </div>
         </Layout>
