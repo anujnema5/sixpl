@@ -13,8 +13,8 @@ const FullServiceDigitalMarketingPage = () => {
             </Head>
             <main>
                 <div>
-                    <div className="flex flex-col font-serif">
-                        <div className=' flex flex-col bg-cover bg-[url(/images/dm-icons/dm-full-service-header-background.svg)] text-white'>
+                    <div className="flex flex-col font-seri">
+                        <div className=' flex flex-col text-white bg-cover bg-[url(/images/dm-icons/pngtopheader.png)]'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
                                     <h1 className="text-4xl py-4">Generate More Leads at Lower Costs</h1>
