@@ -13,7 +13,7 @@ const FullServiceDigitalMarketingPage = () => {
             </Head>
             <main>
                 <div>
-                    <div className="flex flex-col font-seri">
+                    <div className="flex flex-col font-serif">
                         <div className=' flex flex-col text-white bg-cover bg-[url(/images/dm-icons/pngtopheader.png)]'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
@@ -124,10 +124,10 @@ const FullServiceDigitalMarketingPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className=' lg:mx-24 bg-slate-100 rounded-xl'>
+                        <div className='  '>
                             <div className="flex flex-col font-serif">
                                 <div>
-                                    <div className="flex flex-col px-4 py-8 items-center text-center">
+                                    <div className="flex flex-col px-4 py-8 items-center text-center ">
                                         <h2 className="text-3xl py-4 text-sptheme-darkgreen">Promote Your Brand where Customers Are</h2>
                                         <p className="text-2xl py-2">Let our Experts Maximize Responses from Every Marketing Channel</p>
                                     </div>
@@ -309,11 +309,11 @@ const FullServiceDigitalMarketingPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-zinc-200">
+                        <div className='bg-sky-50 rounded-2xl'>
                             <div className='flex flex-col font-serif'>
                                 <div>
-                                    <div className="flex flex-col px-4 py-8 bg-orange-400 items-center text-center">
-                                        <h2 className="text-3xl py-4 text-white">Predictable & Transparent Pricing Structure</h2>
+                                    <div className="flex flex-col px-4 py-8 items-center text-center ">
+                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Predictable & Transparent Pricing Structure</h2>
                                         <p className="text-2xl py-2">Flexible pricing plans for all businesses</p>
                                         <p className="text-2xl py-2">Do you have specific requirements? Talk to us to get customized plan for your business.</p>
                                         <p className="text-2xl py-2 font-semibold">*GST(18%) will be applicable on all plans.</p>
@@ -321,9 +321,9 @@ const FullServiceDigitalMarketingPage = () => {
                                 </div>
                                 <div>
                                     <div className='flex flex-col items-center lg:flex-row justify-center text-center py-14 lg:px-24'>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 border-2 hover:border-4 hover:border-sky-600 hover:rounded-xl'>
+                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-emerald-600 text-xl w-full rounded-t-lg'>Starter</div>
+                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Starter</div>
                                                 <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
                                                     <div>
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -367,17 +367,17 @@ const FullServiceDigitalMarketingPage = () => {
                                                 </div>
                                                 <div className='bg-slate-200 p-2'>
                                                     <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Google Ads Campaign</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 Facebook/Instagram Paid Ad Campaign</div>
+                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>0 Google Ads Campaign</div>
+                                                    <div className='p-1 border-b-2 border-slate-300'>1 Facebook / Instagram Paid Ad Campaigns</div>
                                                     <div className='p-1 border-b-2 border-slate-300 text-gray-400'>LinkedIn Paid Campaign</div>
                                                     <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Twitter Paid Campaign</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sky-600 text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
                                         </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 border-2 hover:border-4 hover:border-sky-600 hover:rounded-xl'>
+                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-emerald-600 text-xl w-full rounded-t-lg'>Standard</div>
+                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Standard</div>
                                                 <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
                                                     <div>
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -427,11 +427,11 @@ const FullServiceDigitalMarketingPage = () => {
                                                     <div className='p-1 border-b-2 border-slate-300'>2 Twitter Paid Campaigns</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sky-600 text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
                                         </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 border-2 hover:border-4 hover:border-sky-600 hover:rounded-xl'>
+                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-emerald-600 text-xl w-full rounded-t-lg'>Plus</div>
+                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Plus</div>
                                                 <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
                                                     <div>
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -481,11 +481,11 @@ const FullServiceDigitalMarketingPage = () => {
                                                     <div className='p-1 border-b-2 border-slate-300'>5 Twitter Paid Campaigns</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sky-600 text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
                                         </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 border-2 hover:border-4 hover:border-sky-600 hover:rounded-xl'>
+                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-emerald-600 text-xl w-full rounded-t-lg'>Customized</div>
+                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Customized</div>
                                                 <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
                                                     <div>
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
@@ -535,7 +535,7 @@ const FullServiceDigitalMarketingPage = () => {
                                                     <div className='p-1 border-b-2 border-slate-300'>Custom Twitter Paid Campaigns</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sky-600 text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
                                         </div>
                                     </div>
                                 </div>
@@ -576,14 +576,14 @@ const FullServiceDigitalMarketingPage = () => {
                         <div>
                             <div className="flex flex-col lg:flex-row">
                                 <div className="lg:w-1/2 px-4 py-14">
-                                    <div className="pb-4 text-center text-3xl text-slate-700">Start Your Custom Digital Marketing Project in 4 Easy Steps</div>
+                                    <div className="pb-4 text-center text-3xl text-sptheme-darkgreen">Start Your Custom Digital Marketing Project in 4 Easy Steps</div>
                                     <div>
                                         <div className="flex flex-col">
                                             <div className="flex flex-col items-center lg:flex-row justify-center">
                                                 <div className="px-4 py-4 lg:w-1/2 lg:h-52">
                                                     <div className="flex flex-col items-center text-center p-2">
                                                         <div className="py-2">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-700 stroke-1' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                                 <path d="M12 16v-8l-2 2" />
                                                                 <circle cx="12" cy="12" r="9" />
@@ -595,7 +595,7 @@ const FullServiceDigitalMarketingPage = () => {
                                                 <div className="px-4 py-4 lg:w-1/2 lg:h-52">
                                                     <div className="flex flex-col items-center text-center p-2 ">
                                                         <div className="py-2">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-700 stroke-1' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                                 <path d="M10 10a2 2 0 1 1 4 0c0 .591 -.417 1.318 -.816 1.858l-3.184 4.143l4 0" />
                                                                 <circle cx="12" cy="12" r="9" />
@@ -609,7 +609,7 @@ const FullServiceDigitalMarketingPage = () => {
                                                 <div className="px-4 py-4 lg:w-1/2 lg:h-52">
                                                     <div className="flex flex-col items-center text-center p-2">
                                                         <div className="py-2">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-700 stroke-1' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                                 <path d="M12 12a2 2 0 1 0 -2 -2" />
                                                                 <path d="M10 14a2 2 0 1 0 2 -2" />
@@ -622,7 +622,7 @@ const FullServiceDigitalMarketingPage = () => {
                                                 <div className="px-4 py-4 lg:w-1/2 lg:h-52">
                                                     <div className="flex flex-col items-center text-center p-2">
                                                         <div className="py-2">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-emerald-700 stroke-1' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" className='w-20 h-20 stroke-sptheme-darkgreen stroke-1' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                                 <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
                                                                 <path d="M13 16v-8l-4 6h5" />
                                                                 <circle cx="12" cy="12" r="9" />
@@ -643,15 +643,15 @@ const FullServiceDigitalMarketingPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="bg-slate-200">
+                        <div className="bg-slate-700">
                             <div>
-                                <div className="flex flex-col px-4 py-8 bg-orange-400 items-center text-center">
+                                <div className="flex flex-col px-4 py-8  items-center text-center">
                                     <div className="text-3xl py-4 text-white">Frequently Asked Questions</div>
-                                    <div className="text-2xl py-2">Read some common questions related to our services and their answers</div>
+                                    <div className="text-xl py-2xl text-white">Read some common questions related to our services and their answers</div>
                                 </div>   
                             </div>
                             <div>
-                                <div className='lg:px-40 py-10 font-serif bg-slate-700'>
+                                <div className='lg:px-40 py-10 font-serif '>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
                                         <div className='font-semibold py-2 px-4 text-stone-800'>I have a specific requirements which is not covered in any of the packages mentioned above? Can you help me with it?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>Yes. Please talk to us and we will prepare a custom digital marketing plan for you.</div>

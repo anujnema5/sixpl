@@ -7,7 +7,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero-pattern-hexagons': "url('/images/hexagons.svg')",
-        'top-header-background': "url('/images/dm-icons/dm-full-service-header-background.svg')"
+        'top-header-background': "url('/images/dm-icons/top-background.svg')"
       },
       colors: {
         sptheme: {
