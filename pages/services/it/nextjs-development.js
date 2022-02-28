@@ -9,7 +9,7 @@ const NextJSDevelopmentPage = () => {
     return (
         <Layout>
             <Head>
-                <title>React NextJS Development Services</title>
+                <title>NextJS Development Services</title>
             </Head>
             <main>
                 <div>
