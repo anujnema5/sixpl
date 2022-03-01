@@ -9,7 +9,7 @@ const ReactDevelopersPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Hire Top ReactJS Developers</title>
+                <title>Hire Best React Developers</title>
             </Head>
             <main>
                 <div>
@@ -17,14 +17,14 @@ const ReactDevelopersPage = () => {
                         <div className=' flex flex-col text-white bg-cover bg-[url(/images/dm-icons/pngtopheader.png)]'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
-                                    <h1 className="text-4xl py-4">Generate More Leads at Lower Costs</h1>
-                                    <p className="text-2xl py-2">Avail a range of customized digital marketing services designed to win your prospects' trust</p>
+                                    <h1 className="text-4xl py-4">Hire Top Reactjs Developers on a Part-time, Full-time, or Hourly basis</h1>
+                                    <p className="text-2xl py-2">Get React developers, software engineers, consultants, & experts with 24*7 Support</p>
                                 </div>
                             </div>
                             <div>
                                 <div className="flex flex-col lg:flex-row">
                                     <div className="lg:w-1/2 px-4 py-14">
-                                        <div className="pb-4 text-center text-3xl">Hire #1 Digital Marketing Agency</div>
+                                        <div className="pb-4 text-center text-3xl">Hire #1 React Development Comoany</div>
                                         <div>
                                             <div className="flex flex-col">
                                                 <div className="flex flex-col items-center lg:flex-row justify-center">
@@ -42,7 +42,7 @@ const ReactDevelopersPage = () => {
                                                                     <line x1="19" y1="19" x2="11" y2="19" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">24*7 Instant Support</div>
+                                                            <div className="py-2 text-2xl">New ReactJS Projects</div>
                                                         </div>
                                                     </div>
                                                     <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -58,7 +58,7 @@ const ReactDevelopersPage = () => {
                                                                     <path d="M5 15v1m0 -8v1" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">65% Increase in Conversion Rate</div>
+                                                            <div className="py-2 text-2xl">Existing ReactJS Projects</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -75,7 +75,7 @@ const ReactDevelopersPage = () => {
                                                                     <line x1="17" y1="15" x2="17" y2="15.01" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">Build an Engaged Community around Your Brand</div>
+                                                            <div className="py-2 text-2xl">Expand Your Reactjs Team</div>
                                                         </div>
                                                     </div>
                                                     <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -92,7 +92,7 @@ const ReactDevelopersPage = () => {
                                                                     <line x1="17.3" y1="17.8" x2="14.5" y2="15.8" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">Integrated Campaign across Multiple Platforms</div>
+                                                            <div className="py-2 text-2xl">Get Round the Clock Support</div>
                                                         </div>  
                                                     </div>   
                                                 </div>
@@ -128,8 +128,8 @@ const ReactDevelopersPage = () => {
                             <div className="flex flex-col font-serif">
                                 <div>
                                     <div className="flex flex-col px-4 py-8 items-center text-center ">
-                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Promote Your Brand where Customers Are</h2>
-                                        <p className="text-2xl py-2">Let our Experts Maximize Responses from Every Marketing Channel</p>
+                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Why hire React developers from SixPL</h2>
+                                        <p className="text-2xl py-2">Our react developers are experienced programmers, efficient communicators and problem solvers with sound cross-domain business expertise.</p>
                                     </div>
                                 </div>
                                 <div>
@@ -146,7 +146,7 @@ const ReactDevelopersPage = () => {
                                                             <line x1="21" y1="21" x2="15" y2="15" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Search Engine Optimization</div>
+                                                    <div className="py-2 text-2xl text-gray-700">React Hooks</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -160,7 +160,7 @@ const ReactDevelopersPage = () => {
                                                             <path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Social Media Optimization</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Flux</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -174,7 +174,7 @@ const ReactDevelopersPage = () => {
                                                             <path d="M10 13v1m0 -8v1" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Google Ads</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Redux</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -188,7 +188,7 @@ const ReactDevelopersPage = () => {
                                                             <path d="M10 9l5 3l-5 3z" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">YouTube Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Webpack</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52">
@@ -201,7 +201,7 @@ const ReactDevelopersPage = () => {
                                                         </svg>
 
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Email Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Enzyme</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -212,7 +212,7 @@ const ReactDevelopersPage = () => {
                                                             <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Facebook Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Test Driven Development (TDD)</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -227,7 +227,7 @@ const ReactDevelopersPage = () => {
                                                             <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Instagram Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Jest & Mocha</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -240,7 +240,7 @@ const ReactDevelopersPage = () => {
                                                             <path d="M16 7h4" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Content Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Unit Tests</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -255,7 +255,7 @@ const ReactDevelopersPage = () => {
                                                             <path d="M16 16v-3a2 2 0 0 0 -4 0" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">LinkedIn Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Global Time Zone Support</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -268,7 +268,7 @@ const ReactDevelopersPage = () => {
                                                             <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Twitter Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Excellent Communication Skills</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -284,7 +284,7 @@ const ReactDevelopersPage = () => {
                                                             <circle cx="8.5" cy="15.5" r="4.5" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Affiliate Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Cross-domain Knowledge</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -301,7 +301,7 @@ const ReactDevelopersPage = () => {
                                                             <line x1="13" y1="18" x2="13" y2="21" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Blockchain & Crypto Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Full-time employees – no freelancers or sub-contractors</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -313,229 +313,103 @@ const ReactDevelopersPage = () => {
                             <div className='flex flex-col font-serif'>
                                 <div>
                                     <div className="flex flex-col px-4 py-8 items-center text-center ">
-                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Predictable & Transparent Pricing Structure</h2>
-                                        <p className="text-2xl py-2">Flexible pricing plans for all businesses</p>
+                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Some of our Projects</h2>
+                                        <p className="text-2xl py-2">We have the right solution for businesses of all sizes from across industries</p>
                                         <p className="text-2xl py-2">Do you have specific requirements? Talk to us to get customized plan for your business.</p>
-                                        <p className="text-2xl py-2 font-semibold">*GST(18%) will be applicable on all plans.</p>
                                     </div>
                                 </div>
                                 <div>
-                                    <div className='flex flex-col items-center lg:flex-row justify-center text-center py-14 lg:px-24'>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
+                                    <div className='flex flex-col items-center lg:flex-row justify-center  py-14 lg:px-24'>
+                                        <div className='flex flex-col lg:w-1/3 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Starter</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>35,000</div>
+                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg text-center'>App for a Funded EduTech Startup</div>
+                                                <div className='p-4 flex flex-row w-full bg-slate-800'>
+                                                    <p className='p-4 text-lg'>
+                                                        A high-performance, secure and scalable ReactJS app for a funded startup based in Delaware. We delivered the complex app with superior performance in a record 45 days. The app included many innovative features. The other backend technologies included NodeJS, Express Framework and POSTGRESQL.
+                                                    </p>
+                                                  
                                                 </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
+                                                
                                             </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 Facebook Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 Instagram Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 LinkedIn Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 Twitter Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>YouTube Posts</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Keywords</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Citations</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>40 Backlinks</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 SEO Optimized Blogs</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 6 Sites</div>
-                                                    
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>500 Subscribers/Contacts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 Email Campaign</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>0 Google Ads Campaign</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 Facebook / Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>LinkedIn Paid Campaign</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Twitter Paid Campaign</div>
-                                                </div>
-                                            </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg text-center '><Link href="/contact-us"><a>Start Your ReactJS Project Now</a></Link></div>
                                         </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
+                                        <div className='flex flex-col lg:w-1/3 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Standard</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>65,000</div>
-                                                </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
-                                            </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 Facebook Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 Instagram Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 LinkedIn Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 Twitter Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 YouTube Post</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>10 Keywords</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>15 Citations</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>100 Backlinks</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>4 SEO Optimized Blogs</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 12 Sites</div>
+                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg text-center'>Machine Learning and AI-Based Copywriting App</div>
+                                                <div className='p-4 flex flex-row justify-center items-center w-full bg-slate-800'>
                                                     
+                                                    <p className='p-4 text-lg'>GPT-3 powered app to generate short advertising copy. The app was built on ReactJS and NextJS as frontend and NodeJs as the backend technology. Within a month of launch, the app saw an overwhelming response from social media users. </p>
                                                 </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2000 Subscribers/Contacts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 Email Campaigns</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 Google Ads Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 Facebook/Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 LinkedIn Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 Twitter Paid Campaigns</div>
-                                                </div>
+                                                
                                             </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg text-center '><Link href="/contact-us"><a>Start Your ReactJS Project Now</a></Link></div>
                                         </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
+                                        <div className='flex flex-col lg:w-1/3 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Plus</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>85,000</div>
+                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg text-center'>Broker Free Real Estate Rental App</div>
+                                                <div className='p-4 flex flex-row justify-center items-center w-full bg-slate-800'>    
+                                                    <p className='p-4 text-lg'>Broker free real estate rental app was designed to revolutionize the real estate industry by eliminating the middlemen and empowering the landlords and homeseekers. Within a year of launch, the app got funded by a leading venture capital firm and scaled its services in more than 25 cities.</p>
                                                 </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
+                                                
                                             </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 Facebook Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 Instagram Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 LinkedIn Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 Twitter Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>4 YouTube Post</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>25 Keywords</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>25 Citations</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>250 Backlinks</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 SEO Optimized Blogs</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 32 Sites</div>
-                                                    
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5000 Subscribers/Contacts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>4 Email Campaigns</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Google Ads Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Facebook/Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 LinkedIn Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Twitter Paid Campaigns</div>
-                                                </div>
-                                            </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-b-lg text-center'><Link href="/contact-us"><a>Start Your ReactJS Project Now</a></Link></div>
                                         </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='bg-slate-200 rounded-2xl'>
+                            <div className='flex flex-col font-serif'>
+                                <div>
+                                    <div className="flex flex-col px-4 py-8 items-center text-center ">
+                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Client Testimonials</h2>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div className='flex flex-col items-center lg:flex-row justify-center  py-4 lg:px-24'>
+                                        <div className='flex flex-col lg:w-1/3 my-4 mx-0.5 hover:border-4 hover:border-sky-700 hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Customized</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>Custom</div>
+                                                <div className='p-2 bg-sky-700 text-xl w-full rounded-t-lg text-center'>React Web App for a Leading Real Estate Company</div>
+                                                <div className='p-4 flex flex-row w-full bg-slate-800'>
+                                                    <p className='p-4 text-lg'>
+                                                    SixPL React Development Team did an amazing job – from conceptualization and development to deployment – for our app in a record time. All the developers I interacted with were well-versed with the nitty gritties of the Real Estate sector which made us quite comfortable. Hats off to the team for doing such a fantastic work. We are going to work with them on a few other projects.
+                                                    </p>
+                                                  
                                                 </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
+                                                
                                             </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized On-Page Features</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
+                                            
+                                           
+                                        </div>
+                                        <div className='flex flex-col lg:w-1/3 my-4 mx-0.5 hover:border-4 hover:border-sky-700 hover:rounded-xl'>
+                                            <div className='flex flex-col items-center text-white'>
+                                                <div className='p-2 bg-sky-700 text-xl w-full rounded-t-lg text-center'>React Programmers for an IT Services Company</div>
+                                                <div className='p-4 flex flex-row justify-center items-center w-full bg-slate-800'>
                                                     
+                                                    <p className='p-4 text-lg'>
+                                                        I have been in the IT industry for over 12 years but I have never had such a smooth experience working with outsourcing partners. Their 24*7 support and full-time React programmers helped us get the job done in a matter of a few weeks which otherwise would have taken many months. Kudos to the SixPL’s amazing ReactJS development team. I wish the entire team all the success.
+     
+                                                    </p>
                                                 </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Google Ads Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Facebook/Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom LinkedIn Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Twitter Paid Campaigns</div>
-                                                </div>
+                                                
                                             </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            
+                                        
+                                        </div>
+                                        <div className='flex flex-col lg:w-1/3 my-4 mx-0.5 hover:border-4 hover:border-sky-700 hover:rounded-xl'>
+                                            <div className='flex flex-col items-center text-white'>
+                                                <div className='p-2 bg-sky-700 text-xl w-full rounded-t-lg text-center'>React App for an EdTech Company</div>
+                                                <div className='p-4 flex flex-row justify-center items-center w-full bg-slate-800'>    
+                                                    <p className='p-4 text-lg'>
+                                                        My relationship with SixPL dates back to 2013 when we started working on some content marketing projects. I was a little skeptical when our tech lead decided to hire SixPL React Developers for a critical project. However, the final output was beyond our expectations. Although, it was not a surprise as I have seen Saket and his team working hard and growing over the years, their work in the tech domain was the best ever. 
+                                                    </p>
+                                                </div>
+                                                
+                                            </div>
+                                            
                                         </div>
                                     </div>
                                 </div>
@@ -545,27 +419,27 @@ const ReactDevelopersPage = () => {
                             <div>
                                 <div className="py-10 font-serif bg-slate-900">
                                     <div className="p-4 flex flex-col justify-center text-center">
-                                        <div className="px-2 py-10 text-3xl text-white">Delivering Superior Performance Since 2012</div>
+                                        <div className="px-2 py-10 text-3xl text-white">Delivering Superior IT Services Since 2012</div>
                                         <div className="py-4 px-2 lg:flex lg:justify-around">
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-mono">12k</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Keywords</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-mono">10</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Countries</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">$4m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Ad Spend</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">16</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Industries</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-8 py-2 text-6xl text-sky-300 font-sans">$60m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Sales</div>
+                                                <div className="px-8 py-2 text-6xl text-sky-300 font-sans">86</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Clients</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">120m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Community Members</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">129</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Ecommerce Sites</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">500m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Emails</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">267</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Web Applications</div>
                                             </div>
                                         </div>
                                         
@@ -576,7 +450,7 @@ const ReactDevelopersPage = () => {
                         <div>
                             <div className="flex flex-col lg:flex-row">
                                 <div className="lg:w-1/2 px-4 py-14">
-                                    <div className="pb-4 text-center text-3xl text-sptheme-darkgreen">Start Your Custom Digital Marketing Project in 4 Easy Steps</div>
+                                    <div className="pb-4 text-center text-3xl text-sptheme-darkgreen">Start Your React Development Project in 4 Easy Steps</div>
                                     <div>
                                         <div className="flex flex-col">
                                             <div className="flex flex-col items-center lg:flex-row justify-center">
@@ -589,7 +463,7 @@ const ReactDevelopersPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Define Scope of Work</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Requirement Gathering</div>
                                                     </div>
                                                 </div>
                                                 <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -601,7 +475,7 @@ const ReactDevelopersPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Mutually Decide the Payment Terms</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Project Budgeting</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -616,7 +490,7 @@ const ReactDevelopersPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Provide Information - Fill a Questionnaire</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Milestone Development</div>
                                                     </div>
                                                 </div>
                                                 <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -628,7 +502,7 @@ const ReactDevelopersPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Start the Project Immediately</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Project Initiation</div>
                                                     </div>  
                                                 </div>   
                                             </div>
@@ -653,79 +527,97 @@ const ReactDevelopersPage = () => {
                             <div>
                                 <div className='lg:px-40 py-10 font-serif '>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>I have a specific requirements which is not covered in any of the packages mentioned above? Can you help me with it?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>Yes. Please talk to us and we will prepare a custom digital marketing plan for you.</div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>How do you support global clients?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>We use the latest technology to streamline communication between our experts and the partners. Our team works 24 by 7 so that we can cover clients from all regions. </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you have experience in our industry?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Which Type of Engagement Model do You Offer?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We have been offering result-oriented digital marketing services to our clients since 2012. We have served more than 1200 clients from almost all industries.
-                                            Please tell us your area of business so that we can share a relevant industry-specific portfolio with you.
+                                            <p>
+                                                Whether you are looking to hire full-time or part-time React developers, or looking for a reliable React Development company, we have got you covered. <br/>
+
+ 
+
+                                                We offer customized React Development Services. <br/>
+
+ 
+                                                SixPL is a leading React development company that offers fast, secure, and high-performance React app development services. You can outsource the entire project development and DevOps lifecycle to us. <br/> <br/>
+
+ 
+
+                                                Hire Full-time React Developers <br/>
+
+                                                You can hire our experienced React developers on a full-time basis. There is no minimum duration. You can hire them for a month, a year or on a regular basis. <br/><br/>
+
+ 
+
+                                                Hire part-time React developers <br/>
+
+                                                You can fulfill your immediate and need-based project requirements by hiring our senior React developers for a fixed duration. We can work out an hourly rate or fixed rate for a particular duration.<br/><br/>
+
+ 
+
+                                                Not sure about which engagement model to choose? <br/>
+
+ 
+
+                                                Contact our consultants to help you decide the best and most suitable solutions for your project. <br/>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>What do you need from our side to get started?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'><p>What is ReactJS?</p></div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Depending on the nature of services, we share a questionnaire. We also prefer to have a quick meeting after the client fills up the questionnaire. 
-                                            We understand that our clients are super busy in growing their business. Therefore, we utilize our domain expertise to recommend suitable solutions to our clients. However, we do need business-specific information (that we collect through questionnaire) to start the project.
+                                            <p>
+                                                ReactJS is a Javascript library for building user interfaces. React is declarative, component-based and tech stack agnostic. React makes it super easy to build interactive user interfaces quickly. <br/><br/>
+                                                React is easy to learn. Therefore, anyone can spend some time learning React and declare themselves as React developers. Due to its flexibility, there are multiple solutions for the same problem, which means there are many ways to do the same thing in React. <br/><br/>
+                                                While a developer may find it easy to begin with React, the technology starts becoming complex and unmanageable if the basic software architectural principles are not followed throughout the app development lifecycle. The software may behave in an unexpected way which leads to poor performance and sometimes even UX disaster. Therefore, it is critical to hire React developers with sound knowledge of software architecture and front end development.<br/><br/>
+                                            </p>
                                         </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>How much time will you take to get the work started?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'><p>Who is a ReactJS developer?</p></div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We start the work as soon as clients fill up the questionnaire and send us the business-specific information. In some cases, where technical expertise (such as creating landing pages, etc.) is needed, we may take around 5-7 working days to start the campaign.
+                                            <p>
+                                                Best ReactJS developers possess the skills and ability to offer best user experience through reactive super-fast user interfaces. They use their Javascript and React expertise to bring the best visual experience to the end users. <br/><br/>
+                                                Full-stack React developers tend to learn PERN or MERN technology stack and develop expertise in NodeJS, ExpressJS, MongoDB or PostgreSQL. <br/><br/>
+                                                React web developers also tend to use React-based web frameworks like NextJS, GatsbyJS etc. to do server side rendering or static site generation. Some developers prefer to use Headless Content Management Systems (CMS) along with NextJS and Gatsby to manage backend data.<br/><br/>
+                                                Contact experienced React Developers at SixPL to manage complex projects with ease.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>How to Hire Top ReactJS Developers?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            <p>
+                                                SixPL has the right solution for all your react development needs. Our team’s immense contribution in open source React projects and collaboration with leading tech organizations can help you launch your React development project at a lightning speed – just like React.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Which Stages of Project Development you can help in?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>
+                                            <p>
+                                                New ReactJS Projects <br/>
+
+                                                Get a new React.js app built from scratch. We develop fullstack React apps of varied complexities based on Nodejs backend. <br/><br/>
+
+                                                Existing ReactJS Projects<br/>
+
+                                                We help in debugging, maintaining or developing new features in legacy React.js applications. We can design a customized plan to meet all React development needs.<br/><br/>
+
+                                                Expand Your Reactjs Team<br/>
+
+                                                Hire the best React developers on a full-time, part-time or hourly basis to expand your existing team with our smooth integration process. 
+                                            </p>
                                         </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
                                         <div className='font-semibold py-2 px-4 text-stone-800'>Do you have an in-house team?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Yes. We have a dedicated an in-house team of digital marketing, copywriting and technical experts who will handle your campaign on a day-to-day basis. However, in some cases we do hire domain experts to offer niche requirements from a highly specialized work area.
+                                            Yes. We have a dedicated an in-house team of React developers who will handle your project on a day-to-day basis. 
                                         </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
                                         <div className='font-semibold py-2 px-4 text-stone-800'>When do you share digital marketing campaign performance reports?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
                                             The frequency of campaign performance reports depends on the individual project. We inform the client in advance about the same. However, in most of the cases, we make a comprehensive monthly report and a weekly progress report to seek client’s feedback.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Can you show a sample report?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Please contact us so that we can share a sample work report that we have done for a client in your industry.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>How much return can I expect from our marketing investment?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            The return on marketing investment depends on the products/services we advertise. Some of our clients have reported even 500% return on their ad spend. Tell us more about your offerings so that we can estimate the return on your ad spend.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Will you write content or we have to provide it?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We have a team of experienced copywriters who will write the ad copy. They will also proofread the web content or rewrite it from scratch if required. The cost of content developed needed to run a campaign is covered in the packages mentioned above.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Who will design creatives?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Our in-house creative designing team will  handle all designing tasks.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>What are your payment terms?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            For retainership based projects, 50% of the campaign management fee is to be paid in advance while remaining at the end of the month. For a milestone-based payment system, the advance payment to be made for every milestone.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>What is your refund policy?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We spend countless hours to ensure the best outcome from our digital marketing campaigns. Also, we maintain full transparency with our clients in everything we do. Therefore, once the project is initiated, refunds can’t be made. However, any advance made towards unavailed services can be utilized in future projects. There is no expiry date for availing the services against advance payments made.
                                         </div>
                                     </div>
                                 </div>
