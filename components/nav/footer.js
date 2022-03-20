@@ -37,10 +37,10 @@ const Footer = () => {
                     <div className="pb-2 pt-4 lg:px-2 px-8">
                         <div className="font-extrabold text-2xl">Useful Links</div>
                         <ul>
-                            <li className="py-1 px-4"><Link href="/about-us"><a>Disclaimer</a></Link></li>
-                            <li className="py-1 px-4"><Link href="/contact-us"><a>Terms & Conditions</a></Link></li>
-                            <li className="py-1 px-4"><Link href="/contact-us"><a>Privacy Policy</a></Link></li>
-                            <li className="py-1 px-4"><Link href="/contact-us"><a>Refunds & Cancellation Policy</a></Link></li>
+                            <li className="py-1 px-4"><Link href="/disclaimer"><a>Disclaimer</a></Link></li>
+                            <li className="py-1 px-4"><Link href="/terms-conditions"><a>Terms & Conditions</a></Link></li>
+                            <li className="py-1 px-4"><Link href="/privacy-policy"><a>Privacy Policy</a></Link></li>
+                            <li className="py-1 px-4"><Link href="/refund-cancellation-policy"><a>Refunds & Cancellation Policy</a></Link></li>
                         </ul>
                     </div>
                 </div>

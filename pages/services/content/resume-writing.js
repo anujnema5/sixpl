@@ -9,7 +9,7 @@ const ResumeWritingPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Resume Writing Service</title>
+                <title>Resume Writing Services</title>
             </Head>
             <main>
                 <div>
@@ -17,14 +17,14 @@ const ResumeWritingPage = () => {
                         <div className=' flex flex-col text-white bg-cover bg-[url(/images/dm-icons/pngtopheader.png)]'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
-                                    <h1 className="text-4xl py-4">Generate More Leads at Lower Costs</h1>
-                                    <p className="text-2xl py-2">Avail a range of customized digital marketing services designed to win your prospects' trust</p>
+                                    <h1 className="text-4xl py-4">Grab Your Dream Job With a Perfect Resume</h1>
+                                    <p className="text-2xl py-2">Showcase Your Experience, Skills, & Expertise in a Compelling Way</p>
                                 </div>
                             </div>
                             <div>
                                 <div className="flex flex-col lg:flex-row">
                                     <div className="lg:w-1/2 px-4 py-14">
-                                        <div className="pb-4 text-center text-3xl">Hire #1 Digital Marketing Agency</div>
+                                        <div className="pb-4 text-center text-3xl">Hire #1 Resume Writing Company</div>
                                         <div>
                                             <div className="flex flex-col">
                                                 <div className="flex flex-col items-center lg:flex-row justify-center">
@@ -42,7 +42,7 @@ const ResumeWritingPage = () => {
                                                                     <line x1="19" y1="19" x2="11" y2="19" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">24*7 Instant Support</div>
+                                                            <div className="py-2 text-2xl">Quick Support</div>
                                                         </div>
                                                     </div>
                                                     <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -58,7 +58,7 @@ const ResumeWritingPage = () => {
                                                                     <path d="M5 15v1m0 -8v1" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">65% Increase in Conversion Rate</div>
+                                                            <div className="py-2 text-2xl">Resume Writing & Designing Services</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -75,7 +75,7 @@ const ResumeWritingPage = () => {
                                                                     <line x1="17" y1="15" x2="17" y2="15.01" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">Build an Engaged Community around Your Brand</div>
+                                                            <div className="py-2 text-2xl">Reflects Your Personality</div>
                                                         </div>
                                                     </div>
                                                     <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -92,7 +92,7 @@ const ResumeWritingPage = () => {
                                                                     <line x1="17.3" y1="17.8" x2="14.5" y2="15.8" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">Integrated Campaign across Multiple Platforms</div>
+                                                            <div className="py-2 text-2xl">Single & Multi-Page Formats</div>
                                                         </div>  
                                                     </div>   
                                                 </div>
@@ -108,28 +108,12 @@ const ResumeWritingPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <div className="flex flex-col font-serif">
-                                <div className="flex flex-col px-4 py-8 items-center text-center">
-                                    <div className="text-3xl py-4 text-sptheme-darkgreen">Some of Our Clients</div>
-                                    <div className="text-2xl py-2">From Solopreneurs to Industry Leaders & Governments - SixPL has partnered with Businesses of all Sizes</div>
-                                </div>
-                                <div>
-                                    <div className="flex flex-col py-4 lg:flex-row items-center justify-center">
-                                        <div><Image src="/images/clients-logos/ministry-of-ayush-logo-400-200.svg" width={300} height={150} /></div>
-                                        <div><Image src="/images/clients-logos/tech-mahindra-logo-400-200.svg" width={300} height={150} /></div>
-                                        <div><Image src="/images/clients-logos/oyo-logo-400-200.svg" width={300} height={150} /></div>
-                                        <div><Image src="/images/clients-logos/exide-life-insurance-logo-400-200.svg" width={300} height={150} /></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div className='  '>
                             <div className="flex flex-col font-serif">
                                 <div>
                                     <div className="flex flex-col px-4 py-8 items-center text-center ">
-                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Promote Your Brand where Customers Are</h2>
-                                        <p className="text-2xl py-2">Let our Experts Maximize Responses from Every Marketing Channel</p>
+                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Get More Interview Calls with an Outstanding Resume</h2>
+                                        <p className="text-2xl py-2">Let our Expert writers showcase your professional credentials in an attractive way </p>
                                     </div>
                                 </div>
                                 <div>
@@ -146,7 +130,7 @@ const ResumeWritingPage = () => {
                                                             <line x1="21" y1="21" x2="15" y2="15" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Search Engine Optimization</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Resume for CXOs</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -160,7 +144,7 @@ const ResumeWritingPage = () => {
                                                             <path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Social Media Optimization</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Resume Writing Services for Freshers</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -174,7 +158,7 @@ const ResumeWritingPage = () => {
                                                             <path d="M10 13v1m0 -8v1" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Google Ads</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Resume for Mid-Level Professionals</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -188,7 +172,7 @@ const ResumeWritingPage = () => {
                                                             <path d="M10 9l5 3l-5 3z" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">YouTube Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Resume Designing Services</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52">
@@ -201,7 +185,7 @@ const ResumeWritingPage = () => {
                                                         </svg>
 
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Email Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Time Delivery </div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -212,7 +196,7 @@ const ResumeWritingPage = () => {
                                                             <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Facebook Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Plagiarism Free</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -227,7 +211,7 @@ const ResumeWritingPage = () => {
                                                             <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Instagram Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">LinkedIn Profile</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -240,7 +224,7 @@ const ResumeWritingPage = () => {
                                                             <path d="M16 7h4" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Content Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Letter of Recommendation (LOR)</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -255,7 +239,7 @@ const ResumeWritingPage = () => {
                                                             <path d="M16 16v-3a2 2 0 0 0 -4 0" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">LinkedIn Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Clear Career Objective</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -268,7 +252,7 @@ const ResumeWritingPage = () => {
                                                             <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Twitter Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Resume Writing for All Industries</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -284,7 +268,7 @@ const ResumeWritingPage = () => {
                                                             <circle cx="8.5" cy="15.5" r="4.5" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Affiliate Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Resume Writing for International Job Applicants</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -301,241 +285,9 @@ const ResumeWritingPage = () => {
                                                             <line x1="13" y1="18" x2="13" y2="21" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Blockchain & Crypto Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Keywords Optimized</div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='bg-sky-50 rounded-2xl'>
-                            <div className='flex flex-col font-serif'>
-                                <div>
-                                    <div className="flex flex-col px-4 py-8 items-center text-center ">
-                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Predictable & Transparent Pricing Structure</h2>
-                                        <p className="text-2xl py-2">Flexible pricing plans for all businesses</p>
-                                        <p className="text-2xl py-2">Do you have specific requirements? Talk to us to get customized plan for your business.</p>
-                                        <p className="text-2xl py-2 font-semibold">*GST(18%) will be applicable on all plans.</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className='flex flex-col items-center lg:flex-row justify-center text-center py-14 lg:px-24'>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
-                                            <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Starter</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>35,000</div>
-                                                </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
-                                            </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 Facebook Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 Instagram Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 LinkedIn Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 Twitter Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>YouTube Posts</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Keywords</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Citations</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>40 Backlinks</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 SEO Optimized Blogs</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 6 Sites</div>
-                                                    
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>500 Subscribers/Contacts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 Email Campaign</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>0 Google Ads Campaign</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 Facebook / Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>LinkedIn Paid Campaign</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Twitter Paid Campaign</div>
-                                                </div>
-                                            </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
-                                        </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
-                                            <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Standard</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>65,000</div>
-                                                </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
-                                            </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 Facebook Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 Instagram Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 LinkedIn Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 Twitter Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 YouTube Post</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>10 Keywords</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>15 Citations</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>100 Backlinks</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>4 SEO Optimized Blogs</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 12 Sites</div>
-                                                    
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2000 Subscribers/Contacts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 Email Campaigns</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 Google Ads Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 Facebook/Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 LinkedIn Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 Twitter Paid Campaigns</div>
-                                                </div>
-                                            </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
-                                        </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
-                                            <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Plus</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>85,000</div>
-                                                </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
-                                            </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 Facebook Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 Instagram Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 LinkedIn Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 Twitter Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>4 YouTube Post</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>25 Keywords</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>25 Citations</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>250 Backlinks</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 SEO Optimized Blogs</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 32 Sites</div>
-                                                    
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5000 Subscribers/Contacts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>4 Email Campaigns</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Google Ads Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Facebook/Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 LinkedIn Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Twitter Paid Campaigns</div>
-                                                </div>
-                                            </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
-                                        </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
-                                            <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Customized</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>Custom</div>
-                                                </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
-                                            </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized On-Page Features</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Google Ads Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Facebook/Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom LinkedIn Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Twitter Paid Campaigns</div>
-                                                </div>
-                                            </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
                                         </div>
                                     </div>
                                 </div>
@@ -545,27 +297,27 @@ const ResumeWritingPage = () => {
                             <div>
                                 <div className="py-10 font-serif bg-slate-900">
                                     <div className="p-4 flex flex-col justify-center text-center">
-                                        <div className="px-2 py-10 text-3xl text-white">Delivering Superior Performance Since 2012</div>
+                                        <div className="px-2 py-10 text-3xl text-white">Delivering Superior Content Writing Services Since 2012</div>
                                         <div className="py-4 px-2 lg:flex lg:justify-around">
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-mono">12k</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Keywords</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-mono">10</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Years</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">$4m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Ad Spend</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">23</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Industries</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-8 py-2 text-6xl text-sky-300 font-sans">$60m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Sales</div>
+                                                <div className="px-8 py-2 text-6xl text-sky-300 font-sans">26</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Countries</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">120m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Community Members</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">1100+</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Clients</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">500m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Emails</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">13m</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Words</div>
                                             </div>
                                         </div>
                                         
@@ -576,7 +328,7 @@ const ResumeWritingPage = () => {
                         <div>
                             <div className="flex flex-col lg:flex-row">
                                 <div className="lg:w-1/2 px-4 py-14">
-                                    <div className="pb-4 text-center text-3xl text-sptheme-darkgreen">Start Your Custom Digital Marketing Project in 4 Easy Steps</div>
+                                    <div className="pb-4 text-center text-3xl text-sptheme-darkgreen">Start Your Custom Resume Writing Project in 4 Easy Steps</div>
                                     <div>
                                         <div className="flex flex-col">
                                             <div className="flex flex-col items-center lg:flex-row justify-center">
@@ -589,7 +341,7 @@ const ResumeWritingPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Define Scope of Work</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Share Your Requirements</div>
                                                     </div>
                                                 </div>
                                                 <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -601,7 +353,7 @@ const ResumeWritingPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Mutually Decide the Payment Terms</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Mutually Decide the Budgeting</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -628,7 +380,7 @@ const ResumeWritingPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Start the Project Immediately</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Start the Project</div>
                                                     </div>  
                                                 </div>   
                                             </div>
@@ -653,79 +405,29 @@ const ResumeWritingPage = () => {
                             <div>
                                 <div className='lg:px-40 py-10 font-serif '>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>I have a specific requirements which is not covered in any of the packages mentioned above? Can you help me with it?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>Yes. Please talk to us and we will prepare a custom digital marketing plan for you.</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Can I use the same resume for multiple jobs?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>The answer is Yes and No, both. Based on the companies you apply for, it may vary. If you want to apply for identical jobs in the same industry, you may go ahead and use the same resume. However, if the jobs or industry patterns vary, it is highly recommended to customize resume to match with the specific industry.</div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>How do you support global clients?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>We use the latest technology to streamline communication between our experts and the partners. Our team works 24 by 7 so that we can cover clients from all regions. </div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you help with proofreading/editing my existing resume?</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>Yes, you may share your current resume with us for proofreading and betterment. We will edit and modify it with the help of our expert resume writers. </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you have experience in our industry?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Will my resume be the same as any other candidate in the industry who might avail of your services too?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We have been offering result-oriented digital marketing services to our clients since 2012. We have served more than 1200 clients from almost all industries.
-                                            Please tell us your area of business so that we can share a relevant industry-specific portfolio with you.
+                                            Definitely not. We understand how important it is to stand out in a crowd and that is something that sets us apart. We draft each resume differently catering to the needs and aims of a particular candidate. Even though a resume is not the only criteria for selection and personal interviews have a major role to play in the process, we do make sure each resume is unique and candidate-specific.
                                         </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>What do you need from our side to get started?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>What are your total years of experience in this field?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Depending on the nature of services, we share a questionnaire. We also prefer to have a quick meeting after the client fills up the questionnaire. 
-                                            We understand that our clients are super busy in growing their business. Therefore, we utilize our domain expertise to recommend suitable solutions to our clients. However, we do need business-specific information (that we collect through questionnaire) to start the project.
+                                            We have been helping candidates grow in their careers with the most efficiently drafted resumes since 2012.
                                         </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>How much time will you take to get the work started?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Can you share any sample resumes?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We start the work as soon as clients fill up the questionnaire and send us the business-specific information. In some cases, where technical expertise (such as creating landing pages, etc.) is needed, we may take around 5-7 working days to start the campaign.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you have an in-house team?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Yes. We have a dedicated an in-house team of digital marketing, copywriting and technical experts who will handle your campaign on a day-to-day basis. However, in some cases we do hire domain experts to offer niche requirements from a highly specialized work area.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>When do you share digital marketing campaign performance reports?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            The frequency of campaign performance reports depends on the individual project. We inform the client in advance about the same. However, in most of the cases, we make a comprehensive monthly report and a weekly progress report to seek client’s feedback.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Can you show a sample report?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Please contact us so that we can share a sample work report that we have done for a client in your industry.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>How much return can I expect from our marketing investment?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            The return on marketing investment depends on the products/services we advertise. Some of our clients have reported even 500% return on their ad spend. Tell us more about your offerings so that we can estimate the return on your ad spend.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Will you write content or we have to provide it?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We have a team of experienced copywriters who will write the ad copy. They will also proofread the web content or rewrite it from scratch if required. The cost of content developed needed to run a campaign is covered in the packages mentioned above.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Who will design creatives?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Our in-house creative designing team will  handle all designing tasks.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>What are your payment terms?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            For retainership based projects, 50% of the campaign management fee is to be paid in advance while remaining at the end of the month. For a milestone-based payment system, the advance payment to be made for every milestone.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>What is your refund policy?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We spend countless hours to ensure the best outcome from our digital marketing campaigns. Also, we maintain full transparency with our clients in everything we do. Therefore, once the project is initiated, refunds can’t be made. However, any advance made towards unavailed services can be utilized in future projects. There is no expiry date for availing the services against advance payments made.
+                                            Yes, you may send request for the same and we would be happy to help you with sample resumes.
                                         </div>
                                     </div>
                                 </div>

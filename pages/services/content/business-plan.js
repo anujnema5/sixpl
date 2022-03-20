@@ -9,7 +9,7 @@ const BusinessPlanPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Business Plan Service</title>
+                <title>Business Plan Writer | Business Plan Writing Services</title>
             </Head>
             <main>
                 <div>
@@ -17,14 +17,14 @@ const BusinessPlanPage = () => {
                         <div className=' flex flex-col text-white bg-cover bg-[url(/images/dm-icons/pngtopheader.png)]'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
-                                    <h1 className="text-4xl py-4">Generate More Leads at Lower Costs</h1>
-                                    <p className="text-2xl py-2">Avail a range of customized digital marketing services designed to win your prospects' trust</p>
+                                    <h1 className="text-4xl py-4">Hire a Business Plan Writer to Capture the Essence of Your Business in a Compelling Way!</h1>
+                                    <p className="text-2xl py-2">Avail a range of business plan writing services to achieve your business goals</p>
                                 </div>
                             </div>
                             <div>
                                 <div className="flex flex-col lg:flex-row">
                                     <div className="lg:w-1/2 px-4 py-14">
-                                        <div className="pb-4 text-center text-3xl">Hire #1 Digital Marketing Agency</div>
+                                        <div className="pb-4 text-center text-3xl">Avail Business Plan Writing Services</div>
                                         <div>
                                             <div className="flex flex-col">
                                                 <div className="flex flex-col items-center lg:flex-row justify-center">
@@ -42,7 +42,7 @@ const BusinessPlanPage = () => {
                                                                     <line x1="19" y1="19" x2="11" y2="19" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">24*7 Instant Support</div>
+                                                            <div className="py-2 text-2xl">Secure Funding</div>
                                                         </div>
                                                     </div>
                                                     <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -58,7 +58,7 @@ const BusinessPlanPage = () => {
                                                                     <path d="M5 15v1m0 -8v1" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">65% Increase in Conversion Rate</div>
+                                                            <div className="py-2 text-2xl">Gen an Entreprenueiral Visa</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -75,7 +75,7 @@ const BusinessPlanPage = () => {
                                                                     <line x1="17" y1="15" x2="17" y2="15.01" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">Build an Engaged Community around Your Brand</div>
+                                                            <div className="py-2 text-2xl">Business Plan to Open Bank Accounts</div>
                                                         </div>
                                                     </div>
                                                     <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -92,7 +92,7 @@ const BusinessPlanPage = () => {
                                                                     <line x1="17.3" y1="17.8" x2="14.5" y2="15.8" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">Integrated Campaign across Multiple Platforms</div>
+                                                            <div className="py-2 text-2xl">Business Plan to Guide Your Team</div>
                                                         </div>  
                                                     </div>   
                                                 </div>
@@ -108,28 +108,12 @@ const BusinessPlanPage = () => {
                                 </div>
                             </div>
                         </div>
-                        <div>
-                            <div className="flex flex-col font-serif">
-                                <div className="flex flex-col px-4 py-8 items-center text-center">
-                                    <div className="text-3xl py-4 text-sptheme-darkgreen">Some of Our Clients</div>
-                                    <div className="text-2xl py-2">From Solopreneurs to Industry Leaders & Governments - SixPL has partnered with Businesses of all Sizes</div>
-                                </div>
-                                <div>
-                                    <div className="flex flex-col py-4 lg:flex-row items-center justify-center">
-                                        <div><Image src="/images/clients-logos/ministry-of-ayush-logo-400-200.svg" width={300} height={150} /></div>
-                                        <div><Image src="/images/clients-logos/tech-mahindra-logo-400-200.svg" width={300} height={150} /></div>
-                                        <div><Image src="/images/clients-logos/oyo-logo-400-200.svg" width={300} height={150} /></div>
-                                        <div><Image src="/images/clients-logos/exide-life-insurance-logo-400-200.svg" width={300} height={150} /></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
                         <div className='  '>
                             <div className="flex flex-col font-serif">
                                 <div>
                                     <div className="flex flex-col px-4 py-8 items-center text-center ">
-                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Promote Your Brand where Customers Are</h2>
-                                        <p className="text-2xl py-2">Let our Experts Maximize Responses from Every Marketing Channel</p>
+                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Get All the Elements of a Business Plan Required to Fuel Your Business</h2>
+                                        <p className="text-2xl py-2">Let our Experts Business Plan Writers Craft a Real Business Plan with Accurate Forecasting</p>
                                     </div>
                                 </div>
                                 <div>
@@ -146,7 +130,7 @@ const BusinessPlanPage = () => {
                                                             <line x1="21" y1="21" x2="15" y2="15" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Search Engine Optimization</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Business Analysis</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -160,7 +144,7 @@ const BusinessPlanPage = () => {
                                                             <path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Social Media Optimization</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Extensive Research</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -174,7 +158,7 @@ const BusinessPlanPage = () => {
                                                             <path d="M10 13v1m0 -8v1" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Google Ads</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Business Forecasting</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -188,7 +172,7 @@ const BusinessPlanPage = () => {
                                                             <path d="M10 9l5 3l-5 3z" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">YouTube Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Budgeting & Business Planning</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52">
@@ -201,7 +185,7 @@ const BusinessPlanPage = () => {
                                                         </svg>
 
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Email Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Feasibility Study</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -212,7 +196,7 @@ const BusinessPlanPage = () => {
                                                             <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Facebook Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Go-to-market Strategy</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -227,7 +211,7 @@ const BusinessPlanPage = () => {
                                                             <line x1="16.5" y1="7.5" x2="16.5" y2="7.501" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Instagram Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Human Resource Planning</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -240,7 +224,7 @@ const BusinessPlanPage = () => {
                                                             <path d="M16 7h4" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Content Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Accurate Assumptions</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -255,7 +239,7 @@ const BusinessPlanPage = () => {
                                                             <path d="M16 16v-3a2 2 0 0 0 -4 0" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">LinkedIn Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Solid Pitch Deck</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -268,7 +252,7 @@ const BusinessPlanPage = () => {
                                                             <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Twitter Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">One Pager Summary</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -284,7 +268,7 @@ const BusinessPlanPage = () => {
                                                             <circle cx="8.5" cy="15.5" r="4.5" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Affiliate Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Business Plan Designing</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -301,241 +285,9 @@ const BusinessPlanPage = () => {
                                                             <line x1="13" y1="18" x2="13" y2="21" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Blockchain & Crypto Marketing</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Compelling Executive Summary</div>
                                                 </div>
                                             </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div className='bg-sky-50 rounded-2xl'>
-                            <div className='flex flex-col font-serif'>
-                                <div>
-                                    <div className="flex flex-col px-4 py-8 items-center text-center ">
-                                        <h2 className="text-3xl py-4 text-sptheme-darkgreen">Predictable & Transparent Pricing Structure</h2>
-                                        <p className="text-2xl py-2">Flexible pricing plans for all businesses</p>
-                                        <p className="text-2xl py-2">Do you have specific requirements? Talk to us to get customized plan for your business.</p>
-                                        <p className="text-2xl py-2 font-semibold">*GST(18%) will be applicable on all plans.</p>
-                                    </div>
-                                </div>
-                                <div>
-                                    <div className='flex flex-col items-center lg:flex-row justify-center text-center py-14 lg:px-24'>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
-                                            <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Starter</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>35,000</div>
-                                                </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
-                                            </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 Facebook Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 Instagram Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 LinkedIn Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 Twitter Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>YouTube Posts</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Keywords</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Citations</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>40 Backlinks</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 SEO Optimized Blogs</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 6 Sites</div>
-                                                    
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>500 Subscribers/Contacts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 Email Campaign</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>0 Google Ads Campaign</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 Facebook / Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>LinkedIn Paid Campaign</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Twitter Paid Campaign</div>
-                                                </div>
-                                            </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
-                                        </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
-                                            <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Standard</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>65,000</div>
-                                                </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
-                                            </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 Facebook Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 Instagram Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 LinkedIn Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>20 Twitter Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 YouTube Post</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>10 Keywords</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>15 Citations</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>100 Backlinks</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>4 SEO Optimized Blogs</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 12 Sites</div>
-                                                    
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2000 Subscribers/Contacts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 Email Campaigns</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>1 Google Ads Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 Facebook/Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 LinkedIn Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>2 Twitter Paid Campaigns</div>
-                                                </div>
-                                            </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
-                                        </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
-                                            <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Plus</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>85,000</div>
-                                                </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
-                                            </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 Facebook Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 Instagram Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 LinkedIn Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>30 Twitter Posts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>4 YouTube Post</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>25 Keywords</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>All On-Page Features Included</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>25 Citations</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>250 Backlinks</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>8 SEO Optimized Blogs</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Featured Image for Each Blog</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Each Blog Promoted on 32 Sites</div>
-                                                    
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5000 Subscribers/Contacts</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>4 Email Campaigns</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Google Ads Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Facebook/Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 LinkedIn Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>5 Twitter Paid Campaigns</div>
-                                                </div>
-                                            </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-b-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
-                                        </div>
-                                        <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
-                                            <div className='flex flex-col items-center text-white'>
-                                                <div className='p-2 bg-sptheme-darkgreen text-xl w-full rounded-t-lg'>Customized</div>
-                                                <div className='pt-4 flex flex-row justify-center items-center w-full bg-slate-800'>
-                                                    <div>
-                                                        <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
-                                                        </svg>
-                                                    </div>
-                                                    <div className='text-4xl font-sans'>Custom</div>
-                                                </div>
-                                                <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
-                                            </div>
-                                            <div className='w-full'>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Social Media Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Search Engine Optimization</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized On-Page Features</div>
-                                                    <div className='p-1 border-b-2 border-slate-300 font-semibold'>Off-Page SEO</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Content Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    
-                                                </div>
-                                                <div className='bg-slate-100 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Email Marketing</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Customized</div>
-                                                </div>
-                                                <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Google Ads Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Facebook/Instagram Paid Ad Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom LinkedIn Paid Campaigns</div>
-                                                    <div className='p-1 border-b-2 border-slate-300'>Custom Twitter Paid Campaigns</div>
-                                                </div>
-                                            </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
                                         </div>
                                     </div>
                                 </div>
@@ -545,27 +297,27 @@ const BusinessPlanPage = () => {
                             <div>
                                 <div className="py-10 font-serif bg-slate-900">
                                     <div className="p-4 flex flex-col justify-center text-center">
-                                        <div className="px-2 py-10 text-3xl text-white">Delivering Superior Performance Since 2012</div>
+                                        <div className="px-2 py-10 text-3xl text-white">Delivering Superior Plan Writing Services Since 2012</div>
                                         <div className="py-4 px-2 lg:flex lg:justify-around">
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-mono">12k</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Keywords</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-mono">10</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Years</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">$4m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Ad Spend</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">16</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Industries</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-8 py-2 text-6xl text-sky-300 font-sans">$60m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Sales</div>
+                                                <div className="px-8 py-2 text-6xl text-sky-300 font-sans">135</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Entreprenueiral Visas</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">120m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Community Members</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">465</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Business Plans</div>
                                             </div>
                                             <div className="px-2 py-8 flex flex-col justify-center">
-                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">500m</div>
-                                                <div className="px-4 py-2 text-xl text-gray-100">Emails</div>
+                                                <div className="px-4 py-2 text-6xl text-sky-300 font-sans">$2.5b</div>
+                                                <div className="px-4 py-2 text-xl text-gray-100">Funds Raised</div>
                                             </div>
                                         </div>
                                         
@@ -573,10 +325,86 @@ const BusinessPlanPage = () => {
                                 </div>
                             </div>
                         </div>
+                        <div className=' bg-sky-50'>
+                            <div className=' flex flex-col lg:m-40 m-4 text-lg'>
+                                <div><h2 className='text-3xl py-8 text-sptheme-darkgreen'>Hire an expert business plan writer</h2></div>
+                                <div>
+                                    <p>
+                                        Writing a solid business plan requires more than just writing skills. Our business plan writers are domain experts in the field of Business Analysis, Research, and Management Consulting. We are well versed with the concepts of business forecasting, budgeting & business planning, feasibility study, go-to-market strategy, human resource planning, etc. <br/><br/>
+                                        We have access to premium industry reports and business insights. We use it to make fair assumptions and deliver an accurate and realistic business plan that manifests into a precise roadmap.
+                                    </p>
+                                </div>
+                                <div><h2 className='text-3xl py-8 text-sptheme-darkgreen'>Get a well-designed and organized business plan</h2></div>
+                                <div>
+                                    <p>
+                                        Numbers make better sense when presented articulately and look pleasant to the readers’ eyes. <br/><br/>
+                                        We don’t just craft an impressive business plan but also create an exceptional design to ensure maximum impact. We design images, graphs, infographics, and vital insights to increase the visual impact of your business plan. It also saves potential investors’ time as they can capture the required information in a quick glance.
+                                    </p>
+                                </div>
+                                <div><h2 className='text-3xl py-8 text-sptheme-darkgreen'>Redefine Your Investor’s Strategy with a Solid Pitch Deck</h2></div>
+                                <div>
+                                    <p>
+                                        Pitch your business idea with confidence. Get an outstanding pitch deck and boost your funding prospects. Your potential investors may not have time to read a comprehensive business plan. Thus, crafting an impactful elevator pitch is crucial to spark interest in your company, raise funds, and network with your future business partners. <br/><br/>
+                                        We cover pertinent information succinctly in the pitch deck and design a layout that resonates with your audience.
+                                    </p>
+                                </div>
+                                <div><h2 className='text-3xl py-8 text-sptheme-darkgreen'>Our Business Plan Writing Services</h2></div>
+                                <div>
+                                    <p>
+                                        Our business plan writing services are designed to help entrepreneurs, small companies, and even established organizations in turning their business ideas into reality. We combine the strategic aspects with execution challenges to craft a comprehensive document that outlines the essentials elements required to make your business successful. <br/><br/>
+                                        From Business Plans, One Pager, and Pitch Deck – avail every tool required to take your business to the next level.
+                                    </p>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div>
+                            <div className=' flex flex-col m-4 lg:m-40 bg-slate-200 font-serif rounded-2xl'>
+                                <div><h2 className=' text-3xl bg-sptheme-darkgreen py-10 px-2 text-center text-white rounded-2xl'>Our Business Plan Writing Process</h2></div>
+                                <div>
+                                    <p className='p-4 md:p-10 text-lg'>
+                                        Our business plan writing process is simple yet effective. It is designed to meet the goals in a transparent and efficient manner. We go the extra mile to maintain utmost transparency at every stage of the project. Thus, while we work in the background, the clients can track the work-in-progress in real-time and provide their valuable input to chart the project in the right direction. It offers us the added benefit of maintaining a high acceptance rate of the first draft itself
+                                    </p>
+                                </div>
+                                <div><h3 className=' text-2xl bg-gradient-to-r from-sptheme-lightgreen to-sptheme-darkgreen p-3 text-center text-white rounded-full'>Step 1 – Requirement Gathering</h3></div>
+                                <div>
+                                    <p className='p-4 md:p-10 text-lg rounded-full bg-stone-100'>
+                                        After onboarding a new client, we provide a questionnaire to capture the relevant information about your business idea. After analyzing the initial information and conducting a quick research, we set up a brief call with the client to share our understanding and expert views.
+                                    </p>
+                                </div>
+                                <div><h3 className=' text-2xl bg-gradient-to-r from-sptheme-lightgreen to-sptheme-darkgreen p-3 text-center text-white rounded-full'>Step 2 – Creating an Outline and Detailed Structure</h3></div>
+                                <div>
+                                    <p className='p-4 md:p-10 text-lg rounded-full bg-stone-100'>
+                                        We prepare a table of contents outlining the broad ideas we aim to cover in different sections of the business plan. The detailed structure allows us and the client to visualize the content expected in the business plan. Also, it helps us distribute the work among various experts such as financial analysts, researchers, and business writers.
+                                    </p>
+                                </div>
+                                <div><h3 className=' text-2xl bg-gradient-to-r from-sptheme-lightgreen to-sptheme-darkgreen p-3 text-center text-white rounded-full'>Step 3 – Preparing the First Draft</h3></div>
+                                <div>
+                                    <p className='p-4 md:p-10 text-lg rounded-full bg-stone-100'>
+                                        Upon approval of the table of contents, we proceed with developing the first draft of the document. In this step, we employ chartered accounts and financial experts to devise the budgeting and business forecasting. The financial experts also help us draft financial statements such as Balance Sheet, Profit & Loss Statement, Feasibility Analysis, Cash Flow statement, etc. <br/><br/>
+                                        The first draft includes the unedited content (except Executive Summary or Abstract), all the data and calculations in the raw format, and key insights and recommendations. 
+                                    </p>
+                                </div>
+                                <div><h3 className=' text-2xl bg-gradient-to-r from-sptheme-lightgreen to-sptheme-darkgreen p-3 text-center text-white rounded-full'>Step 4 – Revising the Business Plan (Delivering v2.0)</h3></div>
+                                <div>
+                                    <p className='p-4 md:p-10 text-lg rounded-full bg-stone-100'>
+                                        Based on the client’s feedback, we revise the first draft. Once the content is finalized, we move on to writing the Executive Summary. This step requires active involvement from the clients to ensure better output. At this stage, we do expect some iterations due to change in requirements (or putting additional information) from the client’s end.<br/><br/>
+                                        Note: At the incubation stage, the founding teams are open for new ideas. This leads to a slight change in requirements even after completion of the first draft of the business plan. Keeping that in mind, we have kept our processes flexible enough to adopt such changes and quickly refine the plan based on new developments. 
+                                    </p>
+                                </div>
+                                <div><h3 className=' text-2xl bg-gradient-to-r from-sptheme-lightgreen to-sptheme-darkgreen p-3 text-center text-white rounded-full'>Step 5 – Designing the Business Plan and Preparing the Final Draft</h3></div>
+                                <div>
+                                    <p className='p-4 md:p-10 text-lg rounded-full bg-stone-100'>
+                                        All the hard work pays off at this stage when you see the final outcome. The result is an impressive and detailed business plan that paints the exact picture of your business. Our business plan empowers you to show off your ideas to your target audience. <br/><br/>
+                                        At this stage, we finalize the content and design of your business plan. You will get an attractive PDF file and an editable version, which you can modify from your end.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
                         <div>
                             <div className="flex flex-col lg:flex-row">
                                 <div className="lg:w-1/2 px-4 py-14">
-                                    <div className="pb-4 text-center text-3xl text-sptheme-darkgreen">Start Your Custom Digital Marketing Project in 4 Easy Steps</div>
+                                    <div className="pb-4 text-center text-3xl text-sptheme-darkgreen">Start Your Custom Business Plan Writing Project in 4 Easy Steps</div>
                                     <div>
                                         <div className="flex flex-col">
                                             <div className="flex flex-col items-center lg:flex-row justify-center">
@@ -589,7 +417,7 @@ const BusinessPlanPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Define Scope of Work</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Share Business Plan Goals/Objectives</div>
                                                     </div>
                                                 </div>
                                                 <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -601,7 +429,7 @@ const BusinessPlanPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Mutually Decide the Payment Terms</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Mutually Decide the Project Budgeting</div>
                                                     </div>
                                                 </div>
                                             </div>
@@ -616,7 +444,7 @@ const BusinessPlanPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Provide Information - Fill a Questionnaire</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Fill a Questionnaire</div>
                                                     </div>
                                                 </div>
                                                 <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -628,7 +456,7 @@ const BusinessPlanPage = () => {
                                                                 <circle cx="12" cy="12" r="9" />
                                                             </svg>
                                                         </div>
-                                                        <div className="py-2 text-2xl text-gray-700">Start the Project Immediately</div>
+                                                        <div className="py-2 text-2xl text-gray-700">Start the Project</div>
                                                     </div>  
                                                 </div>   
                                             </div>
@@ -653,79 +481,43 @@ const BusinessPlanPage = () => {
                             <div>
                                 <div className='lg:px-40 py-10 font-serif '>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>I have a specific requirements which is not covered in any of the packages mentioned above? Can you help me with it?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>Yes. Please talk to us and we will prepare a custom digital marketing plan for you.</div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>How do you support global clients?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>We use the latest technology to streamline communication between our experts and the partners. Our team works 24 by 7 so that we can cover clients from all regions. </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you have experience in our industry?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>What is a Business Plan?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We have been offering result-oriented digital marketing services to our clients since 2012. We have served more than 1200 clients from almost all industries.
-                                            Please tell us your area of business so that we can share a relevant industry-specific portfolio with you.
+                                            An excellent business plan helps you through every stage of creating and running your business. You may use the business plan as a strategic document and roadmap for how to start, structure, manage and grow a new business. It is a way to think through the key elements of your business. <br/><br/>
+                                            Business plans can also help you raise funding, get visa application, and attract more business partners. With a sound business plan, you will feel confident in pitching your business to potential investors. The investors will be willing to invest their money in your business if they see a good return on their investment in your business.<br/><br/>
+                                            Thus, whether you are planning to start a new business or are already managing an organization, a business plan is a must-have tool for efficient and effective operation of your business.
                                         </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>What do you need from our side to get started?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>What are the Essential Elements of a Business Plan?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Depending on the nature of services, we share a questionnaire. We also prefer to have a quick meeting after the client fills up the questionnaire. 
-                                            We understand that our clients are super busy in growing their business. Therefore, we utilize our domain expertise to recommend suitable solutions to our clients. However, we do need business-specific information (that we collect through questionnaire) to start the project.
+                                            <ol className=' list-decimal list-outside pl-6'>
+                                                <li>Executive Summary</li>
+                                                <li>Introduction</li>
+                                                <li>About the company (Mission, Vision, Objective, Legal Structure etc.)</li>
+                                                <li>Challenges in the market</li>
+                                                <li>The product or Services</li>
+                                                <li>Market Analysis</li>
+                                                <li>Competition Analysis</li>
+                                                <li>Sales and Marketing Plan</li>
+                                                <li>Operational Details</li>
+                                                <li>Financial Projection – Profit & Loss Statement, Break-even analysis, & Balance Sheet</li>
+                                                <li>Feasibility Study – Best and Worst Case Scenarios</li>
+                                                <li>Conclusion</li>
+                                                <li>References</li>
+                                            </ol>
                                         </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>How much time will you take to get the work started?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>What are the Payment Terms?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We start the work as soon as clients fill up the questionnaire and send us the business-specific information. In some cases, where technical expertise (such as creating landing pages, etc.) is needed, we may take around 5-7 working days to start the campaign.
+                                            50% of the project budget to be paid in advance while remaining payment to be made within seven days of completing the project.
                                         </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you have an in-house team?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you have a Refund Policy?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Yes. We have a dedicated an in-house team of digital marketing, copywriting and technical experts who will handle your campaign on a day-to-day basis. However, in some cases we do hire domain experts to offer niche requirements from a highly specialized work area.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>When do you share digital marketing campaign performance reports?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            The frequency of campaign performance reports depends on the individual project. We inform the client in advance about the same. However, in most of the cases, we make a comprehensive monthly report and a weekly progress report to seek client’s feedback.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Can you show a sample report?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Please contact us so that we can share a sample work report that we have done for a client in your industry.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>How much return can I expect from our marketing investment?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            The return on marketing investment depends on the products/services we advertise. Some of our clients have reported even 500% return on their ad spend. Tell us more about your offerings so that we can estimate the return on your ad spend.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Will you write content or we have to provide it?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We have a team of experienced copywriters who will write the ad copy. They will also proofread the web content or rewrite it from scratch if required. The cost of content developed needed to run a campaign is covered in the packages mentioned above.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Who will design creatives?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Our in-house creative designing team will  handle all designing tasks.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>What are your payment terms?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            For retainership based projects, 50% of the campaign management fee is to be paid in advance while remaining at the end of the month. For a milestone-based payment system, the advance payment to be made for every milestone.
-                                        </div>
-                                    </div>
-                                    <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>What is your refund policy?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>
-                                            We spend countless hours to ensure the best outcome from our digital marketing campaigns. Also, we maintain full transparency with our clients in everything we do. Therefore, once the project is initiated, refunds can’t be made. However, any advance made towards unavailed services can be utilized in future projects. There is no expiry date for availing the services against advance payments made.
+                                            From requirement gathering to research and content development, we work hard to meet your business goal. Also, we have devised a transparent process to monitor the complete process of project development. Therefore, we don’t refund the advance amount after completion of step 2. Before step 2, we refund 80% of the advance amount (the remaining 20% is adjusted with payment gateway and other fees).
                                         </div>
                                     </div>
                                 </div>
