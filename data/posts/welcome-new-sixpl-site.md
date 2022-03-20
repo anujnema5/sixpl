@@ -5,6 +5,8 @@ date: '2022-02-21'
 
 Welcome to the new SixPL Website. 
 
+# We have redesigned our website. This is a sample blog. Please check back this section after 3 days to read the all the blogs.
+
 We revamped the site to improve site loading time and make it more usable for our target audience.
 
 **Technology Revamp**
