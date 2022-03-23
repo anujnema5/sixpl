@@ -44,7 +44,7 @@ const SecondaryNavBar = () => {
                                 </a>  
                             </div>
                             <div className="px-1">
-                                <a className="flex" href="https://wa.me/919318463840">
+                                <a className="flex" href="https://wa.me/17795452612">
                                     <div className='h-4 w-4 m-1'><Image priority height={16} width={16} src="/whatsapp-icon.svg" /></div>
                                     
                                 </a>  

@@ -50,7 +50,10 @@ const AboutUsIndexPage = () => {
                                         </tr>
                                         <tr>
                                             <td className='pr-4 py-2'>Address</td>
-                                            <td className='pl-4 py-2'>M 138, 2nd Floor, Connaught Place, New Delhi - 110001</td>
+                                            <td className='pl-4 py-2'>
+                                                <span className=' font-semibold'>USA</span> - 16192 Coastal Highway, Lewes, DE, 19958 <br/>
+                                                <span className=' font-semibold'>India</span> - M 138, 2nd Floor, Connaught Place, New Delhi, 110001
+                                            </td>
                                         </tr>
                                         <tr>
                                             <td className='pr-4 py-2'>GSTN</td>
