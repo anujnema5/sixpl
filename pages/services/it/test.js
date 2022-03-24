@@ -6,7 +6,7 @@ const ITTestPage = () => {
     return(
         <Layout>
             
-                <div className=' relative block'>
+                <div className=' relative '>
                     <Image priority src='/images/dm-icons/pngtopheader.png' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
                     <div className=' relative z-10 flex flex-col text-white'>
                             <div>

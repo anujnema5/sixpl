@@ -6,12 +6,15 @@ import { useState } from 'react'
 const ContactFormVertical = () => {
 
     const [errMsg, setErrMsg] = useState('')
+    const [disable, setDisable] = useState(false)
 
     const router = useRouter()
     
 
     const onSubmitHandler = async (e) => {
         e.preventDefault()
+        setDisable(true)
+        
 
         const body = {
             serviceUrl: router.pathname,
@@ -32,6 +35,7 @@ const ContactFormVertical = () => {
 
             if (res.status === 201) {
                 console.log(router.pathname)
+                setDisable(false)
                 Router.push('/thank-you')
             } else {
                 throw new Error(await res.text())
@@ -68,7 +72,7 @@ const ContactFormVertical = () => {
                         </label>   
                     </div>
                     <div className="p-2">
-                        <button type="submit" className="py-2 px-8 text-xl bg-slate-50 rounded-lg hover:bg-orange-400 hover:text-white hover:px-10">Get Started Now</button>
+                        <button type="submit" disabled={disable} className="py-2 px-8 text-xl bg-slate-50 rounded-lg hover:bg-orange-400 hover:text-white hover:px-10">Get Started Now</button>
                     </div>
                     <div>
                         <p className=' text-red-700'>{errMsg}</p>
