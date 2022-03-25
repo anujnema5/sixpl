@@ -7,18 +7,21 @@ const ITTestPage = () => {
         <Layout>
             
                 <div className=' relative '>
+                    
                     <Image priority src='/images/dm-icons/top-background.svg' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
+                
+                 
                     <div className=' relative z-10 flex flex-col text-white'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
-                                    <h1 className="text-4xl py-4">Generate More Leads at Lower Costs</h1>
-                                    <p className="text-2xl py-2">Avail a range of customized digital marketing services designed to win your prospects' trust</p>
+                                    <h1 className="text-4xl py-4">This is the test laboratory page of SixPL</h1>
+                                    <p className="text-2xl py-2">Whatever you see here is only for the purpose of test. Any changes are made here first and then implemented across site.</p>
                                 </div>
                             </div>
                             <div>
                                 <div className="flex flex-col lg:flex-row">
                                     <div className="lg:w-1/2 px-4 py-14">
-                                        <div className="pb-4 text-center text-3xl">Hire #1 Digital Marketing Agency</div>
+                                        <div className="pb-4 text-center text-3xl">Let's Try all changes here</div>
                                         <div>
                                             <div className="flex flex-col">
                                                 <div className="flex flex-col items-center lg:flex-row justify-center">
@@ -36,7 +39,7 @@ const ITTestPage = () => {
                                                                     <line x1="19" y1="19" x2="11" y2="19" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">24*7 Instant Support</div>
+                                                            <div className="py-2 text-2xl">Featire 1 - A brief Diescription of Feature 1</div>
                                                         </div>
                                                     </div>
                                                     <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -52,7 +55,7 @@ const ITTestPage = () => {
                                                                     <path d="M5 15v1m0 -8v1" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">65% Increase in Conversion Rate</div>
+                                                            <div className="py-2 text-2xl">Featire 2 - A brief Diescription of Feature 2</div>
                                                         </div>
                                                     </div>
                                                 </div>
@@ -69,7 +72,7 @@ const ITTestPage = () => {
                                                                     <line x1="17" y1="15" x2="17" y2="15.01" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">Build an Engaged Community around Your Brand</div>
+                                                            <div className="py-2 text-2xl">Featire 3 - A brief Diescription of Feature 3</div>
                                                         </div>
                                                     </div>
                                                     <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -86,7 +89,7 @@ const ITTestPage = () => {
                                                                     <line x1="17.3" y1="17.8" x2="14.5" y2="15.8" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">Integrated Campaign across Multiple Platforms</div>
+                                                            <div className="py-2 text-2xl">Featire 4 - A brief Diescription of Feature 4</div>
                                                         </div>  
                                                     </div>   
                                                 </div>
