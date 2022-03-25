@@ -14,13 +14,15 @@ const ResumeWritingPage = () => {
             <main>
                 <div>
                     <div className="flex flex-col font-serif">
-                        <div className=' flex flex-col text-white bg-cover bg-[url(/images/dm-icons/pngtopheader.png)]'>
-                            <div>
-                                <div className="flex flex-col px-4 py-8 items-center text-center">
-                                    <h1 className="text-4xl py-4">Grab Your Dream Job With a Perfect Resume</h1>
-                                    <p className="text-2xl py-2">Showcase Your Experience, Skills, & Expertise in a Compelling Way</p>
+                        <div className=' relative'>
+                            <Image priority src='/images/dm-icons/top-background.svg' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
+                            <div className=' relative z-10 flex flex-col text-white'>
+                                <div>
+                                    <div className="flex flex-col px-4 py-8 items-center text-center">
+                                        <h1 className="text-4xl py-4">Grab Your Dream Job With a Perfect Resume</h1>
+                                        <p className="text-2xl py-2">Showcase Your Experience, Skills, & Expertise in a Compelling Way</p>
+                                    </div>
                                 </div>
-                            </div>
                             <div>
                                 <div className="flex flex-col lg:flex-row">
                                     <div className="lg:w-1/2 px-4 py-14">
@@ -106,6 +108,7 @@ const ResumeWritingPage = () => {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         </div>
                         <div className='  '>

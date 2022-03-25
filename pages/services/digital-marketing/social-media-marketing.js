@@ -14,7 +14,9 @@ const SocialMediaMarketingPage = () => {
             <main>
                 <div>
                     <div className="flex flex-col font-serif">
-                        <div className=' flex flex-col text-white bg-cover bg-[url(/images/dm-icons/pngtopheader.png)]'>
+                        <div className=' relative'>
+                            <Image priority src='/images/dm-icons/top-background.svg' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
+                            <div className=' relative z-10 flex flex-col text-white'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
                                     <h1 className="text-4xl py-4">Get More Customers & Turn them into Brand Advocates</h1>
@@ -106,6 +108,7 @@ const SocialMediaMarketingPage = () => {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         </div>
                         <div>

@@ -14,7 +14,9 @@ const ReactDevelopersPage = () => {
             <main>
                 <div>
                     <div className="flex flex-col font-serif">
-                        <div className=' flex flex-col text-white bg-cover bg-[url(/images/dm-icons/pngtopheader.png)]'>
+                        <div className=' relative'>
+                            <Image priority src='/images/dm-icons/top-background.svg' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
+                            <div className=' relative z-10 flex flex-col text-white'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
                                     <h1 className="text-4xl py-4">Hire Top Reactjs Developers on a Part-time, Full-time, or Hourly basis</h1>
@@ -106,6 +108,7 @@ const ReactDevelopersPage = () => {
                                         </div>
                                     </div>
                                 </div>
+                            </div>
                             </div>
                         </div>
                         <div>

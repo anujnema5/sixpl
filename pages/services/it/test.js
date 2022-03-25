@@ -7,7 +7,7 @@ const ITTestPage = () => {
         <Layout>
             
                 <div className=' relative '>
-                    <Image priority src='/images/dm-icons/pngtopheader.png' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
+                    <Image priority src='/images/dm-icons/top-background.svg' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
                     <div className=' relative z-10 flex flex-col text-white'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">

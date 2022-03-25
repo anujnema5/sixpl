@@ -14,7 +14,9 @@ const HireDevelopersPage = () => {
             <main>
                 <div>
                     <div className="flex flex-col font-serif">
-                    <div className=' flex flex-col text-white bg-gradient-to-br from-sptheme-lightgreen to-sptheme-darkgreen'>
+                    <div className=' relative'>
+                        <Image priority src='/images/dm-icons/top-background.svg' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
+                        <div className=' relative z-10 flex flex-col text-white'>
                                 <div>
                                     <div className="flex flex-col px-4 py-8 items-center text-center">
                                         <h1 className="text-4xl py-4">Hire Front-End, Back-End or Full-Stack Developers</h1>
@@ -107,7 +109,8 @@ const HireDevelopersPage = () => {
                                         </div>
                                     </div>
                                 </div>
-                            </div>    
+                        </div> 
+                    </div>
                         
                         <div>
                             <div className="flex flex-col font-serif">
