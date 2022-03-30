@@ -9,7 +9,9 @@ const NextJSDevelopmentPage = () => {
     return (
         <Layout>
             <Head>
-                <title>NextJS Development Services</title>
+                <title>Hire a Next JS Developer | Get Next JS Support - SixPL</title>
+                <meta name="description" content="Build a Next JS Full Stack Progressive Web App Now. Hire a top Next JS Development Company and get reliable Next JS services & Deployment Solutions. SixPL"/>
+                <meta name='og:image' content='/images/it/nextjs/nextjs-development.jpeg' />
             </Head>
             <main>
                 <div>
@@ -19,8 +21,8 @@ const NextJSDevelopmentPage = () => {
                             <div className=' relative z-10 flex flex-col text-white'>
                             <div>
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
-                                    <h1 className="text-4xl py-4">Build Blazing Fast Applications with NextJS</h1>
-                                    <p className="text-2xl py-2">Use Modern React Framework to Build Modern, Powerful, Secure, Fast, & Progressive Web Applications. </p>
+                                    <h1 className="text-4xl py-4">Hire the Bext Next JS Developers and Build Next JS Full Stack Apps</h1>
+                                    <p className="text-2xl py-2">Use Next Js, a React Framework to Build Modern, Powerful, Secure, Fast, & Progressive Web App! </p>
                                 </div>
                             </div>
                             <div>
@@ -44,7 +46,7 @@ const NextJSDevelopmentPage = () => {
                                                                     <line x1="19" y1="19" x2="11" y2="19" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">24*7 Support & Maintenance Services</div>
+                                                            <div className="py-2 text-2xl">24*7 Next JS Support</div>
                                                         </div>
                                                     </div>
                                                     <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -77,7 +79,7 @@ const NextJSDevelopmentPage = () => {
                                                                     <line x1="17" y1="15" x2="17" y2="15.01" />
                                                                 </svg>
                                                             </div>
-                                                            <div className="py-2 text-2xl">Full-stack NextJS Development & Deployment Services</div>
+                                                            <div className="py-2 text-2xl">Next JS Full Stack Development & Deployment Services</div>
                                                         </div>
                                                     </div>
                                                     <div className="px-4 py-4 lg:w-1/2 lg:h-52">
@@ -115,7 +117,7 @@ const NextJSDevelopmentPage = () => {
                             <div className="flex flex-col font-serif">
                                 <div className="flex flex-col px-4 py-8 items-center text-center">
                                     <div className="text-3xl py-4 text-sptheme-darkgreen">Some of Our Clients</div>
-                                    <div className="text-2xl py-2">Our NextJS experts have delivered high-performing apps to all size of businesses</div>
+                                    <div className="text-2xl py-2">Our NextJS developers have delivered high-performing Next JS progress web apps to all size of businesses</div>
                                 </div>
                                 <div>
                                     <div className="flex flex-col py-4 lg:flex-row items-center justify-center">
@@ -149,7 +151,7 @@ const NextJSDevelopmentPage = () => {
                                                             <line x1="21" y1="21" x2="15" y2="15" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Full-stack Solutions</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Next JS Full-stack App Solutions</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -163,7 +165,7 @@ const NextJSDevelopmentPage = () => {
                                                             <path d="M15 22v-4h-2l2 -6a1 1 0 0 1 1 -1h2a1 1 0 0 1 1 1l2 6h-2v4" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">AWS Deployment</div>
+                                                    <div className="py-2 text-2xl text-gray-700">Vercel Deployment</div>
                                                 </div>
                                             </div>
                                             <div className="px-4 py-4 lg:w-1/3 lg:h-52 ">
@@ -304,7 +306,7 @@ const NextJSDevelopmentPage = () => {
                                                             <line x1="13" y1="18" x2="13" y2="21" />
                                                         </svg>
                                                     </div>
-                                                    <div className="py-2 text-2xl text-gray-700">Ecommerce Development</div>
+                                                    <div className="py-2 text-2xl text-gray-700">AWS Deployment</div>
                                                 </div>
                                             </div>
                                         </div>
@@ -425,7 +427,7 @@ const NextJSDevelopmentPage = () => {
                                 <div className='lg:px-40 py-10 font-serif '>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
                                         <div className='font-semibold py-2 px-4 text-stone-800'>What is the benefit of NextJS for my business?</div>
-                                        <div className='text-lg py-2 px-4 text-gray-700'>With the rising need for fast, secure, stable and search engine friendly applications, NextJS will provide powerful solutions with server-side rendering. Dynamic web framework, better data management, reusable components, and resourceful UIs are the advantages of incorporating NextJS.</div>
+                                        <div className='text-lg py-2 px-4 text-gray-700'>With the rising need for fast, secure, stable and search engine friendly applications, Next JS will provide powerful solutions with server-side rendering. Dynamic web framework, better data management, reusable components, and resourceful UIs are the advantages of incorporating NextJS.</div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
                                         <div className='font-semibold py-2 px-4 text-stone-800'>Can you make integrations to existing projects?</div>
@@ -442,11 +444,12 @@ const NextJSDevelopmentPage = () => {
                                         </div>
                                     </div>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
-                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you provide support & maintenance services?</div>
+                                        <div className='font-semibold py-2 px-4 text-stone-800'>Do you provide Next JS support & maintenance services?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>
-                                            Yes. We offer 24*7 support and also perform application maintenance based on the engagement timeline.
+                                            Yes. We offer 24*7 Next JS support and also perform application maintenance based on the engagement timeline.
                                         </div>
                                     </div>
+                                    
                                 </div>
                             </div>
                         </div>
