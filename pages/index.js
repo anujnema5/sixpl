@@ -9,7 +9,7 @@ const Home = () => {
       <Head>
         <title>SixPL - IT Services | Blockchain | Digital Marketing | Content</title>
         <meta name="description" content="SixPL is a global provider of IT, Blockchain, Digital Marketing & Content Writing Services. Established in 2012, SixPL has offices in USA and India."/>
-        <meta name="image" property='og:image' content='/og-images/sixpl-home.jpg' />
+        <meta name="image" property='og:image' content='https://www.sixpl.com/og-images/sixpl-home.jpg' />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name='twitter:title' content='SixPL - IT Services | Blockchain | Digital Marketing | Content'/>
         
