@@ -11,7 +11,8 @@ const Home = () => {
         <meta name="description" content="SixPL is a global provider of IT, Blockchain, Digital Marketing & Content Writing Services. Established in 2012, SixPL has offices in USA and India."/>
         <meta name="image" property='og:image' content='/og-images/sixpl-home.jpg' />
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name='title' property='og:title' content='SixPL is a global provider of IT, Blockchain, Digital Marketing & Content Writing Services. Established in 2012, SixPL has offices in USA and India.'/>
+        <meta name='twitter:title' content='SixPL - IT Services | Blockchain | Digital Marketing | Content'/>
+        
         
         <link rel="icon" href="/favicon.ico" />
       </Head>
