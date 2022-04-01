@@ -11,8 +11,11 @@ const NextJSDevelopmentPage = () => {
             <Head>
                 <title>Hire a Next JS Developer | Get Next JS Support - SixPL</title>
                 <meta name="description" content="Build a Next JS Full Stack Progressive Web App Now. Hire a top Next JS Development Company and get reliable Next JS services & Deployment Solutions. SixPL"/>
-                <meta name='og:image' content='/images/it/nextjs/nextjs-development.jpeg' />
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/it/nextjs-development.jpg' />
                 <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Hire a Next JS Developer | Get Next JS Support - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/it/nextjs-development.jpg' />
+                <meta name='twitter:description' content='Build a Next JS Full Stack Progressive Web App Now. Hire a top Next JS Development Company and get reliable Next JS services & Deployment Solutions. SixPL'/>
             </Head>
             <main>
                 <div>

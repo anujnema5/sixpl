@@ -9,7 +9,13 @@ const NodeJSDevelopmentPage = () => {
     return (
         <Layout>
             <Head>
-                <title>NodeJS Development Service</title>
+                <title>Nodejs Development Company - SixPL</title>
+                <meta name="description" content="Get Node js development services. Work with experienced nodejs developers. Microservices, real-time, asynchronous, event-driven JavaScript development."/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/it/nodejs-development.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Nodejs Development Company - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/it/nodejs-development.jpg' />
+                <meta name='twitter:description' content='Get Node js development services. Work with experienced nodejs developers. Microservices, real-time, asynchronous, event-driven JavaScript development.'/>
             </Head>
             <main>
                 <div>
