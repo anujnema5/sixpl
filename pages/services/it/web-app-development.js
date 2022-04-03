@@ -9,7 +9,13 @@ const WebAppDevelopmentPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Web App Development Service</title>
+                <title>Web Application Development Company - SixPL</title>
+                <meta name="description" content="Build real-time, secure & fast web applications with our web development services. Hire web apps developer instantly. Avail app development services - SixPL"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/it/web-application-development-company.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Web Application Development Company - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/it/web-application-development-company.jpg' />
+                <meta name='twitter:description' content='Build real-time, secure & fast web applications with our web development services. Hire web apps developer instantly. Avail app development services - SixPL'/>
             </Head>
             <main>
                 <div>

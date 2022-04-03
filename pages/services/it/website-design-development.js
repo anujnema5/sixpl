@@ -9,7 +9,13 @@ const WebsiteDevelopmentPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Website Design & Development Service</title>
+                <title>Web Design & Development Company - SixPL</title>
+                <meta name="description" content="Avail web design & development services. Hire top website development company & avail quality web development services 24*7. Get all website design services."/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/it/web-design-development-company.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Web Design & Development Company - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/it/web-design-development-company.jpg' />
+                <meta name='twitter:description' content='Avail web design & development services. Hire top website development company & avail quality web development services 24*7. Get all website design services.'/>
             </Head>
             <main>
                 <div>

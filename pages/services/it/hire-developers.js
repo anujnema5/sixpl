@@ -9,7 +9,13 @@ const HireDevelopersPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Hire Developers</title>
+                <title>Hire Developers, Top 1% Web Developer - SixPL</title>
+                <meta name="description" content="Hire developers, web developer, full stack developers, front end and back end developers on a freelance, part-time or full-time basis. Flexible working hours."/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/it/hire-developers.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Hire Developers, Top 1% Web Developer - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/it/hire-developers.jpg' />
+                <meta name='twitter:description' content='Hire developers, web developer, full stack developers, front end and back end developers on a freelance, part-time or full-time basis. Flexible working hours.'/>
             </Head>
             <main>
                 <div>

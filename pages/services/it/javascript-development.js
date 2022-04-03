@@ -9,7 +9,13 @@ const JavaScriptDevelopmentPage = () => {
     return (
         <Layout>
             <Head>
-                <title>JavaScript Development Services</title>
+                <title>Javascript Development | Hire top JavaScript Developers</title>
+                <meta name="description" content="JavaScript Development company with 100+ years of accumulative JavaScript development experience. Hire front-end, backend & full-stack JavaScript developers now"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/it/javascript-development.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Javascript Development | Hire top JavaScript Developers'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/it/javascript-development.jpg' />
+                <meta name='twitter:description' content='JavaScript Development company with 100+ years of accumulative JavaScript development experience. Hire front-end, backend & full-stack JavaScript developers now'/>
             </Head>
             <main>
                 <div>
