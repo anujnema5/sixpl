@@ -9,7 +9,13 @@ const FullServiceDigitalMarketingPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Complete Digital Marketing Service</title>
+                <title>Hire #1 Digital Marketing Agency - SixPL</title>
+                <meta name="description" content="Avail quality digital marketing services from a top digital marketing agency. Generate more leads at lower cost. Check pricing & packages. 7-Days Free Trial"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/digital-marketing/digital-marketing-full-service.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Hire #1 Digital Marketing Agency - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/digital-marketing/digital-marketing-full-service.jpg' />
+                <meta name='twitter:description' content='Avail quality digital marketing services from a top digital marketing agency. Generate more leads at lower cost. Check pricing & packages. 7-Days Free Trial'/>
             </Head>
             <main>
                 <div>

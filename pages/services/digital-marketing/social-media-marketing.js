@@ -9,7 +9,13 @@ const SocialMediaMarketingPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Social Media Marketing Services</title>
+                <title>Social Media Marketing Agency | SMM Services - SixPL</title>
+                <meta name="description" content="Social media marketing services from a top social media marketing company. Get more followers, engagement, traffic & sales from our SMM services. SixPL"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/digital-marketing/social-media-optimization.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Social Media Marketing Agency | SMM Services - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/digital-marketing/social-media-optimization.jpg' />
+                <meta name='twitter:description' content='Social media marketing services from a top social media marketing company. Get more followers, engagement, traffic & sales from our SMM services. SixPL'/>
             </Head>
             <main>
                 <div>

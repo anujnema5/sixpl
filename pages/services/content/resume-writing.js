@@ -9,7 +9,13 @@ const ResumeWritingPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Resume Writing Services</title>
+                <title>Resume Writing Services | Professional Resume Writers</title>
+                <meta name="description" content="Best resume writing services from professional resume writers. Resume designing helps you craft a perfect resume for your dream job. Resume help. SixPL"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/content/resume-writing-services.jpeg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Resume Writing Services | Professional Resume Writers'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/content/resume-writing-services.jpeg' />
+                <meta name='twitter:description' content='Best resume writing services from professional resume writers. Resume designing helps you craft a perfect resume for your dream job. Resume help. SixPL'/>
             </Head>
             <main>
                 <div>

@@ -9,7 +9,13 @@ const BusinessPlanPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Business Plan Writer | Business Plan Writing Services</title>
+                <title>Business Plan Writing Services | Business Plan Writers</title>
+                <meta name="description" content="Avail business plan writing services from top business plan writers. Get a business plan for entrepreneurial visa, academic purposes or fund raising"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/content/business-plan-writing-services.jpeg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Business Plan Writing Services | Business Plan Writers'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/content/business-plan-writing-services.jpeg' />
+                <meta name='twitter:description' content='Avail business plan writing services from top business plan writers. Get a business plan for entrepreneurial visa, academic purposes or fund raising'/>
             </Head>
             <main>
                 <div>

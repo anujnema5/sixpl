@@ -8,7 +8,13 @@ const ServiceIndexPage = () => {
     return(
         <Layout>
             <Head>
-                <title>SixPL Services - Complete List of Solutions</title>
+                <title>IT, Blockchain, Digital Marketing & Content Writing Services</title>
+                <meta name="description" content="Avail superior IT, Blockchain, Digital Marketing & Content Writing Services 24*7 and across the globe. - SixPL"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/sixpl-services.jpeg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='IT, Blockchain, Digital Marketing & Content Writing Services'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/sixpl-services.jpeg' />
+                <meta name='twitter:description' content='Avail superior IT, Blockchain, Digital Marketing & Content Writing Services 24*7 and across the globe. - SixPL'/>
             </Head>
             <div className="flex justify-center bg-slate-50 font-serif">
                 <div className="px-8 pt-4 pb-2 lg:px-4">

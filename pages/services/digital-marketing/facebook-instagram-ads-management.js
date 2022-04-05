@@ -9,7 +9,13 @@ const FBInstaPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Facebook & Instagram Ads Management Services</title>
+                <title>Facebook & Instagram Ads Management Services - SixPL</title>
+                <meta name="description" content="Facebook Ads Management services designed to generate more leads & sales. Facebook & Instagram Lead generation ads. Business Manager services. SixPL"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/digital-marketing/facebook-instagram-ads-management.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Facebook & Instagram Ads Management Services - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/digital-marketing/facebook-instagram-ads-management.jpg' />
+                <meta name='twitter:description' content='Facebook Ads Management services designed to generate more leads & sales. Facebook & Instagram Lead generation ads. Business Manager services. SixPL'/>
             </Head>
             <main>
                 <div>

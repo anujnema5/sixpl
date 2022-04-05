@@ -9,7 +9,13 @@ const SearchEngineOptimizationPage = () => {
     return (
         <Layout>
             <Head>
-                <title>SEO Services</title>
+                <title>SEO Services | SEO Agency | Pricing & Packages - SixPL</title>
+                <meta name="description" content="White hat SEO services from a top SEO agency. Keyword Research, On-Page & Off-Page SEO, Link Building, Local SEO - all services covered. Get Free SEO Audit"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/digital-marketing/search-engine-optimization.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='SEO Services | SEO Agency | Pricing & Packages - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/digital-marketing/search-engine-optimization.jpg' />
+                <meta name='twitter:description' content='White hat SEO services from a top SEO agency. Keyword Research, On-Page & Off-Page SEO, Link Building, Local SEO - all services covered. Get Free SEO Audit'/>
             </Head>
             <main>
                 <div>

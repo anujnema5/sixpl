@@ -9,7 +9,13 @@ const ContentWritingPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Content Writing Service</title>
+                <title>Content Writing Services | Content Writing Agency - SixPL</title>
+                <meta name="description" content="Hire #1 content writing agency. Get all types of content writing services. Hire content writers who are subject matter experts. 100% original content"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/content/content-writing-services.jpeg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Content Writing Services | Content Writing Agency - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/content/content-writing-services.jpeg' />
+                <meta name='twitter:description' content='Hire #1 content writing agency. Get all types of content writing services. Hire content writers who are subject matter experts. 100% original content'/>
             </Head>
             <main>
                 <div>

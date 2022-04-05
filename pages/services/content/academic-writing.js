@@ -9,7 +9,13 @@ const AcademicWritingPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Academic Writing Services</title>
+                <title>Academic Writing Services - SixPL</title>
+                <meta name="description" content="Avail academic writing services and shine at university or school. Our academic services include course curriculum development, essay writing, paper writing, etc."/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/content/academic-writing.jpeg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Academic Writing Services - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/content/academic-writing.jpeg' />
+                <meta name='twitter:description' content='Avail academic writing services and shine at university or school. Our academic services include course curriculum development, essay writing, paper writing, etc.'/>
             </Head>
             <main>
                 <div>

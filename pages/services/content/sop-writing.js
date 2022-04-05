@@ -9,7 +9,13 @@ const SOPWritingPage = () => {
     return (
         <Layout>
             <Head>
-                <title>SOP Writing Services</title>
+                <title>SOP Writing Services | Hire Best SOP Writers - SixPL</title>
+                <meta name="description" content="Hire SOP writer or get Statement of Purpose writing services. Our SOP & LOR services deliver custom SOP for University of choice. Talk to SOP writers @SixPL now"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/content/sop-writing-services.jpeg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='SOP Writing Services | Hire Best SOP Writers - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/content/sop-writing-services.jpeg' />
+                <meta name='twitter:description' content='Hire SOP writer or get Statement of Purpose writing services. Our SOP & LOR services deliver custom SOP for University of choice. Talk to SOP writers @SixPL now'/>
             </Head>
             <main>
                 <div>

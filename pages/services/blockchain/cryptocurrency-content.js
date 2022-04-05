@@ -9,7 +9,13 @@ const CryptoContentPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Blockchain and Cryptocurrency Content Writer</title>
+                <title>Blockchain & Cryptocurrency Content Writer - SixPL</title>
+                <meta name="description" content="Avail blockchain & crypto content writing services and communicate your complex blockchain-based business model to the target audience. Crypto Content Services"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/blockchain/crypto-content.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Blockchain & Cryptocurrency Content Writer - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/blockchain/crypto-content.jpg' />
+                <meta name='twitter:description' content='Avail blockchain & crypto content writing services and communicate your complex blockchain-based business model to the target audience. Crypto Content Services'/>
             </Head>
             <main>
                 <div>

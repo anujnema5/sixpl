@@ -9,7 +9,13 @@ const CommunityManagementPage = () => {
     return (
         <Layout>
             <Head>
-                <title>ICO Community Management Services</title>
+                <title>ICO Community Management Services - SixPL</title>
+                <meta name="description" content="Attract, engage & monetize crypto enthusiasts through crypto ICO community management services. Discord, Telegram, Reddit - All platforms covered. SixPL"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/blockchain/ico-community-management-service.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='ICO Community Management Services - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/blockchain/ico-community-management-service.jpg' />
+                <meta name='twitter:description' content='Attract, engage & monetize crypto enthusiasts through crypto ICO community management services. Discord, Telegram, Reddit - All platforms covered. SixPL'/>
             </Head>
             <main>
                 <div>

@@ -9,7 +9,13 @@ const Web3DevelopmentPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Web3 Development Services</title>
+                <title>Hire Best Web3 Developers - SixPL</title>
+                <meta name="description" content="Hire top 1% web3 developers & launch you next project on blockchain. Build scalable & compatible decentralized apps (Dapps) today. SixPL"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/blockchain/web3-development.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Hire Best Web3 Developers - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/blockchain/web3-development.jpg' />
+                <meta name='twitter:description' content='Hire top 1% web3 developers & launch you next project on blockchain. Build scalable & compatible decentralized apps (Dapps) today. SixPL'/>
             </Head>
             <main>
                 <div>

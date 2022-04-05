@@ -9,7 +9,13 @@ const GoogleAdsManagementPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Google Ads Manaagement Services</title>
+                <title>Google Ads Management | PPC Agency | PPC Services - SixPL</title>
+                <meta name="description" content="Google Ads management services designed to generate more ROI from Google ads campaign. Avail PPC services, Remarketing Ads from top PPC agency, SixPL"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/digital-marketing/google-ads-managment.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='Google Ads Management | PPC Agency | PPC Services - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/digital-marketing/google-ads-managment.jpg' />
+                <meta name='twitter:description' content='Google Ads management services designed to generate more ROI from Google ads campaign. Avail PPC services, Remarketing Ads from top PPC agency, SixPL'/>
             </Head>
             <main>
                 <div>

@@ -9,13 +9,13 @@ const ReactDevelopersPage = () => {
     return (
         <Layout>
             <Head>
-                <title>Reactjs Development Company | Hire Reactjs Developers</title>
-                <meta name="description" content="Work with top Reactjs development company. Hire best react developers with expertise in React Hooks, Redux, Flux, Enzyme, Jest, Mocha, Webpack, etc."/>
+                <title>Hire Best React developers - SixPL</title>
+                <meta name="description" content="Hire top Reactjs developers from the best Reactjs development company. 24*7 support. Fullstack & Frontend Reactjs development services. Stable React Web Development."/>
                 <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/it/react-development.jpg' />
                 <meta name="twitter:card" content="summary_large_image"/>
-                <meta name='twitter:title' content='Reactjs Development Company | Hire Reactjs Developers'/>
+                <meta name='twitter:title' content='Hire Best React developers - SixPL'/>
                 <meta name='twitter:image' content='https://www.sixpl.com/og-images/it/react-development.jpg' />
-                <meta name='twitter:description' content='Work with top Reactjs development company. Hire best react developers with expertise in React Hooks, Redux, Flux, Enzyme, Jest, Mocha, Webpack, etc.'/>
+                <meta name='twitter:description' content='Hire top Reactjs developers from the best Reactjs development company. 24*7 support. Fullstack & Frontend Reactjs development services. Stable React Web Development.'/>
             </Head>
             <main>
                 <div>

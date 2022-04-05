@@ -9,7 +9,13 @@ const WhitePaperPage = () => {
     return (
         <Layout>
             <Head>
-                <title>ICO/IDO/IEO White Paper Writing Service</title>
+                <title>IDO, IEO, ICO Whitepaper Writing Services - SixPL</title>
+                <meta name="description" content="Get technical & marketing whitepaper writing services for your next ICO, IDO, IEO or any crypto project. Hire the best ico whitepaper writer now. SixPL"/>
+                <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/blockchain/ico-white-paper-writer.jpg' />
+                <meta name="twitter:card" content="summary_large_image"/>
+                <meta name='twitter:title' content='IDO, IEO, ICO Whitepaper Writing Services - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/blockchain/ico-white-paper-writer.jpg' />
+                <meta name='twitter:description' content='Get technical & marketing whitepaper writing services for your next ICO, IDO, IEO or any crypto project. Hire the best ico whitepaper writer now. SixPL'/>
             </Head>
             <main>
                 <div>
