@@ -66,16 +66,16 @@ const Home = () => {
                   <div className="text-2xl">IT Services</div>
                   <div className="text-lg px-8 py-4">Build Powerful, Fast Applications and Websites using React, NextJS, Tailwind CSS, Express, NodeJS, & PSQL/NoSQL tech stack.</div>
                   <div className="flex justify-center">
-                    <div className="p-1"><Link href="/services/it"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
-                    <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Contact Us</a></Link></div>
+                    <div className="p-1"><Link href="/services"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/contact-us"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Contact Us</a></Link></div>
                   </div>
                 </div>
                 <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center ">
                   <div className="text-2xl">Blockchain</div>
                   <div className="text-lg px-8 py-4">Start your next web3 project from scratch or get technical/marketing whitepaper, community management or marketing advisory services.</div>
                   <div className="flex justify-center">
-                    <div className="p-1"><Link href="/services/crypto"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
-                    <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Contact Us</a></Link></div>
+                    <div className="p-1"><Link href="/services"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/contact-us"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Contact Us</a></Link></div>
                   </div>
                 </div>
               </div>
@@ -84,16 +84,16 @@ const Home = () => {
                   <div className="text-2xl">Digital Marketing</div>
                   <div className="text-lg px-8 py-4">Be visible to people who are looking to buy your offerings and generate more leads at a lower cost within a set timeframe</div>
                   <div className="flex justify-center">
-                    <div className="p-1"><Link href="/services/digital-marketing"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
-                    <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Contact Us</a></Link></div>
+                    <div className="p-1"><Link href="/services"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/contact-us"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Contact Us</a></Link></div>
                   </div>
                 </div>
                 <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center">
                   <div className="text-2xl">Content</div>
                   <div className="text-lg px-8 py-4">Tell your unique story in a compelling way! Connect with your audience at different stages of the buying journey and boost your marketing ROI.</div>
                   <div className="flex justify-center">
-                    <div className="p-1"><Link href="/services/content"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
-                    <div className="p-1"><Link href="/pricing"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Contact Us</a></Link></div>
+                    <div className="p-1"><Link href="/services"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
+                    <div className="p-1"><Link href="/contact-us"><a className=" bg-gray-400 text-black py-1 px-4 text-lg rounded-md hover:bg-zinc-50">Contact Us</a></Link></div>
                   </div>
                 </div>
               </div>
