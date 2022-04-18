@@ -20,7 +20,7 @@ const AboutUsIndexPage = () => {
                         </div>
                         <div className='flex flex-col px-4 justify-center items-center lg:px-14 border-2 max-w-2xl rounded-xl '>
                             <div><h1 className=' text-3xl text-gray-700 py-4'>Company Overview</h1></div>
-                            <small className='pb-4'>Information updated on Feb 23, 2022</small>
+                            <small className='pb-4'>Information updated on Mar 31, 2022</small>
                             <div>
                                 <table className=' text-lg max-w-2xl'>
                                     <thead>
@@ -38,15 +38,15 @@ const AboutUsIndexPage = () => {
                                         </tr>
                                         <tr>
                                             <td className='pr-4 py-2'>Clients</td>
-                                            <td className='pl-4 py-2'>1489</td>
+                                            <td className='pl-4 py-2'>1513</td>
                                         </tr>
                                         <tr>
                                             <td className='pr-4 py-2'>Projects</td>
-                                            <td className='pl-4 py-2'>2207</td>
+                                            <td className='pl-4 py-2'>2238</td>
                                         </tr>
                                         <tr>
                                             <td className='pr-4 py-2'>Client Retention Rate</td>
-                                            <td className='pl-4 py-2'>74%</td>
+                                            <td className='pl-4 py-2'>75%</td>
                                         </tr>
                                         <tr>
                                             <td className='pr-4 py-2'>Address</td>

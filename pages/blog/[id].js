@@ -31,14 +31,14 @@ const BlogPostPage = ({ postData }) => {
             <Head>
                 <title>{postData.title}</title>
             </Head>
-            <div className='flex flex-col items-center font-serif py-10 px-6 max-w-2xl m-auto prose-li:list-disc prose-li:list-inside'>
+            <div className='flex flex-col items-center font-serif py-10 px-6 max-w-2xl m-auto prose-li:list-disc prose-li:list-outside'>
                 <div>
                     <h1 className=' text-3xl text-gray-700'>{postData.title}</h1>
                 </div>
                 <div className='py-2'>
                     <small><Date dateString={postData.date} /></small>
                 </div>
-                <div className=' text-xl text-gray-700 py-6 list-disc prose-p:py-2 prose-li:pl-6'>
+                <div className=' text-xl text-gray-700 py-6 prose-p:py-2 prose-li:ml-8'>
                     <div dangerouslySetInnerHTML={{__html: postData.contentHtml}} />
                 </div>
             </div>

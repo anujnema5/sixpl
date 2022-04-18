@@ -20,7 +20,7 @@ const Home = () => {
         <div>
           <div className="flex flex-col items-center justify-center text-center font-serif text-gray-700">
             <div className="flex flex-col flex-wrap items-center justify-center">
-              <div className="text-3xl p-4">Results Speak Louder than Promises</div>
+              <div className="text-3xl p-4"><h1>Results Speak Louder than Promises</h1></div>
               <div className="p-2"><p className="text-xl p-2">Check Our Latest Results</p></div>
             </div>            
             <div className="flex flex-col lg:flex-row items-center justify-center">
@@ -63,7 +63,7 @@ const Home = () => {
             <div className="flex flex-col w-full lg:px-16 py-8 font-serif">
               <div className="lg:flex">
                 <div className="flex flex-col p-2 lg:w-1/2 border-4 rounded-xl lg:h-96 justify-center ">
-                  <div className="text-2xl">IT Services</div>
+                  <div className="text-2xl">IT</div>
                   <div className="text-lg px-8 py-4">Build Powerful, Fast Applications and Websites using React, NextJS, Tailwind CSS, Express, NodeJS, & PSQL/NoSQL tech stack.</div>
                   <div className="flex justify-center">
                     <div className="p-1"><Link href="/services"><a className="bg-sptheme-lightgreen text-white py-1 px-4 text-lg rounded-md hover:bg-emerald-800">Learn More</a></Link></div>
