@@ -98,7 +98,7 @@ const AboutUsIndexPage = () => {
                             </p>
                             <div className=' flex justify-center'>
                                 <div className=' flex flex-col items-center justify-center py-2 px-10 my-10 bg-sptheme-darkgreen text-white max-w-lg rounded-lg sm:text-2xl hover:bg-slate-300 hover:text-slate-800 '>
-                                    <Link href="/contact-us">Start Growing</Link>
+                                    <Link href="/contact-us">Explore Possibilities</Link>
                                 </div>
                             </div>
                         </div>

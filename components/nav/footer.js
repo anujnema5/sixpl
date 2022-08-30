@@ -46,11 +46,11 @@ const Footer = () => {
                 </div>
                 <div>
                     <div className="flex justify-center">
-                        <div className="p-2"><Image src="/images/facebook-icon.svg" width="30px" height="30px" /></div>
-                        <div className="p-2"><Image src="/images/instagram-icon.svg" width="30px" height="30px" /></div>
-                        <div className="p-2"><Image src="/images/youtube-icon.svg" width="30px" height="30px" /></div>
-                        <div className="p-2"><Image src="/images/linkedin-icon.svg" width="30px" height="30px" /></div>
-                        <div className="p-2"><Image src="/images/twitter-icon.svg" width="30px" height="30px" /></div>
+                        <div className='p-2'><Link href="https://www.facebook.com/sixpl"><a><Image src="/images/facebook-icon.svg" width="30px" height="30px" /></a></Link></div>
+                        <div className='p-2'><Link href="https://www.instagram.com/sixpl_marketing/"><a><Image src="/images/instagram-icon.svg" width="30px" height="30px" /></a></Link></div>
+                        <div className='p-2'><Link href="https://www.youtube.com/channel/UCDfMPbGQKRhxafQpw20lZ9Q"><a><Image src="/images/youtube-icon.svg" width="30px" height="30px" /></a></Link></div>
+                        <div className='p-2'><Link href="https://www.linkedin.com/company/sixpl/"><a><Image src="/images/linkedin-icon.svg" width="30px" height="30px" /></a></Link></div>
+                        <div className='p-2'><Link href="https://twitter.com/SixPL"><a><Image src="/images/twitter-icon.svg" width="30px" height="30px" /></a></Link></div>
                     </div>
                 </div>
             </div>
