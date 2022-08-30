@@ -49,11 +49,11 @@ const AboutUsIndexPage = () => {
                                                 <td className='pl-4 py-2'>75%</td>
                                             </tr>
                                             <tr>
-                                                <td className='pr-4 py-2'>USA Address</td>
-                                                <td className='pl-4 py-2'>16192 Coastal Highway, Lewes, DE, 19958</td>
+                                                <td className='pr-4 py-2'>Headquarters</td>
+                                                <td className='pl-4 py-2'>16192 Coastal Highway, Lewes, Delaware, 19958</td>
                                             </tr>
                                             <tr>
-                                                <td className='pr-4 py-2'>India Address</td>
+                                                <td className='pr-4 py-2'>Delivery Center</td>
                                                 <td className='pl-4 py-2'>M 138, 2nd Floor, Connaught Place, New Delhi, 110001</td>
                                             </tr>
                                         </tbody>
