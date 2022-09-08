@@ -337,11 +337,11 @@ const FullServiceDigitalMarketingPage = () => {
                                                     <div>
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
+                                                            <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2" />
+                                                            <path d="M12 3v3m0 12v3" />
                                                         </svg>
                                                     </div>
-                                                    <div className='text-4xl font-sans'>35,000</div>
+                                                    <div className='text-4xl font-sans'>499</div>
                                                 </div>
                                                 <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
                                             </div>
@@ -391,11 +391,11 @@ const FullServiceDigitalMarketingPage = () => {
                                                     <div>
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
+                                                            <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2" />
+                                                            <path d="M12 3v3m0 12v3" />
                                                         </svg>
                                                     </div>
-                                                    <div className='text-4xl font-sans'>65,000</div>
+                                                    <div className='text-4xl font-sans'>999</div>
                                                 </div>
                                                 <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
                                             </div>
@@ -445,11 +445,11 @@ const FullServiceDigitalMarketingPage = () => {
                                                     <div>
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
+                                                            <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2" />
+                                                            <path d="M12 3v3m0 12v3" />
                                                         </svg>
                                                     </div>
-                                                    <div className='text-4xl font-sans'>85,000</div>
+                                                    <div className='text-4xl font-sans'>1499</div>
                                                 </div>
                                                 <div className='pb-4 text-sm w-full bg-slate-800'>per month</div>
                                             </div>
@@ -499,8 +499,8 @@ const FullServiceDigitalMarketingPage = () => {
                                                     <div>
                                                         <svg xmlns="http://www.w3.org/2000/svg" className='w-6 h-6 stroke-white stroke-2' viewBox="0 0 24 24" fill="none" strokeLinecap="round" strokeLinejoin="round">
                                                             <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                            <path d="M18 5h-11h3a4 4 0 0 1 0 8h-3l6 6" />
-                                                            <line x1="7" y1="9" x2="18" y2="9" />
+                                                            <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2" />
+                                                            <path d="M12 3v3m0 12v3" />
                                                         </svg>
                                                     </div>
                                                     <div className='text-4xl font-sans'>Custom</div>
