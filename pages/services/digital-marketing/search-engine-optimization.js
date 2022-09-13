@@ -359,7 +359,7 @@ const SearchEngineOptimizationPage = () => {
                                                     <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Detailed Deliverables</div>
                                                 </div>
                                                 <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>SEO & Website Analysis</div>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>SEO Audit & Website Analysis</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Initial Website Analysis</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Pre-optimization site audit</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Keyword Research & Analysis</div>
@@ -518,7 +518,7 @@ const SearchEngineOptimizationPage = () => {
                                                     <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Detailed Deliverables</div>
                                                 </div>
                                                 <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>SEO & Website Analysis</div>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>SEO Audit & Website Analysis</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Initial Website Analysis</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Pre-optimization site audit</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Keyword Research & Analysis</div>
@@ -675,7 +675,7 @@ const SearchEngineOptimizationPage = () => {
                                                     <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Detailed Deliverables</div>
                                                 </div>
                                                 <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>SEO & Website Analysis</div>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>SEO Audit & Website Analysis</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Initial Website Analysis</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Pre-optimization site audit</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Keyword Research & Analysis</div>
@@ -832,7 +832,7 @@ const SearchEngineOptimizationPage = () => {
                                                     <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>Detailed Deliverables</div>
                                                 </div>
                                                 <div className='bg-slate-200 p-2'>
-                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>SEO & Website Analysis</div>
+                                                    <div className='p-2 border-b-2 border-slate-300 text-xl font-semibold'>SEO Audit & Website Analysis</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Initial Website Analysis</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Pre-optimization site audit</div>
                                                     <div className='p-1 border-b-2 border-slate-300'>Keyword Research & Analysis</div>
