@@ -7,7 +7,10 @@ import Layout from '../../components/nav/layout'
 const SEOPackages = () => {
     return (
         <Layout>
-            <Head></Head>
+            <Head>
+                <title>Affordable SEO Packages Delaware - SixPL</title>
+                <meta name="description" content="Are you looking for affordable SEO packages in Delaware? SixPL's monthly SEO Packages are the best for all businesses. "/>
+            </Head>
             <main>
                 <div>
                     <div className=' m-2 p-2'>
