@@ -13,7 +13,7 @@ const SEOPackages = () => {
             </Head>
             <main>
                 <div>
-                    <div className=' m-2 p-2'>
+                    <div className=' m-2 p-2 font-serif'>
                         <div>
                             <div><h1 className=' text-5xl text-center font-serif'>Affordable Digital Marketing SEO Packages</h1></div>
                             <div>
@@ -655,15 +655,136 @@ const SEOPackages = () => {
                                 </div>
                             </div>
                             <div>
-                                <div className='flex flex-col m-2 p-2 lg:mx-24'>
+                                <div className='flex flex-col m-2 p-2 lg:mx-36'>
                                     <div>
-                                        <h2 className=' text-2xl font-semibold text-center'>Affordable SEO Packages to Boost Your Ranking and Revenue</h2>
-                                        <p className=' p-2'>Search Engine Optimization, if done right, can generate filtered leads. Businesses which generate leads/sales through SEO tend to have superior conversion rates and higher ticket size per sales.</p>
-                                        <p className=' p-2'>If you are planning to promote your business and looking for affordable SEO packages, you are at the right place.</p>
-                                        <p className=' p-2'>SixPL SEO service packages are designed to put your website on the first page of Google. We offer both, one-time fixation as well as monthly SEO packages to meet your unique business requirements. Whether you are looking for ecommerce SEO packages, local SEO packages or SEO quotes for a corporate website; our plans have got you covered.</p>
-                                        <div className=' text-center'><Link href="/contact-us"><a className='p-2 rounded-md bg-slate-600 hover:bg-slate-700 text-white text-xl font-serif'>Start Optimizing Your Website Now</a></Link></div>
+                                        <div>
+                                            <h2 className=' text-3xl font-semibold text-center py-4 text-zinc-700'>Affordable SEO Packages to Boost Your Ranking and Revenue</h2>
+                                        </div>
+                                        <div className=' text-xl text-gray-700'>
+                                            <p className=' p-4'>Search Engine Optimization, if done right, can generate filtered leads. Businesses which generate leads/sales through SEO tend to have superior conversion rates and higher ticket size per sales.</p>
+                                            <p className=' p-4'>If you are planning to promote your business and looking for affordable SEO packages, you are at the right place.</p>
+                                            <p className=' p-4'>SixPL SEO service packages are designed to put your website on the first page of Google. We offer both, one-time fixation as well as monthly SEO packages to meet your unique business requirements. Whether you are looking for ecommerce SEO packages, local SEO packages or SEO quotes for a corporate website; our plans have got you covered.</p>
+                                        </div>
                                     </div>
                                 </div>
+                                <div className='flex flex-col m-2 p-2 lg:mx-36'>
+                                    <div>
+                                        <div>
+                                            <h2 className=' text-3xl font-semibold text-center py-4 text-zinc-700'>Decoding SixPL Monthly SEO Packages</h2>
+                                        </div>
+                                        <div className=' text-xl text-gray-700'>
+                                            <p className=' p-4'>Do you need help in understanding our SEO packages?</p>
+                                            <p className=' p-4'>SixPL monthly SEO packages are quite comprehensive. That means it includes almost every activity required to optimize your website not just for search engines but also for your potential customers.</p>
+                                            <p className=' p-4'>Our monthly SEO packages focus on long term ranking of your website. That is the reason it incorporates such a vast set of features and activities.</p>
+                                            <p className=' p-4'>Let’s explain our monthly SEO plans and pricing so that you can make an informed decision.</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <h3 className=' text-2xl font-semibold text-center py-4 text-zinc-700'>Monthly SEO Packages</h3>
+                                        </div>
+                                        <div className=' text-xl text-gray-700'>
+                                            <p className=' p-4'>To begin with, there are four SEO packages starting at $399. Each plan has a set of activities and relevant SEO package prices.</p>
+                                            <p className=' p-4'>The four monthly SEO plans are mentioned below:</p>
+                                            {/* Bullet Points Div */}
+                                            <div>
+                                                <ol className=' list-decimal list-inside py-4 px-8'>
+                                                    <li>Starter</li>
+                                                    <li>Standard</li>
+                                                    <li>Plus, and</li>
+                                                    <li>Enterprise</li>
+                                                </ol>
+                                            </div>
+                                            <p className=' p-4'>The choice of plan depends on your exact requirements. Before deciding the plan, you should have a clear idea of the activities done under each plan and how they help your business.</p>
+                                            <p className=' p-4'>Let’s discuss each activity in detail to get a better understanding of SEO packages.</p>
+
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <h3 className=' text-2xl font-semibold text-center py-4 text-zinc-700'>Detailed Explanation - SEO Marketing Packages</h3>
+                                        </div>
+                                        <div className=' text-xl text-gray-700'>
+                                            
+                                            <p className=' p-4'>As you see in the SEO price list, our affordable SEO packages include 12 broad categories as mentioned below:</p>
+                                            {/* Bullet Points Div */}
+                                            <div>
+                                                <ol className=' list-decimal list-inside py-4 px-8'>
+                                                    <li>Highlight</li>
+                                                    <li>SEO Audit & Website Analysis</li>
+                                                    <li>OnPage SEO</li>
+                                                    <li>Technical SEO</li>
+                                                    <li>Measurement & Tracking</li>
+                                                    <li>Off-Page Optimization</li>
+                                                    <li>Content Marketing</li>
+                                                    <li>Social Media Marketing</li>
+                                                    <li>Brand Building</li>
+                                                    <li>Lead Generation</li>
+                                                    <li>Reporting</li>
+                                                    <li>Support</li>
+                                                </ol>
+                                            </div>
+                                            <p className=' p-4'>The detailed explanation for each activity is mentioned below.</p>
+                                        </div>
+                                    </div>
+                                    {/* Detailed explanation of each activity starts here */}
+                                    <div>
+                                        <div>
+                                            <h4 className=' text-2xl font-semibold text-center py-4 text-zinc-700'>Key Highlights</h4>
+                                        </div>
+                                        <div className=' text-xl text-gray-700'>
+                                            
+                                            <p className=' p-4'>This section has the key deliverables for each SEO plan. In fact, these are the basis for selection of any of the plans.</p>
+                                            <p className=' p-4'>Each plan has the following four key deliverables:</p>
+
+                                            {/* Bullet Points Div */}
+                                            <div>
+                                                <ol className=' list-decimal list-inside py-4 px-8'>
+                                                    <li>No of keywords</li>
+                                                    <li>Landing pages</li>
+                                                    <li>Backlinks</li>
+                                                    <li>Google My Business</li>
+                                                    
+                                                </ol>
+                                            </div>
+                                            <p className=' p-4'>The quantity of each of these affects SEO pricing. The other activities executed under each plan helps us expedite the ranking and deliver more quality leads and sales in short time frame.</p>
+                                            <p className=' p-4'>The role and impact of each deliverable is discussed below:</p>
+                                                <div>
+                                                    <h5 className=' font-bold p-4'>No of Keywords</h5>
+                                                    <p className=' p-4'>A keyword or keyphrase means the phrase your potential customer may search on Google to find your offerings. Since every user searches things online differently, we use advanced and reliable keyword research tools to shortlist the keywords which are searched by a large number of internet users. Also, the keywords must be directly related to your products or services and should reflect the purchase intent of the person. While choosing the keywords, we also pay attention to the competition. Highly competitive keywords may take longer to rank while medium to low competition keywords may quickly rank and start generating traffic and qualified leads comparatively faster. However, low competition keywords may deliver less traffic. Therefore, it is important to maintain a fair balance of low, medium and high competitive keywords.</p>
+                                                    <p className=' p-4'>To summarize, we select the keywords based on the following criteria:</p>
+                                                        <div>
+                                                            <ol className=' list-decimal list-inside py-4 px-8'>
+                                                                <li>Monthly search volume</li>
+                                                                <li>Relevance</li>
+                                                                <li>Purchase Intent</li>
+                                                                <li>Competition</li>
+                                                                
+                                                            </ol>
+                                                        </div>
+                                                    <p className=' p-4'>Also, the more keywords means more traffic and calls (leads). Therefore the number of keywords is a key deciding factor while selecting an SEO plan and pricing.</p>
+                                                </div>
+                                                <div>
+                                                    <h5 className=' font-bold p-4'>Landing Pages</h5>
+                                                    <p className=' p-4'>Landing pages are the most important pages of your website that generate leads. These are usually home pages, product or services pages of any website. Since landing pages play a crucial role in overall conversion, they must be optimized properly for search engines as well as the users.</p>
+                                                    <p className=' p-4'>Also every keyword must be mapped with a relevant landing page. That means if a user searches the keyword on Google, a relevant landing page should appear in the search results. Ideally, each landing page should be mapped with 2-5 keywords.</p>
+                                                    <p className=' p-4'>More landing pages means more keywords which further leads to more traffic and leads. Therefore, the number of landing pages is another deciding factor in choosing an SEO plan.</p>
+                                                </div>
+                                                <div>
+                                                    <h5 className=' font-bold p-4'>Backlinks</h5>
+                                                    <p className=' p-4'>Creating a backlinks means posting your website URL on other websites. In other words, backlinking is a process of promoting your site across the internet in such a way that a clickable link to your home page or landing pages is created.</p>
+                                                    <p className=' p-4'>Number of quality backlinks determines where your website will rank on search engines like Google. More quality backlinks means higher ranking. Therefore, the number of backlinks is another factor to consider while selecting an SEO plan.</p>
+                                                </div>
+                                                <div>
+                                                    <h5 className=' font-bold p-4'>Google My Business</h5>
+                                                    <p className=' p-4'>Google My Business is a service provided by Google to list businesses on Google Maps. It acts as a lead machine for local businesses. Our local SEO packages include Google My Business listing and promotion services to maximize response from local businesses.</p>
+                                                    <p className=' p-4'>We list your business on Google Maps and optimize for the relevant keywords so that it appears on the top for relevant searches in your local area.</p>
+                                                </div>
+                                        </div>
+                                    </div>
+                                    
+                                </div>
+
                             </div>
                             <div>FAQ</div>
                         </div>
