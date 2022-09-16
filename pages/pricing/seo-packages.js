@@ -782,6 +782,176 @@ const SEOPackages = () => {
                                                 </div>
                                         </div>
                                     </div>
+                                    <div>
+                                        <div>
+                                            <h4 className=' text-2xl font-semibold text-center py-4 text-zinc-700'> SixPL Affordable SEO Packages - Detailed Deliverables</h4>
+                                        </div>
+                                        <div className=' text-xl text-gray-700'>
+                                            
+                                            <p className=' p-4'>Our SEO packages for small businesses, startups & large organizations are designed to generate more organic traffic and leads.</p>
+                                            <p className=' p-4'>Below is a short description for each of the activities mentioned in our packages. Get in touch with us for a quick review of your website, need assessment and free consultations.</p>                 
+                                            
+                                                <div>
+                                                    <h5 className=' text-xl font-bold p-4 text-teal-700'>SEO Audit & Website Analysis</h5>
+                                                    <p className=' p-4'>Activities mentioned in this section pertains to research and analysis of the website, business, & industry to do a need assessment and accordingly lay out a road map to achieve desired results.</p>
+                                                    <p className=' p-4'>Each activity is explained below:</p>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Initial Website Analysis</h6>
+                                                        <p className=' p-4'>Initial website analysis is required to audit the current website. It involved analysis of business and the way products and services are presented to your customers. This is the foundation stage for the next activity, which is pre-optimization website audit.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Pre-optimization site audit</h6>
+                                                        <p className=' p-4'>Website SEO audit performs a SWOT (Strength, Weakness, Opportunity, & Threat) analysis of the website.It gives us an insight of high performing areas and scope of improvements. Our experts use industry leading tools and their domain expertise to evaluate your website on 120+ parameters.</p>
+                                                        <p className=' p-4'>The site audit also gives graded recommendations that need the attention of the SEO expert and webmasters. Low, medium and critical recommendations enable us to prioritize the actions to deliver tangible results at earliest.</p>
+                                                        <p className=' p-4'>A screengrab from a sample site audit is mentioned below:</p>
+                                                        <div className=' p-4'><Image src="/images/pricing/affordable-seo-packages-delaware.jpg" alt='affordable seo packages delaware' height={628} width={1200} /></div>
+                                                        <p className=' p-4'>Selecting the right keywords is at the core of any search engine optimization strategy. We leverage advanced planning tools to determine the accurate keywords that a majority of your potential customers are searching for.</p>
+                                                        <p className=' p-4'>The amount of leads or sales are directly proportional to the quality and quantity of keywords we work on. Therefore, we work closely with you to finalize the best performing keywords for your business.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Duplicate Content Check</h6>
+                                                        <p className=' p-4'>Website SEO audit performs a SWOT (Strength, Weakness, Opportunity, & Threat) analysis of the website.It gives us an insight of high performing areas and scope of improvements. Our experts use industry leading tools and their domain expertise to evaluate your website on 120+ parameters.</p>                                                 
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Backlink Analysis</h6>
+                                                        <p className=' p-4'>Google gives a lot of importance to quality backlink in determining the rank of a page on search engine result pages (SERP). However, not all the backlinks are the same. In fact, some backlinks act as spam and negatively impact the search engine ranking of the webpage. Therefore, we analyze current backlinks and evaluate each backlink on spam score. We also disavow harmful links on a regular basis to protect the website reputation and continuously improve the website ranking.</p>                                                 
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Competitors' Backlink Analysis</h6>
+                                                        <p className=' p-4'>We spy your better-ranking competitors to discover their quality backlinks that are responsible for their good ranking on Google. We then devise to get relatively stronger backlinks for your site which helps you outrank your competitors.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Backlink Strategy Gap Analysis</h6>
+                                                        <p className=' p-4'>Backlink strategy gap analysis shows where we stand right now and where we want to reach in terms of backlink to rank on the first page of Google. This analysis helps us devise a roadmap and forecast the business outcomes of our SEO efforts in a particular time frame.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Baseline Ranking Check</h6>
+                                                        <p className=' p-4'>Before starting to work on activities mentioned in the SEO packages, we check the current ranking on your website for shortlisted keywords.</p>
+                                                        <p className=' p-4'>This helps us and our clients to measure the impact of SEO efforts and track goal progress.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Google Penalty Check</h6>
+                                                        <p className=' p-4'>We check if any of your web pages were ever penalized by Google. In such cases, we take remedial measures to ensure that past penalties don't impact the performance of other pages on your website.</p>                                                  
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Brand Mention Audit</h6>
+                                                        <p className=' p-4'>Brand mention audit assesses the presence of your brand name across the internet. It also helps us analyze the sentiments of current mentions. Brand mentions audit detect and negative comments about your brand. We then take remedial actions to encourage brand advocacy and build positive reputation.</p>                                                  
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <h5 className=' text-xl font-bold p-4 text-teal-700'>On-Page SEO</h5>
+                                                    <p className=' p-4'>Onpage SEO includes the activities which are performed on the website. The selected landing pages are optimized and fine-tuned to make them search engine friendly.</p>
+                                                    <p className=' p-4'>List of activities under onpage optimization are discussed below:</p>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Title Tag Optimization</h6>
+                                                        <p className=' p-4'>We write impactful titles including relevant keywords for all the landing pages selected as part of the package.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Meta Description Optimization</h6>
+                                                        <p className=' p-4'>We summarize the content of the landing page and use relevant keywords to boost ranking of that page.</p>
+                                                        <p className=' p-4'>Title tags and meta description plays a crucial role in ranking and overall traffic to our landing pages.</p>
+                                                        <p className=' p-4'>We optimize both the title tag and meta description for both your users as well as the search engines.</p>                                                       
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Header Tags Optimization</h6>
+                                                        <p className=' p-4'>Ensuring optimum header tags (for e.g. h1, h2 tags in HTML) hierarchy with no duplicate H1 is essential to a better page structure. Using appropriate headers with important keywords is essential to improve page content and generate better ranking for your website on Google.</p>  
+                                                        <p className=' p-4'>We carefully optimize all headers of selected landing pages to ensure that no duplicate H1 tags exist and proper hierarchy is maintained to get better ranking quickly.</p>                                               
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Image Alt Tags Optimization</h6>
+                                                        <p className=' p-4'>Optimizing image alternative text (alt text) is important not just for the accessibility of the site but also for better ranking of landing pages on Google web as well as images search.</p>
+                                                        <p className=' p-4'>We optimize all the alt tags for all the images on the landing pages to ensure maximum coverage of keywords which leads to better ranking in a short time frame.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Content Optimization</h6>
+                                                        <p className=' p-4'>The content of relevant landing pages are optimized to maintain appropriate keyword density, usage of synonyms for latent semantic indexing (LSI), inclusion of frequently asked questions (FAQ) and improving overall quality of the content. Google loves comprehensive content that solves users’ all questions related to a particular topic. Our experts optimize the content for all the relevant parameters which makes the site more usable and search engine friendly.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>URL Optimization</h6>
+                                                        <p className=' p-4'>We optimize the URLs of individual webpages to make it more concise and search engine friendly.</p>
+
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Site Navigation Tree Analysis</h6>
+                                                        <p className=' p-4'>Site navigation helps users navigate various pages of the website seamlessly across all the devices. A good navigation helps users achieve their goal on the site quickly.</p>
+                                                        <p className=' p-4'>We analyze the site navigation and recommend the best possible structure to make the site search engine friendly.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>HTML Sitemap Creation</h6>
+                                                        <p className=' p-4'>HTML sitemap helps readers find the relevant pages easily. It makes the site more user friendly and improves retention rate.</p>                                                  
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>XML Sitemap Creation</h6>
+                                                        <p className=' p-4'>Google uses XML sitemap to understand the site navigation structure. We create an XML sitemap and submit it to Google manually. We recommend remedial measures to help individual pages indexed by Google.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Robots.txt Creation</h6>
+                                                        <p className=' p-4'>Robot.txt is used to control visibility of various pages on your site to search engines. It informs the search engines crowler about which pages it should crawl and which one it shouldn’t. It helps us show desired pages on SERP and hide confidential information.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>404 Page Implementation</h6>
+                                                        <p className=' p-4'>A 404 page appears when the requested URL doesn’t exist. Implementing a 404 page makes your website user friendly as well as search engine friendly.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Broken Links Analysis</h6>
+                                                        <p className=' p-4'>Broken links on your site (links which are not working) can damage SEO efforts. Thus, it is essential to continuously analyze and remove broken links. We do broken link analysis and keep removing all harmful links to protect the health of your website.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Website Loading Speed Analysis</h6>
+                                                        <p className=' p-4'>Website loading speed plays a role in ranking of your site. Fast-loading pages get more preference and they rank at better positions in SERP. We conduct a technical analysis of your website and come up with recommendations to improve your website’s loading speed.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Google Indexed Pages Check</h6>
+                                                        <p className=' p-4'>We do a thorough analysis of web pages which are indexed by Google. We also fix the errors to make sure that all the relevant pages on your site get indexed by Google.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Website Canonical Check</h6>
+                                                        <p className=' p-4'>We conduct a canonical check to make sure that your internal pages are not competing with each other when it comes to ranking on Google. Through canonical tags, we inform Google on which pages to crawl in case of any similar content found using different URLs. It helps Google understand your website better and thus helps in overall ranking.</p>
+                                                    </div>
+                                                </div>
+                                                <div>
+                                                    <h5 className=' text-xl font-bold p-4 text-teal-700'>Technical SEO</h5>
+                                                    <p className=' p-4'>Technical SEO deals with code optimization of the site. It makes the site secure, fast, accessibile, and user friednly. Google places a lot of important to technical structure of the site to improve overall user experience. </p>
+                                                    <p className=' p-4'>We cover all aspects of technical SEO as mentioned below: </p>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Structured Data Setup</h6>
+                                                        <p className=' p-4'>Structured data set helps Google understand the content of each page more accurately. The correct setup also helps in getting rich snippets in search engine result pages which boost brand visibility and build trust with your readers.</p>
+                                                        <p className=' p-4'>We set up the structured data for each page based on your offerings. We also validate the same using advanced developers tools to ensure correct setup and optimum performance of the site in search engine results pages.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Site Structure Analysis</h6>
+                                                        <p className=' p-4'>Overall site structure is analyzed and remedials measures are taken to improve site performance and fix JavaScript errors. Lazy loading of JavaScript and CSS scripts are enabled to optimize performance. All external scripts are analyzed and minified to improve technical performance of the site.</p>                                                                                                           
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Internal Links Analysis</h6>
+                                                        <p className=' p-4'>Internal linking of pages essential to boost search engine performance of your website. Therefore, our technical team works to ensure strong interlinked web pages while ensuring that no page remains orphaned.</p>                                                         
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Google Knowledge Panel Optimization</h6>
+                                                        <p className=' p-4'>Google Knowledge Panel helps immensely in brand building. We put additional meta information on your “Home” and “About” page and link that with external sources to optimize your brand name with Google Knowledge panel requirements.</p>                                                       
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>HTTPS Security Analysis</h6>
+                                                        <p className=' p-4'>Secure websites are good for your users as well as search engines. Recently, Google has started giving priority to secure sites. We thoroughly analyze your website security and implement measures to make your website safe, secure and search engine friendly.</p>
+                                                    </div>                                                   
+                                                </div>
+                                                <div>
+                                                    <h5 className=' text-xl font-bold p-4 text-teal-700'>Measurement & Tracking</h5>
+                                                    <p className=' p-4'>Nothing can be improved if we don't measure it. Therefore, measurement and tracking enable us to evaluate the outcomes of SEO marketing efforts and further take actions to improvise the same. </p>
+                                                    <p className=' p-4'>We integrate industry leading tools to track and improve performance. The tools are mentioned below: </p>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Google Search Console Integration</h6>
+                                                        <p className=' p-4'>Google search console is a tracking and search performance solution by Google that helps webmasters assess their site search performance on Google. It helps us track ranking across geographies and discover high potential keywords to boost ranking and traffic.</p>
+                                                        <p className=' p-4'>We integrate the search console to your website to assess the site’s performance on Google and also check the progress towards achieving our SEO goals.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Google Analytics Integration</h6>
+                                                        <p className=' p-4'>Google Analytics helps find out when the sources from where people are coming to the website, what exactly they do on the website and what else can be done to ensure that they take important actions (like filling the contact form, calling the business or making a purchase) on the site.</p>
+                                                        <p className=' p-4'>We implement Google Analytics 4 (the most advanced analytics solution available) to measure effectiveness marketing efforts and maximize return on investment.</p>
+                                                    </div>                                                                                                     
+                                                </div>
+                                        </div>
+                                    </div>
                                     
                                 </div>
 
