@@ -8,8 +8,8 @@ const SEOPackages = () => {
     return (
         <Layout>
             <Head>
-                <title>Affordable SEO Packages Delaware - SixPL</title>
-                <meta name="description" content="Are you looking for affordable SEO packages in Delaware? SixPL's monthly SEO Packages are the best for all businesses. "/>
+                <title>Affordable SEO Packages Delaware USA - SixPL</title>
+                <meta name="description" content="Are you looking for affordable SEO packages in Delaware USA? SixPL's monthly SEO Packages are the best for all businesses. "/>
             </Head>
             <main>
                 <div>
