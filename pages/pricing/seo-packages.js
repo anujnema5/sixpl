@@ -956,7 +956,7 @@ const SEOPackages = () => {
                                 </div>
 
                             </div>
-                            <div>FAQ</div>
+                            <div className='text-white'>FAQ</div>
                         </div>
                     </div>
                 </div>
