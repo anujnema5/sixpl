@@ -25,7 +25,7 @@ const Home = () => {
             </div>            
             <div className="flex flex-col lg:flex-row items-center justify-center">
               <div className="flex flex-col py-4 lg:w-1/2">
-                <div><Image priority src="/images/portfolio/coding-icon-3.svg" width={60} height={60} /></div>
+                <div><Image priority src="/images/portfolio/coding-icon-3.svg" alt='NextJS Development' width={60} height={60} /></div>
                 <div><h2 className="py-2 px-4 text-lg">An EdTech startup built a complex yet fast application using ReactJS, NextJS, Tailwind CSS, PostgreSQL in 21 Days</h2></div>
                 <div className="py-4"><Link href="/portfolio/it/web-app-edtech-company-reactjs-nextjs-psql-heroku"><a className="py-1 px-4 text-xl border rounded-md bg-sptheme-lightgreen text-white">Find Out How</a></Link></div>
               </div>
