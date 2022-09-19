@@ -8,14 +8,19 @@ const SEOPackages = () => {
     return (
         <Layout>
             <Head>
-                <title>Affordable SEO Packages Delaware USA - SixPL</title>
-                <meta name="description" content="Are you looking for affordable SEO packages in Delaware USA? SixPL's monthly SEO Packages are the best for all businesses. "/>
+                <title>Affordable SEO Packages Delaware USA, SEO Quotes - SixPL</title>
+                <meta name="description" content="Are you looking for affordable SEO packages in Delaware USA? SixPL monthly SEO Packages are best for all businesses. Get SEO package prices now."/>
+                <meta name="image" property='og:image' content='https://www.sixpl.com/og-images/pricing/affordable-seo-packages.jpeg' />
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name='twitter:title' content='Affordable SEO Packages Delaware USA, SEO Quotes - SixPL'/>
+                <meta name='twitter:image' content='https://www.sixpl.com/og-images/sixpl-home.jpg' />
+                <meta name='twitter:description' content='Are you looking for affordable SEO packages in Delaware USA? SixPL monthly SEO Packages are best for all businesses. Get SEO package prices now.'/>
             </Head>
             <main>
                 <div>
                     <div className=' m-2 p-2 font-serif'>
                         <div>
-                            <div><h1 className=' text-5xl text-center font-serif'>Affordable Digital Marketing SEO Packages</h1></div>
+                            <div><h1 className=' text-5xl text-center font-serif'>Affordable SEO Packages</h1></div>
                             <div>
                             <div>
                                     <div className='flex flex-col items-center lg:flex-row justify-center text-center py-14 lg:px-24'>
@@ -949,6 +954,89 @@ const SEOPackages = () => {
                                                         <p className=' p-4'>Google Analytics helps find out when the sources from where people are coming to the website, what exactly they do on the website and what else can be done to ensure that they take important actions (like filling the contact form, calling the business or making a purchase) on the site.</p>
                                                         <p className=' p-4'>We implement Google Analytics 4 (the most advanced analytics solution available) to measure effectiveness marketing efforts and maximize return on investment.</p>
                                                     </div>                                                                                                     
+                                                </div>
+                                                <div>
+                                                    <h5 className=' text-xl font-bold p-4 text-teal-700'>Off-Page SEO</h5>
+                                                    <p className=' p-4'>When you sign up for affordable SEO packages in Delaware, we promote your site on various other portals to build awareness, generate backlinks leading to better ranking of your site. Most of the off-page activities are done by SEO experts who have years of experience in managing clients in your industry.</p>
+                                                    <p className=' p-4'>At SixPL, we bring valuable insights from our experience in SEO since 2012 and accelerate your SEO marketing efforts leading to more leads, sales and of course revenue.</p>
+                                                    <p className=' p-4'>Following activities are covered in our off-page SEO strategy. The quantity of work depends on the monthly SEO packages you have signed up for.</p>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Manual Search Engine Submission</h6>
+                                                        <p className=' p-4'>We submit your website manually to all major search engines, which leads to fast indexing of all the pages by the search engines.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Classified Submissions</h6>
+                                                        <p className=' p-4'>We submit classified ads in your local area to improve your brand's visibility, increase sales and generate backlinks. Classified submissions significantly impact local SEO and the rank of Google My Business listings.</p>                                                                                              
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Business Listing</h6>
+                                                        <p className=' p-4'>We list your business on major business listing platforms like Yelp, Bing, and other relevant sites to build brand awareness, get more reviews and generate backlinks.</p>                                                      
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Social Bookmarking</h6>
+                                                        <p className=' p-4'>We bookmark your website on several social bookmarking platforms to generate backlinks and increase brand awareness leading to a better ranking of your site for the relevant keywords.</p>                                                      
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Article Writing</h6>
+                                                        <p className=' p-4'>We write articles on relevant topics to boost our backlinking efforts from the top platforms. It helps us capture the attention of the audience of top community-based sites.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Article Submissions</h6>
+                                                        <p className=' p-4'>We submit the articles on high-quality and authoritative sites to generate backlinks and traffic, leading to a better ranking on Google in the long run.</p>
+
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Article Marketing</h6>
+                                                        <p className=' p-4'>The articles posted are further promoted on several other platforms to maximize the responses and benefits from article submissions. It maximizes the impact of backlinks for ranking your website.</p>                                                       
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>PPT Submissions</h6>
+                                                        <p className=' p-4'>We design attractive PowerPoint presentations and post them on relevant platforms to attract a knowledge-hungry audience. It also helps in generating stable backlinks from the top sites.</p>                                                  
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>PDF Submissions</h6>
+                                                        <p className=' p-4'>PDF submissions generate stable do-follow backlinks in the long run. We write unique, insightful content, optimize it for SEO and convert it into beautiful PDFs before sharing it on the relevant platforms.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Podcast Submissions</h6>
+                                                        <p className=' p-4'>Podcasts have gained traction in recent years. Podcasts on trending topics fetch a lot of interest and traffic from internet users. It also helps generate backlinks, boosting your website's ranking on SERP.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Image Submissions</h6>
+                                                        <p className=' p-4'>We design attractive graphics and post them on various platforms to generate quality backlinks and boost brand visibility.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Blog Creation (One-Time)</h6>
+                                                        <p className=' p-4'>We create a neutral blogging platform and share insightful information about your brand, products, and services. This helps in getting consistent referral traffic and strong backlinks.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Blog Writing</h6>
+                                                        <p className=' p-4'>We select the trending topics related to your business, create compelling headlines and write insightful blogs with relevant backlinks to your website to build awareness and trust among your target audience.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Blog Posting</h6>
+                                                        <p className=' p-4'>We post the content mentioned in the previous step on blog sites and optimize and promote the same to maximize link juice from them which further helps in ranking.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Blog Marketing</h6>
+                                                        <p className=' p-4'>Off-site blogs are further promoted on various portals to improve credibility and maximize the impact of SEO efforts. Our monthly SEO packages include blog marketing efforts to rank your website quickly on Google.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Product Listing</h6>
+                                                        <p className=' p-4'>Product listing helps in brand visibility, search engine ranking, and lead generation for your business. When you subscribe to our monthly SEO packages, we list your products on quality product listing sites that help you generate more traffic to your product pages.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Profile Creation</h6>
+                                                        <p className=' p-4'>When you choose our affordable SEO packages in Delaware, we work round the clock to offer 360-degree visibility to your business on as many platforms as possible. As part of this strategy, we work on creating individual profiles on various platforms and further use those profiles to share relevant information about your business. This SEO strategy generates more visibility and offers more avenues for creating backlinks.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Video Marketing (video provided by the client)</h6>
+                                                        <p className=' p-4'>Storytelling is the best way to influence your customers. When you choose the best and most affordable SEO packages in Delaware and provide us with a video, we will promote it to maximize its reach and impact. This also provides another great avenue to build trust backlinks which further helps the overall ranking.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Press Release (news provided by the client)</h6>
+                                                        <p className=' p-4'>Whenever there is a new product or service launch, event, or general announcement, it is crucial to write a compelling press release and distribute the same to maximize the reach and gain maximum exposure. When clients choose our monthly SEO services packages and send us a press release, we use our network and expertise to maximize exposure and reach.</p>
+                                                    </div>
                                                 </div>
                                         </div>
                                     </div>
