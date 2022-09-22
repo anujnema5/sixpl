@@ -1038,6 +1038,109 @@ const SEOPackages = () => {
                                                         <p className=' p-4'>Whenever there is a new product or service launch, event, or general announcement, it is crucial to write a compelling press release and distribute the same to maximize the reach and gain maximum exposure. When clients choose our monthly SEO services packages and send us a press release, we use our network and expertise to maximize exposure and reach.</p>
                                                     </div>
                                                 </div>
+                                                <div>
+                                                    <h5 className=' text-xl font-bold p-4 text-teal-700'>Content Marketing</h5>
+                                                    <p className=' p-4'>In the era of cut-throat competition and the bombardment of unsolicited advertising, brands leverage the power of content marketing to become a thought leader and position themselves as an authority in their industry.</p>
+                                                    <p className=' p-4'>Content marketing is a win-win strategy for both - the brands as well the consumers. However, without a proper plan, the entire process can become a mess benefitting none.</p>
+                                                    <p className=' p-4'>Therefore, SixPL's affordable SEO packages USA offer content marketing services that put clients at the top of their audiences' minds.</p>
+                                                    <p className=' p-4'>Below is the list of content marketing activities covered in affordable SEO packages:</p>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>On-site Blog Creation</h6>
+                                                        <p className=' p-4'>We create a dedicated blog section on your website and post fresh content regularly. Integrating website, blog, and social media handles facilitates seamless content sharing across multiple platforms and multiplies reach.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>On-site Blog Posting</h6>
+                                                        <p className=' p-4'>Our monthly SEO packages include the creation of high-quality on-site blogs that represent your thought process and reflect your expertise in the industry. Solution-focused and neatly organized blogs address the pain points of your potential customers. In return, you get word-of-mouth advertising for free.</p>  
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>On-site blog optimization</h6>
+                                                        <p className=' p-4'>On-site blogs can generate massive traffic to your website if optimized correctly. For every blog, we shortlist appropriate longtail keywords and do on-page and off-page optimization for every blog. Evergreen content with proper optimization becomes traffic and lead machine in the long run.</p>
+                                                        <p className=' p-4'>As a part of our affordable monthly SEO packages, we offer on-site blog optimization for all the blogs we write.</p>
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-lg font-bold p-4'>Featured Image Creation</h6>
+                                                        <p className=' p-4'>We create an attractive featured image for every blog. The featured image not just helps in Google Image searches, but it also helps in getting more traffic from social media platforms.</p> 
+                                                    </div>                                               
+                                                </div>
+                                                <div>
+                                                    <h5 className=' text-xl font-bold p-4 text-teal-700'>Social Media Activities</h5>
+                                                    <p className=' p-4'>Billions use social media to connect with others, express their views, promote business, get inspiration and generate impact in their communities. It is a favorite hangout place which also helps in achieving multiple goals. Social media has created more celebrities and stars than any other industry. It has empowered individuals at the bottom of the pyramid and enabled everyone to live with self-respect by doing what they love the most.</p>
+                                                    <p className=' p-4'>Therefore, it makes sense to leverage this revolution in favor of your business. SixPL helps you utilize social media to get exposure, generate leads, and build a brand.</p>
+                                                    <p className=' p-4'>Our affordable monthly SEO packages include social media activities that maximize the return on your investment.</p>
+                                                    <p className=' p-4'>Following is the list of activities covered under social media marketing as part of our monthly SEO packages:</p>
+                                                    <div>
+                                                        <h6 className=' text-xl font-bold p-4'>Facebook</h6>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Facebook Profile Creation</p>
+                                                            <p className=' p-4'>We create an individual Facebook profile. We can use this profile to manage all the aspects of your Facebook marketing activities. This Facebook profile creation separates your personal activities from professional engagements.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Facebook Fan Page Creation</p>
+                                                            <p className=' p-4'>We create an attractive and professional Facebook Page for your business. This Facebook page will be required to post content, generate leads and build followers.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Facebook Posting</p>
+                                                            <p className=' p-4'>Facebook posting means the number of posts we make every month. Each post involves textual content, an image, a caption, and relevant hashtags.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Facebook Group Sharing</p>
+                                                            <p className=' p-4'>We share Facebook posts on several Facebook groups to increase the reach of the post and improve engagement.</p>
+                                                        </div>                                                        
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-xl font-bold p-4'>Instagram</h6>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Instagram Profile Creation</p>
+                                                            <p className=' p-4'>If you don't have an Instagram account for your business, we create one and connect the same to your Facebook Business page. Integrating Facebook and Instagram accounts leads to several advantages like better reach, cost-effective advertising, easy management, and more leads.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Posting/Updates</p>
+                                                            <p className=' p-4'>Posting or updates refer to the number of Instagram posts we create for you. Visually appealing posts with a high viral quotient boost reach and engagement.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Hashtag Marketing</p>
+                                                            <p className=' p-4'>We use relevant and adequate numbers of hashtags to maximize the reach of your posts.</p>
+                                                        </div>                                                                                                              
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-xl font-bold p-4'>Twitter</h6>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Twitter Handle Creation</p>
+                                                            <p className=' p-4'>We create a professional Twitter account for your business. It includes many activities like creating a profile image, designing a cover picture, writing a compelling bio, following relevant accounts, etc.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Twitter Posting</p>
+                                                            <p className=' p-4'>Twitter posting refers to the number of posts we create every month. Each post includes an image, caption, text, and hashtags.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Retweets, likes, and comments</p>
+                                                            <p className=' p-4'>We work on getting retweets, likes, and comments on your Tweets to boost user engagement.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Trending hashtag promotion</p>
+                                                            <p className=' p-4'>We research and create relevant hashtags to maximize the reach of every Tweet.</p>
+                                                        </div>                                                        
+                                                    </div>
+                                                    <div>
+                                                        <h6 className=' text-xl font-bold p-4'>Pinterest</h6>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Account Creation/Management</p>
+                                                            <p className=' p-4'>We will create a Pinterest account on your behalf. It includes completing all the profile details.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Pinterest Followers</p>
+                                                            <p className=' p-4'>We work on improving your Pinterest followers and building a sustainable way to generate more followers regularly.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Pinboards updation</p>
+                                                            <p className=' p-4'>We update the pin boards on a regular basis.</p>
+                                                        </div>
+                                                        <div>
+                                                            <p className=' font-semibold text-slate-700 p-4'>Pins (Images provided by the client)</p>
+                                                            <p className=' p-4'>We also post pins provided by the client and promote them to generate maximum engagement.</p>
+                                                        </div>                                                        
+                                                    </div>                                                                                                  
+                                                </div>
                                         </div>
                                     </div>
                                     
