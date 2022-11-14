@@ -9,7 +9,7 @@ const SearchEngineOptimizationPage = () => {
     return (
         <Layout>
             <Head>
-                <title>SEO Company in Delaware - SixPL</title>
+                <title>Best SEO Company in Delaware - SixPL</title>
                 <meta name="description" content="SixPL is the best SEO Company in Delaware, USA. Offering on-page and off-page optimization, link building, local SEO and much more. Get Free SEO Audit"/>
                 <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/digital-marketing/search-engine-optimization.jpg' />
                 <meta name="twitter:card" content="summary_large_image"/>
