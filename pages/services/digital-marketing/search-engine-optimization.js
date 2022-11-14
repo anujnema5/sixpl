@@ -9,8 +9,8 @@ const SearchEngineOptimizationPage = () => {
     return (
         <Layout>
             <Head>
-                <title>SEO Services | SEO Agency | Pricing & Packages - SixPL</title>
-                <meta name="description" content="White hat SEO services from a top SEO agency. Keyword Research, On-Page & Off-Page SEO, Link Building, Local SEO - all services covered. Get Free SEO Audit"/>
+                <title>SEO Company in Delaware - SixPL</title>
+                <meta name="description" content="SixPL is the best SEO Company in Delaware, USA. Offering on-page and off-page optimization, link building, local SEO and much more. Get Free SEO Audit"/>
                 <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/digital-marketing/search-engine-optimization.jpg' />
                 <meta name="twitter:card" content="summary_large_image"/>
                 <meta name='twitter:title' content='SEO Services | SEO Agency | Pricing & Packages - SixPL'/>
