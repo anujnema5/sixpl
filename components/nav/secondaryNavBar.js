@@ -19,11 +19,7 @@ const SecondaryNavBar = () => {
                                     US: +1 779 545 2612
                                 </a>
                             </div>
-                            <div>
-                                <a className="pl-2 text-sm" href="tel:+91 93184 84366">
-                                    IN: +91 9318484366
-                                </a>
-                            </div>
+                            
                         </div>
 
                         <div className="flex justify-center">
