@@ -4,9 +4,9 @@ import Link from 'next/link'
 const SecondaryNavBar = () => {
     return (
         <header>
-            <nav className=" text-white text-sm bg-sptheme-lightgreen"> 
+            <nav className=" text-white text-lg bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900"> 
                 <div>
-                    <div className="text-sm py-1 px-1 md:flex md:text-base">
+                    <div className="text-sm py-2 px-1 md:flex md:text-base">
                         <div className="px-1 flex justify-center md:mr-auto">
                             <div>
                                 <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 pt-1" viewBox="0 0 20 20" fill="currentColor">
@@ -15,7 +15,7 @@ const SecondaryNavBar = () => {
                             </div> 
 
                             <div>
-                                <a className='px-1 text-sm' href="tel:+1 779 545 2612"> 
+                                <a className='px-1 py-2 text-base' href="tel:+1 779 545 2612"> 
                                     US: +1 779 545 2612
                                 </a>
                             </div>
@@ -24,7 +24,7 @@ const SecondaryNavBar = () => {
 
                         <div className="flex justify-center">
                             <div className="px-1 flex">
-                                <a className="" href="mailto: sales@sixpl.com">
+                                <a className=" text-base" href="mailto: sales@sixpl.com">
                                     <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 m-1 inline-flex" viewBox="0 0 20 20" fill="currentColor">
                                         <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                                         <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -33,7 +33,7 @@ const SecondaryNavBar = () => {
                                 </a>  
                             </div>
                             <div className="px-1">
-                                <a className="inline-flex" href="skype:sixpl.com?chat">
+                                <a className="inline-flex text-base" href="skype:sixpl.com?chat">
                                     <div className='h-4 w-4 m-1'><Image priority height={16} width={16} src="/skype-icon.svg" /></div>
         
                                     sixpl.com

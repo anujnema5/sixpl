@@ -51,7 +51,7 @@ const PrimaryNavBar = () => {
                     <div className="p-1">
                         <Link href="/"><a><Image priority src="/sixpl-logo.svg" width="105px" height="58px" /></a></Link>
                     </div>
-                    <div className="flex ml-auto p-2 text-lg font-serif text-slate-700">
+                    <div className="flex ml-auto p-2 text-lg font-mono text-slate-700">
                         {primaryNavItems.map(navItem => {
                             return(
                                 <Link key={navItem.text} href={navItem.permalink}><a className={`px-2 hover:text-emerald-700 ${router.pathname === navItem.permalink ? "text-emerald-700" : "text-slate-700"}`}>{navItem.text}</a></Link>
@@ -63,7 +63,7 @@ const PrimaryNavBar = () => {
             </nav>
             <div className={`${isOpen ? '': 'hidden'} `}>
                 <div className="absolute z-50 w-full grid">
-                    <div className="border border-t-2 border-t-teal-600 bg-gray-100 w-6/12 justify-self-center font-serif text-lg text-slate-700">
+                    <div className="border border-t-2 border-t-teal-600 bg-gray-100 w-6/12 justify-self-center font-mono text-lg text-slate-700">
                         <ul>
                             {primaryNavItems.map(navItem => {
                                 return(
