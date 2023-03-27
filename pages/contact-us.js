@@ -37,7 +37,6 @@ const ContactUsPage = () => {
                                                             </div>
                                                             <div className='flex flex-col font-sans text-lg'>
                                                                 <Link href="tel:+17795452612"><a className='py-1 px-2'>US: +1 779 545 2612</a></Link>
-                                                                <Link href="tel:+919318464366"><a className='py-1 px-2'>IN: +91 9318484366</a></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -58,27 +57,13 @@ const ContactUsPage = () => {
                                                     <div className='px-4 py-2'>
                                                         <div className="flex flex-row items-center text-center p-2 ">
                                                             <div className="px-2">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" className='h-8 w-8 stroke-sptheme-darkgreen' viewBox="0 0 24 24" strokeWidth="1" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                                <path d="M12 3a9 9 0 0 1 8.603 11.65a4.5 4.5 0 0 1 -5.953 5.953a9 9 0 0 1 -11.253 -11.253a4.5 4.5 0 0 1 5.953 -5.954a8.987 8.987 0 0 1 2.65 -.396z" />
-                                                                <path d="M8 14.5c.5 2 2.358 2.5 4 2.5c2.905 0 4 -1.187 4 -2.5c0 -1.503 -1.927 -2.5 -4 -2.5s-4 -.997 -4 -2.5c0 -1.313 1.095 -2.5 4 -2.5c1.642 0 3.5 .5 4 2.5" />
+                                                                <svg xmlns="http://www.w3.org/2000/svg" className="h-4 w-4 m-1 inline-flex" viewBox="0 0 20 20" fill="currentColor">
+                                                                    <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
+                                                                    <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
                                                                 </svg>
                                                             </div>
                                                             <div>
-                                                                <Link href="skype:sixpl.com?chat "><a className=' text-xl px-2'>sixpl.com</a></Link>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className='px-4 py-2'>
-                                                        <div className="flex flex-row items-center text-center p-2 ">
-                                                            <div className="px-2">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" className='h-8 w-8 stroke-sptheme-darkgreen' viewBox="0 0 24 24" strokeWidth="1" fill="none" strokeLinecap="round" strokeLinejoin="round">
-                                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                                    <path d="M15 10l-4 4l6 6l4 -16l-18 7l4 2l2 6l3 -4" />
-                                                                </svg>
-                                                            </div>
-                                                            <div>
-                                                                <Link href="https://t.me/saketsp"><a className=' text-xl px-2'>sixplsp</a></Link>
+                                                                <Link href="mailto: sales@sixpl.com"><a className=' text-lg px-2'>Email: sales@sixpl.com</a></Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -92,27 +77,10 @@ const ContactUsPage = () => {
                                                                 </svg>
                                                             </div>
                                                             <div className='px-2'>
-                                                                <h2 className='text-2xl font-serif text-gray-700 font-semibold'>USA Headquarter</h2>
+                                                                <h2 className='text-2xl font-serif text-gray-700 font-semibold'>Headquarter</h2>
                                                                 <p>SixPL</p>
                                                                 <p>16192 Coastal Highway</p>
                                                                 <p>Lewes, DE 19958</p>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div className='px-4 py-2'>
-                                                        <div className="flex flex-row p-2 ">
-                                                            <div className="px-2">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" className='h-8 w-8 stroke-sptheme-darkgreen' viewBox="0 0 24 24" strokWidth="1" fill='none' strokeLinecap="round" strokeLinejoin="round">
-                                                                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                                                                    <circle cx="12" cy="11" r="3" />
-                                                                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" />
-                                                                </svg>
-                                                            </div>
-                                                            <div className='px-2'>
-                                                                <h2 className='text-2xl font-serif text-gray-700 font-semibold'>India Development Center</h2>
-                                                                <p>SixPL</p>
-                                                                <p>M 138, 2nd Floor, Connaught Place</p>
-                                                                <p>New Delhi, India, 110001</p>
                                                             </div>
                                                         </div>
                                                     </div>
