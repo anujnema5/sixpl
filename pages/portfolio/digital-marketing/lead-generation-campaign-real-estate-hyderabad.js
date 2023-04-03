@@ -70,7 +70,7 @@ const DM99ApartmentsPortfolioPage = () => {
                             </div>
                         
                             <div className='flex flex-row flex-1 justify-center px-4 py-10'>
-                                <Link href="/contact-us"><a className='text-xl text-center py-2 px-6 bg-gradient-to-r from-sptheme-darkgreen to-sptheme-lightgreen text-white rounded-3xl hover:text-orange-400 hover:bg-gradient-to-r hover:from-sptheme-lightgreen hover:to-sptheme-darkgreen '>Start Your Project Now</a></Link>
+                                <Link className='text-xl text-center py-2 px-6 bg-gradient-to-r from-sptheme-darkgreen to-sptheme-lightgreen text-white rounded-3xl hover:text-orange-400 hover:bg-gradient-to-r hover:from-sptheme-lightgreen hover:to-sptheme-darkgreen ' href="/contact-us">Start Your Project Now</Link>
                             </div>
                         </div>
                     </div>

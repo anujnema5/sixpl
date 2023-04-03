@@ -11,8 +11,8 @@ const Footer = () => {
                     <div className="pb-2 pt-4 px-8">
                         <div className="font-extrabold text-2xl">Company</div>
                         <ul>
-                            <li className="px-4 py-1"><Link href="/about-us"><a>About Us</a></Link></li>
-                            <li className="px-4 py-1"><Link href="/contact-us"><a>Contact Us</a></Link></li>
+                            <li className="px-4 py-1"><Link legacyBehavior href="/about-us"><a>About Us</a></Link></li>
+                            <li className="px-4 py-1"><Link legacyBehavior href="/contact-us"><a>Contact Us</a></Link></li>
                         </ul>
                     </div>
                     <div className="px-8 pt-4 pb-2 lg:px-4">
@@ -25,7 +25,7 @@ const Footer = () => {
                                             <ul className="px-4 py-2">
                                                 {serviceCategoryItem.services.map(serviceItem => {
                                                     return (
-                                                        <li key={serviceItem.serviceName} className="py-2"><Link href={`/services/${serviceCategoryItem.serviceCategoryPermalink}/${serviceItem.servicePermalink}`}><a>{serviceItem.serviceName}</a></Link></li>
+                                                        <li key={serviceItem.serviceName} className="py-2"><Link legacyBehavior href={`/services/${serviceCategoryItem.serviceCategoryPermalink}/${serviceItem.servicePermalink}`}><a>{serviceItem.serviceName}</a></Link></li>
                                                     )
                                                 })}
                                             </ul>
@@ -37,20 +37,20 @@ const Footer = () => {
                     <div className="pb-2 pt-4 lg:px-2 px-8">
                         <div className="font-extrabold text-2xl">Useful Links</div>
                         <ul>
-                            <li className="py-1 px-4"><Link href="/disclaimer"><a>Disclaimer</a></Link></li>
-                            <li className="py-1 px-4"><Link href="/terms-conditions"><a>Terms & Conditions</a></Link></li>
-                            <li className="py-1 px-4"><Link href="/privacy-policy"><a>Privacy Policy</a></Link></li>
-                            <li className="py-1 px-4"><Link href="/refund-cancellation-policy"><a>Refunds & Cancellation Policy</a></Link></li>
+                            <li className="py-1 px-4"><Link legacyBehavior href="/disclaimer"><a>Disclaimer</a></Link></li>
+                            <li className="py-1 px-4"><Link legacyBehavior href="/terms-conditions"><a>Terms & Conditions</a></Link></li>
+                            <li className="py-1 px-4"><Link legacyBehavior href="/privacy-policy"><a>Privacy Policy</a></Link></li>
+                            <li className="py-1 px-4"><Link legacyBehavior href="/refund-cancellation-policy"><a>Refunds & Cancellation Policy</a></Link></li>
                         </ul>
                     </div>
                 </div>
                 <div>
                     <div className="flex justify-center">
-                        <div className='p-2'><Link href="https://www.facebook.com/sixpl"><a><Image src="/images/facebook-icon.svg" width="30px" height="30px" /></a></Link></div>
-                        <div className='p-2'><Link href="https://www.instagram.com/sixpl_marketing/"><a><Image src="/images/instagram-icon.svg" width="30px" height="30px" /></a></Link></div>
-                        <div className='p-2'><Link href="https://www.youtube.com/channel/UCDfMPbGQKRhxafQpw20lZ9Q"><a><Image src="/images/youtube-icon.svg" width="30px" height="30px" /></a></Link></div>
-                        <div className='p-2'><Link href="https://www.linkedin.com/company/sixpl/"><a><Image src="/images/linkedin-icon.svg" width="30px" height="30px" /></a></Link></div>
-                        <div className='p-2'><Link href="https://twitter.com/SixPL"><a><Image src="/images/twitter-icon.svg" width="30px" height="30px" /></a></Link></div>
+                        <div className='p-2'><Link legacyBehavior href="https://www.facebook.com/sixpl"><a><Image src="/images/facebook-icon.svg" width="30" height="30" /></a></Link></div>
+                        <div className='p-2'><Link legacyBehavior href="https://www.instagram.com/sixpl_marketing/"><a><Image src="/images/instagram-icon.svg" width="30" height="30" /></a></Link></div>
+                        <div className='p-2'><Link legacyBehavior href="https://www.youtube.com/channel/UCDfMPbGQKRhxafQpw20lZ9Q"><a><Image src="/images/youtube-icon.svg" width="30" height="30" /></a></Link></div>
+                        <div className='p-2'><Link legacyBehavior href="https://www.linkedin.com/company/sixpl/"><a><Image src="/images/linkedin-icon.svg" width="30" height="30" /></a></Link></div>
+                        <div className='p-2'><Link legacyBehavior href="https://twitter.com/SixPL"><a><Image src="/images/twitter-icon.svg" width="30" height="30" /></a></Link></div>
                     </div>
                 </div>
             </div>

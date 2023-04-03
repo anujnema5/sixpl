@@ -20,7 +20,7 @@ const PrimaryNavBar = () => {
                 <div className="md:hidden">
                     <div className="flex items-center p-2">
                         <div>
-                            <Link href="/"><a><Image priority src="/sixpl-logo.svg" width="72" height="39" /></a></Link>
+                            <Link legacyBehavior href="/"><a><Image priority src="/sixpl-logo.svg" width="72" height="39" /></a></Link>
                         </div>
                         <div className="ml-auto">  <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
@@ -49,12 +49,12 @@ const PrimaryNavBar = () => {
                 </div>
                 <div className="hidden md:flex md:items-center">
                     <div className="p-1">
-                        <Link href="/"><a><Image priority src="/sixpl-logo.svg" width="105px" height="58px" /></a></Link>
+                        <Link legacyBehavior href="/"><a><Image priority src="/sixpl-logo.svg" width="105" height="58" /></a></Link>
                     </div>
                     <div className="flex ml-auto p-2 text-lg font-mono text-slate-700">
                         {primaryNavItems.map(navItem => {
                             return(
-                                <Link key={navItem.text} href={navItem.permalink}><a className={`px-2 hover:text-emerald-700 ${router.pathname === navItem.permalink ? "text-emerald-700" : "text-slate-700"}`}>{navItem.text}</a></Link>
+                                <Link legacyBehavior key={navItem.text} href={navItem.permalink}><a className={`px-2 hover:text-emerald-700 ${router.pathname === navItem.permalink ? "text-emerald-700" : "text-slate-700"}`}>{navItem.text}</a></Link>
                             )
                         })}
                     </div>
@@ -67,7 +67,7 @@ const PrimaryNavBar = () => {
                         <ul>
                             {primaryNavItems.map(navItem => {
                                 return(
-                                    <li key={navItem.text} className="border-b border-t-gray-200 p-2"><Link href={navItem.permalink}><a className={`px-2 hover:text-emerald-700 ${router.pathname === navItem.permalink ? "text-emerald-700" : "text-slate-700"}`}>{navItem.text}</a></Link></li>
+                                    <li key={navItem.text} className="border-b border-t-gray-200 p-2"><Link legacyBehavior href={navItem.permalink}><a className={`px-2 hover:text-emerald-700 ${router.pathname === navItem.permalink ? "text-emerald-700" : "text-slate-700"}`}>{navItem.text}</a></Link></li>
                                 )
                             })}
                         </ul>

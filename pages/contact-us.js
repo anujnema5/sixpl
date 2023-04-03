@@ -36,7 +36,7 @@ const ContactUsPage = () => {
                                                                 </svg>
                                                             </div>
                                                             <div className='flex flex-col font-sans text-lg'>
-                                                                <Link href="tel:+17795452612"><a className='py-1 px-2'>US: +1 779 545 2612</a></Link>
+                                                                <Link className='py-1 px-2' href="tel:+17795452612">US: +1 779 545 2612</Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -50,7 +50,7 @@ const ContactUsPage = () => {
                                                                 </svg>
                                                             </div>
                                                             <div>
-                                                                <Link href="https://api.whatsapp.com/send?phone=919318463840"><a className=' text-lg px-2'>Click to Chat</a></Link>
+                                                                <Link className=' text-lg px-2' href="https://api.whatsapp.com/send?phone=919318463840">Click to Chat</Link>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -63,7 +63,7 @@ const ContactUsPage = () => {
                                                                 </svg>
                                                             </div>
                                                             <div>
-                                                                <Link href="mailto: sales@sixpl.com"><a className=' text-lg px-2'>Email: sales@sixpl.com</a></Link>
+                                                                <Link className=' text-lg px-2' href="mailto: sales@sixpl.com">Email: sales@sixpl.com</Link>
                                                             </div>
                                                         </div>
                                                     </div>

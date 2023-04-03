@@ -182,7 +182,7 @@ const SEOPackages = () => {
                                                     <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Phone</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="https://buy.stripe.com/aEUcOK2mW4Yy1l63cx"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="https://buy.stripe.com/aEUcOK2mW4Yy1l63cx">Sign up</Link></div>
                                         </div>
                                         {/*Starter Package Content Finished */}
                                         <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
@@ -340,7 +340,7 @@ const SEOPackages = () => {
                                                     <div className='p-1 border-b-2 border-slate-300 '>Phone</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="https://buy.stripe.com/dR66qmd1AbmW7JucN8"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="https://buy.stripe.com/dR66qmd1AbmW7JucN8">Sign up</Link></div>
                                         </div>
                                         <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
@@ -497,7 +497,7 @@ const SEOPackages = () => {
                                                     <div className='p-1 border-b-2 border-slate-300 '>Phone</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="https://buy.stripe.com/cN2g0W0eOgHg0h2bJ5"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="https://buy.stripe.com/cN2g0W0eOgHg0h2bJ5">Sign up</Link></div>
                                         </div>
                                         <div className='flex flex-col lg:w-1/4 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
@@ -654,7 +654,7 @@ const SEOPackages = () => {
                                                     <div className='p-1 border-b-2 border-slate-300 '>Phone</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="https://buy.stripe.com/8wMcOKd1AbmW0h2aF2"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="https://buy.stripe.com/8wMcOKd1AbmW0h2aF2">Sign up</Link></div>
                                         </div>
                                     </div>
                                 </div>

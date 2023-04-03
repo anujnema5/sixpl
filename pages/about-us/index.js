@@ -15,18 +15,18 @@ const AboutUsIndexPage = () => {
                     <div className=' flex flex-col font-serif justify-center items-center'>
                         <div className='flex flex-col lg:flex-row m-4 lg:m-20 lg:px-14 font-serif'>
                             <div className=' flex flex-col bg-gray-100 py-4 font-serif rounded-xl'>
-                                <Link href='/about-us'><a className='py-2 px-4 text-lg underline underline-offset-4 hover:text-sky-700 text-sky-700'>Company Overview</a></Link>
-                                <Link href='/about-us/saket-kumar-singh'><a className='py-2 px-4 text-lg underline underline-offset-4 hover:text-sky-700 '>The Founder</a></Link>
+                                <Link className='py-2 px-4 text-lg underline underline-offset-4 hover:text-sky-700 text-sky-700' href='/about-us'>Company Overview</Link>
+                                <Link className='py-2 px-4 text-lg underline underline-offset-4 hover:text-sky-700 ' href='/about-us/saket-kumar-singh'>The Founder</Link>
                             </div>
                             <div className='flex flex-col justify-center items-center px-4 lg:px-14 border-2 rounded-xl max-w-2xl'>
                                 
                                     <div><h1 className=' text-3xl text-gray-700 py-4'>Company Overview</h1></div>
                                     <small className='pb-4'>Information updated on Aug 31, 2022</small>
                                     <table className=' text-lg max-w-2xl'>
-                                        <thead>
+                                        {/* <thead>
                                             <th></th>
                                             <th></th>
-                                        </thead>
+                                        </thead> */}
                                         <tbody>
                                             <tr>
                                                 <td className='pr-4 py-2'>Established</td>

@@ -13,8 +13,8 @@ const FounderPage = () => {
             <div className=' flex justify-center'>
                 <div className='flex flex-col lg:flex-row m-4 lg:m-20 lg:px-14 font-serif'>
                     <div className=' flex flex-col bg-gray-100 py-4 font-serif rounded-xl'>
-                        <Link href='/about-us'><a className='py-2 px-4 text-lg underline underline-offset-4 hover:text-sky-700'>Company Overview</a></Link>
-                        <Link href='/about-us/saket-kumar-singh'><a className='py-2 px-4 text-lg underline underline-offset-4 hover:text-sky-700 text-sky-700'>The Founder</a></Link>
+                        <Link className='py-2 px-4 text-lg underline underline-offset-4 hover:text-sky-700' href='/about-us'>Company Overview</Link>
+                        <Link className='py-2 px-4 text-lg underline underline-offset-4 hover:text-sky-700 text-sky-700' href='/about-us/saket-kumar-singh'>The Founder</Link>
 
                     </div>
                     <div className=' px-4 flex flex-col rounded-xl border-2'>

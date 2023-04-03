@@ -27,7 +27,7 @@ const ServiceIndexPage = () => {
                                             <ul className="px-5 py-4">
                                                 {serviceCategoryItem.services.map(serviceItem => {
                                                     return (
-                                                        <li key={serviceItem.serviceName} className="py-4"><Link href={`/services/${serviceCategoryItem.serviceCategoryPermalink}/${serviceItem.servicePermalink}`}><a className="text-lg sm:text-xl py-2 px-2 text-zinc-700 hover:bg-gray-100 hover:rounded-lg border-slate-100 font-sans">{serviceItem.serviceName}</a></Link></li>
+                                                        <li key={serviceItem.serviceName} className="py-4"><Link className="text-lg sm:text-xl py-2 px-2 text-zinc-700 hover:bg-gray-100 hover:rounded-lg border-slate-100 font-sans" href={`/services/${serviceCategoryItem.serviceCategoryPermalink}/${serviceItem.servicePermalink}`}>{serviceItem.serviceName}</Link></li>
                                                     )
                                                 })}
                                             </ul>

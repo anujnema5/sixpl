@@ -25,7 +25,7 @@ const BlogIndexPage = ({ allPostsData }) => {
                         {allPostsData.map(( {id, date, title} ) => (
                             
                             <li key={id} className='px-8'>
-                                <Link href={`/blog/${id}`}><a className='text-2xl text-sky-700'>{title}</a></Link>
+                                <Link className='text-2xl text-sky-700' href={`/blog/${id}`}>{title}</Link>
                                 <br />
                                 <small><Date dateString={date} /></small>
                             </li>
