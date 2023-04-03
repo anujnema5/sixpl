@@ -32,11 +32,11 @@ export default function TopNave() {
           ))}
         </div>
         <div className="flex flex-1 items-center justify-end gap-x-6">
-          <a href="#" className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">
+          <a href="mailto: sales@sixpl.com" className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">
             sales@sixpl.com
           </a>
           <a
-            href="#"
+            href="tel:+1 779 545 2612"
             className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
           >
             +1 779 545 2612

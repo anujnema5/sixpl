@@ -1,29 +1,29 @@
-import { ArrowPathIcon, CloudArrowUpIcon, FingerPrintIcon, LockClosedIcon, RocketLaunchIcon, CommandLineIcon, CubeIcon, PencilSquareIcon } from '@heroicons/react/24/outline'
+import { RocketLaunchIcon, CommandLineIcon, CubeIcon, PencilSquareIcon } from '@heroicons/react/24/outline'
 
 const features = [
   {
-    name: 'Digital Marketing',
+    name: 'Lead Gen Campaign',
     description:
       'A small real estate dealer got 19 site visits and 4 bookings in a month through FB/Insta lead generation campaign.',
     href: '/portfolio/digital-marketing/lead-generation-campaign-real-estate-hyderabad',
     icon: RocketLaunchIcon,
   },
   {
-    name: 'IT Services',
+    name: 'Blazing Web App',
     description:
       'An EdTech startup built a complex yet fast application using ReactJS, NextJS, Tailwind CSS, PostgreSQL in 21 Days.',
     href: '/portfolio/it/web-app-edtech-company-reactjs-nextjs-psql-heroku',
     icon: CommandLineIcon,
   },
   {
-    name: 'Blockchain',
+    name: 'Whitepaper & ICO Marketing',
     description:
       'A blockchain-based infrastructure platform created a white paper & launched successful ICO through community based marketing efforts.',
     href: '/portfolio/blockchain/technical-white-paper-blockchain-infrastructure-platform',
     icon: CubeIcon,
   },
   {
-    name: 'Writing & Strategy',
+    name: 'SEO-optimized Content',
     description:
       'A resume builder platform grabbed top ranking on Google through 2000 comprehensive blogs in just 2 months.',
     href: '/portfolio/content/content-writing-marketing-resume-builder',
