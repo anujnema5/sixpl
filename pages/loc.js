@@ -3,7 +3,7 @@ export default function Loc(props) {
     return (
       <div style={{ width: '100vw', height: '100vh', padding: 30 }}>
         <h1>
-          IP Address <span style={{ color: 'blue' }}>{location.city}</span>
+          Your location is <span style={{ color: 'blue' }}>{location.city}</span>
         </h1>
       </div>
     );
