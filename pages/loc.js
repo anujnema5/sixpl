@@ -1,9 +1,9 @@
 export default function Loc(props) {
-    const ip = props.ip;
+    const location = props.location;
     return (
       <div style={{ width: '100vw', height: '100vh', padding: 30 }}>
         <h1>
-          IP Address <span style={{ color: 'blue' }}>{ip}</span>
+          IP Address <span style={{ color: 'blue' }}>{location.city}</span>
         </h1>
       </div>
     );
@@ -13,6 +13,8 @@ export default function Loc(props) {
     let ip;
   
     const { req } = context;
+
+    
   
     if (req.headers['x-forwarded-for']) {
       ip = req.headers['x-forwarded-for'].split(',')[0];
@@ -23,9 +25,21 @@ export default function Loc(props) {
     }
   
     console.log(ip);
+
+    const response = await fetch(`https://ipgeolocation.abstractapi.com/v1/?api_key=5056347f62514641ae0a382e31a4a2a3&ip_address=${ip}`);
+    const data = await response.json();
+
+  // Extract the user's location data from the API response
+  const location = {
+    city: data.city,
+    region: data.region,
+    country: data.country,
+    latitude: data.latitude,
+    longitude: data.longitude
+  };
     return {
       props: {
-        ip,
+        location,
       },
     };
   }
