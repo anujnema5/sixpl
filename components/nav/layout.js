@@ -10,6 +10,9 @@ const Layout = (props) => {
         {/* <SecondaryNavBar /> */}
         {/* <PrimaryNavBar /> */}
         <main>{props.children}</main>
+        
+        
+        
         <Footer />
         </>
     )

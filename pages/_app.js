@@ -1,9 +1,13 @@
+
 import '../styles/globals.css'
 import { useEffect } from 'react'
 import Script from 'next/script'
 import { useRouter } from 'next/router'
 
 import * as gtag from '../lib/gtag'
+
+// import { AuthContextProvider } from '../lib/context/AuthContext'
+
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter()
@@ -40,8 +44,11 @@ function MyApp({ Component, pageProps }) {
 
         }}
       />
+
+      {/* <AuthContextProvider><Component {...pageProps} /></AuthContextProvider> */}
       
-        <Component {...pageProps} />
+      <Component {...pageProps} />
+        
       
     </>
   )
