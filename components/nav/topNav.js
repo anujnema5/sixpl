@@ -8,7 +8,6 @@ const navigation = [
   { name: 'Services', href: '/services' },
   { name: 'SEO Packages', href: '/pricing/seo-packages' },
   { name: 'Pay', href: 'https://buy.stripe.com/cN29Cy9Po76G3teeV0' },
-  { name: 'Blog', href: '/blog' },
   { name: 'About', href: '/about-us' },
   { name: 'Contact', href: '/contact-us' },
 ]
