@@ -61,13 +61,6 @@ const ServiceIndexPage = () => {
             </div> */}
 
             {/* SERVICE SECTION */}
-
-
-
-
-
-
-
             <div className=" bg-gradient-to-b from-white to-indigo-100">
                 <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
                     <div className="mx-auto max-w-3xl text-center">
@@ -75,8 +68,10 @@ const ServiceIndexPage = () => {
                         <p className="mt-4 text-gray-500" >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quis, vel asperiores aut debitis est veritatis saepe beatae dolore distinctio ex!</p>
                     </div>
 
+                    {/* FETCHING AND RENDERING CATEGORIES */}
                     <div className="mt-12 lg:space-y-28 space-y-10 flex flex-col lg:py-10 lg:pb-16 items-center justify-center lg:bg-gradient-to-br lg:from-slate-50 lg:to-indigo-100 rounded-2xl lg:border-t-2 lg:border-slate-50 lg:shadow-xl">
                         {serviceList.map((serviceCategoryItem, featureIdx) => (
+                            // RENDERING CATEGORY
                             <div
                                 key={serviceCategoryItem.serviceCategoryName}
                                 className="flex flex-col-reverse lg:grid lg:grid-cols-10 lg:items-center lg:gap-10 lg:w-11/12  lg:px-6 px-0"
@@ -108,11 +103,13 @@ const ServiceIndexPage = () => {
                                                 <h4 className="text-xl font-medium text-gray-900 w-10/12">{`${serviceCategoryItem.serviceCategoryName}`}</h4>
 
                                             </div>
+
+                                            {/* SEE MORE SERVICES */}
                                             <Link href={'/pricing/seo-packages'} className='text-xs text-indigo-700 antialiased hover:text-indigo-500'>See more services</Link>
                                         </div>
 
+                                        {/* SERVICE LIST A/C TO PARENT SERVICE */}
                                         <ul className="px-5 py-4 flex flex-col gap-4">
-
                                             {serviceCategoryItem.services.map(serviceItem => (
                                                 <li key={serviceItem.serviceName} className="">
                                                     <Link className="text-base lg:text-sm rounded-lg text-gray-600 antialiased py-2 px-2 transition-all lg:bg-gray-50 hover:bg-indigo-50 pr-7 hover:rounded-lg  font-sans" href={`/services/${serviceCategoryItem.serviceCategoryPermalink}/${serviceItem.servicePermalink}`}>{serviceItem.serviceName}</Link>
