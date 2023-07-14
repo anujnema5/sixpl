@@ -6,7 +6,6 @@ import { CheckIcon, XMarkIcon } from '@heroicons/react/20/solid'
 import Layout from '../../components/nav/layout'
 import { useState } from 'react'
 import { tiers } from '../../lib/data/seo-packages'
-
 // console.log(packages);
 
 const frequencies = [
@@ -59,7 +58,7 @@ const SEOPackages = () => {
                                         loyalty, and driving sales.
                                     </p>
 
-                                    <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4 ">
+                                    <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">
 
                                         {/* PACKAGES */}
                                         {tiers.map((tier, index) => (
@@ -107,13 +106,30 @@ const SEOPackages = () => {
                                                                         {details.disable? <XMarkIcon className="h-6 w-5 flex-none text-red-900" ></XMarkIcon> :  <CheckIcon className="h-6 w-5 flex-none text-indigo-600" aria-hidden="true" />}
                                                                         
                                                                         <li className={details.disable ? "text-gray-400" : "text-gray-500"}>{details.title}</li>
+                                                                        
                                                                     </div>
                                                                 ))}
                                                             </div>
+                                                            
                                                         </div>
+                                                        
                                                     ))}
                                                 </ul>
+                                                <a
+                                                    href={tier.href}
+                                                    aria-describedby={tier.id}
+                                                    className={classNames(
+                                                        selectedDiv === index
+                                                            ? 'bg-indigo-600 text-white shadow-sm hover:bg-indigo-500 transition-all'
+                                                            : 'text-indigo-600 ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300',
+                                                        'mt-6 block rounded-md py-2 px-3 text-center text-sm font-semibold leading-6 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 hover:bg-indigo-500  hover:text-gray-200 transition-all focus-visible:outline-indigo-600 right-4 ease-linear duration-200'
+                                                    )}
+                                                    id={`buyNow${index}`}
+                                                >
+                                                    Buy plan
+                                                </a>
                                             </div>
+                                            
                                         ))}
                                     </div>
                                 </div>
