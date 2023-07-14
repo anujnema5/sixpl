@@ -82,7 +82,7 @@ const ServiceIndexPage = () => {
                                         'mt-6 lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4 px-1'
                                     )}
                                 >
-                                    <h3 className="text-2xl font-medium text-gray-900 mt-7">{`${serviceCategoryItem.serviceCategoryName} Service`}</h3>
+                                    <h3 className="text-2xl font-medium text-gray-900 mt-7">{`${serviceCategoryItem.serviceCategoryName}`}</h3>
                                     <p className=" text-sm text-gray-500">{serviceCategoryItem.serviceDescription}</p>
                                 </div>
                                 <div
@@ -105,7 +105,7 @@ const ServiceIndexPage = () => {
                                             </div>
 
                                             {/* SEE MORE SERVICES */}
-                                            <Link href={'/pricing/seo-packages'} className='text-xs text-indigo-700 antialiased hover:text-indigo-500'>See more services</Link>
+                                            <Link href={'/contact-us'} className='text-xs text-indigo-700 antialiased hover:text-indigo-500'>Contact us</Link>
                                         </div>
 
                                         {/* SERVICE LIST A/C TO PARENT SERVICE */}
