@@ -50,9 +50,9 @@ const SEOPackages = () => {
                                     
                                     <div className="mx-auto lg:mt-2 flex flex-col gap-3 max-w-7xl text-center">
                                         <span className="text-base font-semibold leading-7 text-indigo-600">Pricing</span>
-                                        <h4 className="mt-2 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                                        <h2 className="mt-2 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
                                             Pricing plans for teams of&nbsp;all&nbsp;sizes
-                                        </h4>
+                                        </h2>
                                     </div>
                                     <p className="mx-auto mt-6 max-w-2xl text-center text-base leading-7 text-gray-600">
                                         Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer
