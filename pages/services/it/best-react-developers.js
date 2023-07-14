@@ -341,7 +341,7 @@ const ReactDevelopersPage = () => {
                                                 
                                             </div>
                                             
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg text-center '><Link href="/contact-us"><a>Start Your ReactJS Project Now</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg text-center '><Link href="/contact-us">Start Your ReactJS Project Now</Link></div>
                                         </div>
                                         <div className='flex flex-col lg:w-1/3 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
@@ -353,7 +353,7 @@ const ReactDevelopersPage = () => {
                                                 
                                             </div>
                                             
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg text-center '><Link href="/contact-us"><a>Start Your ReactJS Project Now</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg text-center '><Link href="/contact-us">Start Your ReactJS Project Now</Link></div>
                                         </div>
                                         <div className='flex flex-col lg:w-1/3 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
@@ -364,7 +364,7 @@ const ReactDevelopersPage = () => {
                                                 
                                             </div>
                                             
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-b-lg text-center'><Link href="/contact-us"><a>Start Your ReactJS Project Now</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-b-lg text-center'><Link href="/contact-us">Start Your ReactJS Project Now</Link></div>
                                         </div>
                                     </div>
                                 </div>

@@ -395,11 +395,11 @@ const CryptoContentPage = () => {
                                         <div className='text-lg py-2 px-4 text-gray-700'>
                                             Here are some samples:
                                             <br />
-                                            <Link href="https://drive.google.com/file/d/0BzAFMmdGKTxMN2Vtc3YyZEZjSE0/view?resourcekey=0-8eLUR9OULYWVwlG6ER1aeA"><a className='p-2 text-sky-600'>Marketing Strategy for BTCClicks.com</a></Link>
+                                            <Link className='p-2 text-sky-600' href="https://drive.google.com/file/d/0BzAFMmdGKTxMN2Vtc3YyZEZjSE0/view?resourcekey=0-8eLUR9OULYWVwlG6ER1aeA">Marketing Strategy for BTCClicks.com</Link>
                                             <br/>
-                                            <Link p-2 href="https://everusworld.com/"><a className='p-2 text-sky-600'>Website Content for EverusWorld</a></Link>
+                                            <Link className='p-2 text-sky-600' p-2 href="https://everusworld.com/">Website Content for EverusWorld</Link>
                                             <br />
-                                            <Link href="https://tech.hindustantimes.com/tech/news/what-is-bitcoin-the-digital-currency-demanded-as-payment-by-cyberattackers-story-NdR1TfTXlVrpLJV1rq7RsK.html"><a className='p-2 text-sky-600'>News: Why Cyberattackers Deman Bitcoin</a></Link>
+                                            <Link className='p-2 text-sky-600' href="https://tech.hindustantimes.com/tech/news/what-is-bitcoin-the-digital-currency-demanded-as-payment-by-cyberattackers-story-NdR1TfTXlVrpLJV1rq7RsK.html">News: Why Cyberattackers Deman Bitcoin</Link>
                                             <br />
                                             Please contact us for more samples.
                                         </div>
