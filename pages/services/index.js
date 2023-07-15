@@ -74,22 +74,23 @@ const ServiceIndexPage = () => {
                             // RENDERING CATEGORY
                             <div
                                 key={serviceCategoryItem.serviceCategoryName}
-                                className="flex flex-col-reverse lg:grid lg:grid-cols-10 lg:items-center lg:gap-10 lg:w-11/12  lg:px-6 px-0"
+                                className="flex flex-col lg:grid lg:grid-cols-10 lg:items-center lg:gap-10 lg:w-11/12 lg:px-6 px-0"
                             >
                                 <div
                                     className={classNames(
                                         featureIdx % 2 === 0 ? 'lg:col-start-1 ' : 'lg:col-start-8 xl:col-start-3',
-                                        'mt-6 lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4 px-1'
+                                        'lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4 px-1 lg:mb-0 mb-8'
                                     )}
                                 >
-                                    <h3 className="text-2xl font-medium text-gray-900 mt-7">{`${serviceCategoryItem.serviceCategoryName}`}</h3>
-                                    <p className=" text-sm text-gray-500">{serviceCategoryItem.serviceDescription}</p>
+                                    <h3 className="text-2xl font-medium text-gray-900  ">{`${serviceCategoryItem.serviceCategoryName}`}</h3>
+                                    <p className=" text-sm text-gray-500 leading-5 mt-2">{serviceCategoryItem.serviceDescription}</p>
                                 </div>
                                 <div
                                     className={classNames(
                                         featureIdx % 2 === 0 ? 'lg:col-start-6 xl:col-start-5' : 'lg:col-start-1',
                                         'flex-auto lg:col-span-7 lg:row-start-1 xl:col-span-8'
                                     )}
+                                    id={`serviceList${featureIdx}`}
                                 >
                                     <div className="shadow-xl shadow-indigo-200 lg:max-w-lg h-auto overflow-hidden rounded-lg bg-white ring-2 ring-indigo-50">
 
@@ -109,7 +110,7 @@ const ServiceIndexPage = () => {
                                         </div>
 
                                         {/* SERVICE LIST A/C TO PARENT SERVICE */}
-                                        <ul className="px-5 py-4 flex flex-col gap-4">
+                                        <ul className="px-5 py-4 flex flex-col gap-4 ">
                                             {serviceCategoryItem.services.map(serviceItem => (
                                                 <li key={serviceItem.serviceName} className="">
                                                     <Link className="text-base lg:text-sm rounded-lg text-gray-600 antialiased py-2 px-2 transition-all lg:bg-gray-50 hover:bg-indigo-50 pr-7 hover:rounded-lg  font-sans" href={`/services/${serviceCategoryItem.serviceCategoryPermalink}/${serviceItem.servicePermalink}`}>{serviceItem.serviceName}</Link>
