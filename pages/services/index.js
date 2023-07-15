@@ -79,11 +79,11 @@ const ServiceIndexPage = () => {
                                 <div
                                     className={classNames(
                                         featureIdx % 2 === 0 ? 'lg:col-start-1 ' : 'lg:col-start-8 xl:col-start-3',
-                                        'lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4 px-1 lg:mb-0 mb-8'
+                                        'lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4 px-1.5 lg:mb-0 mb-8'
                                     )}
                                 >
-                                    <h3 className="text-2xl font-medium text-gray-900  ">{`${serviceCategoryItem.serviceCategoryName}`}</h3>
-                                    <p className=" text-sm text-gray-500 leading-5 mt-2">{serviceCategoryItem.serviceDescription}</p>
+                                    <h3 className="text-2xl font-medium text-gray-900 ">{`${serviceCategoryItem.serviceCategoryName}`}</h3>
+                                    <p className=" text-sm text-gray-500 leading-5 mt-2 -mb-3 lg:mb-0">{serviceCategoryItem.serviceDescription}</p>
                                 </div>
                                 <div
                                     className={classNames(
