@@ -359,7 +359,7 @@ const GoogleAdsManagementPage = () => {
                                                     <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Hosting - No</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us">Sign up</Link></div>
                                         </div>
                                         <div className='flex flex-col lg:w-1/3 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
@@ -390,7 +390,7 @@ const GoogleAdsManagementPage = () => {
                                                     <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Hosting - No</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us">Sign up</Link></div>
                                         </div>
                                         <div className='flex flex-col lg:w-1/3 my-4 mx-0.5 hover:border-4 hover:border-sptheme-darkgreen hover:rounded-xl'>
                                             <div className='flex flex-col items-center text-white'>
@@ -421,7 +421,7 @@ const GoogleAdsManagementPage = () => {
                                                     <div className='p-1 border-b-2 border-slate-300 text-gray-400'>Hosting - Yes</div>
                                                 </div>
                                             </div>
-                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us"><a>Sign up</a></Link></div>
+                                            <div className='w-full bg-sptheme-darkgreen text-white text-2xl p-2 rounded-lg '><Link href="/contact-us">Sign up</Link></div>
                                         </div>
                                         
                                         

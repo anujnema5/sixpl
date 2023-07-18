@@ -1,29 +1,35 @@
 import Link from 'next/link'
 import Head from 'next/head'
 import Image from 'next/image'
+import AboutNavbar from '../../components/nav/aboutNavbar'
 
 import Layout from '../../components/nav/layout'
 
-const FounderPage = () => {
-    return(
+const AboutUsIndexPage = () => {
+    return (
         <Layout>
             <Head>
-                <title>Saket Kumar Singh - The Founder of SixPL</title>
+                <title>SixPL - Company Overview</title>
             </Head>
-            <div className=' flex justify-center'>
-                <div className='flex flex-col lg:flex-row m-4 lg:m-20 lg:px-14 font-serif'>
-                    <div className=' flex flex-col bg-gray-100 py-4 font-serif rounded-xl'>
+            <main className=''>
+                <div className='flex justify-center w-full'>
+                    <div className=' flex flex-col  lg:w-8/12 w-full sm:w-full'>
+                        <div className='flex flex-col lg:flex-row m-4 lg:m-20 lg:px-14 '>
+                                {/* <AboutNavbar highlight="founder"/> */}
+                <div className='w-full '>
+                    <AboutNavbar highlight="founder"/>
+                    {/* <div className=' flex flex-col bg-gray-100 py-4 rounded-xl'>
                         <Link className='py-2 px-4 text-lg underline underline-offset-4 hover:text-sky-700' href='/about-us'>Company Overview</Link>
                         <Link className='py-2 px-4 text-lg underline underline-offset-4 hover:text-sky-700 text-sky-700' href='/about-us/saket-kumar-singh'>The Founder</Link>
 
-                    </div>
-                    <div className=' px-4 flex flex-col rounded-xl border-2'>
-                        <div className=' flex flex-col items-center font-serif'>
-                            <div className=' mt-8'><h1 className=' text-4xl p-4 font-serif text-sptheme-darkgreen'>Saket Kumar Singh</h1></div>
+                    </div> */}
+                    <div className='flex flex-col rounded-xl border-t border-white my-2 w-full overflow-auto lg:shadow-lg sm:rounded-lg'>
+                        <div className=' flex flex-col items-center'>
+                            <div className=' mt-8'><h1 className=' text-4xl p-4 text-sptheme-darkgreen'>Saket Kumar Singh</h1></div>
                             <div><p className='text-2xl text-gray-700 pb-8'>The Founder - SixPL</p></div>
                             <Image className=' rounded-full bg-slate-400 ' priority src="/images/about/Saket Kumar Singh.png" height={250} width={250} />
                         </div>
-                        <div className=' text-lg p-2 font-serif max-w-2xl mt-10'>
+                        <div className='mx-auto text-lg p-2 w-full px-5 mt-10'>
                             <p className='py-2'>
                                 In 2010, I met with a severe accident and was forced to take a complete bed rest for two months. Bored to death, I created my first website using WordPress and wrote a simple blog. I applied basic SEO techniques to promote the site and used Google AdSense to monetize it.
                             </p>
@@ -50,17 +56,27 @@ const FounderPage = () => {
                             
                         </div>
                         <div>
-                            <h2 className='text-2xl text-gray-700 text-center font-serif p-4'>Watch My Journey</h2>
+                            <h2 className='text-2xl text-gray-700 text-center p-4'>Watch My Journey</h2>
                         </div>
                         <div className='p-4' >
-                            <iframe className=' aspect-video' width="100%" height="100%" src="https://www.youtube.com/embed/qQ_QALUcjt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            <iframe className=' aspect-video' width="100%" height="550px" src="https://www.youtube.com/embed/qQ_QALUcjt0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                         </div>
                         
                     </div>
 
                 </div>
             </div>
+                            </div>
+                        </div>
+                        <div className='flex flex-col m-4 px-4 lg:mx-20 lg:px-24 max-w-5xl text-xl text-gray-700'>
+                            <div>
+
+                        </div>
+                    </div>
+            </main>
         </Layout>
     )
 }
-export default FounderPage
+export default AboutUsIndexPage
+
+
