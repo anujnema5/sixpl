@@ -20,7 +20,7 @@ export default function Example() {
               alt="Company name"
             />
             <p className="text-sm leading-6 text-gray-200 antialiased ">
-              Helping businesses grow faster and become more efficient every .
+              Helping businesses grow faster and become more efficient everyday .
             </p>
             <div className="flex space-x-6">
               {navigation.social.map((item) => (
