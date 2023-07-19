@@ -61,7 +61,6 @@ const ContactFormVertical = () => {
     }
 
     return (
-        <div>
             <div className="flex items-center justify-center border-l-2 border-gray-100">
                 {/* <form className="flex flex-col p-2 items-center w-full" onSubmit={onSubmitHandler}>
                     <div className="flex flex-col items-center w-full md:px-8">
@@ -105,6 +104,7 @@ const ContactFormVertical = () => {
                                         name="firstName"
                                         id="first-name"
                                         autoComplete="given-name"
+                                        placeholder='First name'
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                     />
                                 </div>
@@ -119,6 +119,7 @@ const ContactFormVertical = () => {
                                         name="lastName"
                                         id="last-name"
                                         autoComplete="family-name"
+                                        placeholder='Last name'
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                     />
                                 </div>
@@ -133,6 +134,7 @@ const ContactFormVertical = () => {
                                         name="email"
                                         id="email"
                                         autoComplete="email"
+                                        placeholder='E-mail address'
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                     />
                                 </div>
@@ -147,6 +149,7 @@ const ContactFormVertical = () => {
                                         name="phone"
                                         id="phone-number"
                                         autoComplete="tel"
+                                        placeholder='Phone number'
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                     />
                                 </div>
@@ -162,6 +165,7 @@ const ContactFormVertical = () => {
                                         name="website"
                                         id="website"
                                         autoComplete="url"
+                                        placeholder='Website URL'
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                     />
                                 </div>
@@ -175,6 +179,7 @@ const ContactFormVertical = () => {
                                         name="message"
                                         id="message"
                                         rows={4}
+                                        placeholder='Message'
                                         className="block w-full rounded-md border-0 px-3.5 py-2 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                                         defaultValue={''}
                                     />
@@ -193,7 +198,6 @@ const ContactFormVertical = () => {
                     </div>
                 </form>
             </div>
-        </div>
     )
 }
 export default ContactFormVertical
