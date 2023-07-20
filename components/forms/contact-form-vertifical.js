@@ -161,7 +161,7 @@ const ContactFormVertical = () => {
                                 </label>
                                 <div className="mt-2.5">
                                     <input
-                                        type="url"
+                                        type="text"
                                         name="website"
                                         id="website"
                                         autoComplete="url"
