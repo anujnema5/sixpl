@@ -45,7 +45,7 @@ export default function Example() {
                   <h3 className="text-base font-semibold leading-6 text-gray-100">
                     Services IT</h3>
                 </div>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-2 space-y-4">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}>
                       <Link href={item.href} className="text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
@@ -66,7 +66,7 @@ export default function Example() {
                   <CodeBracketSquareIcon className='w-6 h-6 text-indigo-400'/>
                   <h3 className="text-base font-semibold leading-6 text-gray-100">Digital Marketing</h3> 
                 </div>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-2 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
                       <Link href={item.href} className="text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
@@ -88,7 +88,7 @@ export default function Example() {
                   <Square3Stack3DIcon className='w-6 h-6 text-indigo-400'/>
                   <h3 className="text-base font-semibold leading-6 text-gray-100">Blockchain</h3> 
                 </div>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-2 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
                       <Link href={item.href} className="text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
@@ -101,15 +101,10 @@ export default function Example() {
 
               <div className="mt-10 md:mt-0">
               <div className='flex justify-start items-center gap-2'>
-                  {/* <img
-                    className=" h-6 text-white w-auto"
-                    src={`content.svg`}
-                    alt="SixPL Logo"
-                  /> */}
                   <PencilIcon className='w-5 -5 text-indigo-400'/>
                   <h3 className="text-base font-semibold leading-6 text-gray-100">Content</h3> 
                 </div>
-                <ul role="list" className="mt-6 space-y-4">
+                <ul role="list" className="mt-2 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
                       <Link href={item.href} className="text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
