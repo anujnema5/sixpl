@@ -40,7 +40,7 @@ const SEOPackages = () => {
             <main>
                     <div className=' m-2 p-3 '>
                             <div className='mt-12 sm:mt-16 lg:-mb-16 -mb-28'>
-                                <h1 className='text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl text-center'>Affordable SEO Packages</h1>
+                                <h1 className='text-3xl font-bold tracking-tight text-gray-700 sm:text-4xl text-center'>Affordable SEO Packages</h1>
                             </div>
 
                             {/* PRICING SECTION */}
@@ -49,7 +49,7 @@ const SEOPackages = () => {
                                     
                                     <div className="mx-auto lg:mt-2 flex flex-col gap-3 max-w-7xl text-center">
                                         <span className="text-base font-semibold leading-7 text-indigo-600">Pricing</span>
-                                        <h2 className="mt-2 text-4xl font-semibold tracking-tight text-gray-900 sm:text-5xl">
+                                        <h2 className="mt-2 text-4xl font-semibold tracking-tight text-gray-700 sm:text-5xl">
                                             Pricing plans for teams of&nbsp;all&nbsp;sizes
                                         </h2>
                                     </div>
@@ -138,7 +138,7 @@ const SEOPackages = () => {
                             <div className='flex flex-col m-2 p-2 lg:mx-36'>
                                 <div>
                                     <div>
-                                        <h2 className=' text-3xl font-semibold text-center py-4 text-zinc-700'>Affordable SEO Packages to Boost Your Ranking and Revenue</h2>
+                                        <h2 className=' text-3xl font-semibold text-center py-4 text-gray-700'>Affordable SEO Packages to Boost Your Ranking and Revenue</h2>
                                     </div>
                                     <div className=' text-xl text-gray-700'>
                                         <p className=' p-4'>Search Engine Optimization, if done right, can generate filtered leads. Businesses which generate leads/sales through SEO tend to have superior conversion rates and higher ticket size per sales.</p>

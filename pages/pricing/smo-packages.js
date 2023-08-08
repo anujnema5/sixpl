@@ -13,17 +13,17 @@ const webPackage = () => {
     return (
         <Layout>
             <Head>
-                <title>Web Packages - SixPL</title>
-                <meta name="description" content="Are you looking for affordable SEO packages in Delaware USA? SixPL monthly SEO Packages are best for all businesses. Get SEO package prices now." />
+                <title>SMO Packages - SixPL</title>
+                <meta name="description" content="Are you looking for affordable SMO packages in Delaware USA? SixPL monthly SMO Packages are best for all businesses. Get SMO package prices now." />
                 <meta name="image" property='og:image' content='https://www.sixpl.com/og-images/pricing/affordable-seo-packages.jpeg' />
                 <meta name="twitter:card" content="summary_large_image" />
                 <meta name='twitter:title' content='Web Packages in Delaware, USA - SixPL' />
                 <meta name='twitter:image' content='https://www.sixpl.com/og-images/sixpl-home.jpg' />
-                <meta name='twitter:description' content='Are you looking for affordable SEO packages in Delaware USA? SixPL monthly SEO Packages are best for all businesses. Get SEO package prices now.' />
+                <meta name='twitter:description' content='Are you looking for affordable SMO packages in Delaware USA? SixPL monthly SMO Packages are best for all businesses. Get SMO package prices now.' />
             </Head>
             <main className=''>
                 <div className='mt-12 sm:mt-20 lg:-mb-16 -mb-20'>
-                    <h1 className='lg:text-4xl text-2xl font-bold tracking-tight text-gray-900 sm:text-3xl text-center'>Affordable SMO Packages</h1>
+                    <h1 className='lg:text-4xl text-2xl font-bold tracking-tight text-gray-700 sm:text-3xl text-center'>Affordable SMO Packages</h1>
                 </div>
                 <div className='mt-5'>
                     <PricePackage heading={"Hello"} packages={smoPackage} description={""} subHeading={"Haaa"} key={1} />

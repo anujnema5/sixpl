@@ -61,25 +61,25 @@ p {
   }
   
   h1 {
-    @apply text-3xl my-4 text-slate-600 font-semibold;
+    @apply text-3xl my-4 text-slate-700 font-semibold;
   }
   
   h2 {
-    @apply text-3xl my-5 text-slate-800 font-semibold;
+    @apply text-3xl my-5 text-gray-700 font-semibold;
   }
 
   h3 {
-    @apply text-2xl my-5 text-slate-800 font-semibold;
+    @apply text-2xl my-5 text-gray-700 font-semibold;
   }
 
   h4 {
-    @apply text-xl my-4 text-slate-800 font-semibold;
+    @apply text-xl my-4 text-gray-700 font-semibold;
   }
 
   p {
-    @apply text-base text-slate-600
+    @apply text-base text-slate-700
   }
   
   li {
-    @apply text-slate-600
+    @apply text-slate-700
   }

@@ -3,6 +3,8 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Dropdown from './Dropdown'
+import {IconBoxMultiple, IconBrandInstagram, IconClick, IconHandClick, IconRocket, IconSocial} from "@tabler/icons-react"
+import { IconAppWindow } from '@tabler/icons-react'
 
 const navigation = [
   { name: 'Home', href: '/' },
@@ -11,10 +13,10 @@ const navigation = [
     type: 'dropdown',
     title: 'SEO Packages',
     links: [
-      { href: '/pricing/seo-packages', title: 'SEO Packages' },
-      { href: '/pricing/web-packages', title: 'Web Packages' },
-      { href: '/pricing/smo-packages', title: 'SMO Packages' },
-      { href: '/pricing/ppc-packages', title: 'PPC Packages' },
+      { href: '/pricing/seo-packages', title: 'SEO Packages', icon: IconRocket},
+      { href: '/pricing/web-packages', title: 'Web Packages', icon: IconBoxMultiple},
+      { href: '/pricing/smo-packages', title: 'SMO Packages', icon: IconSocial},
+      { href: '/pricing/ppc-packages', title: 'PPC Packages', icon: IconClick},
     ],
   },
   { name: 'Pay', href: 'https://buy.stripe.com/cN29Cy9Po76G3teeV0' },
