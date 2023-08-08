@@ -9,7 +9,7 @@ const navigation = [
   { name: 'Services', href: '/services' },
   {
     type: 'dropdown',
-    title: 'SEO Packages',
+    title: 'Pricing',
     links: [
       { href: '/pricing/seo-packages', title: 'SEO Packages' },
       { href: '/pricing/web-packages', title: 'Web Packages' },
