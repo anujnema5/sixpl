@@ -11,7 +11,7 @@ const navigation = [
   { name: 'Services', href: '/services' },
   {
     type: 'dropdown',
-    title: 'SEO Packages',
+    title: 'Pricing',
     links: [
       { href: '/pricing/seo-packages', title: 'SEO Packages', icon: IconRocket},
       { href: '/pricing/web-packages', title: 'Web Packages', icon: IconBoxMultiple},
