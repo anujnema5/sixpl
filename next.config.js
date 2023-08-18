@@ -1,4 +1,7 @@
-module.exports = {
+const { withContentlayer } = require("next-contentlayer");
+
+/** @type {import('next').NextConfig} */
+const nextConfig = {
     async redirects() {
       return [
         {
@@ -65,3 +68,5 @@ module.exports = {
       ]
     },
   }
+
+  module.exports= withContentlayer(nextConfig);

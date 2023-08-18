@@ -2,14 +2,27 @@ import Link from 'next/link'
 import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import Dropdown from './Dropdown'
+import {IconBoxMultiple, IconBrandInstagram, IconClick, IconHandClick, IconRocket, IconSocial} from "@tabler/icons-react"
+import { IconAppWindow } from '@tabler/icons-react'
 
 const navigation = [
   { name: 'Home', href: '/' },
   { name: 'Services', href: '/services' },
-  { name: 'SEO Packages', href: '/pricing/seo-packages' },
+  {
+    type: 'dropdown',
+    title: 'Pricing',
+    links: [
+      { href: '/pricing/seo-packages', title: 'SEO Packages', icon: IconRocket},
+      { href: '/pricing/web-packages', title: 'Web Packages', icon: IconBoxMultiple},
+      { href: '/pricing/smo-packages', title: 'SMO Packages', icon: IconSocial},
+      { href: '/pricing/ppc-packages', title: 'PPC Packages', icon: IconClick},
+    ],
+  },
   { name: 'Pay', href: 'https://buy.stripe.com/cN29Cy9Po76G3teeV0' },
   { name: 'About', href: '/about-us' },
   { name: 'Contact', href: '/contact-us' },
+
 ]
 
 export default function TopNave() {
@@ -25,12 +38,25 @@ export default function TopNave() {
           </Link>
         </div>
         <div className="hidden lg:flex lg:gap-x-12">
-          {navigation.map((item) => (
-            <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
-              {item.name}
-            </Link>
-          ))}
+
+          {/* RENDERING NAVIGATION AND DROP DOWN MENU */}
+          {navigation.map((item) => {
+            if (item.type !== 'dropdown') {
+              return (
+
+                <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+                  {item.name}
+                </Link>
+              )
+            } if (item.type === 'dropdown') {
+              // DROPDOWN LINKS
+              return (
+                <Dropdown title={item.title} links={item.links} />
+              )
+            }
+          })}
         </div>
+
         <div className="flex flex-1 items-center justify-end gap-x-6">
           <Link href="mailto: sales@sixpl.com" className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">
             sales@sixpl.com
@@ -83,15 +109,39 @@ export default function TopNave() {
           <div className="mt-6 flow-root">
             <div className="-my-6 divide-y divide-gray-500/10">
               <div className="space-y-2 py-6">
-                {navigation.map((item) => (
-                  <Link
-                    key={item.name}
-                    href={item.href}
-                    className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                  >
-                    {item.name}
-                  </Link>
-                ))}
+                {navigation.map((item) => {
+                  if (item.type !== 'dropdown') {
+                    return (
+                      <Link
+                        key={item.href}
+                        href={item.href}
+                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                      >
+                        {item.name}
+                      </Link>
+                    )
+                  }
+
+                  return (
+
+
+                    <div className='space-y-2'>
+                      {item.links.map((link) => {
+                        return (
+                          <Link
+                            key={link.href}
+                            href={link.href}
+                            className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 "
+                          >
+                            {link.title}
+                          </Link>
+                        )
+                      })}
+
+                    </div>
+                  )
+                })}
+
               </div>
               <div className="py-6">
                 <Link

@@ -10,6 +10,14 @@
     margin-bottom: 0px;
 }
 
+#buyNowPackage0 {
+    margin-top: 50px;
+}
+
+#buyNowPackage1 {
+    margin-top: 50px;
+}
+
 
   
 /* Media Query for low resolution mobile */
@@ -37,3 +45,45 @@
     
 } */
 
+
+p {
+    @apply mb-4;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold
+      mb-1;
+  }
+  
+  h1 {
+    @apply text-3xl my-4 text-slate-600 font-semibold;
+  }
+  
+  h2 {
+    @apply text-3xl my-5 text-gray-600 font-semibold;
+  }
+
+  h3 {
+    @apply text-2xl my-5 text-gray-600 font-semibold;
+  }
+
+  h4 {
+    @apply text-xl my-4 text-gray-600 font-semibold;
+  }
+
+  h5 {
+    @apply text-lg my-3 text-gray-600 font-semibold;
+  }
+
+  p {
+    @apply text-base text-slate-500
+  }
+  
+  li {
+    @apply text-slate-700
+  }
