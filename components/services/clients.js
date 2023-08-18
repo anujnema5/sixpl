@@ -31,8 +31,8 @@ const clients = ({heading}) => {
             <div className="flex flex-col">
                 <div className="flex flex-col px-4 py-8 items-center text-center">
                     {/* <div className="lg:text-[2.3rem] sm:text-3xl text-2xl font-[500] py-4 text-slate-600">Some of Our Clients</div> */}
-                    <h2 className="lg:text-lg text-base font-semibold leading-8 tracking-tight text-indigo-600">Our Clients</h2>
-                    <p className="mt-2 text-3xl font-bold tracking-tight text-gray-700 sm:text-[1.7rem]">
+                    <h2 className="lg:text-lg text-sm font-semibold leading-8 tracking-tight text-indigo-600">Our Clients</h2>
+                    <p className="mt-2 text-xl font-bold tracking-tight text-gray-700 sm:text-[1.7rem]">
                     Transformative Collaboration: Clients we have worked with
           </p>
                     {/* <div className="lg:text-[1.4rem] sm:text-lg py-2 text-slate-600">{heading}</div> */}

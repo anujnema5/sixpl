@@ -19,7 +19,7 @@ export default function Example() {
               src="/sixpl-logo.svg"
               alt="Company name"
             />
-            <p className="text-sm leading-6 text-gray-200 antialiased ">
+            <p className="text-xs lg:text-sm leading-7 text-gray-200 antialiased ">
               Helping businesses grow faster and become more efficient everyday .
             </p>
             <div className="flex space-x-6">
@@ -31,7 +31,7 @@ export default function Example() {
               ))}
             </div>
           </div>
-          <div className="mt-16 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
+          <div className="mt-10 grid grid-cols-2 gap-8 xl:col-span-2 xl:mt-0">
             <div className="md:grid md:grid-cols-2 md:gap-8">
               <div>
                 <div className='flex justify-start items-center gap-3'>
@@ -48,7 +48,7 @@ export default function Example() {
                 <ul role="list" className="mt-2 space-y-4">
                   {navigation.solutions.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
+                      <Link href={item.href} className="text-xs lg:text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
                         {item.name}
                       </Link>
                     </li>
@@ -69,7 +69,7 @@ export default function Example() {
                 <ul role="list" className="mt-2 space-y-4">
                   {navigation.support.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
+                      <Link href={item.href} className="text-xs lg:text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
                         {item.name}
                       </Link>
                     </li>
@@ -91,7 +91,7 @@ export default function Example() {
                 <ul role="list" className="mt-2 space-y-4">
                   {navigation.company.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
+                      <Link href={item.href} className="text-xs lg:text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
                         {item.name}
                       </Link>
                     </li>
@@ -107,7 +107,7 @@ export default function Example() {
                 <ul role="list" className="mt-2 space-y-4">
                   {navigation.legal.map((item) => (
                     <li key={item.name}>
-                      <Link href={item.href} className="text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
+                      <Link href={item.href} className="text-xs lg:text-sm leading-6 text-gray-200 antialiased hover:text-gray-400 transition-all duration-300 ease-in-out">
                         {item.name}
                       </Link>
                     </li>
