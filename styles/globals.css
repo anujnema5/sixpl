@@ -81,9 +81,13 @@ p {
   }
 
   p {
-    @apply text-base text-slate-500
+    @apply lg:text-base text-sm leading-7 text-slate-500
   }
   
   li {
+    @apply text-slate-700
+  }
+
+  .normalSpan {
     @apply text-slate-700
   }
