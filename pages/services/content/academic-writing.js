@@ -1,25 +1,38 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
 
+import Service from '../../../components/services/service'
 import Layout from '../../../components/nav/layout'
 import ContactFormVertical from '../../../components/forms/contact-form-vertifical'
+import Clients from '../../../components/services/clients';
+import Services from '../../../components/services/Services'
+import Flex from '../../../components/services/Flex'
+import FAQs from '../../../components/services/FAQs'
+import { services } from '../../../lib/data/services-details'
+
+const academicWriting = {
+    mainSection: services.academicWriting.mainSection,
+    clients: services.academicWriting.clients,
+    whyHireUs: services.academicWriting.whyHireUs,
+    achievement: services.academicWriting.achievement,
+    startProject: services.academicWriting.startProject,
+    faq: services.academicWriting.faq
+}
 
 const AcademicWritingPage = () => {
     return (
         <Layout>
             <Head>
                 <title>Academic Writing Services - SixPL</title>
-                <meta name="description" content="Avail academic writing services and shine at university or school. Our academic services include course curriculum development, essay writing, paper writing, etc."/>
+                <meta name="description" content="Avail academic writing services and shine at university or school. Our academic services include course curriculum development, essay writing, paper writing, etc." />
                 <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/content/academic-writing.jpeg' />
-                <meta name="twitter:card" content="summary_large_image"/>
-                <meta name='twitter:title' content='Academic Writing Services - SixPL'/>
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name='twitter:title' content='Academic Writing Services - SixPL' />
                 <meta name='twitter:image' content='https://www.sixpl.com/og-images/content/academic-writing.jpeg' />
-                <meta name='twitter:description' content='Avail academic writing services and shine at university or school. Our academic services include course curriculum development, essay writing, paper writing, etc.'/>
+                <meta name='twitter:description' content='Avail academic writing services and shine at university or school. Our academic services include course curriculum development, essay writing, paper writing, etc.' />
             </Head>
             <main>
-                <div>
-                    <div className="flex flex-col font-serif">
+                {/* <div>
+                    <div className="flex flex-col ">
                         <div className=' relative'>
                             <Image priority src='/images/dm-icons/top-background.svg' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
                             <div className=' relative z-10 flex flex-col text-white'>
@@ -118,7 +131,7 @@ const AcademicWritingPage = () => {
                             </div>
                         </div>
                         <div className='  '>
-                            <div className="flex flex-col font-serif">
+                            <div className="flex flex-col ">
                                 <div>
                                     <div className="flex flex-col px-4 py-8 items-center text-center ">
                                         <h2 className="text-3xl py-4 text-sptheme-darkgreen">Get All Types of Academic Contnet</h2>
@@ -304,7 +317,7 @@ const AcademicWritingPage = () => {
                         </div>
                         <div>
                             <div>
-                                <div className="py-10 font-serif bg-slate-900">
+                                <div className="py-10  bg-slate-900">
                                     <div className="p-4 flex flex-col justify-center text-center">
                                         <div className="px-2 py-10 text-3xl text-white">Delivering Superior Content Writing Services Since 2012</div>
                                         <div className="py-4 px-2 lg:flex lg:justify-around">
@@ -411,7 +424,7 @@ const AcademicWritingPage = () => {
                                 </div>   
                             </div>
                             <div>
-                                <div className='lg:px-40 py-10 font-serif '>
+                                <div className='lg:px-40 py-10  '>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
                                         <div className='font-semibold py-2 px-4 text-stone-800'>Will academic papers be plagiarism free?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>Yes. Your academic paper will be 100% original. We send you a plagiarism report with every academic paper.</div>
@@ -430,6 +443,19 @@ const AcademicWritingPage = () => {
                             </div>
                         </div>  
                     </div>
+                </div> */}
+                <div className="flex flex-col">
+                    <Service
+                        title={academicWriting.mainSection.title}
+                        heading={academicWriting.mainSection.heading}
+                        subHeading={academicWriting.mainSection.subheading}
+                        headingCall={academicWriting.mainSection.headingCall}
+                        tags={academicWriting.mainSection.tags}
+                    />
+                    <Clients heading={academicWriting.clients.heading} />
+                    <Services whyHireUs={academicWriting.whyHireUs} />
+                    <Flex achievement={academicWriting.achievement} />
+                    <FAQs faqs={academicWriting.faq} />
                 </div>
             </main>
         </Layout>

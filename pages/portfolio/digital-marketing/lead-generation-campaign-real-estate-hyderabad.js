@@ -12,7 +12,7 @@ const DM99ApartmentsPortfolioPage = () => {
             </Head>
             <main>
                 <div className=' lg:mx-52'>
-                    <div className=' flex flex-col my-10 mx-4 py-4 font-serif'>
+                    <div className=' flex flex-col my-10 mx-4 py-4 '>
                         <div>
                             <div className='py-10 px-4'>
                                 <h1 className=' text-3xl text-sptheme-darkgreen text-center'>Lead Generation Campaign for a Small Real Estate Firm in Hyderabad</h1>

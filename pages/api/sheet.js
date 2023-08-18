@@ -4,10 +4,6 @@ async function sendData (req, res) {
     if (req.method === 'POST') {
         const { date, fullName, email, phone, site, serviceUrl, message } = req.body
 
-
-        console.log(date, fullName, email, phone, site, serviceUrl, message )
-
-
         const auth = new google.auth.GoogleAuth({
             credentials: {
                 client_email: process.env.GOOGLE_SHEETS_CLIENT_EMAIL,
@@ -43,8 +39,6 @@ async function sendData (req, res) {
             res.send(error.message)
             
         }
-
-        
     }
 }
 

@@ -1,9 +1,23 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
 
+import Service from '../../../components/services/service'
 import Layout from '../../../components/nav/layout'
 import ContactFormVertical from '../../../components/forms/contact-form-vertifical'
+import Clients from '../../../components/services/clients';
+import Services from '../../../components/services/Services'
+import Flex from '../../../components/services/Flex'
+import FAQs from '../../../components/services/FAQs'
+import { services } from '../../../lib/data/services-details'
+
+const resumeWriting = {
+    mainSection: services.resumeWriting.mainSection,
+    clients: services.resumeWriting.clients,
+    whyHireUs: services.resumeWriting.whyHireUs,
+    achievement: services.resumeWriting.achievement,
+    startProject: services.resumeWriting.startProject,
+    faq: services.resumeWriting.faq
+}
+
 
 const ResumeWritingPage = () => {
     return (
@@ -19,7 +33,7 @@ const ResumeWritingPage = () => {
             </Head>
             <main>
                 <div>
-                    <div className="flex flex-col font-serif">
+                    {/* <div className="flex flex-col ">
                         <div className=' relative'>
                             <Image priority src='/images/dm-icons/top-background.svg' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
                             <div className=' relative z-10 flex flex-col text-white'>
@@ -118,7 +132,7 @@ const ResumeWritingPage = () => {
                             </div>
                         </div>
                         <div className='  '>
-                            <div className="flex flex-col font-serif">
+                            <div className="flex flex-col ">
                                 <div>
                                     <div className="flex flex-col px-4 py-8 items-center text-center ">
                                         <h2 className="text-3xl py-4 text-sptheme-darkgreen">Get More Interview Calls with an Outstanding Resume</h2>
@@ -304,7 +318,7 @@ const ResumeWritingPage = () => {
                         </div>
                         <div>
                             <div>
-                                <div className="py-10 font-serif bg-slate-900">
+                                <div className="py-10  bg-slate-900">
                                     <div className="p-4 flex flex-col justify-center text-center">
                                         <div className="px-2 py-10 text-3xl text-white">Delivering Superior Content Writing Services Since 2012</div>
                                         <div className="py-4 px-2 lg:flex lg:justify-around">
@@ -412,7 +426,7 @@ const ResumeWritingPage = () => {
                                 </div>   
                             </div>
                             <div>
-                                <div className='lg:px-40 py-10 font-serif '>
+                                <div className='lg:px-40 py-10  '>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
                                         <div className='font-semibold py-2 px-4 text-stone-800'>Can I use the same resume for multiple jobs?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>The answer is Yes and No, both. Based on the companies you apply for, it may vary. If you want to apply for identical jobs in the same industry, you may go ahead and use the same resume. However, if the jobs or industry patterns vary, it is highly recommended to customize resume to match with the specific industry.</div>
@@ -443,7 +457,20 @@ const ResumeWritingPage = () => {
                             </div>
                         </div>
                         
-                    </div>
+                    </div> */}
+                    <div className="flex flex-col">
+                    <Service
+                        title={resumeWriting.mainSection.title}
+                        heading={resumeWriting.mainSection.heading}
+                        subHeading={resumeWriting.mainSection.subheading}
+                        headingCall={resumeWriting.mainSection.headingCall}
+                        tags={resumeWriting.mainSection.tags}
+                    />
+                    <Clients heading={resumeWriting.clients.heading} />
+                    <Services whyHireUs={resumeWriting.whyHireUs} />
+                    <Flex achievement={resumeWriting.achievement} />
+                    <FAQs faqs={resumeWriting.faq} />
+                </div>
                 </div>
             </main>
         </Layout>
