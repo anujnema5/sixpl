@@ -178,7 +178,8 @@ const ContactFormVertical = ({ contactUs }) => {
   
           <form action="/thank-you" method="POST" className=" px-4 w-full lg:max-w-xl py-12  lg:px-8 " onSubmit={onSubmitHandler}>
             <div className='pt-2 pb-12 flex lg:justify-start justify-center'>
-              <h1 className='text-[1.5rem] inline rounded-lg px-1 font-semibold text-slate-600'>Get a quote from us</h1>
+              <h1 className='lg:text-[1.5rem] text-xl inline rounded-lg px-1 font-semibold text-slate-600'>Get a quote from us</h1>
+              
             </div>
             <div className="mx-auto max-w-xl lg:mr-0 lg:max-w-lg">
               <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">

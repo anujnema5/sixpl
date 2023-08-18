@@ -19,22 +19,21 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
         return classes.filter(Boolean).join(' ')
     }
     return (
-        <div className="bg-white py-24">
-            <div className="mx-auto lg:w-9/12 w-full py-0 pb-16 lg:pb-12 lg:py-12 lg:bg-gradient-to-br lg:from-slate-50 lg:to-indigo-100 rounded-xl shadow-xl shadow-indigo-100 lg:mt-0 ">
+        <div className="bg-white lg:py-24">
+            <div className="mx-auto lg:w-9/12 w-full py-0 pb-16 lg:pb-12 lg:py-12 bg-gradient-to-br from-slate-50/10 to-indigo-100 rounded-xl shadow-xl shadow-indigo-100 lg:mt-0 ">
 
-                <div className="mx-auto px-6 lg:mt-2 flex flex-col gap-3 max-w-7xl text-center">
-                    <span className="text-base font-semibold leading-7 text-indigo-600">Pricing</span>
-                    <h2 className="mt-2 text-3xl font-[600] tracking-tight text-gray-700 sm:text-5xl">
+                <div className="mx-auto px-6 lg:mt-2 flex flex-col max-w-7xl text-center">
+                    <span className="text-base py-5 font-semibold leading-7 text-indigo-600">Pricing</span>
+                    <h2 className=" text-2xl font-semibold tracking-tight text-gray-700 sm:text-5xl">
                     Pricing plans for teams of all sizes
-
                     </h2>
                 </div>
-                <p className="mx-auto mt-6 max-w-2xl text-center text-base leading-7 text-gray-600 px-7">
+                <p className="mx-auto mt-6 max-w-2xl text-center text-sm lg:text-base leading-7 text-gray-600 px-7">
                     {'Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.'}
                     <span className='font-bold'>{''}</span>
                 </p>
 
-                <div className="isolate mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4 items-start px-10 mx-auto justify-center xl:flex">
+                <div className="isolate mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4 items-start px-7 mx-auto justify-center xl:flex">
 
                     {/* PACKAGES */}
                     {packages.map((tier, index) => (
@@ -43,7 +42,7 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
                             key={tier.id}
                             className={classNames(
                                 index === selectedDiv ? 'ring-2 ring-indigo-600 transition-all ease-linear	duration-200' : 'ring-1 ring-gray-200 ',
-                                'rounded-3xl p-8 bg-slate-50 shadow-lg shadow-slate-300 cursor-pointer ease-linear border'
+                                'rounded-3xl p-8 bg-slate-50 shadow-lg shadow-slate-300 cursor-pointer ease-linear'
                             )}
                         >
                             <h3
@@ -57,7 +56,7 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
                             </h3>
                             <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
                             <p className="mt-6 flex items-baseline gap-x-1">
-                                <span className="text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value]}</span>
+                                <span className="text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value]}</span>
                                 <span className="text-sm font-semibold leading-6 text-gray-600">{frequency.priceSuffix}</span>
                             </p>
                             <a

@@ -45,7 +45,6 @@ export default function Service({ heading, subHeading, headingCall, tags, title,
                         <div className="flex">
                             <div className="relative flex items-center gap-x-4 rounded-full px-4 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                                 <span className="font-semibold text-indigo-600">{title}</span>
-                                <span className="h-4  bg-gray-900/10" aria-hidden="true" />
                                 <Link href="/contact-us" className="flex items-center gap-x-1">
                                     <span className="absolute inset-0" aria-hidden="true" />
                                     Contact us
@@ -56,7 +55,7 @@ export default function Service({ heading, subHeading, headingCall, tags, title,
                         <h1 className="mt-10 text-[1.5rem] font-bold lg:max-w-4xl sm:max-w-3xl text-gray-800 lg:leading-tight sm:leading-tight sm:text-4xl lg:text-[2.7rem]">
                             {heading}
                         </h1>
-                        <p className="mt-6 text-lg leading-8 text-gray-600/75">
+                        <p className="mt-6 text-lg leading-7 text-gray-600/75">
                             {subHeading}
                         </p>
 

@@ -99,19 +99,19 @@ const BusinessPlanPage = () => {
                             </div>
                         </div> */}
 
-                        <div className='lg:w-9/12 text-center mx-auto lg:mt-10'>
+                        <div className='lg:w-9/12 text-center mx-auto lg:mt-10 lg:px-0 px-4'>
                             <div className='space-y-7'>
-                                <h1 className='text-4xl text-gray-700'>{businessPlan.plans.title}</h1>
-                                <span className='text-base font-semibold leading-8 tracking-tight text-indigo-600'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, cumque.</span>
-                                <p className='lg:w-11/12 mx-auto text-base'>{businessPlan.plans.description}</p>
+                                <h1 className='lg:text-4xl text-2xl atext-gray-700'>{businessPlan.plans.title}</h1>
+                                <span className='lg:text-base text-sm font-semibold leading-8 tracking-tight text-indigo-600'>Our business plan and other stuffs</span>
+                                <p className='lg:w-11/12 mx-auto lg:text-base text-sm leading-7'>{businessPlan.plans.description}</p>
                             </div>
 
-                            <div className='space-y-10 my-10'>
+                            <div className='space-y-10 my-10 px-3'>
                                 {businessPlan.plans.steps?.map((step, index) => (
                                     <div className='flex flex-col gap-3 text-left bg-indigo-50 shadow-xl shadow-indigo-200 px-5 py-5 rounded-xl' key={index}>
                                         <h4 className='text-gray-600 text-[1.3rem] antialiased font-[500]'>Step {index + 1}: {step.title}</h4>
-                                        <p className='lg:w-10/12'>{step.description}</p>
-                                        {step.description2 && <p className='lg:10/12'>{step.description2}</p>}
+                                        <p className='lg:w-10/12 lg:text-sm text-[0.8rem] leading-7'>{step.description}</p>
+                                        {step.description2 && <p className='lg:w-10/12 lg:text-sm text-[0.8rem] leading-7'>{step.description2}</p>}
                                         {/* <p>{step.description2}</p> */}
                                     </div>
                                 ))}

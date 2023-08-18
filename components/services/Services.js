@@ -1,11 +1,11 @@
 
 export default function Example({ whyHireUs }) {
     return (
-        <div className="bg-indigo-50/40 py-20 ">
+        <div className="bg-indigo-50/40 py-5 lg:py-16 ">
             <div className="mx-auto w-10/12 lg:px-8 ">
                 <div className="mx-auto w-full text-center">
-                    <h2 className="lg:text-lg text-base font-semibold leading-8 tracking-tight text-indigo-600">{whyHireUs.heading}</h2>
-                    <p className="mt-2 lg:text-3xl text-2xl max-w-7xl mx-auto font-[700] tracking-normal text-gray-600 sm:text-3xl">
+                    <h2 className="lg:text-lg text-sm font-semibold leading-8 tracking-tight text-indigo-600">{whyHireUs.heading}</h2>
+                    <p className="mt-2 lg:text-3xl text-lg max-w-7xl mx-auto font-[700] tracking-normal text-gray-600 sm:text-3xl">
                         {whyHireUs.subheading}
                     </p>
                 </div>
@@ -23,7 +23,7 @@ export default function Example({ whyHireUs }) {
 
                                     }
                                 </div>
-                                <p className='font-semibold text-slate-700 text-center antialiased'>{testimonial.title}</p>
+                                <p className='font-semibold text-slate-700 text-base text-center antialiased'>{testimonial.title}</p>
                             </div>
                         ))}
                     </div>
