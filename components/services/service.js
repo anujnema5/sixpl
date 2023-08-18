@@ -52,7 +52,7 @@ export default function Service({ heading, subHeading, headingCall, tags, title,
                                 </Link>
                             </div>
                         </div>
-                        <h1 className="mt-10 text-[1.5rem] font-bold lg:max-w-4xl sm:max-w-3xl text-gray-800 lg:leading-tight sm:leading-tight sm:text-4xl lg:text-[2.7rem]">
+                        <h1 className="mt-10 text-[1.5rem] font-bold lg:max-w-4xl sm:max-w-3xl text-gray-700 lg:leading-tight sm:leading-tight sm:text-4xl lg:text-[2.7rem]">
                             {heading}
                         </h1>
                         <p className="mt-6 text-lg leading-7 text-gray-600/75">
@@ -80,7 +80,7 @@ export default function Service({ heading, subHeading, headingCall, tags, title,
                             >
                                 Get started
                             </Link>
-                            <Link href="/contact-us" className="text-sm font-semibold leading-6 text-gray-900">
+                            <Link href="/contact-us" className="text-sm font-semibold leading-6 text-gray-800/90">
                                 Learn more <span aria-hidden="true">→</span>
                             </Link>
                         </div>

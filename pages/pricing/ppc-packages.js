@@ -22,13 +22,13 @@ const webPackage = () => {
                 <meta name='twitter:description' content='Are you looking for affordable PPC packages in Delaware USA? SixPL monthly PPC Packages are best for all businesses. Get PPC package prices now.' />
             </Head>
             <main className=''>
-                <div className='mt-12 sm:mt-20 lg:-mb-16 -mb-20'>
-                    <h1 className='lg:text-4xl text-2xl font-bold tracking-tight text-gray-700 sm:text-3xl text-center'>Affordable Digital Marketing PPC Packages</h1>
+                <div className='mt-7 sm:mt-20 lg:-mb-16 -mb-20 pt-10 lg:px-0 px-2.5'>
+                    <h1 className='lg:text-[1.9rem] px-2 text-2xl font-bold tracking-tight text-gray-600 sm:text-3xl text-center'>Affordable Digital Marketing PPC Packages</h1>
                 </div>
-                <div className='mt-5'>
+                <div className='mt-20 lg:mt-0'>
                     <PricePackage heading={"Hello"} packages={ppcPackage} description={"Or kaise ho"} subHeading={"Haaa"} key={1} />
                     
-                    <div className='mx-auto lg:w-9/12 w-11/12 lg:px-10 px-5 pb-10 -mt-6'>
+                    <div className='mx-auto lg:w-9/12 w-11/12 lg:px-10 px-5 pb-10 llg:-mt-6 mt-14'>
                     <Content />
                     </div>
                 </div>

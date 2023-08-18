@@ -64,7 +64,7 @@ const ServiceIndexPage = () => {
             <div className=" bg-gradient-to-b from-white to-indigo-100">
                 <div className="mx-auto max-w-2xl px-4 py-24 sm:px-6 sm:py-32 lg:max-w-7xl lg:px-8">
                     <div className="mx-auto max-w-3xl text-center">
-                        <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Our Services</h2>
+                        <h2 className="text-3xl font-bold tracking-tight text-gray-800/90 sm:text-4xl">Our Services</h2>
                         <p className="mt-4 text-gray-500">Unlock your business's full potential with our comprehensive offerings, including IT services, digital marketing campaigns, and innovative blockchain solutions.</p>
                     </div>
 
@@ -82,7 +82,7 @@ const ServiceIndexPage = () => {
                                         'lg:col-span-5 lg:row-start-1 lg:mt-0 xl:col-span-4 px-1.5 lg:mb-0 mb-8'
                                     )}
                                 >
-                                    <h3 className="text-2xl font-medium text-gray-900 ">{`${serviceCategoryItem.serviceCategoryName}`}</h3>
+                                    <h3 className="text-2xl font-medium text-gray-800/90 ">{`${serviceCategoryItem.serviceCategoryName}`}</h3>
                                     <p className=" text-sm text-gray-500 leading-5 mt-2 -mb-3 lg:mb-0">{serviceCategoryItem.serviceDescription}</p>
                                 </div>
                                 <div
@@ -101,7 +101,7 @@ const ServiceIndexPage = () => {
                                                     src={`${serviceCategoryItem.name}.svg`}
                                                     alt="SixPL Logo"
                                                 />
-                                                <h4 className="text-xl font-medium text-gray-900 w-10/12">{`${serviceCategoryItem.serviceCategoryName}`}</h4>
+                                                <h4 className="text-xl font-medium text-gray-800/90 w-10/12">{`${serviceCategoryItem.serviceCategoryName}`}</h4>
 
                                             </div>
 

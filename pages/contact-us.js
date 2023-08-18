@@ -210,7 +210,7 @@ export default function Example() {
                 <rect width="100%" height="100%" strokeWidth={0} fill="url(#83fd4e5a-9d52-42fc-97b6-718e5d7ee527)" />
               </svg>
             </div>
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900">Let's talk about your project</h2>
+            <h2 className="text-3xl font-bold tracking-tight text-gray-800/90">Let's talk about your project</h2>
             <p className="mt-6 text-lg leading-8 text-gray-600">
             Witness the power of creative design, website development, and online marketing strategies with SixPL.
 Boost your business with SEO, SMO, email & PPC solutions offered by SixPLl's expert team.
@@ -234,7 +234,7 @@ We provide compelling copywriting and content development services for maximum i
                   <PhoneIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  <a className="hover:text-gray-900" href="tel:+1 779 545 2612">
+                  <a className="hover:text-gray-800/90" href="tel:+1 779 545 2612">
                   +1 779 545 2612
                   </a>
                 </dd>
@@ -245,7 +245,7 @@ We provide compelling copywriting and content development services for maximum i
                   <EnvelopeIcon className="h-7 w-6 text-gray-400" aria-hidden="true" />
                 </dt>
                 <dd>
-                  <a className="hover:text-gray-900" href="mailto:sales@sixpl.com">
+                  <a className="hover:text-gray-800/90" href="mailto:sales@sixpl.com">
                   sales@sixpl.com
                   </a>
                 </dd>

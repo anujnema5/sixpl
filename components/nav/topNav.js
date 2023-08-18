@@ -44,7 +44,7 @@ export default function TopNave() {
             if (item.type !== 'dropdown') {
               return (
 
-                <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-900">
+                <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-800/90">
                   {item.name}
                 </Link>
               )
@@ -58,7 +58,7 @@ export default function TopNave() {
         </div>
 
         <div className="flex flex-1 items-center justify-end gap-x-6">
-          <Link href="mailto: sales@sixpl.com" className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-900">
+          <Link href="mailto: sales@sixpl.com" className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-800/90">
             sales@sixpl.com
           </Link>
           <Link
@@ -115,7 +115,7 @@ export default function TopNave() {
                       <Link
                         key={item.href}
                         href={item.href}
-                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                        className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-800/90 hover:bg-gray-50"
                       >
                         {item.name}
                       </Link>
@@ -131,7 +131,7 @@ export default function TopNave() {
                           <Link
                             key={link.href}
                             href={link.href}
-                            className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50 "
+                            className="-mx-3 block rounded-lg px-3 py-2 text-base font-semibold leading-7 text-gray-800/90 hover:bg-gray-50 "
                           >
                             {link.title}
                           </Link>
@@ -146,7 +146,7 @@ export default function TopNave() {
               <div className="py-6">
                 <Link
                   href="#"
-                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                  className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-800/90 hover:bg-gray-50"
                 >
                   sales@sixpl.com
                 </Link>

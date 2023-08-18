@@ -37,7 +37,7 @@ export default function Example({faqs}) {
                 {({ open }) => (
                   <>
                     <dt>
-                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-900">
+                      <Disclosure.Button className="flex w-full items-start justify-between text-left text-gray-800/90">
                         <span className="text-base font-semibold leading-7">{faq.question}</span>
                         <span className="ml-6 flex h-7 items-center">
                           {open ? (

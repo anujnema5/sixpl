@@ -24,42 +24,42 @@ const AboutUsIndexPage = () => {
                                 <div className='mt-4 px-3 -mb-14'>
                                     <div className=" bg-white shadow-lg sm:rounded-xl">
                                         <div className="px-4 py-6 sm:px-6">
-                                            <h3 className="text-base font-semibold leading-7 text-gray-900">Company Overview</h3>
+                                            <h3 className="text-base font-semibold leading-7 text-gray-800/90">Company Overview</h3>
                                             <p className="mt-1 max-w-2xl text-sm leading-6 text-gray-500">Information updated on Aug 31, 2022</p>
                                         </div>
                                         <div className="border-t border-gray-100">
                                             <dl className="divide-y divide-gray-100">
                                                 <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                                                    <dt className="text-sm font-medium text-gray-900">Established</dt>
+                                                    <dt className="text-sm font-medium text-gray-800/90">Established</dt>
                                                     <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">May 16, 2012</dd>
                                                 </div>
                                                 <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                                                    <dt className="text-sm font-medium text-gray-900">Founder</dt>
+                                                    <dt className="text-sm font-medium text-gray-800/90">Founder</dt>
                                                     <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">Saket Kumar Singh</dd>
                                                 </div>
                                                 <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                                                    <dt className="text-sm font-medium text-gray-900">Client</dt>
+                                                    <dt className="text-sm font-medium text-gray-800/90">Client</dt>
                                                     <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">1610</dd>
                                                 </div>
                                                 <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                                                    <dt className="text-sm font-medium text-gray-900">Client Retention Rate</dt>
+                                                    <dt className="text-sm font-medium text-gray-800/90">Client Retention Rate</dt>
                                                     <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">75%</dd>
                                                 </div>
                                                 <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                                                    <dt className="text-sm font-medium text-gray-900">Headquarters</dt>
+                                                    <dt className="text-sm font-medium text-gray-800/90">Headquarters</dt>
                                                     <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                                                     16192 Coastal Highway, Lewes, Delaware, 19958
                                                     </dd>
                                                 </div>
                                                 <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                                                    <dt className="text-sm font-medium text-gray-900">Delivery Center</dt>
+                                                    <dt className="text-sm font-medium text-gray-800/90">Delivery Center</dt>
                                                     <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                                                     M 138, 2nd Floor, Connaught Place, New Delhi, 110001
                                                     </dd>
                                                 </div>
                                                 {/* <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
-                                                    <dt className="text-sm font-medium leading-6 text-gray-900">Attachments</dt>
-                                                    <dd className="mt-2 text-sm text-gray-900 sm:col-span-2 sm:mt-0">
+                                                    <dt className="text-sm font-medium leading-6 text-gray-800/90">Attachments</dt>
+                                                    <dd className="mt-2 text-sm text-gray-800/90 sm:col-span-2 sm:mt-0">
                                                         <ul role="list" className="divide-y divide-gray-100 rounded-md border border-gray-200">
                                                             <li className="flex items-center justify-between py-4 pl-4 pr-5 text-sm leading-6">
                                                                 <div className="flex w-0 flex-1 items-center">

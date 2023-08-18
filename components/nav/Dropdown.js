@@ -11,7 +11,7 @@ export default function Dropdown({ title, links }) {
   return (
     <Menu as="div" className="relative inline-block text-left">
       <div className=''>
-        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white text-sm font-semibold text-gray-900 shadow-sm ">
+        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-white text-sm font-semibold text-gray-800/90 shadow-sm ">
           {title}
           <ChevronDownIcon className="-mr-1 h-5 w-5 text-gray-400" aria-hidden="true" />
         </Menu.Button>
@@ -32,7 +32,7 @@ export default function Dropdown({ title, links }) {
             (
               <Menu.Item>
                 {({ active }) => (
-                  <div className={classNames(active ? 'bg-gray-100 text-gray-900' : 'text-gray-700', 'flex items-center gap-2.5 space-y-0.5')}>
+                  <div className={classNames(active ? 'bg-gray-100 text-gray-800/90' : 'text-gray-700', 'flex items-center gap-2.5 space-y-0.5')}>
                     {/* <div className=''>
                       <link.icon className="text-gray-500 ml-3" />
                     </div> */}
@@ -44,7 +44,7 @@ export default function Dropdown({ title, links }) {
                     <Link
                       href={link.href}
                       className={classNames(
-                        active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
+                        active ? 'bg-gray-100 text-gray-800/90' : 'text-gray-700',
                         'block  py-2 text-[0.8rem] font-medium'
                       )}
                     >

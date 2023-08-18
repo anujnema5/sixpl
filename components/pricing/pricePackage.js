@@ -18,17 +18,18 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
     function classNames(...classes) {
         return classes.filter(Boolean).join(' ')
     }
+    // mx-auto max-w-7xl lg:px-8 py-14 lg:py-12 lg:bg-gradient-to-br lg:from-slate-50 lg:to-indigo-100 px-4 rounded-xl shadow-xl shadow-indigo-100 lg:mt-0
     return (
         <div className="bg-white lg:py-24">
-            <div className="mx-auto lg:w-9/12 w-full py-0 pb-16 lg:pb-12 lg:py-12 bg-gradient-to-br from-slate-50/10 to-indigo-100 rounded-xl shadow-xl shadow-indigo-100 lg:mt-0 ">
+            <div className="mx-auto lg:w-9/12 w-full py-0 pb-16 lg:pb-12 lg:py-12 bg-gradient-to-br from-slate-50 to-indigo-100 rounded-xl shadow-xl shadow-indigo-100 lg:mt-0 ">
 
                 <div className="mx-auto px-6 lg:mt-2 flex flex-col max-w-7xl text-center">
                     <span className="text-base py-5 font-semibold leading-7 text-indigo-600">Pricing</span>
-                    <h2 className=" text-2xl font-semibold tracking-tight text-gray-700 sm:text-5xl">
+                    <h2 className=" mt-2 lg:text-3xl text-2xl font-semibold tracking text-gray-600 sm:text-5xl">
                     Pricing plans for teams of all sizes
                     </h2>
                 </div>
-                <p className="mx-auto mt-6 max-w-2xl text-center text-sm lg:text-base leading-7 text-gray-600 px-7">
+                <p className="mx-auto mt-2 max-w-2xl text-center text-sm lg:text-base leading-7 text-gray-500 px-7">
                     {'Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.'}
                     <span className='font-bold'>{''}</span>
                 </p>
@@ -48,7 +49,7 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
                             <h3
                                 id={tier.id}
                                 className={classNames(
-                                    tier.mostPopular ? 'text-indigo-600' : 'text-gray-900',
+                                    tier.mostPopular ? 'text-indigo-600' : 'text-gray-700',
                                     'text-lg font-semibold leading-8'
                                 )}
                             >
@@ -56,7 +57,7 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
                             </h3>
                             <p className="mt-4 text-sm leading-6 text-gray-600">{tier.description}</p>
                             <p className="mt-6 flex items-baseline gap-x-1">
-                                <span className="text-3xl lg:text-4xl font-bold tracking-tight text-gray-900">{tier.price[frequency.value]}</span>
+                                <span className="text-3xl lg:text-4xl font-bold tracking-tight text-gray-700">{tier.price[frequency.value]}</span>
                                 <span className="text-sm font-semibold leading-6 text-gray-600">{frequency.priceSuffix}</span>
                             </p>
                             <a
@@ -80,7 +81,7 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
                                                 <div className='flex gap-3' key={index}>
                                                     {details.disable ? <XMarkIcon className="h-6 w-5 flex-none text-red-900" ></XMarkIcon> : <CheckIcon className="h-6 w-5 flex-none text-indigo-600" aria-hidden="true" />}
 
-                                                    <li className={details.disable ? "text-gray-400" : "text-gray-500"}>{details.title}</li>
+                                                    <li className={details.disable ? "text-gray-400 leading-7 my-0" : "text-gray-500 leading-7 my-0"}>{details.title}</li>
 
                                                 </div>
                                             ))}
