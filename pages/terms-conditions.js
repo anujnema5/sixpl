@@ -4,7 +4,7 @@ const TermsConditionPage = () => {
     return(
         <Layout>
             <main>
-                <div className='m-4 p-4 lg:my-10 lg:mx-40 font-serif'>
+                <div className='m-4 p-4 lg:my-10 lg:mx-40 '>
                     <h1 className='text-3xl text-sptheme-darkgreen py-4'>Terms and Conditions</h1>
                     <p className='p-2'>
                         “SixPL” is used as a trading name of iPub EdTech LLC and Digitalimpulse Online Private Limited. All the business activities conducted on this website is done under the name of "iPib Edttech LLC" or “Digitalimpulse Online Private Limited.”

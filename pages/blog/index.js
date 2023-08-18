@@ -19,7 +19,7 @@ const BlogIndexPage = ({ allPostsData }) => {
     return(
         <Layout>
             <main>
-                <section className=' flex flex-col items-center justify-center font-serif'>
+                <section className=' flex flex-col items-center justify-center '>
                     <h1 className='text-3xl text-gray-700 pt-10'>Welcome to SixPL Blog</h1>
                     <ul className='flex flex-col md:flex-row p-4'>
                         {allPostsData.map(( {id, date, title} ) => (
