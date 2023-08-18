@@ -14,7 +14,7 @@ const navigation = [
     title: 'Pricing',
     links: [
       { href: '/pricing/seo-packages', title: 'SEO Packages', icon: IconRocket},
-      { href: '/pricing/web-packages', title: 'Web Packages', icon: IconBoxMultiple},
+      { href: '/pricing/website-packages', title: 'Website Packages', icon: IconBoxMultiple},
       { href: '/pricing/smo-packages', title: 'SMO Packages', icon: IconSocial},
       { href: '/pricing/ppc-packages', title: 'PPC Packages', icon: IconClick},
     ],
