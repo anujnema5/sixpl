@@ -108,7 +108,7 @@ const BusinessPlanPage = () => {
 
                             <div className='space-y-10 my-10 px-3'>
                                 {businessPlan.plans.steps?.map((step, index) => (
-                                    <div className='flex flex-col gap-3 text-left bg-indigo-50 shadow-xl shadow-indigo-200 px-5 py-5 rounded-xl' key={index}>
+                                    <div className='flex flex-col gap-3 text-left bg-indigo-50 shadow-xl shadow-indigo-100 px-5 py-5 rounded-xl' key={index}>
                                         <h4 className='text-gray-600 text-[1.3rem] antialiased font-[500]'>Step {index + 1}: {step.title}</h4>
                                         <p className='lg:w-10/12 lg:text-sm text-[0.8rem] leading-7'>{step.description}</p>
                                         {step.description2 && <p className='lg:w-10/12 lg:text-sm text-[0.8rem] leading-7'>{step.description2}</p>}
