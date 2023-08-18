@@ -13,7 +13,7 @@
 //             </Head>
 //             <main>
 //                 <div>
-//                     <div className="flex flex-col font-serif">
+//                     <div className="flex flex-col ">
 //                         <div className=' flex flex-col'>
 //                             <div>
 //                                 <div className="flex flex-col px-4 py-8 items-center text-center">
@@ -77,7 +77,7 @@
 //                                                                 </svg>
 //                                                             </div>
 //                                                             <div className='px-2'>
-//                                                                 <h2 className='text-2xl font-serif text-gray-700 font-semibold'>Headquarter</h2>
+//                                                                 <h2 className='text-2xl  text-gray-700 font-semibold'>Headquarter</h2>
 //                                                                 <p>SixPL</p>
 //                                                                 <p>16192 Coastal Highway</p>
 //                                                                 <p>Lewes, DE 19958</p>
@@ -122,8 +122,64 @@
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import Layout from '../components/nav/layout'
 import ContactFormVertical from '../components/forms/contact-form-vertifical'
+import Router from 'next/router'
+import { useRouter } from 'next/router'
+import { useState } from 'react'
+
 
 export default function Example() {
+  const [errMsg, setErrMsg] = useState('')
+    const [disable, setDisable] = useState(false)
+
+    const router = useRouter()
+
+    const onSubmitHandler = async (e) => {
+        e.preventDefault()
+        setDisable(true)
+
+        const name = {
+            firstName: e.currentTarget.firstName.value.trim(),
+            lastName: e.currentTarget.lastName.value.trim()
+        }
+
+        console.log(name.firstName + " " + name.lastName);
+
+
+
+        const body = {
+            serviceUrl: router.pathname,
+            date: new Date().toLocaleDateString(),
+            fullName: name.firstName + " " + name.lastName,
+            email: e.currentTarget.email.value,
+            phone: e.currentTarget.phone.value,
+            site: e.currentTarget.website.value,
+            message: e.currentTarget.message.value
+        }
+
+        console.log(body);
+
+        try {
+            const res = await fetch('/api/sheet', {
+                method: "POST",
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify(body)
+            })
+
+            if (res.status === 201) {
+                console.log(router.pathname)
+                console.log('successful');
+                setDisable(false)
+                Router.push('/thank-you')
+            } else {
+                throw new Error(await res.text())
+            }
+
+        } catch (error) {
+            console.log(error)
+            setErrMsg(error.message)
+        }
+    }
+
   return (
     <Layout>
     <div className="relative isolate bg-white">
@@ -197,7 +253,9 @@ We provide compelling copywriting and content development services for maximum i
             </dl>
           </div>
         </div>
-        <ContactFormVertical/>
+        <ContactFormVertical contactUs={true}/>
+
+        
       </div>
     </div>
     </Layout>

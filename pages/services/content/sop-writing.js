@@ -1,25 +1,38 @@
 import Head from 'next/head'
-import Link from 'next/link'
-import Image from 'next/image'
-
+import Service from '../../../components/services/service'
 import Layout from '../../../components/nav/layout'
 import ContactFormVertical from '../../../components/forms/contact-form-vertifical'
+import Clients from '../../../components/services/clients';
+import Services from '../../../components/services/Services'
+import Flex from '../../../components/services/Flex'
+import FAQs from '../../../components/services/FAQs'
+import { services } from '../../../lib/data/services-details'
+
+const sopWriting = {
+    mainSection: services.sopWriting.mainSection,
+    clients: services.sopWriting.clients,
+    whyHireUs: services.sopWriting.whyHireUs,
+    achievement: services.sopWriting.achievement,
+    startProject: services.sopWriting.startProject,
+    faq: services.sopWriting.faq
+}
+
 
 const SOPWritingPage = () => {
     return (
         <Layout>
             <Head>
                 <title>SOP Writing Services | Hire Best SOP Writers - SixPL</title>
-                <meta name="description" content="Hire SOP writer or get Statement of Purpose writing services. Our SOP & LOR services deliver custom SOP for University of choice. Talk to SOP writers @SixPL now"/>
+                <meta name="description" content="Hire SOP writer or get Statement of Purpose writing services. Our SOP & LOR services deliver custom SOP for University of choice. Talk to SOP writers @SixPL now" />
                 <meta name='image' property='og:image' content='https://www.sixpl.com/og-images/content/sop-writing-services.jpeg' />
-                <meta name="twitter:card" content="summary_large_image"/>
-                <meta name='twitter:title' content='SOP Writing Services | Hire Best SOP Writers - SixPL'/>
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name='twitter:title' content='SOP Writing Services | Hire Best SOP Writers - SixPL' />
                 <meta name='twitter:image' content='https://www.sixpl.com/og-images/content/sop-writing-services.jpeg' />
-                <meta name='twitter:description' content='Hire SOP writer or get Statement of Purpose writing services. Our SOP & LOR services deliver custom SOP for University of choice. Talk to SOP writers @SixPL now'/>
+                <meta name='twitter:description' content='Hire SOP writer or get Statement of Purpose writing services. Our SOP & LOR services deliver custom SOP for University of choice. Talk to SOP writers @SixPL now' />
             </Head>
             <main>
-                <div>
-                    <div className="flex flex-col font-serif">
+                {/* <div>
+                    <div className="flex flex-col ">
                         <div className=' relative'>
                             <Image priority src='/images/dm-icons/top-background.svg' layout='fill' objectFit='cover' objectPosition='left' quality={100}  />
                             <div className=' relative z-10 flex flex-col text-white'>
@@ -117,7 +130,7 @@ const SOPWritingPage = () => {
                             </div>
                         </div>
                         <div className='  '>
-                            <div className="flex flex-col font-serif">
+                            <div className="flex flex-col ">
                                 <div>
                                     <div className="flex flex-col px-4 py-8 items-center text-center ">
                                         <h2 className="text-3xl py-4 text-sptheme-darkgreen">Come Across as the Most Deserving Candidate among Hundreds of Applicants</h2>
@@ -303,7 +316,7 @@ const SOPWritingPage = () => {
                         </div>
                         <div>
                             <div>
-                                <div className="py-10 font-serif bg-slate-900">
+                                <div className="py-10  bg-slate-900">
                                     <div className="p-4 flex flex-col justify-center text-center">
                                         <div className="px-2 py-10 text-3xl text-white">Delivering Superior Content Writing Services Since 2012</div>
                                         <div className="py-4 px-2 lg:flex lg:justify-around">
@@ -411,7 +424,7 @@ const SOPWritingPage = () => {
                                 </div>   
                             </div>
                             <div>
-                                <div className='lg:px-40 py-10 font-serif '>
+                                <div className='lg:px-40 py-10  '>
                                     <div className='flex flex-col bg-gray-100 rounded-md p-4 my-8'>
                                         <div className='font-semibold py-2 px-4 text-stone-800'>Why do I need to hire a professional SOP writer?</div>
                                         <div className='text-lg py-2 px-4 text-gray-700'>An intelligently crafted SOP showcasing your personality, interests, goals and worth without overdoing it is crucial for your selection process. Professional and skilled writers have the experience of maintaining the right tone while inculcating all of it into your SOP. Hence, it is advised to rely on a professional SOP writer to project yourself in the best way giving you an edge over other candidates.</div>
@@ -437,6 +450,20 @@ const SOPWritingPage = () => {
                         </div>
                         
                     </div>
+                </div> */}
+
+                <div className="flex flex-col">
+                    <Service
+                        title={sopWriting.mainSection.title}
+                        heading={sopWriting.mainSection.heading}
+                        subHeading={sopWriting.mainSection.subheading}
+                        headingCall={sopWriting.mainSection.headingCall}
+                        tags={sopWriting.mainSection.tags}
+                    />
+                    <Clients heading={sopWriting.clients.heading} />
+                    <Services whyHireUs={sopWriting.whyHireUs} />
+                    <Flex achievement={sopWriting.achievement} />
+                    <FAQs faqs={sopWriting.faq} />
                 </div>
             </main>
         </Layout>

@@ -45,7 +45,7 @@ const PricingIndexPage = () => {
     return(
         <Layout>
            <div>
-               <div className='flex flex-col font-serif'>
+               <div className='flex flex-col'>
                    <div>
                        <div className='flex flex-col items-center py-8 px-4'>
                            <h1 className='text-4xl py-4 text-center text-gray-700'>Transparent Pricing = More Trust + Better Results</h1>
