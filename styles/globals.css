@@ -65,15 +65,19 @@ p {
   }
   
   h2 {
-    @apply text-3xl my-5 text-slate-600 font-semibold;
+    @apply text-3xl my-5 text-gray-600 font-semibold;
   }
 
   h3 {
-    @apply text-2xl my-5 text-slate-600 font-semibold;
+    @apply text-2xl my-5 text-gray-600 font-semibold;
   }
 
   h4 {
-    @apply text-xl my-4 text-slate-600 font-semibold;
+    @apply text-xl my-4 text-gray-600 font-semibold;
+  }
+
+  h5 {
+    @apply text-lg my-3 text-gray-600 font-semibold;
   }
 
   p {
@@ -81,5 +85,5 @@ p {
   }
   
   li {
-    @apply text-slate-600
+    @apply text-slate-700
   }
