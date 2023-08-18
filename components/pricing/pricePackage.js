@@ -77,8 +77,8 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
                                     <div key={index + 1} className="">
                                         <h4 className='text-lg font-medium'>{feature.title}</h4>
                                         <div className='flex flex-col gap-2 text-sm text-gray-500 mt-2'>
-                                            {feature?.data?.map((details) => (
-                                                <div className='flex gap-3'>
+                                            {feature?.data?.map((details, index) => (
+                                                <div className='flex gap-3' key={index}>
                                                     {details.disable ? <XMarkIcon className="h-6 w-5 flex-none text-red-900" ></XMarkIcon> : <CheckIcon className="h-6 w-5 flex-none text-indigo-600" aria-hidden="true" />}
 
                                                     <li className={details.disable ? "text-gray-400" : "text-gray-500"}>{details.title}</li>

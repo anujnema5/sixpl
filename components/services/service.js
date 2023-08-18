@@ -65,8 +65,8 @@ export default function Service({ heading, subHeading, headingCall, tags, title,
                         {description ? <p className='text-base text-slate-500 mt-4 -mb-8'>{description}</p> : ""}
 
                         <div className='grid lg:grid-cols-1 xl:grid-cols-2 lg:mt-8 mt-5 lg:gap-7 gap-5 xl:w-full 2xl:w-6/12  '>
-                            {tags?.map((tag) => (
-                                <div className='flex items-center justify-start min-h-max w-full gap-2'>
+                            {tags?.map((tag, index) => (
+                                <div className='flex items-center justify-start min-h-max w-full gap-2' key={index}>
                                     {/* <PhoneIcon className='w-7 h- text-indigo-700'/>                                     */}
                                     <span className='text-sm lg:text-sm text-gray-600 lg:font-medium font-normal'>{tag.title}</span>
                                 </div>

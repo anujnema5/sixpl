@@ -12,10 +12,10 @@ export default function Example({ whyHireUs }) {
                 <div className="mx-auto mt-9 flow-root max-w-2xl sm:mt-14 lg:mx-0 lg:max-w-none">
                     <div className="sm:columns-2 h-auto border-t shadow-xl rounded-xl shadow-indigo-200  py-5 lg:columns-3 lg:px-0 px-7">
 
-                        {whyHireUs.tags?.map((testimonial) => (
+                        {whyHireUs.tags?.map((testimonial, index) => (
                             <div className='lg:w-72 w-full h-48 mb-5 border mx-auto rounded-lg flex flex-col justify-center items-center bg-indigo-50/50 shadow-md shadow-indigo-50 gap-4
                             hover:scale-105 ease-in-out duration-200 cursor-pointer
-                            '>
+                            ' key={index}>
                                 <div className='w-20 h-20 rounded-lg shadow-xl shadow-indigo-100 flex justify-center items-center text-xs'>
                                     {
                                         testimonial.svg &&

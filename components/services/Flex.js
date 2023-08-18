@@ -52,8 +52,8 @@ export default function Example({ achievement }) {
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 
                 <div className="grid grid-cols-2 gap-10 lg:grid-cols-5 ">
-                    {achievement.achievement.map((achive)=>(
-                    <div className="mx-auto flex flex-col gap-3 items-center justify-center lg:py-0 ">
+                    {achievement.achievement.map((achive, index)=>(
+                    <div className="mx-auto flex flex-col gap-3 items-center justify-center lg:py-0" key={index}>
                         <div className=" lg:text-5xl text-4xl font-medium text-sky-500">{achive.number}</div>
                         <div className="sm:text-lg text-base text-gray-300/90">{achive.title}</div>
                     </div>
