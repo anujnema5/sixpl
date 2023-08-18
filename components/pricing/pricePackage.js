@@ -20,11 +20,7 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
     }
     return (
         <div className="bg-white py-24">
-<<<<<<< HEAD
-            <div className="mx-auto lg:w-9/12 w-full py-0 pb-16 lg:pb-7 lg:py-12 lg:bg-gradient-to-br lg:from-slate-50 lg:to-indigo-100 rounded-xl shadow-xl shadow-indigo-100 lg:mt-0">
-=======
             <div className="mx-auto lg:w-9/12 w-full py-0 pb-16 lg:pb-12 lg:py-12 lg:bg-gradient-to-br lg:from-slate-50 lg:to-indigo-100 rounded-xl shadow-xl shadow-indigo-100 lg:mt-0 ">
->>>>>>> ad9c3e9a293c1ad0c6b17f12ac09b5a6285ee2c3
 
                 <div className="mx-auto px-6 lg:mt-2 flex flex-col gap-3 max-w-7xl text-center">
                     <span className="text-base font-semibold leading-7 text-indigo-600">Pricing</span>
