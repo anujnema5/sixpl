@@ -38,24 +38,23 @@ const SEOPackages = () => {
                 <meta name='twitter:description' content='Are you looking for affordable SEO packages in Delaware USA? SixPL monthly SEO Packages are best for all businesses. Get SEO package prices now.' />
             </Head>
             <main>
-                    <div className=' lg:m-2 lg:p-3 m-0 px-3'>
+                    <div className=' lg:m-2 lg:py-12 m-0 px-3'>
                             <div className='mt-12 sm:mt-16 lg:-mb-16 -mb-28 border-2 border-transparent'>
                                 <h1 className='lg:text-[1.9rem] px-2 text-2xl font-bold tracking-tight text-gray-600 sm:text-3xl text-center'>Affordable SEO Packages</h1>
                             </div>
 
                             {/* PRICING SECTION */}
                             <div className="bg-indigo-50/30 lg:bg-indigo-50/10 py-24 sm:py-24">
-                                <div className="mx-auto max-w-7xl lg:px-8 py-14 lg:py-12 lg:bg-gradient-to-br lg:from-slate-50 lg:to-indigo-100 px-4 rounded-xl shadow-xl shadow-indigo-100 lg:mt-0">
+                                <div className="mx-auto lg:w-9/12 lg:px-8 py-14 lg:py-12 lg:bg-gradient-to-br lg:from-slate-50 lg:to-indigo-100 px-4 rounded-xl shadow-xl shadow-indigo-100 lg:mt-0">
                                     
                                     <div className="mx-auto lg:mt-2 -mt-4 flex flex-col gap-3 max-w-7xl text-center">
                                         <span className="text-base font-semibold leading-7 text-indigo-600">Pricing</span>
                                         <h2 className="mt-2 lg:text-3xl text-2xl font-semibold tracking text-gray-600 sm:text-5xl">
-                                            Pricing plans for teams of&nbsp;all&nbsp;sizes
+                                        Tailored solutions to empower SEO teams for success.
                                         </h2>
                                     </div>
                                     <p className="mx-auto mt-6 max-w-2xl text-center lg:text-base text-sm leading-7 text-gray-500 ">
-                                        Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer
-                                        loyalty, and driving sales.
+                                    Boost your online visibility with our SEO Packages. Drive organic traffic and stand out in search results with our proven strategies.
                                     </p>
 
                                     <div className="isolate mx-auto mt-10 grid max-w-md grid-cols-1 gap-8 md:max-w-2xl md:grid-cols-2 lg:max-w-4xl xl:mx-0 xl:max-w-none xl:grid-cols-4">

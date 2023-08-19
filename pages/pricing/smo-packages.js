@@ -26,7 +26,7 @@ const webPackage = () => {
                     <h1 className='lg:text-[1.9rem] px-2 text-2xl font-bold tracking-tight text-gray-600 sm:text-3xl text-center'>Affordable SMO Packages</h1>
                 </div>
                 <div className='mt-20 lg:mt-0'>
-                    <PricePackage heading={"Hello"} packages={smoPackage} description={""} subHeading={"Haaa"} key={1} />
+                    <PricePackage heading={"SMO Packages"} packages={smoPackage} description={"Boost your brand on social media with our SMO Packages. Elevate engagement, drive awareness, and connect with your audience effectively."} subHeading={"Supercharge Your Brand with Our SMO Packages"} key={1} />
                     
                     <div className='mx-auto lg:w-9/12 w-11/12 lg:px-10 px-5 pb-10 llg:-mt-6 mt-14'>
                     <Content />

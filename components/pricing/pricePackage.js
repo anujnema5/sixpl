@@ -26,11 +26,11 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
                 <div className="mx-auto px-6 lg:mt-2 flex flex-col max-w-7xl text-center">
                     <span className="text-base py-5 font-semibold leading-7 text-indigo-600">Pricing</span>
                     <h2 className=" mt-2 lg:text-3xl text-2xl font-semibold tracking text-gray-600 sm:text-5xl">
-                    Pricing plans for teams of all sizes
+                    {subHeading}
                     </h2>
                 </div>
                 <p className="mx-auto mt-2 max-w-2xl text-center text-sm lg:text-base leading-7 text-gray-500 px-7">
-                    {'Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.'}
+                    {description}
                     <span className='font-bold'>{''}</span>
                 </p>
 
@@ -43,7 +43,7 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
                             key={tier.id}
                             className={classNames(
                                 index === selectedDiv ? 'ring-2 ring-indigo-600 transition-all ease-linear	duration-200' : 'ring-1 ring-gray-200 ',
-                                'rounded-3xl p-8 bg-slate-50 shadow-lg shadow-slate-300 cursor-pointer ease-linear'
+                                'rounded-3xl p-8 bg-slate-50 shadow-lg shadow-slate-300 cursor-pointer ease-linear lg:w-10/12'
                             )}
                         >
                             <h3

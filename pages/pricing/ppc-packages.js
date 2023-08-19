@@ -26,7 +26,7 @@ const webPackage = () => {
                     <h1 className='lg:text-[1.9rem] px-2 text-2xl font-bold tracking-tight text-gray-600 sm:text-3xl text-center'>Affordable Digital Marketing PPC Packages</h1>
                 </div>
                 <div className='mt-20 lg:mt-0'>
-                    <PricePackage heading={"Hello"} packages={ppcPackage} description={"Or kaise ho"} subHeading={"Haaa"} key={1} />
+                    <PricePackage heading={"Hello"} packages={ppcPackage} description={"Accelerate Growth with Our Results-Driven PPC Packages. Maximize Reach, Drive Leads."} subHeading={"Empower Your Growth with Our Effective PPC Packages"} key={1} />
                     
                     <div className='mx-auto lg:w-9/12 w-11/12 lg:px-10 px-5 pb-10 llg:-mt-6 mt-14'>
                     <Content />
