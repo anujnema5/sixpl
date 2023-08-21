@@ -56,7 +56,7 @@ export default function HomeHero() {
                 </dt>
                 <dd className="mt-2 text-base leading-7 text-gray-600">{feature.description}</dd>
                 <p className="mt-6">
-                    <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-400">
+                    <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-600">
                       Learn more <span aria-hidden="true">→</span>
                     </a>
                   </p>
