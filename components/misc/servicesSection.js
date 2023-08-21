@@ -56,7 +56,7 @@ export default function ServicesSection() {
                 <dd className="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-300">
                   <p className="lg:h-28 text-gray-400">{feature.description}</p>
                   <p className="mt-6">
-                    <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-400">
+                    <a href={feature.href} className="text-sm font-semibold leading-6 text-indigo-500">
                       Learn more <span aria-hidden="true">→</span>
                     </a>
                   </p>
