@@ -33,24 +33,19 @@ export default function Dropdown({ title, links }) {
               <Menu.Item>
                 {({ active }) => (
                   <Link href={link.href} replace={true} className={classNames(active ? 'bg-gray-100 text-gray-800/90' : 'text-gray-700', 'flex items-center gap-2.5 space-y-0.5')}>
-                    {/* <div className=''>
-                      <link.icon className="text-gray-500 ml-3" />
-                    </div> */}
 
                     <div className="left-0 top-0 flex h-6 w-6 items-center justify-center rounded-md bg-gray-200 ml-2">
                       {link.icon && (<link.icon className="h-4 w-4 text-gray-500 antialiased" aria-hidden="true" />)}
                     </div>
 
-                    <Link
-                      href={link.href}
-                      replace={true}
+                    <span
                       className={classNames(
                         active ? 'bg-gray-100 text-gray-800/90' : 'text-gray-700',
                         'block  py-2 text-[0.8rem] font-medium'
                       )}
                     >
                       {link.title}
-                    </Link>
+                    </span>
                   </Link>
                 )}
               </Menu.Item>
