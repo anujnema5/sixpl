@@ -76,7 +76,7 @@ function career() {
 
     return (
         <Layout>
-            <div className='w-[100vw] h-[50vh] bg-gray-950 relative'>
+            <div className='w-[100vw] h-[50vh] bg-gray-950 relative scroll-smooth'>
                 <Image src={'/images/career/careerBanner.jpg'} width={500} alt='career' height={700} className='object-cover bg-no-repeat w-[100%] h-[100%]' />
                 <div className='absolute w-[100%] h-[100%] bg-black/60 top-0 left-0 flex flex-col items-center justify-center gap-5'>
                     <h1 className='text-white lg:text-5xl text-4xl my-0'>Six<span className='text-indigo-500'>PL</span></h1>
@@ -207,7 +207,7 @@ function career() {
                                             (<tr className='px-10'>
                                                 <div className='px-4'>
 
-                                                    <h1 className='w-[80vw] lg:w-full'>{plan.information.title}</h1>
+                                                    <h1 className='w-[80vw] lg:w-full lg:text-2xl'>{plan.information.title}</h1>
                                                     <p>{plan.information.jobDescription}</p>
 
                                                     <h5 className='lg:ml-1 lg:my-5'>Requirements</h5>
