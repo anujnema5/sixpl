@@ -77,20 +77,17 @@ export default function careerForm({ jobs }) {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-
-    console.log(formData);
-
-    // const requestData = { data: [formData] };
-    // fetch('https://sheetdb.io/api/v1/vmyoilv51x1fg', {
-    //   method: 'POST',
-    //   headers: {
-    //     'Accept': 'application/json',
-    //     'Content-Type': 'application/json'
-    //   },
-    //   body: JSON.stringify(requestData)
-    // })
-    //   .then((response) => response.json())
-    //   .then((data) => console.log(data));
+    const requestData = { data: [formData] };
+    fetch('https://sheetdb.io/api/v1/vmyoilv51x1fg', {
+      method: 'POST',
+      headers: {
+        'Accept': 'application/json',
+        'Content-Type': 'application/json'
+      },
+      body: JSON.stringify(requestData)
+    })
+      .then((response) => response.json())
+      .then((data) => console.log(data));
 
   }
 
@@ -203,7 +200,7 @@ export default function careerForm({ jobs }) {
                   >
                     <option value="">Select position</option>
                     {jobs?.map((state) => (
-                      <option value={state.name}>{state.name}</option>
+                      <option key={state.id} value={state.name}>{state.name}</option>
                     ))}
                   </select>
                 </div>
