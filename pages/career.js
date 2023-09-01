@@ -10,80 +10,40 @@ const plans = [
 
     {
         id: 1,
-        name: 'Jr. Full stack developer',
-        memory: '2',
-        cpu: 'On Site',
+        name: 'Email Marketing Specialist',
+        memory: '20',
+        cpu: 'Noida Sector 3 / Work From Home',
         storage: '1 - 2 Years',
         price: 'Full Time',
         isCurrent: false,
         information: {
-            title: "Jr. Full stack developer",
-            jobDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            title: "Email Marketing Specialist",
+            jobDescription: "Your primary responsibility would be to generate leads for IT and digital marketing services from USA/Canada market.",
 
-            requirements: ["Lorem ipsum dolor sit amet", "proident, sunt in culpa", "Duis aute irure dolor in reprehenderit", "esse cillum dolore eu fugiat", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris"],
+            requirements: ["Email Marketing Knowledge", "Analytical Skills", "Content Creation", "Segmentation and Targeting", "Automation", "Communication Skills", "Technical Skills"],
 
-            responsibility: ["Lorem ipsum dolor sit amet", "proident, sunt in culpa", "Duis aute irure dolor in reprehenderit", "esse cillum dolore eu fugiat", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris"],
+            responsibility: ["Lead Generation for SEO Services", "Lead Generation for Website development"],
 
-            otherInformation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla id est laborum."
+            otherInformation: "At least 6 months of experience in email marketing and lead generation in the international market."
         }
     },
     {
         id: 2,
-        name: 'Sr. Full stack developer',
-        memory: '2',
+        name: 'Search Engine Optimization Executive',
+        memory: '1',
         cpu: 'Remote',
-        storage: '2 - 5 Years',
+        storage: '1 - 2 Years',
         price: 'Full Time',
         isCurrent: false,
         information: {
             title: "Sr. Full stack developer",
-            jobDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+            jobDescription: "We are looking for SEO specialists who can handle end-to-end SEO projects.",
 
-            requirements: ["Lorem ipsum dolor sit amet", "proident, sunt in culpa", "Duis aute irure dolor in reprehenderit", "esse cillum dolore eu fugiat", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris"],
+            requirements: ["Technical SEO", "Link Building:", "Analytics and Reporting", "Local SEO", "exercitation ullamco laboris", "Ethical Practices"],
 
-            responsibility: ["Lorem ipsum dolor sit amet", "proident, sunt in culpa", "Duis aute irure dolor in reprehenderit", "esse cillum dolore eu fugiat", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris"],
+            responsibility: ["Creating quality backlinks", "WordPress Website Updation", "On-Page SEO", "Off-Page SEO", "Conduct keyword research and competitive analysis", "Optimize website content for search engines.", "Collaborate with cross-functional teams to achieve SEO goals."],
 
-            otherInformation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla id est laborum."
-        }
-    },
-
-    {
-        id: 3,
-        name: 'Business Executive Manager',
-        memory: '1',
-        cpu: 'On Site',
-        storage: '1 - 3 Years',
-        price: 'Internship',
-        isCurrent: false,
-        information: {
-            title: "Business Executive manager",
-            jobDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-            requirements: ["Lorem ipsum dolor sit amet", "proident, sunt in culpa", "Duis aute irure dolor in reprehenderit", "esse cillum dolore eu fugiat", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris"],
-
-            responsibility: ["Lorem ipsum dolor sit amet", "proident, sunt in culpa", "Duis aute irure dolor in reprehenderit", "esse cillum dolore eu fugiat", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris"],
-
-            otherInformation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla id est laborum."
-        }
-    },
-
-    {
-        id: 4,
-        name: 'SEO & Digital Marketing Lead',
-        memory: '2',
-        cpu: 'Remote',
-        storage: '1 - 4 Years',
-        price: 'Internship',
-        isCurrent: false,
-        information: {
-            title: "Business Executive manager",
-            jobDescription: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-
-            requirements: ["Lorem ipsum dolor sit amet", "proident, sunt in culpa", "Duis aute irure dolor in reprehenderit", "esse cillum dolore eu fugiat", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris"],
-
-            responsibility: ["Lorem ipsum dolor sit amet", "proident, sunt in culpa", "Duis aute irure dolor in reprehenderit", "esse cillum dolore eu fugiat", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris", "exercitation ullamco laboris"],
-
-            otherInformation: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla id est laborum."
+            otherInformation: "We look forward to receiving your application and exploring the exciting possibilities of working together to achieve digital excellence."
         }
     }
     // More plans...
