@@ -5,6 +5,8 @@ import Image from 'next/image'
 import { ArrowDownIcon } from '@heroicons/react/20/solid'
 import { IconChevronDown, IconChevronUp } from '@tabler/icons-react'
 import CareerForm from '../components/careerForm'
+import Link from 'next/link'
+import { IconArrowBearRight } from '@tabler/icons-react'
 
 const plans = [
 
@@ -223,6 +225,17 @@ function career() {
                                                     </ul>
 
                                                     {plan.information.otherInformation && <p className='mt-6 ml-2'>{plan.information.otherInformation}</p>}
+
+                                                    <div className='flex justify-start pb-6 pt-2 lg:px-3 px-1'>
+                                                        <Link
+                                                        href={'#job-form'}
+                                                            type="button"
+                                                            className="rounded-md bg-indigo-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-400 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-500 flex items-center justify-center"
+                                                        >
+                                                            Apply Now
+                                                            <IconArrowBearRight className='h-4 w-5'/>
+                                                        </Link>
+                                                    </div>
                                                 </div>
                                             </tr>)}
                                     </React.Fragment>
@@ -234,13 +247,13 @@ function career() {
 
             </div>
 
-            <div className="lg:px-32 px-5 bg-indigo-50/30 py-5">
+            <div className="lg:px-32 px-5 bg-indigo-50/30 py-5" id='job-form'>
                 <div className="sm:flex sm:items-center">
                     <div className="sm:flex-auto py-1">
                         <h1 className="lg:text-2xl text-base font-semibold leading-2 lg:px-6 px-4 py-2 my-3 bg-red-100/60 shadow-lg rounded inline-block text-gray-900">Job Application form</h1>
                     </div>
                 </div>
-                <CareerForm jobs={plans}/>
+                <CareerForm jobs={plans} />
             </div>
         </Layout>
     )
