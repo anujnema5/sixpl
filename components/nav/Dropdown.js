@@ -32,7 +32,7 @@ export default function Dropdown({ title, links }) {
             (
               <Menu.Item>
                 {({ active }) => (
-                  <div className={classNames(active ? 'bg-gray-100 text-gray-800/90' : 'text-gray-700', 'flex items-center gap-2.5 space-y-0.5')}>
+                  <Link href={link.href} className={classNames(active ? 'bg-gray-100 text-gray-800/90' : 'text-gray-700', 'flex items-center gap-2.5 space-y-0.5')}>
                     {/* <div className=''>
                       <link.icon className="text-gray-500 ml-3" />
                     </div> */}
@@ -50,7 +50,7 @@ export default function Dropdown({ title, links }) {
                     >
                       {link.title}
                     </Link>
-                  </div>
+                  </Link>
                 )}
               </Menu.Item>
             ))}
