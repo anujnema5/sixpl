@@ -26,7 +26,7 @@ const navigation = [
     title: 'About',
     links: [
       { href: '/about-us', title: 'About us', icon: IconUser},
-      { href: '/careers', title: 'Career', icon: IconBulb},
+      { href: '/careers', title: 'Careers', icon: IconBulb},
     ],
   }
 ]
