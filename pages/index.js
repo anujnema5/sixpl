@@ -5,6 +5,8 @@ import Link from 'next/link'
 import HomeHero from '../components/misc/homeHero'
 import ServicesSection from '../components/misc/servicesSection'
 import QuickFacts from '../components/misc/quickFacts'
+import 'react-toastify/dist/ReactToastify.css';
+import { ToastContainer, toast } from 'react-toastify';
 
 const Home = () => {
   return (
@@ -23,6 +25,7 @@ const Home = () => {
         <HomeHero />
         <ServicesSection />
         <QuickFacts />
+        <ToastContainer />
       </main>
     </Layout>
     

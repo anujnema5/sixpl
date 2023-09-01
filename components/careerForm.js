@@ -5,6 +5,8 @@ import { IconX } from '@tabler/icons-react';
 import { storage } from '../lib/firebase/config';
 import { ref, uploadBytes } from 'firebase/storage';
 import { v4 } from 'uuid';
+import { toast } from 'react-toastify';
+import { useRouter } from 'next/router'
 
 export default function careerForm({ jobs }) {
   // USE STATE FOR STATE AND CITIES
@@ -29,6 +31,9 @@ export default function careerForm({ jobs }) {
       minute: "numeric"
     })
   });
+
+  const router = useRouter()
+
 
   useEffect(() => {
     const fetchedStates = State.getStatesOfCountry(selectedCountry);
@@ -87,8 +92,8 @@ export default function careerForm({ jobs }) {
       body: JSON.stringify(requestData)
     })
       .then((response) => response.json())
-      .then((data) => console.log(data));
-
+      .then((data) => toast("Your application has been submitted"))
+      .then(() => router.push("/"));
   }
 
   const handleInputChange = (event) => {
