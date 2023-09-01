@@ -14,7 +14,7 @@ const plans = [
         id: 1,
         name: 'Email Marketing Specialist',
         memory: '20',
-        cpu: 'Noida Sector 3 / Work From Home',
+        cpu: 'Remote',
         storage: '1 - 2 Years',
         price: 'Full Time',
         isCurrent: false,
@@ -32,7 +32,7 @@ const plans = [
     {
         id: 2,
         name: 'Search Engine Optimization Executive',
-        memory: '1',
+        memory: '5',
         cpu: 'Remote',
         storage: '1 - 2 Years',
         price: 'Full Time',
