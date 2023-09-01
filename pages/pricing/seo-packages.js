@@ -66,7 +66,7 @@ const SEOPackages = () => {
                                                 key={tier.id}
                                                 className={classNames(
                                                     index === selectedDiv ? 'ring-2 ring-indigo-600 transition-all ease-linear	duration-200' : 'ring-1 ring-gray-200 ',
-                                                    'rounded-3xl p-8 bg-slate-50 shadow-lg shadow-slate-300 cursor-pointer ease-linear'
+                                                    'rounded-3xl p-8 bg-slate-50 shadow-lg shadow-slate-300 cursor-pointer ease-linear w-full'
                                                 )}
                                             >
                                                 <h3

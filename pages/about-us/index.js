@@ -51,12 +51,12 @@ const AboutUsIndexPage = () => {
                                                     16192 Coastal Highway, Lewes, Delaware, 19958
                                                     </dd>
                                                 </div>
-                                                <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
+                                                {/* <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                                     <dt className="text-sm font-medium text-gray-800/90">Delivery Center</dt>
                                                     <dd className="mt-1 text-sm leading-6 text-gray-700 sm:col-span-2 sm:mt-0">
                                                     M 138, 2nd Floor, Connaught Place, New Delhi, 110001
                                                     </dd>
-                                                </div>
+                                                </div> */}
                                                 {/* <div className="px-4 py-6 sm:grid sm:grid-cols-3 sm:gap-4 sm:px-6">
                                                     <dt className="text-sm font-medium leading-6 text-gray-800/90">Attachments</dt>
                                                     <dd className="mt-2 text-sm text-gray-800/90 sm:col-span-2 sm:mt-0">

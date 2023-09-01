@@ -9,7 +9,7 @@ const Layout = (props) => {
         <TopNav />
         {/* <SecondaryNavBar /> */}
         {/* <PrimaryNavBar /> */}
-        <main>{props.children}</main>
+        <main className='overflow-hidden'>{props.children}</main>
         
         
         

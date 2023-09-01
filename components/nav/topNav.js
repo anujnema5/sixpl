@@ -3,7 +3,7 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Dropdown from './Dropdown'
-import {IconBoxMultiple, IconBrandInstagram, IconClick, IconHandClick, IconRocket, IconSocial} from "@tabler/icons-react"
+import {IconBoxMultiple, IconBrandInstagram, IconBulb, IconClick, IconHandClick, IconRocket, IconSocial, IconUser} from "@tabler/icons-react"
 import { IconAppWindow } from '@tabler/icons-react'
 
 const navigation = [
@@ -20,9 +20,15 @@ const navigation = [
     ],
   },
   { name: 'Pay', href: 'https://buy.stripe.com/cN29Cy9Po76G3teeV0' },
-  { name: 'About', href: '/about-us' },
   { name: 'Contact', href: '/contact-us' },
-
+  {
+    type: 'dropdown',
+    title: 'About',
+    links: [
+      { href: '/about-us', title: 'About us', icon: IconUser},
+      { href: '/career', title: 'Career', icon: IconBulb},
+    ],
+  }
 ]
 
 export default function TopNave() {

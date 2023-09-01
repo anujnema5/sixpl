@@ -38,7 +38,7 @@ export default function Dropdown({ title, links }) {
                     </div> */}
 
                     <div className="left-0 top-0 flex h-6 w-6 items-center justify-center rounded-md bg-gray-200 ml-2">
-                      <link.icon className="h-4 w-4 text-gray-500 antialiased" aria-hidden="true" />
+                      {link.icon && (<link.icon className="h-4 w-4 text-gray-500 antialiased" aria-hidden="true" />)}
                     </div>
 
                     <Link

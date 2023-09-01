@@ -21,8 +21,6 @@ const ContactFormVertical = ({ contactUs }) => {
 
     console.log(name.firstName + " " + name.lastName);
 
-
-
     const body = {
       serviceUrl: router.pathname,
       date: new Date().toLocaleDateString(),
