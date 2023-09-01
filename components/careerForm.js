@@ -92,7 +92,7 @@ export default function careerForm({ jobs }) {
       body: JSON.stringify(requestData)
     })
       .then((response) => response.json())
-      .then((data) => toast("Your application has been submitted"))
+      .then((data) => toast.success("Your application has been submitted"))
       .then(() => router.push("/"));
   }
 
