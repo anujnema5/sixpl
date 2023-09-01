@@ -38,7 +38,7 @@ const plans = [
         price: 'Full Time',
         isCurrent: false,
         information: {
-            title: "Sr. Full stack developer",
+            title: "Search Engine Optimization Executive",
             jobDescription: "We are looking for SEO specialists who can handle end-to-end SEO projects.",
 
             requirements: ["Technical SEO", "Link Building:", "Analytics and Reporting", "Local SEO", "exercitation ullamco laboris", "Ethical Practices"],
