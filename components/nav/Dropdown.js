@@ -43,6 +43,7 @@ export default function Dropdown({ title, links }) {
 
                     <Link
                       href={link.href}
+                      replace={true}
                       className={classNames(
                         active ? 'bg-gray-100 text-gray-800/90' : 'text-gray-700',
                         'block  py-2 text-[0.8rem] font-medium'
