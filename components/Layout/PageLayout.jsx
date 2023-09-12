@@ -8,7 +8,7 @@ function PageLayout({ content, children }) {
         <article className='max-w-7xl mx-auto mt-10 '>
         <div>
           <header>
-            <div className="space-y-1 border-b border-gray-200 lg:pb-10 pb-7 lg:text-center text-left lg:px-0 px-5">
+            <div className="space-y-1 border-b border-gray-200 lg:pb-10 pb-7 lg:text-center text-left lg:px-0 px-7">
               <dl>
                 <div>
                   <dt className="sr-only">Published on</dt>
