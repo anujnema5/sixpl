@@ -1,13 +1,6 @@
-import Head from 'next/head'
 import Link from 'next/link'
-import Image from 'next/image'
 import ContactFormVertical from '../forms/contact-form-vertifical'
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
-
-
-import { useState } from 'react'
-import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
 
 export default function Service({ heading, subHeading, headingCall, tags, title, description }) {

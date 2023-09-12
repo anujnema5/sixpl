@@ -1,5 +1,6 @@
+"use client"
 import Router from 'next/router'
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 import { useState } from 'react'
 
 
@@ -30,8 +31,6 @@ const ContactFormVertical = ({ contactUs }) => {
       site: e.currentTarget.website.value,
       message: e.currentTarget.message.value
     }
-
-    console.log(body);
 
     try {
       const res = await fetch('/api/sheet', {

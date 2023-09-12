@@ -1,3 +1,4 @@
+"use client"
 import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import { Country, State, City, } from 'country-state-city';
 import { useEffect, useRef, useState } from 'react';
@@ -6,7 +7,7 @@ import { storage } from '../lib/firebase/config';
 import { ref, uploadBytes } from 'firebase/storage';
 import { v4 } from 'uuid';
 import { toast } from 'react-toastify';
-import { useRouter } from 'next/router'
+import { useRouter } from 'next/navigation'
 
 export default function careerForm({ jobs }) {
   // USE STATE FOR STATE AND CITIES
@@ -111,7 +112,7 @@ export default function careerForm({ jobs }) {
       <div className="grid grid-cols-1 gap-x-8 lg:pt-6 md:grid-cols-3">
         <div className="px-4 sm:px-0">
           <h2 className="text-base font-semibold leading-7 text-gray-900">Applicants Information</h2>
-          <p className=" text-sm -mt-2 leading-6 text-gray-600">Use a permanent email address where you can receive mail.</p>
+          <p className=" text-sm mt-3 leading-6 text-gray-600">Use a permanent email address where you can receive mail.</p>
         </div>
 
         <form className="bg-white shadow-sm ring-1 ring-gray-900/5 sm:rounded-xl rounded-lg md:col-span-2" onSubmit={handleSubmit} id='sheetdb form'>
