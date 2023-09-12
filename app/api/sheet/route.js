@@ -1,7 +1,6 @@
 import { google } from 'googleapis'
 
-async function sendData (req, res) {
-    if (req.method === 'POST') {
+export const POST = async(req, res) => {
         const { date, fullName, email, phone, site, serviceUrl, message } = req.body
 
         const auth = new google.auth.GoogleAuth({
@@ -14,9 +13,9 @@ async function sendData (req, res) {
                 'https://www.googleapis.com/auth/drive',
                 'https://www.googleapis.com/auth/drive.file',
                 'https://www.googleapis.com/auth/spreadsheets',
-              ],
+            ],
         })
-        
+
         const sheets = google.sheets({
             auth,
             version: 'v4'
@@ -30,19 +29,18 @@ async function sendData (req, res) {
                 requestBody: {
                     values: [[date, fullName, email, phone, site, serviceUrl, message]]
                 },
-    
+
             })
             res.status(201).json({ message: 'It works!', response })
-            
+
         } catch (error) {
             console.error(error)
             res.send(error.message)
-            
+
         }
-    }
 }
 
 export default sendData
 
- 
+
 
