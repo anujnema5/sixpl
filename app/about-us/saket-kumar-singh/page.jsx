@@ -2,6 +2,7 @@ import React from 'react'
 import Image from 'next/image'
 import AboutNavbar from '@/components/nav/aboutNavbar'
 import siteMetadata from '@/utils/siteMetadata';
+import { genPageMetaData } from 'app/seo';
 
 export const metadata = genPageMetaData({ title: `Company Founder ${siteMetadata.headerTitle}`, description: "Founder - Saket Kumar Singh" });
 

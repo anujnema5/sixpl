@@ -40,7 +40,4 @@ export const POST = async(req, res) => {
         }
 }
 
-export default sendData
-
-
 

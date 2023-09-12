@@ -7,7 +7,7 @@ import PageLayout from '@/components/Layout/PageLayout'
 import { genPageMetaData } from 'app/seo'
 import siteMetadata from '@/utils/siteMetadata'
 
-export const metadata = genPageMetaData({title: "privacy Policy - " + siteMetadata.headerTitle, 
+export const metadata = genPageMetaData({title: "Privacy Policy - " + siteMetadata.headerTitle, 
 description : "Privacy Policy Sixpl"})
 
 function page() {
