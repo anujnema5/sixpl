@@ -7,8 +7,9 @@ import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Dropdown from './Dropdown'
 // import {IconBoxMultiple, IconBulb, IconClick, IconHandClick, IconRocket, IconSocial, IconUser} from "@tabler/icons-react"
 import {navigation} from '@/utils/data/nav/navLinks';
+import React from '@heroicons/react';
 
-export default function TopNave() {
+export default function TopNav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
   return (
@@ -27,14 +28,16 @@ export default function TopNave() {
             if (item.type !== 'dropdown') {
               return (
 
-                <Link key={item.name} href={item.href} className="text-sm font-semibold leading-6 text-gray-800/90">
+                <Link key={item.href} href={item.href} className="text-sm font-semibold leading-6 text-gray-800/90">
                   {item.name}
                 </Link>
               )
             } if (item.type === 'dropdown') {
               // DROPDOWN LINKS
               return (
-                <Dropdown title={item.title} links={item.links} />
+                <div className='' key={item.name}>
+                <Dropdown title={item.title} key={item.name} links={item.links} />
+                </div>
               )
             }
           })}
@@ -108,7 +111,7 @@ export default function TopNave() {
                   return (
 
 
-                    <div className='space-y-2'>
+                    <div className='space-y-2' key={item.href}>
                       {item.links.map((link) => {
                         return (
                           <Link

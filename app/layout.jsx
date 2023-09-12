@@ -49,12 +49,12 @@ export default function RootLayout({ children }) {
       lang={siteMetadata.language}
       suppressHydrationWarning
     >
-      <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-icon-76x76.png" />
+      <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+      <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="/static/favicons/apple-icon-76x76.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/apple-icon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/apple-icon-16x16.png" />
-      <link rel="manifest" href="/static/favicons/webmanifest" />
+      <link rel="manifest" href="/static/favicons/site.webmanifest" />
       <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" />
-      <meta name="msapplication-TileColor" content="#000000" />
       <body className='bg-indigo-50/60 lg:bg-white min-h-screen overflow-x-hidden'>
         <div>
           <TopNav />
