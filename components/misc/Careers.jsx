@@ -2,7 +2,7 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
 import { IconChevronDown, IconChevronUp } from '@tabler/icons-react'
-import CareerForm from '@/components/careerForm'
+import CareerForm from '@/components/CareerForm'
 import Link from 'next/link'
 import { IconArrowBearRight } from '@tabler/icons-react'
 import openings from '@/utils/data/jobs/jobopenings'
