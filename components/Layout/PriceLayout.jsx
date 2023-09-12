@@ -5,9 +5,13 @@ import { allContents } from '@/contentlayer/generated';
 import PageLayout from './PageLayout';
 
 function PriceLayout({ pack }) {
+    // GRABING THE SLUG
     const { slug } = pack
+    
+    // GRABING THE PACKAGE OBJECT
     const { pricing, heading, description, subHeading } = pack.package;
 
+    // FINDING THE POST WITH CORRECT SLUG
     const post = allContents.find((post) => post._raw.flattenedPath === slug)
     const Content = getMDXComponent(post.body.code)
 
