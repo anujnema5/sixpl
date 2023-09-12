@@ -7,13 +7,14 @@ import PageLayout from './PageLayout';
 function PriceLayout({ pack }) {
     // GRABING THE SLUG
     const { slug } = pack
-    
+
     // GRABING THE PACKAGE OBJECT
     const { pricing, heading, description, subHeading } = pack.package;
 
     // FINDING THE POST WITH CORRECT SLUG
     const post = allContents.find((post) => post._raw.flattenedPath === slug)
-    const Content = getMDXComponent(post.body.code)
+    const Content = getMDXComponent(post.body.code) // GETTING READY OUR MDX COMPONENT
+
 
     return (
         <React.Fragment>
@@ -23,6 +24,7 @@ function PriceLayout({ pack }) {
             </div>
             {/* PRICING & CONTENT */}
             <div className='mt-20 lg:mt-7'>
+                {/* PRICING COMPONENT */}
                 <PricePackage heading={heading} packages={pricing} description={description} subHeading={subHeading} />
 
                 {/* CONTENT */}

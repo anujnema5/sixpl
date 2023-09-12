@@ -20,7 +20,6 @@ const PricePackage = ({ packages, heading, subHeading, description }) => {
     function classNames(...classes) {
         return classes.filter(Boolean).join(' ')
     }
-    // mx-auto max-w-7xl lg:px-8 py-14 lg:py-12 lg:bg-gradient-to-br lg:from-slate-50 lg:to-indigo-100 px-4 rounded-xl shadow-xl shadow-indigo-100 lg:mt-0
     return (
         <div className="bg-white lg:py-5">
             <div className="mx-auto lg:w-9/12 w-full py-0 pb-16 lg:pb-12 lg:py-12 bg-gradient-to-br from-slate-50 to-indigo-100 rounded-xl lg:shadow-lg lg:shadow-indigo-100 lg:mt-16">
