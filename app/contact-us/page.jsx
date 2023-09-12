@@ -1,5 +1,5 @@
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
-import ContactFormVertical from '@/components/forms/contact-form-vertifical'
+import ContactFormVertical from '@/components/forms/Contact-form-vertifical'
 import { genPageMetaData } from 'app/seo'
 
 export const metadata = genPageMetaData({title: "Contact us - Sixpl", description: ""})

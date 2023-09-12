@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import ContactFormVertical from '../../../components/forms/contact-form-vertifical'
+import ContactFormVertical from '../../../components/forms/Contact-form-vertifical'
 import Layout from '../../../components/nav/layout'
 import { services } from '../../../lib/data/services-details'
 import Service from '../../../components/services/service'

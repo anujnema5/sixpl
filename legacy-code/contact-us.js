@@ -121,7 +121,7 @@
 */
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import Layout from '../components/nav/layout'
-import ContactFormVertical from '../components/forms/contact-form-vertifical'
+import ContactFormVertical from '../components/forms/Contact-form-vertifical'
 import Router from 'next/router'
 import { useRouter } from 'next/router'
 import { useState } from 'react'

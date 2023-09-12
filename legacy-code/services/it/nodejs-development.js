@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 import Service from '../../../components/services/service'
 import Layout from '../../../components/nav/layout'
-import ContactFormVertical from '../../../components/forms/contact-form-vertifical'
+import ContactFormVertical from '../../../components/forms/Contact-form-vertifical'
 import Clients from '../../../components/services/clients';
 import Services from '../../../components/services/Services'
 import Flex from '../../../components/services/Flex'

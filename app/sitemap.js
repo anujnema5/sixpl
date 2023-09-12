@@ -3,7 +3,8 @@ import { services } from '@/lib/data/services-details'
 
 export default async function sitemap() {
     
-    // FETCHING URLs for /services page
+    // ATTRACTION POINT
+    // FETCHING URLs FOR /SERVICES PAGE
     const siteUrl = siteMetadata.siteUrl
     const servicePageSlug = []
 
@@ -31,7 +32,7 @@ export default async function sitemap() {
         priority: 0.8
     }))
 
-    // PRICING ROUTES
+    // FETCHING PRICING ROUTES
     const pricingRoutes = ['seo-packages', 'website-packages', 'smo-packages', 'ppc-packages'].map((route) => ({
         url: `${siteUrl}/pricing/${`${route}`}`,
         lastModified: new Date().toISOString().split('T')[0],

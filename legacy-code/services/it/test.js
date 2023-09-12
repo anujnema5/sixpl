@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import Layout from '../../../components/nav/layout'
-import ContactFormVertical from '../../../components/forms/contact-form-vertifical'
+import ContactFormVertical from '../../../components/forms/Contact-form-vertifical'
 
 const ITTestPage = () => {
     return(

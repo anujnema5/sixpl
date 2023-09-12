@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import ContactFormVertical from '../forms/contact-form-vertifical'
+import ContactFormVertical from '../forms/Contact-form-vertifical'
 import { BuildingOffice2Icon, EnvelopeIcon, PhoneIcon } from '@heroicons/react/24/outline'
 import { ChevronRightIcon } from '@heroicons/react/20/solid'
 

@@ -11,11 +11,14 @@ export const metadata = genPageMetaData({title: "Privacy Policy - " + siteMetada
 description : "Privacy Policy Sixpl"})
 
 function page() {
+    // FINDING OUR CONTENT AND POST BODY
     const post = allContents.find((post) => post._raw.flattenedPath === 'privacy-policy')
     const mainContent = coreContent(post)
 
     return (
         <PageLayout content={mainContent}>
+             {/* HERE PASSING THE MDX CODE THIS COMPONENT WILL CONVERT MDX TO HTML 
+            AND RENDER CONTENT */}
             <MDXLayoutRenderer code={post.body.code} />
         </PageLayout>
     )

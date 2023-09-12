@@ -8,7 +8,8 @@ export const metadata = {
 
 function page() {
     // SELECTING THE PACKAGE
-    const selectedPackage = data.smoPackages //HERE WE SELECTED SMO PACKAGE
+    const selectedPackage = data.smoPackages 
+    // PASSING ALL THE DETAILS OF A SPECIFIC PACKAGE
     return <PriceLayout pack={selectedPackage} />
 }
 

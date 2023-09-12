@@ -7,7 +7,6 @@ const siteMetadata = {
     language: 'en-us',
     theme: 'system', // system, dark or light
     siteUrl: 'https://www.sixpl.com',
-    // siteRepo: 'https://github.com/anujnema5/chordsco',
     // siteLogo: '/static/images/logo.png',
     // image: '/static/images/avatar.png',
     socialBanner: '/static/images/twitter-card.png',

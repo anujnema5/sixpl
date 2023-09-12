@@ -16,6 +16,7 @@ function page({params}) {
 
     return (
       <React.Fragment>
+        {/* PASSING THE PARAMS, SERVICE LAYOUT WILL FIND THE CORRECT DATA TO RENDER */}
         <ServiceLayout params={params}/>
       </React.Fragment>
     )

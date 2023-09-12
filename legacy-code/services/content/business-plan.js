@@ -9,7 +9,7 @@ import Services from '../../../components/services/Services'
 import Clients from '../../../components/services/clients'
 import Flex from '../../../components/services/Flex'
 import FAQs from '../../../components/services/FAQs'
-import ContactFormVertical from '../../../components/forms/contact-form-vertifical'
+import ContactFormVertical from '../../../components/forms/Contact-form-vertifical'
 import { getMDXComponent } from 'next-contentlayer/hooks'
 import { allContents } from '../../../.contentlayer/generated'
 

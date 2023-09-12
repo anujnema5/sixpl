@@ -8,7 +8,8 @@ export const metadata = {
 
 function page() {
     // SELECTING THE PACKAGE
-    const selectedPackage = data.ppcPackages //HERE WE SELECTED PPC PACKAGE
+    const selectedPackage = data.ppcPackages 
+    // PASSING ALL THE DETAILS OF A SPECIFIC PACKAGE
     return <PriceLayout pack={selectedPackage} />
 }
 
