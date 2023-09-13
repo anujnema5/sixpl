@@ -8,7 +8,7 @@ import { genPageMetaData } from 'app/seo'
 import siteMetadata from '@/utils/siteMetadata'
 
 export const metadata = genPageMetaData({title: "Privacy Policy - " + siteMetadata.headerTitle, 
-description : "Privacy Policy Sixpl"})
+description : `Privacy Policy ${siteMetadata.headerTitle}`})
 
 function page() {
     // FINDING OUR CONTENT AND POST BODY

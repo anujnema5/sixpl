@@ -3,6 +3,7 @@ import siteMetadata from "@/utils/siteMetadata";
 export function genPageMetaData({ title, description, image, ...rest }) {
     return {
         title,
+        description,
         openGraph: {
             title: title,
             description: description,
