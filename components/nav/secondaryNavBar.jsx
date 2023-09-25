@@ -15,9 +15,9 @@ const SecondaryNavBar = () => {
                             </div> 
 
                             <div>
-                                <a className='px-1 py-2 text-base' href="tel:+1 779 545 2612"> 
+                                <Link  className='px-1 py-2 text-base' href="tel:+1 779 545 2612"> 
                                     US: +1 779 545 2612
-                                </a>
+                                </Link>
                             </div>
                             
                         </div>

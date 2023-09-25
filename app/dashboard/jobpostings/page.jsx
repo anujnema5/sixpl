@@ -2,23 +2,28 @@
 import React, { useEffect, useState } from 'react'
 import Image from 'next/image'
 import { IconChevronDown, IconChevronUp } from '@tabler/icons-react'
-import CareerForm from '@/components/CareerForm'
 import Link from 'next/link'
 import { IconArrowBearRight } from '@tabler/icons-react'
-import openings, { getJobs } from '@/utils/data/jobs/jobopenings'
+// import openings, { getJobs } from '@/utils/data/jobs/jobopenings'
 import { collection, getDocs } from 'firebase/firestore'
 import { db } from '@/lib/firebase/config'
+import JobOpening from '@/components/forms/JobOpening'
+import { useSelector } from 'react-redux'
+import { useRouter } from 'next/navigation'
 
 function classNames(...classes) {
     return classes.filter(Boolean).join(' ')
 }
 
-function Careers() {
-
+function JobPostings() {
+    const router = useRouter();
     const [jobs, setJobs] = useState([]);
+    const {currentUser} = useSelector((state)=> state.user);
 
     // FETCHING THE JOBS
     useEffect(() => {
+        if(!currentUser?.isAdmin) router.push("/")
+
         const fetchData = async () => {
             let list = []
             try {
@@ -51,14 +56,14 @@ function Careers() {
                 <Image src={'/images/career/careerBanner.jpg'} width={500} alt='career' height={700} className='object-cover bg-no-repeat w-[100%] h-[100%]' />
                 <div className='absolute w-[100%] h-[100%] bg-black/60 top-0 left-0 flex flex-col items-center justify-center gap-5'>
                     <h1 className='text-white lg:text-5xl text-4xl my-0'>Six<span className='text-indigo-500'>PL</span></h1>
-                    <h2 className='my-0 text-white/90 font-bold lg:text-3xl text-xl'>Explore Career <span className='text-red-500'>@ SixPL</span> </h2>
+                    <h2 className='my-0 text-white/90 font-bold lg:text-3xl text-xl'>Open new positions <span className='text-red-500'>@ SixPL</span> </h2>
                 </div>
             </div>
 
             <div className="px-4 sm:px-6 lg:px-32 lg:py-5 bg-indigo-50/30">
                 <div className="sm:flex sm:items-center">
                     <div className="sm:flex-auto py-1">
-                        <h1 className="lg:text-2xl text-base font-semibold leading-2 lg:px-6 px-4 py-2 my-3 bg-red-100/60 shadow-lg rounded inline-block text-gray-900">#Our Job Openings</h1>
+                        <h1 className="lg:text-2xl text-base font-semibold leading-2 lg:px-6 px-4 py-2 my-3 bg-red-100/60 shadow-lg rounded inline-block text-gray-900">Your current opened job</h1>
                     </div>
 
                 </div>
@@ -224,10 +229,10 @@ function Careers() {
                         <h1 className="lg:text-2xl text-base font-semibold leading-2 lg:px-6 px-4 py-2 my-3 bg-red-100/60 shadow-lg rounded inline-block text-gray-900">Job Application form</h1>
                     </div>
                 </div>
-                <CareerForm jobs={jobs} />
+                <JobOpening/>
             </div>
         </React.Fragment>
     )
 }
 
-export default Careers
+export default JobPostings

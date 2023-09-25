@@ -2,6 +2,10 @@ import TopNav from '../components/nav/TopNav'
 import Footer from '../components/nav/footer'
 import siteMetadata from '@/utils/siteMetadata'
 import './globals.css'
+import React from 'react'
+import ReduxProvider from '@/components/providers/ReduxProvider'
+import SessionWrapper from '@/components/providers/SessionProvider'
+
 
 export const metadata = {
   metadataBase: new URL(siteMetadata.siteUrl),
@@ -49,18 +53,20 @@ export default function RootLayout({ children }) {
       lang={siteMetadata.language}
       suppressHydrationWarning
     >
-      <link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+      <link rel="icon" type="image/x-icon" href="/favicon.ico" />
       <link rel="apple-touch-icon" type="image/png" sizes="76x76" href="/static/favicons/apple-icon-76x76.png" />
       <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/apple-icon-32x32.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/apple-icon-16x16.png" />
       <link rel="manifest" href="/static/favicons/site.webmanifest" />
       <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" />
       <body className='bg-indigo-50/60 lg:bg-white min-h-screen overflow-x-hidden'>
-        <div>
-          <TopNav />
-          <main className="">{children}</main>
-          <Footer />
-        </div>
+          <ReduxProvider>
+            <div>
+              <TopNav />
+              <main className="">{children}</main>
+              <Footer />
+            </div>
+          </ReduxProvider>
       </body>
     </html>
   )

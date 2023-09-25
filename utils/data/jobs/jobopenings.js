@@ -1,12 +1,15 @@
+import { getFirestore, doc, getDoc, collection } from "firebase/firestore";
+
+
 const openings = [
 
     {
         id: 1,
         name: 'Email Marketing Specialist',
-        memory: '20',
-        cpu: 'Remote',
-        storage: '1 - 2 Years',
-        price: 'Full Time',
+        positions: '20',
+        location: 'Remote',
+        experience: '1 - 2 Years',
+        jobType: 'Full Time',
         isCurrent: false,
         information: {
             title: "Email Marketing Specialist",
@@ -22,10 +25,10 @@ const openings = [
     {
         id: 2,
         name: 'Search Engine Optimization Executive',
-        memory: '5',
-        cpu: 'Remote',
-        storage: '1 - 2 Years',
-        price: 'Full Time',
+        positions: '5',
+        location: 'Remote',
+        experience: '1 - 2 Years',
+        jobType: 'Full Time',
         isCurrent: false,
         information: {
             title: "Search Engine Optimization Executive",
@@ -39,5 +42,16 @@ const openings = [
         }
     }
 ]
+
+
+export const getJobs = async () => {
+    const events = await firebase.firestore().collection('job-postings')
+    events.get().then((querySnapshot) => {
+        const tempDoc = querySnapshot.docs.map((doc) => {
+            return { id: doc.id, ...doc.data() }
+        })
+        console.log(tempDoc)
+    })
+}
 
 export default openings;

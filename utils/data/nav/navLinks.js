@@ -22,7 +22,7 @@ export const navigation = [
       { href: '/about-us', title: 'About us', icon: IconUser },
       { href: '/careers', title: 'Careers', icon: IconBulb },
     ],
-  }
+  },
 ]
 
 export const footerLink = [
@@ -30,6 +30,17 @@ export const footerLink = [
   { name: 'Refund Cancellation Policy', href: '/refund-cancellation-policy' },
   { name: 'Disclaimer', href: '/disclaimer' },
   { name: 'Terms & Conditions', href: '/terms-conditions' }
+]
+
+export const dasboardLinks = [
+  {
+    type: 'dropdown',
+    title: 'Dashboard',
+    links: [
+      { href: '/dashboard/jobpostings', title: 'Job Postings', icon: IconUser },
+      { href: '/logout', title: 'Logout', icon: IconBulb },
+    ],
+  }
 ]
 
 export default navigation;

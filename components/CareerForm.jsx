@@ -3,11 +3,13 @@ import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
 import { Country, State, City, } from 'country-state-city';
 import { useEffect, useRef, useState } from 'react';
 import { IconX } from '@tabler/icons-react';
-import { storage } from '../lib/firebase/config';
-import { ref, uploadBytes } from 'firebase/storage';
+// import { ref, uploadBytes } from 'firebase/storage';
 import { v4 } from 'uuid';
 import { toast } from 'react-toastify';
 import { useRouter } from 'next/navigation'
+import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
+import { storage } from '@/lib/firebase/config';
+import SuccessAlert from './misc/SuccessAlert';
 
 export default function careerForm({ jobs }) {
   // USE STATE FOR STATE AND CITIES
@@ -16,6 +18,9 @@ export default function careerForm({ jobs }) {
   const [states, setStates] = useState([]);
   const [cities, setCities] = useState([]);
   const [selectedCities, setSelectedCities] = useState('');
+  const [loading, setLoading] = useState(false);
+  const [success, setSuccess] = useState('');
+  const [percentage, setPercentage] = useState(null)
 
   // USE STATE FOR ATTACHED RESUME
   const [resume, setResume] = useState('');
@@ -51,37 +56,100 @@ export default function careerForm({ jobs }) {
     setCities(stateCities);
   }, [selectedState]);
 
-  // WHEN SOMEONE ATTACHES RESUME 
-  const handleFileChange = async (event) => {
-    const file = event.target.files[0];
+  const metadata = {
+    contentType: 'image/jpeg'
+  };
 
-    try {
-      if (file && file.type === 'application/pdf') {
-        setResume(file)
-        const fileRef = ref(storage, `resume/${resume.name + v4()}`)
-        const data = await uploadBytes(fileRef, resume);
-
-        const bucket = data.metadata.bucket;
-        const fullPath = encodeURIComponent(data.metadata.fullPath);
-        const downloadURL = `https://firebasestorage.googleapis.com/v0/b/${bucket}/o/${fullPath}?alt=media&token`;
-
-        setFormData(prevData => ({
-          ...prevData,
-          resume: downloadURL,
-        }));
-      } else {
-        alert('Please select a valid PDF file.');
-      }
-    }
-
-    catch (error) {
-      console.log(error);
-    }
-
+  const fileType = {
+    contentType: 'application/pdf'
   }
 
+  useEffect(() => {
+    const uploadResume = () => {
+      const name = new Date().getTime() + resume.name
+      const storageRef = ref(storage, `resume/${name}`)
+
+      const uploadTask = uploadBytesResumable(storageRef, 'resume/' + name, fileType);
+
+      uploadTask.on('state_changed',
+        (snapshot) => {
+          const progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+          console.log('Upload is ' + progress + '% done');
+          setPercentage(progress);
+          switch (snapshot.state) {
+            case 'paused':
+              console.log('Upload is paused');
+              break;
+            case 'running':
+              console.log('Upload is running');
+              break;
+            default:
+              break;
+          }
+        },
+        (error) => {
+          console.log(error)
+          // switch (error.code) {
+          //   case 'storage/unauthorized':
+          //     break;
+          //   case 'storage/canceled':
+          //     break;
+
+          //   case 'storage/unknown':
+          //     break;
+          // }
+        },
+        () => {
+          getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
+            console.log('Resume available at', downloadURL);
+
+            setFormData(prevData => ({
+              ...prevData,
+              resume: downloadURL,
+            }));
+          });
+        }
+      );
+
+    }
+
+    uploadResume();
+  }, [resume])
+
+  // WHEN SOMEONE ATTACHES RESUME 
+  // const handleFileChange = async (event) => {
+  //   const file = event.target.files[0];
+
+  //   try {
+  //     if (file && file.type === 'application/pdf') {
+  //       setResume(file)
+  //       const fileRef = ref(storage, `resume/${resume.name + v4()}`)
+  //       const data = await uploadBytes(fileRef, resume);
+  //       const bucket = data.metadata.bucket;
+  //       const fullPath = encodeURIComponent(data.metadata.fullPath);
+  //       const downloadURL = `https://firebasestorage.googleapis.com/v0/b/${bucket}/o/${fullPath}?alt=media&token`;
+
+  //       setFormData(prevData => ({
+  //         ...prevData,
+  //         resume: downloadURL,
+  //       }));
+
+  //     } else {
+  //       alert('Please select a valid PDF file.');
+  //     }
+  //   }
+
+  //   catch (error) {
+  //     console.log(error);
+  //   }
+
+  // }
+
   const handleSubmit = (e) => {
+    setLoading(true)
     e.preventDefault();
+
+    console.log(formData);
 
     const requestData = { data: [formData] };
     fetch('https://sheetdb.io/api/v1/vmyoilv51x1fg', {
@@ -94,7 +162,11 @@ export default function careerForm({ jobs }) {
     })
       .then((response) => response.json())
       .then((data) => toast.success("Your application has been submitted"))
-      .then(() => router.push("/"));
+      setSuccess('Your application has been submitted')
+      // .then(() => router.push("/"))
+      .catch((err) => { console.log(err) })
+
+    setLoading(false);
   }
 
   const handleInputChange = (event) => {
@@ -103,7 +175,6 @@ export default function careerForm({ jobs }) {
       ...prevData,
       [name]: value,
     }));
-
   };
 
   return (
@@ -133,6 +204,7 @@ export default function careerForm({ jobs }) {
                     autoComplete="given-name"
                     onChange={handleInputChange}
                     placeholder='First name'
+                    required
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -151,6 +223,7 @@ export default function careerForm({ jobs }) {
                     autoComplete="family-name"
                     onChange={handleInputChange}
                     placeholder='Last name'
+                    required
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -169,6 +242,7 @@ export default function careerForm({ jobs }) {
                     autoComplete="email"
                     onChange={handleInputChange}
                     placeholder='Email address'
+                    required
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -186,6 +260,7 @@ export default function careerForm({ jobs }) {
                     autoComplete="salary"
                     onChange={handleInputChange}
                     placeholder='Phone number'
+                    required
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -201,12 +276,13 @@ export default function careerForm({ jobs }) {
                     id="country"
                     name="position"
                     autoComplete="position-name"
+                    required
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
                     onChange={handleInputChange}
                   >
                     <option value="">Select position</option>
-                    {jobs?.map((state) => (
-                      <option key={state.id} value={state.name}>{state.name}</option>
+                    {jobs?.map((state, index) => (
+                      <option key={index} value={state.jobPosition}>{state.jobPosition}</option>
                     ))}
                   </select>
                 </div>
@@ -224,6 +300,7 @@ export default function careerForm({ jobs }) {
                     id="experience"
                     autoComplete="given-name"
                     onChange={handleInputChange}
+                    required
                     placeholder='Relevant Experience'
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
@@ -243,6 +320,7 @@ export default function careerForm({ jobs }) {
                     autoComplete="salary"
                     onChange={handleInputChange}
                     placeholder='Expected Salary'
+                    required
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -260,6 +338,7 @@ export default function careerForm({ jobs }) {
                     autoComplete="currentSalary"
                     onChange={handleInputChange}
                     placeholder='Current Salary'
+                    required
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -277,6 +356,7 @@ export default function careerForm({ jobs }) {
                     type="date"
                     autoComplete="dob"
                     onChange={handleInputChange}
+                    required
                     className="block w-9/12 rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                   />
                 </div>
@@ -292,6 +372,7 @@ export default function careerForm({ jobs }) {
                     id="country"
                     name="state"
                     autoComplete="state-name"
+                    required
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:max-w-xs sm:text-sm sm:leading-6"
                     onChange={(e) => { setSelectedState(e.target.value); handleInputChange(e) }}
                   >
@@ -316,6 +397,7 @@ export default function careerForm({ jobs }) {
                     name="city"
                     id="city"
                     autoComplete="address-level"
+                    required
                     className="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                     value={formData.city}
                     onChange={handleInputChange}
@@ -341,7 +423,7 @@ export default function careerForm({ jobs }) {
                       className="relative cursor-pointer rounded-md bg-white font-semibold text-indigo-600 focus-within:outline-none focus-within:ring-2 focus-within:ring-indigo-600 focus-within:ring-offset-2 hover:text-indigo-500"
                     >
                       <span>Upload your Resume</span>
-                      <input id="file-upload" name="resume" accept='.pdf' type="file" className="sr-only" onChange={handleFileChange} />
+                      <input id="file-upload" required name="resume" accept='.pdf' type="file" className="sr-only" onChange={(e) => setResume(e.target.files[0])} />
                     </label>
                     <p className="pl-1">or drag and drop</p>
                   </div>
@@ -356,13 +438,16 @@ export default function careerForm({ jobs }) {
           <div className="flex items-center justify-end gap-x-6 border-t border-gray-900/10 lg:px-10 px-4 py-4 sm:px-8">
             <button
               type="submit"
-              className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600 disabled:bg-indigo-300"
+              disabled={!resume}
 
             >
               Submit your Application
             </button>
           </div>
         </form>
+
+        {success && <SuccessAlert message={success}/>}
       </div>
 
 

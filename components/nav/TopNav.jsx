@@ -1,16 +1,32 @@
 "use client";
-
 import Link from 'next/link'
-import { useState } from 'react'
+import dynamic from 'next/dynamic';
+import { useEffect, useState } from 'react'
 import { Dialog } from '@headlessui/react'
-import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Bars3Icon, ChevronDownIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Dropdown from './Dropdown'
-// import {IconBoxMultiple, IconBulb, IconClick, IconHandClick, IconRocket, IconSocial, IconUser} from "@tabler/icons-react"
-import {navigation} from '@/utils/data/nav/navLinks';
+import { navigation, dasboardLinks } from '@/utils/data/nav/navLinks';
 import React from '@heroicons/react';
+import { useSelector } from 'react-redux';
+import { auth } from '@/lib/firebase/auth/signin'
+import { ArrowDownCircleIcon } from '@heroicons/react/20/solid';
+import { ArrowDownIcon } from '@heroicons/react/24/solid';
+import { IconChevronDown } from '@tabler/icons-react';
+import { IconChevronsDown } from '@tabler/icons-react';
 
 export default function TopNav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [hydrated, setHydrated] = useState(false);
+  const { currentUser } = useSelector((state) => state.user)
+
+  useEffect(() => {
+    setHydrated(true);
+  }, []);
+
+  if (!hydrated) {
+    // Returns null on first render, so the client and server match
+    return null;
+  }
 
   return (
     <header className="bg-white">
@@ -33,10 +49,11 @@ export default function TopNav() {
                 </Link>
               )
             } if (item.type === 'dropdown') {
+
               // DROPDOWN LINKS
               return (
                 <div className='' key={item.name}>
-                <Dropdown title={item.title} key={item.name} links={item.links} />
+                  <Dropdown title={item.title} key={item.name} links={item.links} />
                 </div>
               )
             }
@@ -45,14 +62,29 @@ export default function TopNav() {
 
         <div className="flex flex-1 items-center justify-end gap-x-6">
           <Link href="mailto: sales@sixpl.com" className="hidden lg:block lg:text-sm lg:font-semibold lg:leading-6 lg:text-gray-800/90">
-            sales@sixpl.com
+
+            {currentUser ? currentUser.email : "sales@sixpl.com"}
           </Link>
-          <Link
-            href="tel:+1 779 545 2612"
-            className="rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-          >
-            +1 779 545 2612
-          </Link>
+          
+
+          {!currentUser &&
+          <div className='flex items-center gap-3 justify-center'> 
+            <Link
+            href={currentUser ? "/dashboard" : "tel:+1 779 545 2612"}
+            className="rounded-md hidden sm:flex gap-2 bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 items-center jus focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+            >+1 779 545 2612</Link>
+            
+            <Link className='rounded-md hidden sm:flex gap-2 bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 items-center jus focus-visible:outline-offset-2 focus-visible:outline-indigo-600' href={'/signin'}>Team Login</Link>
+          </div>
+          }
+
+          {currentUser &&
+            dasboardLinks.map((item) => (
+              <div className='' key={item.name}>
+                <Dropdown title={item.title} key={item.name} links={item.links} />
+              </div>
+            ))
+          }
         </div>
         <div className="flex lg:hidden">
           <button
@@ -77,12 +109,12 @@ export default function TopNav() {
                 alt="logo"
               />
             </Link>
-            <Link
-              href="#"
+            {<Link
+              href={currentUser ? "/dashboard/jobpostings" : "tel:+1 779 545 2612"}
               className="ml-auto rounded-md bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
-              +1 779 545 2612
-            </Link>
+              {currentUser ? "Dashboard" : "sales@sixpl.com"}
+            </Link>}
             <button
               type="button"
               className="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -109,8 +141,6 @@ export default function TopNav() {
                   }
 
                   return (
-
-
                     <div className='space-y-2' key={item.href}>
                       {item.links.map((link) => {
                         return (
@@ -123,7 +153,6 @@ export default function TopNav() {
                           </Link>
                         )
                       })}
-
                     </div>
                   )
                 })}
@@ -131,10 +160,10 @@ export default function TopNav() {
               </div>
               <div className="py-6">
                 <Link
-                  href="#"
+                  href={currentUser ? "/dashboard/jobspostings" : "tel:+1 779 545 2612"}
                   className="-mx-3 block rounded-lg px-3 py-2.5 text-base font-semibold leading-7 text-gray-800/90 hover:bg-gray-50"
                 >
-                  sales@sixpl.com
+                  {currentUser ? "Dashboard" : "sales@sixpl.com"}
                 </Link>
               </div>
             </div>
