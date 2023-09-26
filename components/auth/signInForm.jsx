@@ -58,8 +58,13 @@ export default function SignInForm() {
 
       } catch (error) {
         setLoading(false);
-        setError(error.message);
-        console.log(error); // DEV PURPOSE
+        if (error.message === "Firebase: Error (auth/invalid-login-credentials).") {
+          setError("Sorry Incorrect password");
+
+        } else {
+          setError(error.message);
+        }
+        console.log(error.message); // DEV PURPOSE
         router.refresh()
       }
     }
@@ -358,8 +363,8 @@ export default function SignInForm() {
             </div> */}
 
             <div className="mt-3">
-            {error && <ErrorAlert message={error}/>}
-            {success && <SuccessAlert message={success}/>}
+              {error && <ErrorAlert message={error} />}
+              {success && <SuccessAlert message={success} />}
             </div>
 
             <p className="mt-10 text-center text-sm text-gray-500">
