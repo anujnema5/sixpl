@@ -61,6 +61,15 @@ export default function SignUpForm() {
     }
   },[])
 
+  const resetFields = ()=> {
+    setName('');
+    setEmail('')
+    setPosition('')
+    setPassword('')
+    setConfirmPassword('')
+    setPhoneNumber('')
+  }
+
   const handleForm = async (event) => {
     event.preventDefault();
     setError('')
@@ -101,6 +110,7 @@ export default function SignUpForm() {
         }).then(() => {
           localStorage.setItem('emailForSignIn', email);
           setLoginLoading(false)
+          resetFields()
           setLoginSuccess("Email verification sent to your mail")
         }).catch((err) => {
           setLoginLoading(false)
@@ -121,7 +131,7 @@ export default function SignUpForm() {
     catch (error) {
       setLoading(false)
       if (error.message === 'Firebase: Error (auth/email-already-in-use).') {
-        setError('You already have an account please sign-up')
+        setError('You already have an account please sign-in')
       } else if (error.message === 'Firebase: Password should be at least 6 characters (auth/weak-password).') {
         setError('Password should be at least 6 character')
       } else {
@@ -170,6 +180,7 @@ export default function SignUpForm() {
                   type="text"
                   autoComplete="name"
                   required
+                  value={name}
                   onChange={(e) => setName(e.target.value)}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-800/90 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -189,6 +200,7 @@ export default function SignUpForm() {
                   type="email"
                   autoComplete="email"
                   required
+                  value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-800/90 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
 
@@ -207,6 +219,7 @@ export default function SignUpForm() {
                   type="tel"
                   autoComplete="phone-number"
                   required
+                  value={phoneNumber}
                   pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
                   onChange={(e) => setPhoneNumber(e.target.value)}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-800/90 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
@@ -226,6 +239,7 @@ export default function SignUpForm() {
                   type="text"
                   autoComplete="position"
                   required
+                  value={position}
                   onChange={(e) => setPosition(e.target.value)}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-800/90 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -246,6 +260,7 @@ export default function SignUpForm() {
                   type={eye.password ? "text" : "password"}
                   autoComplete="current-password"
                   required
+                  value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-800/90 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />
@@ -271,6 +286,7 @@ export default function SignUpForm() {
                   type={eye.confirmPassword ? "text" : "password"}
                   autoComplete="current-password"
                   required
+                  value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
                   className="block w-full rounded-md border-0 py-1.5 text-gray-800/90 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
                 />

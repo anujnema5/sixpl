@@ -16,7 +16,7 @@ function page() {
     useEffect(() => {
         setHydrated(true);
 
-        if(currentUser) {
+        if (currentUser) {
             router.push("/")
         }
     }, []);
@@ -34,9 +34,10 @@ function page() {
                     // Clear email from storage.
                     window.localStorage.removeItem('emailForSignIn');
                     dispatch(loginSuccess(result.user))
-                    console.log(result);
+                    router.push("/")
                 })
                 .catch((error) => {
+                    throw error
                 });
         }
     }, [currentUser]);
@@ -45,7 +46,7 @@ function page() {
         // Returns null on first render, so the client and server match
         return null;
     }
-    
+
     return (
         <div className='h-full'>
             {currentUser?.emailVerified ? <p>Your Email is now verified</p> : <p>Please verify your email ASAP</p>}
