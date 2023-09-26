@@ -1,18 +1,19 @@
 "use client";
 import Link from 'next/link'
-import dynamic from 'next/dynamic';
 import { useEffect, useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, ChevronDownIcon, XMarkIcon } from '@heroicons/react/24/outline'
 import Dropdown from './Dropdown'
 import { navigation, dasboardLinks } from '@/utils/data/nav/navLinks';
 import React from '@heroicons/react';
+import { revalidatePath } from 'next/cache'
 import { useSelector } from 'react-redux';
 import { auth } from '@/lib/firebase/auth/signin'
 import { ArrowDownCircleIcon } from '@heroicons/react/20/solid';
 import { ArrowDownIcon } from '@heroicons/react/24/solid';
 import { IconChevronDown } from '@tabler/icons-react';
 import { IconChevronsDown } from '@tabler/icons-react';
+import { useRouter } from 'next/navigation';
 
 export default function TopNav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -22,6 +23,11 @@ export default function TopNav() {
   useEffect(() => {
     setHydrated(true);
   }, []);
+
+  useEffect(()=> {
+    // redirect("/")
+    
+  },[currentUser])
 
   if (!hydrated) {
     // Returns null on first render, so the client and server match
@@ -70,7 +76,7 @@ export default function TopNav() {
           {!currentUser &&
           <div className='flex items-center gap-3 justify-center'> 
             <Link
-            href={currentUser ? "/dashboard" : "tel:+1 779 545 2612"}
+            href={currentUser ? "/dashboard/jobspostings" : "tel:+1 779 545 2612"}
             className="rounded-md hidden sm:flex gap-2 bg-indigo-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 items-center jus focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >+1 779 545 2612</Link>
             

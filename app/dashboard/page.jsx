@@ -4,10 +4,11 @@ import { auth } from '@/lib/firebase/config';
 import { isSignInWithEmailLink, signInWithEmailLink } from 'firebase/auth';
 import { useDispatch, useSelector } from 'react-redux';
 import { loginSuccess } from '@/lib/redux/userSlice';
-import { notFound } from 'next/navigation';
+import { notFound, useRouter } from 'next/navigation';
 
 function page() {
     const dispatch = useDispatch();
+    const router = useRouter();
     const [hydrated, setHydrated] = useState(false);
     const { currentUser } = useSelector((state) => state.user)
 
@@ -24,10 +25,12 @@ function page() {
                     // Clear email from storage.
                     window.localStorage.removeItem('emailForSignIn');
                     dispatch(loginSuccess(result.user))
-                    console.log(result);
+                    router.push("/")
                 })
                 .catch((error) => {
                 });
+        } else {
+            router.push("/")
         }
     }, []);
 

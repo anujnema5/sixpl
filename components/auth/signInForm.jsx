@@ -54,12 +54,7 @@ export default function SignInForm() {
         dispatch(loginSuccess(res.user))
         setSuccess("Login successfull")
         setLoading(false);
-        // router.push("/dashboard/jobpostings")
-        window.location.href = '/dashboard/jobpostings'
-        // if (error) {
-        //   console.log(error); // DEV PURPOSE
-        //   setError(error.message);
-        // }
+        router.push("/dashboard/jobpostings")
 
       } catch (error) {
         setLoading(false);
