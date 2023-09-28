@@ -1,5 +1,5 @@
 "use client"
-import { logout } from '@/lib/redux/userSlice';
+import { logout } from '@/utils/redux/userSlice';
 import { useRouter } from 'next/navigation'
 import React, { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux';

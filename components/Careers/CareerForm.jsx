@@ -1,15 +1,13 @@
 "use client"
-import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
+import { PhotoIcon } from '@heroicons/react/24/solid'
 import { Country, State, City, } from 'country-state-city';
 import { useEffect, useRef, useState } from 'react';
 import { IconX } from '@tabler/icons-react';
-// import { ref, uploadBytes } from 'firebase/storage';
 import { v4 } from 'uuid';
 import { toast } from 'react-toastify';
-import { useRouter } from 'next/navigation'
 import { getStorage, ref, uploadBytesResumable, getDownloadURL } from "firebase/storage";
 import { storage } from '@/lib/firebase/config';
-import SuccessAlert from './misc/SuccessAlert';
+import SuccessAlert from '../misc/SuccessAlert';
 
 export default function careerForm({ jobs }) {
   // USE STATE FOR STATE AND CITIES
@@ -38,9 +36,6 @@ export default function careerForm({ jobs }) {
     })
   });
 
-  const router = useRouter()
-
-
   useEffect(() => {
     const fetchedStates = State.getStatesOfCountry(selectedCountry);
     setStates(fetchedStates);
@@ -55,10 +50,6 @@ export default function careerForm({ jobs }) {
     const stateCities = City.getCitiesOfState("IN", selectedState);
     setCities(stateCities);
   }, [selectedState]);
-
-  const metadata = {
-    contentType: 'image/jpeg'
-  };
 
   const fileType = {
     contentType: 'application/pdf'
@@ -89,15 +80,6 @@ export default function careerForm({ jobs }) {
         },
         (error) => {
           console.log(error)
-          // switch (error.code) {
-          //   case 'storage/unauthorized':
-          //     break;
-          //   case 'storage/canceled':
-          //     break;
-
-          //   case 'storage/unknown':
-          //     break;
-          // }
         },
         () => {
           getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
@@ -116,40 +98,9 @@ export default function careerForm({ jobs }) {
     uploadResume();
   }, [resume])
 
-  // WHEN SOMEONE ATTACHES RESUME 
-  // const handleFileChange = async (event) => {
-  //   const file = event.target.files[0];
-
-  //   try {
-  //     if (file && file.type === 'application/pdf') {
-  //       setResume(file)
-  //       const fileRef = ref(storage, `resume/${resume.name + v4()}`)
-  //       const data = await uploadBytes(fileRef, resume);
-  //       const bucket = data.metadata.bucket;
-  //       const fullPath = encodeURIComponent(data.metadata.fullPath);
-  //       const downloadURL = `https://firebasestorage.googleapis.com/v0/b/${bucket}/o/${fullPath}?alt=media&token`;
-
-  //       setFormData(prevData => ({
-  //         ...prevData,
-  //         resume: downloadURL,
-  //       }));
-
-  //     } else {
-  //       alert('Please select a valid PDF file.');
-  //     }
-  //   }
-
-  //   catch (error) {
-  //     console.log(error);
-  //   }
-
-  // }
-
   const handleSubmit = (e) => {
     setLoading(true)
     e.preventDefault();
-
-    console.log(formData);
 
     const requestData = { data: [formData] };
     fetch('https://sheetdb.io/api/v1/vmyoilv51x1fg', {
@@ -162,8 +113,7 @@ export default function careerForm({ jobs }) {
     })
       .then((response) => response.json())
       .then((data) => toast.success("Your application has been submitted"))
-      setSuccess('Your application has been submitted')
-      // .then(() => router.push("/"))
+    setSuccess('Your application has been submitted')
       .catch((err) => { console.log(err) })
 
     setLoading(false);
@@ -447,10 +397,8 @@ export default function careerForm({ jobs }) {
           </div>
         </form>
 
-        {success && <SuccessAlert message={success}/>}
+        {success && <SuccessAlert message={success} />}
       </div>
-
-
     </div>
   )
 }

@@ -1,11 +1,11 @@
 'use client'
 import React, { useEffect } from "react"
 import { useDispatch, useSelector } from "react-redux"
-import { loginFailure, loginStart, loginSuccess } from "@/lib/redux/userSlice"
+import { loginFailure, loginStart, loginSuccess } from "@/utils/redux/userSlice"
 import { useRouter } from "next/navigation"
 import { IconEye } from "@tabler/icons-react"
 import { IconEyeOff } from "@tabler/icons-react"
-import { EmailAuthProvider, createUserWithEmailAndPassword, getAuth, isSignInWithEmailLink, signInWithEmailLink } from "firebase/auth"
+import { createUserWithEmailAndPassword } from "firebase/auth"
 import { verifyEmail } from "@/utils/functions/helper"
 // import { signIn } from "next-auth/react"
 import { doc, setDoc } from "firebase/firestore"
@@ -34,26 +34,6 @@ export default function SignUpForm() {
   const dispatch = useDispatch();
 
   const { currentUser } = useSelector((state) => state.user);
-
-  // useEffect(() => {
-  //   if (isSignInWithEmailLink(auth, window.location.href)) {
-  //     let email = window.localStorage.getItem('emailForSignIn');
-  //     if (!email) {
-  //       email = window.prompt('Please provide your email for confirmation');
-  //     }
-  //     // The client SDK will parse the code from the link for you.
-  //     signInWithEmailLink(auth, email, window.location.href)
-  //       .then((result) => {
-  //         // Clear email from storage.
-  //         window.localStorage.removeItem('emailForSignIn');
-  //         console.log("Result " + result);
-  //         router.push("/")
-  //       })
-  //       .catch((error) => {
-  //       });
-  //   }
-  // }, []);
-
 
   useEffect(()=> {
     if(currentUser) {
@@ -118,7 +98,6 @@ export default function SignUpForm() {
           res.user.delete().then(()=> {
             console.log("User deleted also");
           })
-          // TODO: USER SHOULD ALSO DELETE IN DB
         })
 
       } else {
@@ -138,10 +117,6 @@ export default function SignUpForm() {
         console.log(error)
       }
     }
-  }
-
-  const handleModal = () => {
-    setPopup(false)
   }
 
   const handleToggle = (name) => {

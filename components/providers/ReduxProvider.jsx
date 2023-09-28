@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import { Provider } from 'react-redux'
-import { store } from '@/lib/redux/store'
+import { store } from '@/utils/redux/store'
 
 function ReduxProvider({ children }) {
     return (

@@ -6,14 +6,7 @@ import { Bars3Icon, ChevronDownIcon, XMarkIcon } from '@heroicons/react/24/outli
 import Dropdown from './Dropdown'
 import { navigation, dasboardLinks } from '@/utils/data/nav/navLinks';
 import React from '@heroicons/react';
-import { revalidatePath } from 'next/cache'
 import { useSelector } from 'react-redux';
-import { auth } from '@/lib/firebase/auth/signin'
-import { ArrowDownCircleIcon } from '@heroicons/react/20/solid';
-import { ArrowDownIcon } from '@heroicons/react/24/solid';
-import { IconChevronDown } from '@tabler/icons-react';
-import { IconChevronsDown } from '@tabler/icons-react';
-import { useRouter } from 'next/navigation';
 
 export default function TopNav() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
@@ -24,11 +17,6 @@ export default function TopNav() {
     setHydrated(true);
   }, []);
 
-  useEffect(()=> {
-    // redirect("/")
-    
-  },[currentUser])
-
   if (!hydrated) {
     // Returns null on first render, so the client and server match
     return null;
@@ -36,7 +24,7 @@ export default function TopNav() {
 
   return (
     <header className="bg-white">
-      <nav className="mx-auto flex items-center justify-between gap-x-6 p-6 lg:px-8" aria-label="Global">
+      <nav className="mx-auto flex items-center justify-between gap-x-6 p-6 lg:px-20" aria-label="Global">
         <div className="flex lg:flex-1">
           <Link href="/" className="-m-1.5 p-1.5">
             <span className="sr-only">SixPL</span>
@@ -103,6 +91,7 @@ export default function TopNav() {
           </button>
         </div>
       </nav>
+      
       <Dialog as="div" className="lg:hidden" open={mobileMenuOpen} onClose={setMobileMenuOpen}>
         <div className="fixed inset-0 z-10" />
         <Dialog.Panel className="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10">

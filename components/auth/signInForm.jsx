@@ -2,7 +2,7 @@
 import React, { useEffect } from "react"
 import signIn from "@/lib/firebase/auth/signin"
 import { useDispatch } from "react-redux"
-import { loginFailure, loginStart, loginSuccess } from "@/lib/redux/userSlice"
+import { loginFailure, loginStart, loginSuccess } from "@/utils/redux/userSlice"
 import { auth } from "@/lib/firebase/config"
 import { useRouter } from "next/navigation"
 import { getDatabase, ref, set } from "firebase/database";
@@ -29,12 +29,7 @@ export default function SignInForm() {
   const router = useRouter();
   const dispatch = useDispatch();
 
-  // useEffect(() => {
-  //   if (currentUser?.email) {
-  //     router.push("/")
-  //   }
-  // }, [])
-
+  
   const handleToggle = () => {
     setEye(!eye);
   }
@@ -42,6 +37,7 @@ export default function SignInForm() {
   const handleForm = async (event) => {
     event.preventDefault();
     setLoading(true);
+    setError("");
 
     if (!verifyEmail(email)) {
       setError("Invalid email");

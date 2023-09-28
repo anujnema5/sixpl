@@ -61,7 +61,7 @@ export default function RootLayout({ children }) {
       <link rel="mask-icon" href="/static/favicons/safari-pinned-tab.svg" />
       <body className='bg-indigo-50/60 lg:bg-white min-h-screen overflow-x-hidden'>
           <ReduxProvider>
-            <div>
+            <div className='overflow-x-hidden'>
               <TopNav />
               <main className="">{children}</main>
               <Footer />

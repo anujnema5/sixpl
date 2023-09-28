@@ -7,7 +7,6 @@ import { nanoid } from 'nanoid'
 import SuccessAlert from '../misc/SuccessAlert';
 import Link from 'next/link';
 
-
 const JobOpening = () => {
 
     const timestamp = new Date().getTime();

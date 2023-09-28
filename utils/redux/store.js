@@ -1,15 +1,16 @@
-import { combineReducers, configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
-import userSlice from "./userSlice";
+import { configureStore, getDefaultMiddleware } from "@reduxjs/toolkit";
+import userReducers from "./userSlice";
+import jobReducers from "./jobsSlice";
 
 // COMBINING OUR REDUCERS
-const rootReducers = combineReducers({ user: userSlice })
 
 // PERSISTING OUR REDUCER
 // const persistedStore = persistReducer(persistConfig, rootReducers)
 
 export const store = configureStore({
     reducer: {
-        user: userSlice
+        user: userReducers,
+        jobs: jobReducers
     },
     middleware: (getDefaultMiddleware)=>
     getDefaultMiddleware({

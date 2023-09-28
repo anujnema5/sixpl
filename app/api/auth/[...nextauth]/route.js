@@ -3,7 +3,7 @@ import CredentialsProvider from "next-auth/providers/credentials";
 import { signInWithEmailAndPassword } from 'firebase/auth';
 import app, { auth } from "@/lib/firebase/config";
 import { useDispatch } from "react-redux";
-import { loginSuccess } from "@/lib/redux/userSlice";
+import { loginSuccess } from "@/utils/redux/userSlice";
 import { FirestoreAdapter } from "@auth/firebase-adapter";
 import { cert } from "firebase-admin/app";
 

@@ -3,17 +3,26 @@ import React, { useEffect, useState } from 'react'
 import { auth } from '@/lib/firebase/config';
 import { isSignInWithEmailLink, signInWithEmailLink } from 'firebase/auth';
 import { useDispatch, useSelector } from 'react-redux';
-import { loginSuccess } from '@/lib/redux/userSlice';
+import { loginSuccess } from '@/utils/redux/userSlice';
 import { notFound, useRouter } from 'next/navigation';
+
 
 function page() {
     const dispatch = useDispatch();
-    const router = useRouter();
     const [hydrated, setHydrated] = useState(false);
+    const router = useRouter();
     const { currentUser } = useSelector((state) => state.user)
 
     useEffect(() => {
-        setHydrated(true)
+        setHydrated(true);
+
+        if (currentUser) {
+            router.push("/")
+        }
+    }, []);
+
+
+    useEffect(() => {
         if (isSignInWithEmailLink(auth, window.location.href)) {
             let email = window.localStorage.getItem('emailForSignIn');
             if (!email) {
@@ -28,20 +37,19 @@ function page() {
                     router.push("/")
                 })
                 .catch((error) => {
+                    throw error
                 });
-        } else {
-            router.push("/")
         }
-    }, []);
+    }, [currentUser]);
 
-    if(!hydrated) {
-        // HERE FIXING THE HYDRATION ERROR
+    if (!hydrated) {
+        // Returns null on first render, so the client and server match
         return null;
     }
 
     return (
         <div className='h-full'>
-            {currentUser?.emailVerified ? <p>You are in</p> : <p>Not authenticated</p>}
+            {currentUser?.emailVerified ? <p>Your Email is now verified</p> : <p>Please verify your email ASAP</p>}
         </div>
     )
 }
