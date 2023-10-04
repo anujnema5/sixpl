@@ -9,7 +9,7 @@ import { useDispatch, useSelector } from "react-redux";
 const useFetchJobs = () => {
     const dispatch = useDispatch();
     const router = useRouter();
-    const { currentUser } = useSelector((state) => state.user);
+    const { currentUser } = useSelector((store) => store.user);
 
     const fetchData = async () => {
         let list = []
