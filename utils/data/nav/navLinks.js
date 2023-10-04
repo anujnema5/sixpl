@@ -1,4 +1,4 @@
-import { IconBoxMultiple, IconBulb, IconClick, IconRocket, IconSocial, IconUser } from "@tabler/icons-react"
+import { IconBoxMultiple, IconBulb, IconClick, IconRocket, IconRotateClockwise, IconSocial, IconUser } from "@tabler/icons-react"
 
 export const navigation = [
   { name: 'Home', href: '/' },
@@ -13,6 +13,13 @@ export const navigation = [
       { href: '/pricing/ppc-packages', title: 'PPC Packages', icon: IconClick },
     ],
   },
+  {
+    type: 'dropdown',
+    title: 'Tools',
+    links: [
+      { href: '/tools/http-status-tool', title: 'Status Checker', icon: IconRotateClockwise }
+    ],
+  },
   { name: 'Pay', href: 'https://buy.stripe.com/cN29Cy9Po76G3teeV0' },
   { name: 'Contact', href: '/contact-us' },
   {
@@ -22,7 +29,7 @@ export const navigation = [
       { href: '/about-us', title: 'About us', icon: IconUser },
       { href: '/careers', title: 'Careers', icon: IconBulb },
     ],
-  },
+  }
 ]
 
 export const footerLink = [
