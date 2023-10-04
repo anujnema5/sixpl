@@ -1,5 +1,4 @@
 export default function Stackedlist({ headers }) {
-  // console.log(headers);
 
   const headerElements = Object.entries(headers).map(([key, values]) => (
     <li key={key} className="flex lg:gap-52 justify-start py-3">
