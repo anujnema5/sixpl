@@ -16,8 +16,8 @@ function Statusheader() {
             urls.map(async (link) => {
                 let url = link
 
-                if (!url.startsWith("https://")) {
-                    url = "https://" + url
+                if (!url.startsWith("http://") && !url.startsWith("https://")) {
+                    url = "http://" + url;
                 }
 
                 try {
@@ -29,6 +29,7 @@ function Statusheader() {
                     }
                 } catch (error) {
                     console.log(error)
+                    // dispatch(setError(error))
                     return error
                 }
             })

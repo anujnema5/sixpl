@@ -10,14 +10,12 @@ import { useDispatch, useSelector } from 'react-redux';
 function URLStatusChecker() {
   const { status } = useSelector((store) => store.status)
 
+  console.log(status);
+
   return (
     <div className='w-full h-full bg-indigo-50/30'>
       <Statusheader />
-      {status.length > 0 &&
-        (
-          <Main />
-        )
-      }
+      {status.length > 0 && (<Main />)}
       <HeaderResponse />
     </div>
   );

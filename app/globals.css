@@ -57,3 +57,23 @@ html {
 .slate-bg {
   @apply bg-slate-200 text-gray-700 font-medium
 }
+
+.bg-200, .bg-201, .bg-203, .bg-204, .bg-205 {
+  @apply bg-green-200
+}
+
+.bg-300, .bg-302, .bg-303, .bg-307, .bg-305, .bg-306, .bg-307, .bg-308 {
+  @apply bg-blue-200 text-gray-800
+}
+
+.bg-400, .bg-401, .bg-403, .bg-404, .bg-405 {
+  @apply bg-red-200
+}
+
+.bg-500, .bg-501, .bg-502, .bg-503, .bg-504 .bg-505 {
+  @apply bg-yellow-200
+}
+
+.bg-100, .bg-101, .bg-102 {
+  @apply bg-slate-200
+}

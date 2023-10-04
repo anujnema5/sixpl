@@ -15,7 +15,7 @@ export default function Stackedlist({ headers }) {
 
 
   return (
-    <ul role="list" className="mt-8 rounded-lg shadow-2xl shadow-gray-300  bg-white p-6">
+    <ul role="list" className="lg:mt-8 mt-5 rounded-lg shadow-2xl shadow-gray-300 overflow-x-scroll  bg-white p-6">
       <h1 className="lg:text-lg font-bold text-gray-500">Response Headers</h1>
       {headerElements}
     </ul>
