@@ -8,6 +8,7 @@ import React from 'react'
 import { useDispatch, useSelector } from 'react-redux';
 
 function OpenedJobs() {
+
     function classNames(...classes) {
         return classes.filter(Boolean).join(' ')
     }

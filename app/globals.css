@@ -77,3 +77,11 @@ html {
 .bg-100, .bg-101, .bg-102 {
   @apply bg-slate-200
 }
+
+.text-200 {
+  @apply text-green-600
+}
+
+.text-307, .text-308, .text-301, .text-302, .text-303, .text-304, .text-305, .text-306, .text-300 {
+  @apply text-blue-800
+}

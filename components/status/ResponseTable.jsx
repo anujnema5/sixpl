@@ -1,10 +1,6 @@
-import { codeMessages } from '@/utils/data/statusheaders/responses';
+import { codeMessages, status } from '@/utils/data/statusheaders/responses';
+import Link from 'next/link';
 import React from 'react'
-
-const people = [
-    { name: 'Lindsay Walton', title: 'Front-end Developer', email: 'lindsay.walton@example.com', role: 'Member' },
-    // More people...
-  ]
 
 function ResponseTable({ redirects }) {
 
@@ -29,25 +25,33 @@ function ResponseTable({ redirects }) {
                             <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
                                 Status Message
                             </th>
+
+                            <th scope="col" className="px-3 py-3.5 text-left text-sm font-semibold text-gray-900">
+                                Site Status
+                            </th>
                         </tr>
                     </thead>
                     <tbody className="divide-y divide-gray-200 bg-white">
-                        
+
                         {redirects?.map((info, i) => {
-                            const {code, url} = info
+                            const { code, url } = info
+                            console.log(`text-${code}`);
 
                             return (
-                            <tr key={i}>
-                                <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
-                                    {code}
-                                </td>
-                                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
-                                    {url.startsWith("https") ? "HTTPS" : "HTTP"}</td>
-                                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{url}</td>
-                                <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{codeMessages[code]}</td>
-
-                            </tr>
-                        )}
+                                <tr key={i}>
+                                    <td className="whitespace-nowrap py-4 pl-4 pr-3 text-sm font-medium text-gray-900 sm:pl-6">
+                                        {code}
+                                    </td>
+                                    <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                                        {url.startsWith("https") ? "HTTPS" : "HTTP"}</td>
+                                    <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">
+                                        <Link href={url} className='underline' target='_blank'>{url}</Link>
+                                    </td>
+                                    <td className="whitespace-nowrap px-3 py-4 text-sm text-gray-500">{codeMessages[code]}</td>
+                                    <td className={`whitespace-nowrap px-3 py-4 text-sm font-semibold text-${code}`}>{status[code]}</td>
+                                </tr>
+                            )
+                        }
                         )}
                     </tbody>
                 </table>

@@ -15,7 +15,7 @@ function Main() {
 
                 if(site?.data?.status === 500) return (
                     <div className=' mt-10 lg:w-2/6 w-9/12 mx-auto'>
-                    <ErrorAlert message={"Enter a valid URL"}/>
+                    <ErrorAlert message={"Enter a valid Site URL"}/>
                     </div>
                 )
 
@@ -25,7 +25,7 @@ function Main() {
 
                         <ResponseTable redirects={redirects} />
 
-                        {redirects?.map((response) => (
+                        {/* {redirects?.map((response) => (
                             <>
                                 <div className='lg:mt-7 mt-5 px-1'>
                                     <span className={`inline-flex items-center rounded-md px-3 py-1 text-xs font-medium text-green-700 lg:mt-5 mt-4 bg-${response.code}`}>
@@ -46,7 +46,7 @@ function Main() {
                                 </div>
                                 <Stackedlist headers={response.headers} />
                             </>
-                        ))}
+                        ))} */}
 
                     </div>
                 )
