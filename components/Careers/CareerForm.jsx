@@ -65,25 +65,25 @@ export default function careerForm({ jobs }) {
       uploadTask.on('state_changed',
         (snapshot) => {
           const progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-          console.log('Upload is ' + progress + '% done');
+          // console.log('Upload is ' + progress + '% done');
           setPercentage(progress);
           switch (snapshot.state) {
             case 'paused':
-              console.log('Upload is paused');
+              // console.log('Upload is paused');
               break;
             case 'running':
-              console.log('Upload is running');
+              // console.log('Upload is running');
               break;
             default:
               break;
           }
         },
         (error) => {
-          console.log(error)
+          // console.log(error)
         },
         () => {
           getDownloadURL(uploadTask.snapshot.ref).then((downloadURL) => {
-            console.log('Resume available at', downloadURL);
+            // console.log('Resume available at', downloadURL);
 
             setFormData(prevData => ({
               ...prevData,
@@ -114,7 +114,7 @@ export default function careerForm({ jobs }) {
       .then((response) => response.json())
       .then((data) => toast.success("Your application has been submitted"))
     setSuccess('Your application has been submitted')
-      .catch((err) => { console.log(err) })
+      .catch((err) => { // console.log(err) })
 
     setLoading(false);
   }

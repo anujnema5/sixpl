@@ -6,7 +6,7 @@ import { CheckIcon, XMarkIcon } from '@heroicons/react/20/solid'
 import Layout from '../../components/nav/layout'
 import { useState } from 'react'
 import { tiers } from '../../lib/data/seo-packages'
-// console.log(packages);
+// // console.log(packages);
 
 const frequencies = [
     { value: 'monthly', label: 'Monthly', priceSuffix: '/month' },

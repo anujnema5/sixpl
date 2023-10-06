@@ -96,7 +96,7 @@ export default function SignUpForm() {
           setLoginLoading(false)
           setError(err.message)
           res.user.delete().then(()=> {
-            console.log("User deleted also");
+            // console.log("User deleted also");
           })
         })
 
@@ -114,7 +114,7 @@ export default function SignUpForm() {
       } else if (error.message === 'Firebase: Password should be at least 6 characters (auth/weak-password).') {
         setError('Password should be at least 6 character')
       } else {
-        console.log(error)
+        // console.log(error)
       }
     }
   }

@@ -39,7 +39,7 @@ const ContactFormVertical = ({ contactUs }) => {
 
 
       if (res.status === 201) {
-        console.log('successful');
+        // console.log('successful');
         setDisable(false)
         router.push('/thank-you')
       }

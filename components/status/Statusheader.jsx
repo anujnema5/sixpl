@@ -28,7 +28,7 @@ function Statusheader() {
                         return data;
                     }
                 } catch (error) {
-                    console.log(error)
+                    // console.log(error)
                     // dispatch(setError(error))
                     return error
                 }

@@ -16,7 +16,7 @@ const PricingIndexPage = () => {
     let serviceOptionsToBeDisplayed
 
     function handleServiceCategoryChange (e) {
-        // console.log(e.target.value)
+        // // console.log(e.target.value)
         setSelectedServiceCategory(e.target.value)
         setDisplayPackages(false)
     }
@@ -40,7 +40,7 @@ const PricingIndexPage = () => {
 
 
 
-    // console.log(serviceList.filter(serviceCategoryItem => serviceCategoryItem.serviceCategoryName == selectedServiceCategoy)[0].services[0])
+    // // console.log(serviceList.filter(serviceCategoryItem => serviceCategoryItem.serviceCategoryName == selectedServiceCategoy)[0].services[0])
 
     return(
         <Layout>

@@ -50,7 +50,7 @@ export const getJobs = async () => {
         const tempDoc = querySnapshot.docs.map((doc) => {
             return { id: doc.id, ...doc.data() }
         })
-        console.log(tempDoc)
+        // console.log(tempDoc)
     })
 }
 

@@ -45,7 +45,7 @@ export default function SignInForm() {
       setLoading(false);
     } else {
       try {
-        console.log("Hello");
+        // console.log("Hello");
         const res = await signInWithEmailAndPassword(auth, email, password);
         dispatch(loginSuccess(res.user))
         setSuccess("Login successfull")
@@ -60,7 +60,7 @@ export default function SignInForm() {
         } else {
           setError(error.message);
         }
-        console.log(error.message); // DEV PURPOSE
+        // console.log(error.message); // DEV PURPOSE
         router.refresh()
       }
     }
@@ -86,8 +86,8 @@ export default function SignInForm() {
       }
       catch (error) {
         setLoading(false);
-        console.log("I am triggering");
-        console.log(error);
+        // console.log("I am triggering");
+        // console.log(error);
       }
 
       finally {
@@ -122,7 +122,7 @@ export default function SignInForm() {
         setLoading(false)
         setError('')
         setSuccess('Signin link sent to your email')
-        // console.log("Email link sent to your mail"); //DEV PURPOSE
+        // // console.log("Email link sent to your mail"); //DEV PURPOSE
       }).catch((err) => {
         setLoading(false)
         setError(err.message)

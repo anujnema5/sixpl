@@ -24,7 +24,7 @@ export default function Loc(props) {
       ip = req.connection.remoteAddress;
     }
   
-    console.log(ip);
+    // console.log(ip);
 
     const response = await fetch(`https://ipgeolocation.abstractapi.com/v1/?api_key=5056347f62514641ae0a382e31a4a2a3&ip_address=${ip}`);
     const data = await response.json();

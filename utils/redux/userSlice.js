@@ -17,7 +17,7 @@ export const userSlice = createSlice({
                 isAdmin: action.payload.email === "saket@sixpl.com" || action.payload.email === "anuj@sixpl.com"
             }
 
-            console.log(action.payload);
+            // console.log(action.payload);
 
             state.currentUser = userData
             localStorage.setItem("user", JSON.stringify(userData))
@@ -26,7 +26,7 @@ export const userSlice = createSlice({
             localStorage.setItem("refresh_token", JSON.stringify(action.payload.stsTokenManager.refreshToken))
 
             // const syncToken = jwt.sign({ payload: { x: 1, y: '2' } }, 'JWT_SECRET');
-            // console.log(syncToken);
+            // // console.log(syncToken);
         },
 
         logout: (state) => {

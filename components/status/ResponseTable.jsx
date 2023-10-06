@@ -35,7 +35,7 @@ function ResponseTable({ redirects }) {
 
                         {redirects?.map((info, i) => {
                             const { code, url } = info
-                            console.log(`text-${code}`);
+                            // console.log(`text-${code}`);
 
                             return (
                                 <tr key={i}>

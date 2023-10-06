@@ -60,7 +60,7 @@ function OpenedJobs() {
                     </thead>
                     <tbody className=''>
                         {jobs?.map((plan, planIdx) => {
-                            console.log(plan.data);
+                            // console.log(plan.data);
                             const
                                 { id,
                                     jobPosition,

@@ -21,7 +21,7 @@ export const jobsSlice = createSlice({
                 } return job
             })
 
-            console.log(updatedArray);
+            // console.log(updatedArray);
             // return updatedArray
         }
     }

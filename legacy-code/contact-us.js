@@ -142,7 +142,7 @@ export default function Example() {
             lastName: e.currentTarget.lastName.value.trim()
         }
 
-        console.log(name.firstName + " " + name.lastName);
+        // console.log(name.firstName + " " + name.lastName);
 
 
 
@@ -156,7 +156,7 @@ export default function Example() {
             message: e.currentTarget.message.value
         }
 
-        console.log(body);
+        // console.log(body);
 
         try {
             const res = await fetch('/api/sheet', {
@@ -166,8 +166,8 @@ export default function Example() {
             })
 
             if (res.status === 201) {
-                console.log(router.pathname)
-                console.log('successful');
+                // console.log(router.pathname)
+                // console.log('successful');
                 setDisable(false)
                 Router.push('/thank-you')
             } else {
@@ -175,7 +175,7 @@ export default function Example() {
             }
 
         } catch (error) {
-            console.log(error)
+            // console.log(error)
             setErrMsg(error.message)
         }
     }

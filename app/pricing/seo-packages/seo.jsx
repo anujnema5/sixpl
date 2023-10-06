@@ -21,7 +21,7 @@ import { RadioGroup } from '@headlessui/react'
 import { CheckIcon, XMarkIcon } from '@heroicons/react/20/solid'
 import React, { useState } from 'react'
 import { seoPackages as tiers } from '@/lib/data/allPackages'
-// console.log(packages);
+// // console.log(packages);
 
 const frequencies = [
     { value: 'monthly', label: 'Monthly', priceSuffix: '/month' },

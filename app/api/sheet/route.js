@@ -3,7 +3,7 @@ import { google } from 'googleapis'
 export const POST = async(req) => {
         const { date, fullName, email, phone, site, serviceUrl, message } = req.json()
 
-        console.log(date, fullName, email, phone, site, serviceUrl, message);
+        // console.log(date, fullName, email, phone, site, serviceUrl, message);
 
         const auth = new google.auth.GoogleAuth({
             credentials: {

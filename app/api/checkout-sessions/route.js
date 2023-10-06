@@ -3,7 +3,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY)
 
 export default async function checkoutHandler(req, res){
     const amount = parseInt(req.body.amt)
-    console.log(amount)
+    // console.log(amount)
     try {
         const params = {
             submit_type: 'donate',
@@ -19,10 +19,10 @@ export default async function checkoutHandler(req, res){
             success_url: `${req.headers.origin}/result?session_id={CHECKOUT_SESSION_ID}`,
             cancel_url: `${req.headers.origin}/donate-with-checkout`,
         }
-        console.log(params)
+        // console.log(params)
 
         const checkoutSession = await stripe.checkout.sessions.create(params)
-        console.log(checkoutSession)
+        // console.log(checkoutSession)
         res.status(200).json(checkoutSession)
 
     } catch (error) {

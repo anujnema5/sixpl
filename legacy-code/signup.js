@@ -15,11 +15,11 @@ function SignUpPage() {
         const { result, error } = await signUp(email, password);
 
         if (error) {
-            return console.log(error)
+            return // console.log(error)
         }
 
         // else successful
-        console.log(result)
+        // console.log(result)
         return router.push("/admin")
     }
     return (<div className="wrapper">

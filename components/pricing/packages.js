@@ -11,9 +11,9 @@ const StandardPackages = ({ category, service }) => {
     const selCategoryServices = serviceList.filter(x => x.serviceCategoryName == category)
     
     const selService = selCategoryServices[0].services.filter(x => x.serviceName == service)
-    console.log(selService)
+    // console.log(selService)
     const packageArray = selService[0]?.servicePackages
-    console.log(packageArray);
+    // console.log(packageArray);
     
     if (packageArray) {
         packageFeaturesArray = Object.keys(packageArray[0]?.packageDetails)
