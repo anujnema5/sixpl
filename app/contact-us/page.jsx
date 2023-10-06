@@ -78,7 +78,7 @@ export default function ContactUs() {
                         </dl>
                     </div>
                 </div>
-                <ContactFormVertical contactUs={true} />
+                {/* <ContactFormVertical contactUs={true} /> */}
             </div>
         </div>
     )

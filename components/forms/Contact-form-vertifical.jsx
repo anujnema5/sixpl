@@ -20,8 +20,6 @@ const ContactFormVertical = ({ contactUs }) => {
       lastName: e.currentTarget.lastName.value.trim()
     }
 
-    console.log(name.firstName + " " + name.lastName);
-
     const body = {
       serviceUrl: router.pathname,
       date: new Date().toLocaleDateString(),
@@ -39,13 +37,11 @@ const ContactFormVertical = ({ contactUs }) => {
         body: JSON.stringify(body)
       })
 
-      console.log(res);
 
       if (res.status === 201) {
-        console.log(router.pathname)
         console.log('successful');
         setDisable(false)
-        Router.push('/thank-you')
+        router.push('/thank-you')
       }
 
       else {
@@ -53,7 +49,6 @@ const ContactFormVertical = ({ contactUs }) => {
       }
     }
     catch (error) {
-      console.log(error)
       setErrMsg(error.message)
     }
   }

@@ -1,7 +1,9 @@
 import { google } from 'googleapis'
 
-export const POST = async(req, res) => {
-        const { date, fullName, email, phone, site, serviceUrl, message } = req.body
+export const POST = async(req) => {
+        const { date, fullName, email, phone, site, serviceUrl, message } = req.json()
+
+        console.log(date, fullName, email, phone, site, serviceUrl, message);
 
         const auth = new google.auth.GoogleAuth({
             credentials: {
@@ -31,7 +33,8 @@ export const POST = async(req, res) => {
                 },
 
             })
-            res.status(201).json({ message: 'It works!', response })
+            // res.status(201).json({ message: 'It works!', response })
+            Response.json({ message: 'It works!', response })
 
         } catch (error) {
             console.error(error)
