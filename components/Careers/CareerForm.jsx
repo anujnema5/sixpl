@@ -117,7 +117,7 @@ export default function careerForm({ jobs }) {
       .catch((err) => { // console.log(err) })
 
     setLoading(false);
-  }
+  })
 
   const handleInputChange = (event) => {
     const { name, value } = event.target;
