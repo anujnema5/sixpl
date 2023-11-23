@@ -4,7 +4,6 @@ import siteMetadata from '@/utils/siteMetadata'
 import './globals.css'
 import React from 'react'
 import ReduxProvider from '@/components/providers/ReduxProvider'
-import SessionWrapper from '@/components/providers/SessionProvider'
 
 
 export const metadata = {
