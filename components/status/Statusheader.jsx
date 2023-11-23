@@ -74,11 +74,11 @@ function Statusheader() {
                     </button>
                 </form>
 
-                <div className="sm:w-6/12 w-full sm:block hidden">
+                {/* <div className="sm:w-6/12 w-full sm:block hidden">
                     <div className='w-full h-full rounded-xl shadow-xl bg-gray-400/20 flex items-center justify-center'>
                         IMG to be put here
                     </div>
-                </div>
+                </div> */}
             </div>
         </div>
     )
