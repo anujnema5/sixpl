@@ -44,8 +44,7 @@ function Statusheader() {
             <div className="xl:w-10/12 sm:w-11/12 flex sm:flex-row flex-col gap-5 justify-between w-full mx-auto lg:mt-0 sm:mt-5">
                 <form onSubmit={(e) => e.preventDefault()} className='lg:w-5/12 w-full flex flex-col gap-5'>
                     <h1 className='lg:text-5xl sm:text-3xl text-2xl font-bold text-slate-700'>HTTP Status and redirect Checker</h1>
-                    <p className='text-gray-600 text-base font-normal'>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus, harum nihil veniam eius
-                        fuga deserunt? Modi. Lorem ipsum dolor sit amet.</p>
+                    <p className='text-gray-600 text-base font-normal'>Effortlessly verify HTTP statuses and track redirects with our intuitive Status Checker tool.</p>
 
                     <div className='lg:mt-2'>
                         <label htmlFor="email" className="sr-only">
